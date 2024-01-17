@@ -19,7 +19,7 @@ This library works only with seconds, minutes, hours and days
 - $Q_i(t)$: The absolute quantity of market orders at price level \( P_i \) at timestamp \( t \).
 - $T_t$ = ${(P_1, Q_1(t)), (P_2, Q_2(t)), ... , (P_n, Q_n(t))}$ : Books at different levels
 ### Canceled limit orders - estimated quantity of canceled limit orders for certain price levels at certain timestamp.
-- $D_t$ = ${$  ($B_t$ + $T_t$ ) - ( $B_t-1$ + $T_t-1$ ) }   --- Difference of total placed prders between 2 consegutive timestamps
-- $CB_t$ = ${$ $CB_t$ | $CB_t$  = ($DT_t$ - $DT_t-1$) ⋅ [$DT_t$ - $DT_t-1$ > 0], $∀_i$, 0 ≤ $i$ < $n$}
+- $D_t$ = ${ (B_t + T_t ) - ( B_t-1 + T_t-1 ) }$   --- Difference of total placed prders between 2 consegutive timestamps
+- $CB_t$ = ${CB_t | CB_t = (DT_t - DT_t-1) ⋅ [DT_t - DT_t-1 > 0], ∀_i, 0 ≤ i < n}$
 
 
