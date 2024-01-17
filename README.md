@@ -12,7 +12,7 @@ This library works only with seconds, minutes, hours and days
 
 * Books - absolute quantity of order books for certain price levels at certain timestamp.
 
-- $P_i$: <small>The price level at index<small> $i$.
+- $P_i$: <sub>The price level at index<sub> $i$.
 - $Q_i(t)$: The absolute quantity of orders at price level \( P_i \) at timestamp \( t \).
 
 The mathematical representation for the absolute quantity of order books at a certain timestamp could be written as a set of ordered pairs:
