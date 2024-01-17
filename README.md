@@ -10,7 +10,9 @@
 
 * Books - absolute quantity of order books for certain price levels at certain timestamp.
 
-  The equation of a circle is $x^2 + y^2 = r^2$.
+- \( P_i \): The price level at index \( i \).
+- \( Q_i(t) \): The absolute quantity of orders at price level \( P_i \) at timestamp \( t \).
+
 
   
 * Trades - absolute quantity of market trades for certain price levels at certain timestamp.
