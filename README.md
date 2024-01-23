@@ -30,3 +30,5 @@ This library works only with seconds, minutes, hours and days
 
 ![Screenshot 2024-01-23 9 58 27 AM](https://github.com/badcoder-cloud/TradeFeatureEngine/assets/136728020/1ac74fa2-7aff-4fef-a100-7d67ce9894a5)
 
+
+![Screenshot 2024-01-23 10 01 53 AM](https://github.com/badcoder-cloud/TradeFeatureEngine/assets/136728020/a73545ef-0c58-40aa-924d-64e76bd8e2b8)
