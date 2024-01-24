@@ -7,7 +7,7 @@ from utilis import booksflow_find_level, booksflow_compute_percent_variation, bo
 class booksflow():
     """
         Important notes: 
-            Maintain consistency in current price and timestamp across all flows
+            Maintain consistency in current timestamp across all flows
             If the book is above book_ceil_thresh from the current price, it will be omited for the next reasons:
                 - Computational efficiency
                 - Who books so high if they want to trade now? Challange this statemant ...
@@ -32,11 +32,12 @@ class booksflow():
         self.current_second = 0
 
     
-    def update_books(self, current_price, books, bids_key_name, asks_key_name, key_timestamp):
+    def update_books(self, books, bids_key_name, asks_key_name, key_timestamp):
         """
             bids_name, asks_name, t_name : Different jsons have different name for bids and asks, timestamp
         """
         self.B['timestamp'] = books[key_timestamp]
+        current_price = (float(books['bids'][0][0]) + float(books['asks'][0][0])) / 2
         self.B['current_price'] = current_price
         self.update_books_helper(current_price, books[bids_key_name], 'bids')
         self.update_books_helper(current_price, books[asks_key_name], 'asks')
@@ -102,5 +103,61 @@ class booksflow():
             sums = booksflow_manipulate_arrays(old_levels, full_new_levels, group_sums)
             self.raw_data.loc[self.current_second] = sums
             sorted_columns = sorted(map(float, self.raw_data.columns))
-            self.raw_data = self.raw_data[map(str, sorted_columns)]            
+            self.raw_data = self.raw_data[map(str, sorted_columns)] 
+
+
+
+
+
+class tradesflow():
+    """
+        Important notes: 
+            Maintain consistency in the current timestamp across all flows
+            Aggregation explanation:  If the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40, and so forth.
+    """
+
+    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int,):
+        """
+            insType : spot, future, perpetual 
+            level_size : the magnitude of the level to aggragate upon (measured in unites of the quote to base pair)
+        """
+        self.exchange = exchange
+        self.symbol = symbol
+        self.insType = insType
+        self.level_size = float(level_size)
+        self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.snapshot = None
+        self.previous_second = -1
+        self.current_second = 0
+
+    def dfs_input_trades(self, trade, timestamp_key_name, price_key_name, quantity_key_name):
+        """
+            timestamp_key_name, price_key_name, quantity_key_name : Different jsons have different name for trades, quantity and timestamps
+        """
+        current_second = int(trade[timestamp_key_name] % 60)  
+        self.current_second = current_second 
+        current_price = float(trade[price_key_name])  
+        amount = float(trade[quantity_key_name])
+
+
+        if self.previous_second > current_second:
+            self.snapshot = self.raw_data.copy()
+            self.snapshot.fillna(0, inplace = True)
+            self.snapshot['price'].replace(0, method='ffill', inplace=True)
+            self.snapshot['price'].replace(0, method='bfill', inplace=True)
+            self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.previous_second = self.current_second
+        self.raw_data.loc[current_second, 'price'] = current_price
+        level = booksflow_find_level(current_price, self.level_size)
+        current_columns = (map(float, [x for x in self.raw_data.columns.tolist() if x != "price"]))
+        if level not in current_columns:
+            self.raw_data[str(level)] = 0
+            self.raw_data.loc[current_second, str(level)] += amount
+        else:
+            self.raw_data.loc[current_second, str(level)] += amount
+
+        
+
+
+
 

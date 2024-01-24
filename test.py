@@ -3,157 +3,352 @@ import pandas as pd
 import numpy as np
 import math
 
-books = json.load(open("/content/SatoshiVault/examples/data/binance_perp/books.json"))
-books_updates = json.load(open("/content/SatoshiVault/examples/data/binance_perp/bupdates.json"))
+import time
 
-def find_level(price, level_size):
+
+def booksflow_find_level(price, level_size):
     return np.ceil(price / level_size) * level_size
 
-def compute_percent_variation(new_value, old_value):
-    try:
-        percentage_difference = ((new_value - old_value) / abs(old_value)) * 100
-        return percentage_difference
-    except:
-        return 9999999999
-
-compute_percent_variation(2, 5)
 
 
-
-class bookflow():
+class oiflow():
     """
         Important notes: 
-            Keep current price and current timestamp consistent among all of the sProcessors
-            If the book is above book_ceil_thresh from the current price, it will be omited for computational efficiency.
-            It would be wise to assume that over 60 secods, very wide books are unimportant 
-            Aggregation explanation: if the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40 ...
+            Maintain consistency in the current timestamp across all flows
+            Aggregation explanation:  If the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40, and so forth.
     """
-    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int, book_ceil_thresh=5):
+
+    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int,):
         """
             insType : spot, future, perpetual 
-            level_size : the magnitude of the level to aggragate upon 
-            book_ceil_thresh : % ceiling of price levels to ommit, default 5%
+            level_size : the magnitude of the level to aggragate upon (measured in unites of the quote to base pair)
         """
-        # Identification
         self.exchange = exchange
         self.symbol = symbol
+        self.insType = insType
         self.level_size = float(level_size)
-        self.book_ceil_thresh = book_ceil_thresh
-        self.raw_data = pd.DataFrame()
-        self.B = {"price" : None, "timestamp" : None, "bids" : {}, "asks" : {}}
+        self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
         self.snapshot = None
-        self.previous_second = 0
-        self.current_second = 1
+        self.previous_second = -1
+        self.current_second = 0
+        self.previous_oi_amount = None
 
-    
-    def update_books(self, current_price, key_timestamp, total_books, bids_key_name, asks_key_name):
+    def dfs_input_oi(self, tick, timestamp_key_name, price_key_name, quantity_key_name):
         """
-            bids_name, asks_name, t_name : Different jsons have different name for bids and asks, timestamp
+            timestamp_key_name, price_key_name, quantity_key_name : Different jsons have different name for trades, quantity and timestamps
         """
-        self.B['timestamp'] = total_books[key_timestamp]
-        self.B['current_price'] = current_price
-        self.update_books_helper(current_price, total_books[bids_key_name], 'bids')
-        self.update_books_helper(current_price, total_books[asks_key_name], 'asks')
-        
-        self.current_second = int(self.B['timestamp'] % 60) 
+        current_second = int(tick[timestamp_key_name] % 60)  
+        self.current_second = current_second 
+        current_price = float(tick[price_key_name])  
+        current_oi_amount = float(tick[quantity_key_name])
 
-        if self.current_second > self.previous_second:
-            self.dfs_input_books(current_price)
-            self.previous_second = self.current_second
-        if self.previous_second > self.current_second:
-            self.raw_data.replace(0, method='ffill', inplace=True)     
-            self.raw_data.replace(0, method='bfill', inplace=True)
+        if self.previous_oi_amount == None:
+            self.previous_oi_amount = current_oi_amount
+
+        amount = current_oi_amount - self.previous_oi_amount
+
+        if self.previous_second > current_second:
             self.snapshot = self.raw_data.copy()
-            self.raw_data = pd.DataFrame()
-            self.previous_second = self.current_second
-            self.dfs_input_books(current_price)
-
-    def update_books_helper(self, current_price, books, side):
-        """
-          side: bids, asks
-        """
-        # Omit books above 5% from the current price
-        for book in books:
-            p = float(book[0])
-            a = float(book[1])
-            if abs(compute_percent_variation(p, current_price)) > self.book_ceil_thresh:
-                continue
-            if a == 0:
-                try:
-                    del self.B[side][book[0]]
-                except:
-                    pass
-            else:
-                self.B[side][p] = a
-
-    def dfs_input_books(self, current_price):
-        """
-            Inputs bids and asks into dfs
-        """
-
-        prices = np.array(list(map(float, self.B['bids'].keys())) + list(map(float, self.B['asks'].keys())), dtype=np.float16)
-        amounts = np.array(list(map(float, self.B['bids'].values())) + list(map(float, self.B['asks'].values())), dtype=np.float16)
-        levels = [find_level(lev, self.level_size) for lev in  prices]
-
-        if self.raw_data.empty:
-            self.raw_data = pd.DataFrame(0, index=list(range(60), columns = [str(col) for col in levels]))
-            unique_levels, inverse_indices = np.unique(levels, return_inverse=True)
-            group_sums = np.bincount(inverse_indices, weights=amounts)
-            self.raw_data.loc[self.current_second] = group_sums
+            self.snapshot.fillna(0, inplace = True)
+            self.snapshot['price'].replace(0, method='ffill', inplace=True)
+            self.snapshot['price'].replace(0, method='bfill', inplace=True)
+            self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.previous_second = self.current_second
+        self.raw_data.loc[current_second, 'price'] = current_price
+        level = booksflow_find_level(current_price, self.level_size)
+        current_columns = (map(float, [x for x in self.raw_data.columns.tolist() if x != "price"]))
+        if level not in current_columns:
+            self.raw_data[str(level)] = 0
+            self.raw_data.loc[current_second, str(level)] = amount
         else:
-            sums = pd.DataFrame(0, index=list(range(60), columns = [str(col) for col in levels]))
-            unique_levels, inverse_indices = np.unique(levels, return_inverse=True)
-            group_sums = np.bincount(inverse_indices, weights=amounts)
-            sums[self.current_second] = group_sums           
-            self.raw_data = pd.concat([self.raw_data, sums], axis=1)
-#            self.raw_data = self.raw_data.sort_index(axis=1)
+            self.raw_data.loc[current_second, str(level)] = amount
+
+        self.previous_oi_amount = current_oi_amount
 
 
-        unique_levels, inverse_indices = np.unique(levels, return_inverse=True)
-        group_sums = np.bincount(inverse_indices, weights=amounts)
+trades = json.load(open("/content/SatoshiVault/examples/data/binance_perp/trades.json"))
 
-        result = np.column_stack((unique_levels, group_sums))
-
-        print(result)
-
-
-
-        # columns = [str(x) for x in levels_bins]
-
-        # # Handle dfs columns
-        # if self.raw_data.empty:
-        #     self.raw_data = pd.DataFrame({"levels" : columns, "amounts" : amounts}).groupby("levels").sum().T.reset_index()
-        #     self.raw_data.index = [self.current_second]
-        #     self.raw_data = self.raw_data.sort_index(axis=1)
-        # else:
-        #     sums  = pd.DataFrame({"levels" : columns, "amounts" : amounts}).groupby("levels").sum().T.reset_index()
-        #     sums.index = [self.current_second]
-        #     self.raw_data = pd.merge(self.raw_data, sums, how='outer').fillna(0)
-        #     self.raw_data = self.raw_data.sort_index(axis=1)
-
-
-
-
-
-
-
-
-
-books = json.load(open("/content/SatoshiVault/examples/data/binance_perp/books.json"))
-books_updates = json.load(open("/content/SatoshiVault/examples/data/binance_perp/bupdates.json"))
-
-btc_price = (float(books['bids'][0][0]) + float(books['asks'][0][0])) / 2
-
-
-
-
-a  = bookflow('binance', 'btc_usdt', btc_price, 20)
+binance_btcusdtperp_trades = oiflow("binance", "btcusdt", "perpetual", 20)
 start = time.time()
-a.update_books(btc_price, 'timestamp',  books, 'bids', 'asks')
-a.dfs_input_books(btc_price)
-for e in books_updates:
-    a.update_books(btc_price, 'timestamp',  e, 'b', 'a')
-    a.dfs_input_books(btc_price)
+for e in trades:
+    binance_btcusdtperp_trades.dfs_input_oi(e, 'timestamp', 'p', 'q')
+print("elapsed_time : ", time.time() - start)
+binance_btcusdtperp_trades.snapshot
 
-print(f"elapsed_time for {len(books_updates)+1} iterations: ", time.time() - start)
-a.raw_data 
+
+
+class liquidationsflow():
+    """
+        Important notes: 
+            Maintain consistency in the current timestamp across all flows
+            Aggregation explanation:  If the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40, and so forth.
+    """
+
+    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int,):
+        """
+            insType : spot, future, perpetual 
+            level_size : the magnitude of the level to aggragate upon (measured in unites of the quote to base pair)
+        """
+        self.exchange = exchange
+        self.symbol = symbol
+        self.insType = insType
+        self.level_size = float(level_size)
+        self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.snapshot = None
+        self.previous_second = -1
+        self.current_second = 0
+
+    def dfs_input_liquidations(self, tick, timestamp_key_name, price_key_name, quantity_key_name):
+        """
+            timestamp_key_name, price_key_name, quantity_key_name : Different jsons have different name for trades, quantity and timestamps
+        """
+        current_second = int(tick[timestamp_key_name] % 60)  
+        self.current_second = current_second 
+        current_price = float(tick[price_key_name])  
+        amount = float(tick[quantity_key_name])
+        if self.previous_second > current_second:
+            self.snapshot = self.raw_data.copy()
+            self.snapshot.fillna(0, inplace = True)
+            self.snapshot['price'].replace(0, method='ffill', inplace=True)
+            self.snapshot['price'].replace(0, method='bfill', inplace=True)
+            self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.previous_second = self.current_second
+        self.raw_data.loc[current_second, 'price'] = current_price
+        level = booksflow_find_level(current_price, self.level_size)
+        current_columns = (map(float, [x for x in self.raw_data.columns.tolist() if x != "price"]))
+        if level not in current_columns:
+            self.raw_data[str(level)] = 0
+            self.raw_data.loc[current_second, str(level)] += amount
+        else:
+            self.raw_data.loc[current_second, str(level)] += amount
+
+
+trades = json.load(open("/content/SatoshiVault/examples/data/binance_perp/trades.json"))
+
+binance_btcusdtperp_trades = liquidationsflow("binance", "btcusdt", "perpetual", 20)
+start = time.time()
+for e in trades:
+    binance_btcusdtperp_trades.dfs_input_liquidations(e, 'timestamp', 'p', 'q')
+print("elapsed_time : ", time.time() - start)
+
+
+
+def merge_suffixes(n):
+    """
+        The maximum amount of datasets to aggregate is the len(alphabet). 
+        Modify this function to get more aggregation possibilities
+    """
+    alphabet = 'xyzabcdefghijklmnopqrstuvw'
+    suffixes = [f'_{alphabet[i]}' for i in range(n)]
+    return suffixes
+
+
+
+
+
+
+class mergemaster():
+    """
+       Universal snapshot merger snapshot mergerer, Books, OI, Liquidations, Trades
+    """
+    def __init__(self, instrument : str, insType : str, axis : dict, flowType : str):
+        """
+            axis : A dictionary that encapsulates a collection of flows originating from diverse exchanges.
+                   Each key contains the corresponding 60 second pd.Dataframes of heatmap data from different flows
+            flowType : books, trades, oi, liquidations
+
+        books: 
+            snapshot_lastbooks - 1m price close, open, high, low, price variance, last books of each levels
+            snapshot_booksvar - 1m price close, total variance of books, variance of books over 1 minute at each price level
+        trades:
+            snapshot_trades - 1m price close, 1 min volume traded, trades distribution over each price level
+            snapshot_tradesvar - 1m price close, 1 min total variance of books, variance distribution over each price level
+        oi : 
+            snapshot_oi - 1m price close, total increase/decrease of open interest, distribution of open interest increase decrease over each price level
+            snapshot_oivar -  1m price close, total variance of open interest, variance of open interest over each price level
+        liquidations:
+            snapshot_liquidations - 1m price close, total liquidations over 1 minute, liquidations at each price level
+                  
+        """
+        self.instrument = instrument
+        self.insType = insType
+        self.flowType = flowType
+        self.axis = axis
+        self.snapshot = pd.DataFrame()
+        self.suffixes = merge_suffixes(len(axis))
+        if flowType == 'books':
+            self.snapshot_lastbooks = pd.DataFrame()
+            self.snapshot_booksvar = pd.DataFrame()
+        if flowType == 'trades':
+            self.snapshot_trades = pd.DataFrame()
+            self.snapshot_tradesvar = pd.DataFrame()
+        if flowType == 'oi':
+            self.snapshot_oi = pd.DataFrame()
+            self.snapshot_oivar = pd.DataFrame()
+        if flowType == 'liquidations':
+            self.snapshot_liquidations = pd.DataFrame()
+
+
+    def merge_snapshots(self):
+        
+        snapshots = [self.axis[ex].snapshot for ex in self.axis.keys()]
+        
+        for index, df in enumerate(snapshots):
+            if index == 0:
+                merged_df = pd.merge(snapshots[0], snapshots[1], how='outer', left_index=True, right_index=True, suffixes=(self.suffixes[index], self.suffixes[index+1]))
+            if index == len(snapshots)-1:
+                break
+            if index != 0 and index != len(snapshots)-1:
+                merged_df = pd.merge(merged_df, snapshots[index+1], how='outer', left_index=True, right_index=True, suffixes=(self.suffixes[index], self.suffixes[index+1]))
+      
+        common_columns_dic = {column.split("_")[0] : [] for column in merged_df.columns.tolist()}
+        for column in merged_df.columns.tolist():
+            common_columns_dic[column.split("_")[0]].append(column)
+        
+        sum = pd.DataFrame()
+        for common_columns in common_columns_dic.keys():
+            for index, column in enumerate(common_columns_dic[common_columns]):
+                if index == 0 and "price" not in column:
+                    sum[common_columns] = merged_df[column]
+                if "price" not in column:
+                    sum[common_columns] = sum[common_columns] + merged_df[column]
+
+        self.snapshot = sum.copy()
+        sorted_columns = sorted(map(float, [c for c in self.snapshot.columns if "price" not in c]))
+        self.snapshot = self.snapshot[map(str, ['price'] + sorted_columns)] 
+
+
+        if self.flowType == 'books':
+            
+            # Last books
+            self.snapshot_lastbooks = self.snapshot.drop(columns=['price']).iloc[-1].T
+            open = self.napshot['price'].values[0]
+            low = self.snapshot['price'].values.min()
+            high = self.snapshot['price'].values.max()
+            close = self.snapshot['price'].values[-1]
+            price_var = self.snapshot['price'].var()
+            for index, col, value in enumerate(zip(['open', 'low', 'high', 'close', 'price_var'], [open, low, high, close, price_var])):
+                self.snapshot_lastbooks.insert(loc=index, column=col, value=[value])
+            
+            # Books var
+            self.snapshot_booksvar = self.snapshot.var().T
+            renamed_columns = ["".join([col, "_var"]) for col in self.snapshot_booksvar.columns.tolist()]
+            self.snapshot_booksvar = self.snapshot_booksvar.rename(columns=dict(zip(self.snapshot_booksvar.columns, renamed_columns)))
+            total_var = self.snapshot.var().sum()
+            for index, col, value in enumerate(zip(['close', 'books_var'], [close, total_var])):
+                self.snapshot_booksvar.insert(loc=index, column=col, value=[value])            
+
+
+        if self.flowType == 'trades':
+
+            # trades
+            price = self.snapshot.copy()['price'].values[-1]
+            df = self.snapshot.copy().drop(columns=['price'])
+            # Drop columns with only 0s
+            df = df.loc[(df != 0).any(axis=1)]
+            total_volume = df.sum().sum()
+            self.snapshot_trades = df.sum().T
+            for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_volume])):
+                self.snapshot_trades.insert(loc=index, column=col, value=[value])
+
+            # trades variance. Higher variance indicate the presence of block trades
+            df = self.snapshot.copy().drop(columns=['price'])
+            self.snapshot_tradesvar = df.loc[(df != 0).any(axis=1)].var().T
+            total_variance = self.snapshot_trades.sum()
+            for index, col, value in enumerate(zip(['price', 'volume_variance'], [price, total_variance])):
+                self.snapshot_tradesvar.insert(loc=index, column=col, value=[value])
+
+        if self.flowType == 'oi':
+
+            # oi increase/decrease
+            price = self.snapshot.copy()['price'].values[-1]
+            df = self.snapshot.copy().drop(columns=['price'])
+            df = df.loc[(df != 0).any(axis=1)]
+            total_oi = df.sum().sum()
+            self.snapshot_oi = df.sum().T
+            for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_oi])):
+                self.snapshot_oi.insert(loc=index, column=col, value=[value])
+
+            # on increase/decrease variance
+            self.snapshot_oivar  = self.snapshot.copy().drop(columns=['price'])
+            self.snapshot_oivar  = self.snapshot_oivar.loc[(df != 0).any(axis=1)].var().T
+            total_oi = self.snapshot_oivar.sum()
+            for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_oi])):
+                self.snapshot_oivar.insert(loc=index, column=col, value=[value])
+
+
+        if self.flowType == 'liquidations':
+            price = self.snapshot.copy()['price'].values[-1]
+            self.snapshot_liquidations  = self.snapshot.copy().drop(columns=['price'])
+            total_liquidations = self.snapshot_liquidations.sum().sum()
+            self.snapshot_liquidations = self.snapshot_liquidations.sum().T
+            for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_liquidations])):
+                self.snapshot_oivar.insert(loc=index, column=col, value=[value])
+
+
+
+class voidflow():
+    """
+        Gathers statistical information on canceled limit order books in the form of a heatmap variance over 60 second history
+        return pd.Dataframe with columns indicating levels. df contains only 1 row
+    """
+    def __init__ (self, instrument : str, insType : str, axis : dict)
+        """
+            axis : A dictionary that encapsulates a collection of flows originating from diverse exchanges in the key "books
+                   and the collection of trades origination from different exchanges in the key "trades"
+                   Each key contains the corresponding 60 second pd.Dataframes of heatmap data
+                   should be:
+                   {
+                      books : classbooks.merge.object
+                      trades : classtrades.merge.object
+                   }
+                   snapshot_voids    : total closed orders per timestamp,  
+                                       closed orders heatmap per level, 
+                   snapshot_voidsvar : total variance of closed orders
+                                       heatmap of variances of closed orders per level
+        """
+        self.instrument = instrument
+        self.insType = insType
+        self.axis = axis
+        self.snapshot_voids = pd.DataFrame()
+        self.snapshot_voidsvar = pd.DataFrame()
+
+    def get_voids(self, current_price):
+
+        
+        df_books = self.axis['books'].snapshot.copy()
+        df_trades = self.axis['trades'].snapshot.copy()
+        merged_df = pd.merge(df_books, df_trades, how='outer', left_index=True, right_index=True, suffixes=('_books', '_trades'))
+        common_columns = df_books.columns.intersection(df_trades.columns).tolist()
+        
+        for column in common_columns:
+            if "price" not in column:
+                merged_df[column] = merged_df[column + '_books'].sub(merged_df[column + '_trades'], fill_value=0)
+                merged_df = merged_df.drop([column + '_books', column + '_trades'], axis=1)
+        merged_df = merged_df.drop('price_books', axis=1)
+        merged_df = merged_df.rename(columns={'price_trades': 'price'})
+
+        sorted_columns = sorted(map(float, [c for c in merged_df.columns if "price" not in c]))
+        merged_df = merged_df[map(str, ['price'] + sorted_columns)] 
+
+        for index in range(len(merged_df)):
+            if index != 0:
+                merged_df.iloc[index-1] = merged_df.iloc[index].values - merged_df.iloc[index-1].values
+
+        price = merged_df['price'].values[-1]
+        self.snapshot_voids = merged_df.drop(columns=['price']).sum(axis=0).T
+        snapshot_voids_columns = ["_".join([x.split('.')[0], "void_volume"]) for x in merged_df.columns.tolist()]
+        self.snapshot_voids = self.snapshot_voids.rename(columns=dict(zip(self.snapshot_voids.columns, snapshot_voids_columns)))
+        total_closed = merged_df.sum(axis=0).sum().values[0]
+        self.snapshot_voids.insert(0, 'price', [price])
+        self.snapshot_voids.insert(0, 'void_volume', [total_closed])
+
+        self.snapshot_voidsvar = merged_df.var().T
+        snapshot_voids_columns = ["_".join([x.split('.')[0], "voidvar_volume"]) for x in merged_df.columns.tolist()]
+        self.snapshot_voidsvar = self.snapshot_voids.rename(columns=dict(zip(self.snapshot_voids.columns, snapshot_voids_columns)))
+        total_variance = self.snapshot_voidsvar.var().sum().values[0]
+        self.snapshot_voids.insert(0, 'price', [price])
+        self.snapshot_voidsvar.insert(0, 'voidvar_volume', [total_variance])
+        
+
+
