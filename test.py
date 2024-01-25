@@ -352,3 +352,139 @@ class voidflow():
         
 
 
+def build_option_dataframes(expiration_ranges, columns):
+    """
+        The function is assembling dataframes for options.
+        OI for every strike and expiration countdown
+    """
+    df_dic = {}
+    for i, exp_range in enumerate(expiration_ranges):
+        if i in [0, len(expiration_ranges)-1]:
+            df_dic[f'{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
+            df_dic[f'{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(exp_range)}'].set_index('timestamp', inplace=True)
+        if i in [len(expiration_ranges)-1]:
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
+        else:
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
+    df_dic.pop(f"{int(np.max(expiration_ranges))}_{int(np.min(expiration_ranges))}")
+    return df_dic
+
+def calculate_option_time_to_expire():
+    today_day = datetime.now().timetuple().tm_yday
+    today_year = datetime.now().year
+    f = datetime.strptime(date, "%d%b%y")
+    expiration_date = f.timetuple().tm_yday
+    expiration_year = f.year
+    if today_year == expiration_year:
+        r = expiration_date - today_day
+    if today_year == expiration_year + 1:
+        r = 365 + expiration_date - today_day
+    return float(r)
+
+
+def deribit_lookup(data : dict, side : str):
+  """
+      side : P, C
+  """
+  strikes = np.array([float(x["instrument_name"].split('-')[-2]) for x in data["result"] if x["instrument_name"].split('-')[-1] == logic_side])
+  countdowns = np.array([calculate_option_time_to_expire(x["instrument_name"].split('-')[1]) for x in data["result"] if x["instrument_name"].split('-')[-1] == logic_side])
+  os = np.array([float(x["open_interest"]) for x in data["result"] if x["instrument_name"].split('-')[-1] == logic_side])
+  
+  return strikes, countdowns, oi
+
+
+  class oiflowOption():
+
+    def __init__ (self, exchange : str, instrument : str, expiry_windows : np.array, lookup : callable):
+
+        """
+            The main objects of the class are  self.df_call self.df_put that contain 
+            dictionaries of dataframes of OIs by strices by expiration ranges of puts and calls options
+            expiry_windows :  is used to create heatmaps of OI per strike per expiration limit.
+                                 np.array([1.0, 7.0, 35.0]) will create 4 expiration ranges 
+                                    - (0 , 1]
+                                    - (1 , 7]
+                                    - (7, 35]
+                                    - (35, +inf)
+            lookup : A function to access dictionary elements that returns 3 lists with the same length:
+                    - strikes
+                    - expirations
+                    - open interest
+                    where each index corresponds to strake, expiration countdown and open interest for the same instrument
+        """
+        self.exchange = exchange
+        self.instrument = instrument
+        self.lookup = lookup
+        self.expiry_windows = expiry_windows
+        self.df_call ={}
+        self.df_put = {}
+
+    def input_oi(self, data : dict,):
+
+        self.input_oi_helper(
+            data=data, 
+            side="C"
+            )
+        
+        self.input_oi_helper(
+            data=data,  
+            side="P"
+            )
+
+    def input_oi_helper(self, data : dict, side : str):
+        
+        strikes, countdowns, oi = self.lookup(data, side)
+        options_data = {"strikes" : strikes, "countdown" :countdowns, "oi" : oi}
+
+        df = pd.DataFrame(options_data).groupby(['countdown', 'strikes']).sum().reset_index()
+
+        print(df)
+
+
+
+        # if side == "C"
+        #     self.df_call = build_option_dataframes(expiry_windows, columns=np.unique(strikes)) 
+        # if side == "P" 
+        #     self.df_put = build_option_dataframes(expiry_windows, columns=np.unique(strikes)) 
+
+        
+        
+        
+        
+        # ranges = ohelper_get_columns(self.price_levels, what="r")
+        # for df_ident in belong_bict.keys():
+        #     empty_df = pd.DataFrame()
+        #     for countdown in belong_bict[df_ident]:
+        #         df = raw_pd[raw_pd['countdown'] == countdown ].drop(columns=['countdown'])
+        #         df['pcd'] = df['strikes'].apply(lambda x : ohelper_percentage_difference(indexPrice, x))
+        #         df['range'] = df['pcd'].apply(lambda x: ohelper_choose_range(ranges, x))
+        #         df = df.groupby(['range']).sum().reset_index().drop(columns=["strikes", "pcd"]).set_index('range')
+        #         missing_values = np.setdiff1d(ranges, df.index.values)
+        #         new_rows = pd.DataFrame({'oi': 0}, index=missing_values)
+        #         combined_df = pd.concat([df, new_rows])
+        #         combined_df = combined_df.transpose() 
+        #         combined_df['timestamp'] = pd.to_datetime(int(time.time()) // 3600 * 3600, unit='s')
+        #         combined_df.set_index('timestamp', inplace=True)
+        #         combined_df = combined_df.sort_index(axis=1)
+        #         empty_df = pd.concat([empty_df, combined_df], ignore_index=True)
+        #     df_side[df_ident].loc[pd.to_datetime(int(time.time()) // 3600 * 3600, unit='s')]  = empty_df.sum(axis=0).values.T
+        #     df_side[df_ident] = df_side[df_ident].tail(1)
+
+
+# For googloe colab
+
+! git clone https://github.com/badcoder-cloud/TradeStreamEngine
+import os
+os.chdir("/content/TradeStreamEngine")
+
+
+data = json.load(open("/content/TradeStreamEngine/examples/data/deribit_btcusd_option_OI.json"))
+
+deribitOpOI = oiflowOption("deribit", "btcusd", np.array([1.0, 7.0, 35.0]), deribit_lookup)
+
+deribitOpOI.input_oi(data)
