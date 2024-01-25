@@ -1,0 +1,510 @@
+[
+  {
+    "timestamp": 1706188116.02841,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635488",
+          "oiCcy": "9116.7311564782795138",
+          "ts": "1706188114245"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2566218,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635384",
+          "oiCcy": "9116.9961981000531664",
+          "ts": "1706188120334"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2570157,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635541",
+          "oiCcy": "9116.9783782970463881",
+          "ts": "1706188124218"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188129.9927495,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635533",
+          "oiCcy": "9116.3410591459729734",
+          "ts": "1706188128197"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188136.6799247,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635532",
+          "oiCcy": "9116.2928321568725786",
+          "ts": "1706188134316"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188139.8128026,
+    "data": {}
+  },
+  {
+    "timestamp": 1706188147.9237578,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635462",
+          "oiCcy": "9115.8430017527275098",
+          "ts": "1706188140585"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188153.730801,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635463",
+          "oiCcy": "9115.7083645718670154",
+          "ts": "1706188146340"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188158.5889957,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635435",
+          "oiCcy": "9114.9753536488133145",
+          "ts": "1706188150363"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188164.0850897,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635435",
+          "oiCcy": "9115.1124773089691001",
+          "ts": "1706188154212"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188164.0859754,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635435",
+          "oiCcy": "9114.9753536488133145",
+          "ts": "1706188158213"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9713209,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635459",
+          "oiCcy": "9114.4642199028748931",
+          "ts": "1706188160493"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.4800425,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635459",
+          "oiCcy": "9114.304266510226287",
+          "ts": "1706188166284"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.7992337,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635378",
+          "oiCcy": "9114.443951371286595",
+          "ts": "1706188170380"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.800381,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635369",
+          "oiCcy": "9114.1928803692440375",
+          "ts": "1706188176395"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188191.1906576,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635246",
+          "oiCcy": "9112.8335610343055538",
+          "ts": "1706188182382"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.1653852,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635244",
+          "oiCcy": "9112.8742357356115243",
+          "ts": "1706188184249"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.1662476,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635233",
+          "oiCcy": "9111.4077037215271094",
+          "ts": "1706188188360"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188210.872348,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635278",
+          "oiCcy": "9113.8733381301817872",
+          "ts": "1706188192315"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188210.8731298,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635148",
+          "oiCcy": "9115.1927903891916018",
+          "ts": "1706188196255"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5780957,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635148",
+          "oiCcy": "9115.1013653289201489",
+          "ts": "1706188200718"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5793216,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635154",
+          "oiCcy": "9116.6937522571325388",
+          "ts": "1706188206390"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5803838,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635088",
+          "oiCcy": "9115.1109082793795355",
+          "ts": "1706188210419"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2521791,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635107",
+          "oiCcy": "9115.1585514470985311",
+          "ts": "1706188212355"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2531595,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635104",
+          "oiCcy": "9115.151028841669216",
+          "ts": "1706188216282"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2541869,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635104",
+          "oiCcy": "9114.8539032273432779",
+          "ts": "1706188220346"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188244.328373,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635104",
+          "oiCcy": "9114.8767583561094255",
+          "ts": "1706188224318"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188244.329541,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635366",
+          "oiCcy": "9115.4422863791140732",
+          "ts": "1706188228225"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188244.3308246,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USD-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USD-SWAP",
+          "instType": "SWAP",
+          "oi": "3635442",
+          "oiCcy": "9116.5014945733945874",
+          "ts": "1706188234285"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2559 @@
+[
+  {
+    "timestamp": 1706188116.0699067,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "0a60445d-88a0-49fd-b400-1523f7813c2c",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "timestamp": 1706188123.6931682,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003771",
+        "lastPrice": "39888.30",
+        "fundingRate": "0.0001",
+        "bid1Price": "39887.90",
+        "bid1Size": "0.893",
+        "ask1Price": "39888.00",
+        "ask1Size": "8.056"
+      },
+      "cs": 121526392308,
+      "ts": 1706188117023
+    }
+  },
+  {
+    "timestamp": 1706188123.6938467,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003778",
+        "turnover24h": "3969794664.3264",
+        "volume24h": "99342.8850",
+        "fundingRate": "0.0001",
+        "bid1Price": "39887.90",
+        "bid1Size": "0.901",
+        "ask1Price": "39888.00",
+        "ask1Size": "6.806"
+      },
+      "cs": 121526394082,
+      "ts": 1706188117523
+    }
+  },
+  {
+    "timestamp": 1706188123.6942492,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003913",
+        "lastPrice": "39882.60",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.60",
+        "bid1Size": "3.084",
+        "ask1Price": "39882.70",
+        "ask1Size": "12.421"
+      },
+      "cs": 121526401188,
+      "ts": 1706188119023
+    }
+  },
+  {
+    "timestamp": 1706188123.694602,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004003",
+        "lastPrice": "39879.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39879.00",
+        "bid1Size": "2.280",
+        "ask1Price": "39879.10",
+        "ask1Size": "0.233"
+      },
+      "cs": 121526405265,
+      "ts": 1706188119523
+    }
+  },
+  {
+    "timestamp": 1706188126.0614588,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004003",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "4.097",
+        "ask1Price": "39882.50",
+        "ask1Size": "3.000"
+      },
+      "cs": 121526408132,
+      "ts": 1706188119923
+    }
+  },
+  {
+    "timestamp": 1706188126.061997,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003916",
+        "lastPrice": "39882.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "0.842",
+        "ask1Price": "39882.50",
+        "ask1Size": "4.541"
+      },
+      "cs": 121526410114,
+      "ts": 1706188120523
+    }
+  },
+  {
+    "timestamp": 1706188126.0625088,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003918",
+        "lastPrice": "39882.40",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "4.584",
+        "ask1Price": "39882.50",
+        "ask1Size": "0.443"
+      },
+      "cs": 121526415100,
+      "ts": 1706188121523
+    }
+  },
+  {
+    "timestamp": 1706188126.0630336,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003916",
+        "lastPrice": "39882.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "5.931",
+        "ask1Price": "39882.50",
+        "ask1Size": "0.432"
+      },
+      "cs": 121526416567,
+      "ts": 1706188121923
+    }
+  },
+  {
+    "timestamp": 1706188126.063565,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003916",
+        "turnover24h": "3969899094.2164",
+        "volume24h": "99345.5030",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "6.069",
+        "ask1Price": "39882.50",
+        "ask1Size": "0.435"
+      },
+      "cs": 121526419720,
+      "ts": 1706188122523
+    }
+  },
+  {
+    "timestamp": 1706188126.0641835,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003918",
+        "lastPrice": "39882.40",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "4.664",
+        "ask1Price": "39882.50",
+        "ask1Size": "0.492"
+      },
+      "cs": 121526422865,
+      "ts": 1706188123323
+    }
+  },
+  {
+    "timestamp": 1706188126.064773,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003821",
+        "markPrice": "39886.30",
+        "indexPrice": "39887.90",
+        "openInterest": "61377.948",
+        "openInterestValue": "2448139247.31",
+        "fundingRate": "0.0001",
+        "bid1Price": "39886.30",
+        "bid1Size": "6.068",
+        "ask1Price": "39886.40",
+        "ask1Size": "0.886"
+      },
+      "cs": 121526427234,
+      "ts": 1706188124523
+    }
+  },
+  {
+    "timestamp": 1706188127.7333784,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003801",
+        "lastPrice": "39887.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39887.00",
+        "bid1Size": "4.640",
+        "ask1Price": "39887.10",
+        "ask1Size": "0.828"
+      },
+      "cs": 121526430818,
+      "ts": 1706188125423
+    }
+  },
+  {
+    "timestamp": 1706188128.8382862,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003753",
+        "markPrice": "39889.00",
+        "indexPrice": "39890.49",
+        "openInterestValue": "2448304967.77",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "5.798",
+        "ask1Price": "39889.00",
+        "ask1Size": "3.969"
+      },
+      "cs": 121526437457,
+      "ts": 1706188126623
+    }
+  },
+  {
+    "timestamp": 1706188128.838989,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003756",
+        "lastPrice": "39888.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "5.698",
+        "ask1Price": "39889.00",
+        "ask1Size": "2.595"
+      },
+      "cs": 121526438704,
+      "ts": 1706188126923
+    }
+  },
+  {
+    "timestamp": 1706188129.9191916,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003756",
+        "lastPrice": "39888.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "5.010",
+        "ask1Price": "39889.00",
+        "ask1Size": "3.030"
+      },
+      "cs": 121526441280,
+      "ts": 1706188127823
+    }
+  },
+  {
+    "timestamp": 1706188130.8541064,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003753",
+        "lastPrice": "39889.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "5.466",
+        "ask1Price": "39889.00",
+        "ask1Size": "1.035"
+      },
+      "cs": 121526444353,
+      "ts": 1706188129223
+    }
+  },
+  {
+    "timestamp": 1706188131.5741456,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003756",
+        "lastPrice": "39888.90",
+        "markPrice": "39889.00",
+        "indexPrice": "39891.38",
+        "openInterestValue": "2448304967.77",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "4.792",
+        "ask1Price": "39889.00",
+        "ask1Size": "2.143"
+      },
+      "cs": 121526448381,
+      "ts": 1706188130723
+    }
+  },
+  {
+    "timestamp": 1706188132.10458,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003753",
+        "lastPrice": "39889.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "4.728",
+        "ask1Price": "39889.00",
+        "ask1Size": "1.398"
+      },
+      "cs": 121526449718,
+      "ts": 1706188131223
+    }
+  },
+  {
+    "timestamp": 1706188133.5810404,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003756",
+        "lastPrice": "39888.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "4.733",
+        "ask1Price": "39889.00",
+        "ask1Size": "1.123"
+      },
+      "cs": 121526452994,
+      "ts": 1706188132423
+    }
+  },
+  {
+    "timestamp": 1706188133.58192,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003753",
+        "lastPrice": "39889.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39888.90",
+        "bid1Size": "2.814",
+        "ask1Price": "39889.00",
+        "ask1Size": "3.420"
+      },
+      "cs": 121526453700,
+      "ts": 1706188132723
+    }
+  },
+  {
+    "timestamp": 1706188134.98867,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003741",
+        "lastPrice": "39889.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39889.40",
+        "bid1Size": "3.749",
+        "ask1Price": "39889.50",
+        "ask1Size": "0.065"
+      },
+      "cs": 121526454224,
+      "ts": 1706188132923
+    }
+  },
+  {
+    "timestamp": 1706188136.635666,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39891.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "2.612",
+        "ask1Price": "39891.60",
+        "ask1Size": "6.011"
+      },
+      "cs": 121526458476,
+      "ts": 1706188134023
+    }
+  },
+  {
+    "timestamp": 1706188136.6373265,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003688",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "2.625",
+        "ask1Price": "39891.60",
+        "ask1Size": "4.907"
+      },
+      "cs": 121526459237,
+      "ts": 1706188134323
+    }
+  },
+  {
+    "timestamp": 1706188138.0943358,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39891.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "2.763",
+        "ask1Price": "39891.60",
+        "ask1Size": "1.881"
+      },
+      "cs": 121526460892,
+      "ts": 1706188135223
+    }
+  },
+  {
+    "timestamp": 1706188138.095414,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39891.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "1.333",
+        "ask1Price": "39891.60",
+        "ask1Size": "7.533"
+      },
+      "cs": 121526463476,
+      "ts": 1706188135923
+    }
+  },
+  {
+    "timestamp": 1706188138.0965037,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39891.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "1.259",
+        "ask1Price": "39891.60",
+        "ask1Size": "7.732"
+      },
+      "cs": 121526464551,
+      "ts": 1706188136223
+    }
+  },
+  {
+    "timestamp": 1706188139.78682,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "0a60445d-88a0-49fd-b400-1523f7813c2c",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188139.7890072,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003688",
+        "lastPrice": "39891.60",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "3.205",
+        "ask1Price": "39891.60",
+        "ask1Size": "3.620"
+      },
+      "cs": 121526466194,
+      "ts": 1706188137423
+    }
+  },
+  {
+    "timestamp": 1706188139.791134,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39891.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "3.204",
+        "ask1Price": "39891.60",
+        "ask1Size": "4.968"
+      },
+      "cs": 121526466707,
+      "ts": 1706188137723
+    }
+  },
+  {
+    "timestamp": 1706188142.8956683,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003688",
+        "markPrice": "39891.60",
+        "indexPrice": "39891.80",
+        "openInterestValue": "2448799679.77",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "0.831",
+        "ask1Price": "39891.60",
+        "ask1Size": "4.842"
+      },
+      "cs": 121526469408,
+      "ts": 1706188139023
+    }
+  },
+  {
+    "timestamp": 1706188147.933173,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003688",
+        "indexPrice": "39894.15",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.50",
+        "bid1Size": "6.353",
+        "ask1Price": "39891.60",
+        "ask1Size": "0.224"
+      },
+      "cs": 121526478832,
+      "ts": 1706188141023
+    }
+  },
+  {
+    "timestamp": 1706188147.9353771,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003688",
+        "lastPrice": "39891.60",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "2.851",
+        "ask1Price": "39891.70",
+        "ask1Size": "1.543"
+      },
+      "cs": 121526483678,
+      "ts": 1706188142123
+    }
+  },
+  {
+    "timestamp": 1706188147.9424245,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003746",
+        "lastPrice": "39891.60",
+        "prevPrice24h": "40041.60",
+        "turnover24h": "3968486608.4163",
+        "volume24h": "99310.3240",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "0.831",
+        "ask1Price": "39891.70",
+        "ask1Size": "1.978"
+      },
+      "cs": 121526485020,
+      "ts": 1706188142523
+    }
+  },
+  {
+    "timestamp": 1706188151.17246,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003746",
+        "indexPrice": "39895.31",
+        "openInterest": "61409.654",
+        "openInterestValue": "2449729353.51",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "3.452",
+        "ask1Price": "39891.70",
+        "ask1Size": "1.381"
+      },
+      "cs": 121526487169,
+      "ts": 1706188143123
+    }
+  },
+  {
+    "timestamp": 1706188151.1752045,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003743",
+        "lastPrice": "39891.70",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "3.180",
+        "ask1Price": "39891.70",
+        "ask1Size": "3.252"
+      },
+      "cs": 121526491167,
+      "ts": 1706188144324
+    }
+  },
+  {
+    "timestamp": 1706188151.1778557,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003743",
+        "markPrice": "39891.70",
+        "indexPrice": "39895.29",
+        "openInterestValue": "2449735494.47",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "3.314",
+        "ask1Price": "39891.70",
+        "ask1Size": "1.320"
+      },
+      "cs": 121526492668,
+      "ts": 1706188145223
+    }
+  },
+  {
+    "timestamp": 1706188151.1805832,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003738",
+        "lastPrice": "39891.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.80",
+        "bid1Size": "16.560",
+        "ask1Price": "39891.90",
+        "ask1Size": "0.925"
+      },
+      "cs": 121526496261,
+      "ts": 1706188145923
+    }
+  },
+  {
+    "timestamp": 1706188151.1833103,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003741",
+        "lastPrice": "39891.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.80",
+        "bid1Size": "16.372",
+        "ask1Price": "39891.90",
+        "ask1Size": "0.312"
+      },
+      "cs": 121526498766,
+      "ts": 1706188146723
+    }
+  },
+  {
+    "timestamp": 1706188151.1857443,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003738",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.80",
+        "bid1Size": "17.373",
+        "ask1Price": "39891.90",
+        "ask1Size": "0.326"
+      },
+      "cs": 121526500710,
+      "ts": 1706188147323
+    }
+  },
+  {
+    "timestamp": 1706188158.195739,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003738",
+        "fundingRate": "0.0001",
+        "bid1Price": "39892.20",
+        "bid1Size": "13.792",
+        "ask1Price": "39892.30",
+        "ask1Size": "0.050"
+      },
+      "cs": 121526502941,
+      "ts": 1706188147923
+    }
+  },
+  {
+    "timestamp": 1706188158.197556,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39893.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "10.332",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.961"
+      },
+      "cs": 121526506934,
+      "ts": 1706188148923
+    }
+  },
+  {
+    "timestamp": 1706188158.199155,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003688",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "9.721",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.782"
+      },
+      "cs": 121526509690,
+      "ts": 1706188149823
+    }
+  },
+  {
+    "timestamp": 1706188158.200902,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003691",
+        "lastPrice": "39893.80",
+        "turnover24h": "3970440663.5386",
+        "volume24h": "99359.3090",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "9.235",
+        "ask1Price": "39893.90",
+        "ask1Size": "2.052"
+      },
+      "cs": 121526515961,
+      "ts": 1706188152623
+    }
+  },
+  {
+    "timestamp": 1706188158.2025762,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003688",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "10.585",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.868"
+      },
+      "cs": 121526516399,
+      "ts": 1706188152824
+    }
+  },
+  {
+    "timestamp": 1706188158.2053323,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003688",
+        "lastPrice": "39893.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "10.228",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.368"
+      },
+      "cs": 121526517591,
+      "ts": 1706188153323
+    }
+  },
+  {
+    "timestamp": 1706188164.130442,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003688",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "13.120",
+        "ask1Price": "39893.90",
+        "ask1Size": "0.326"
+      },
+      "cs": 121526522970,
+      "ts": 1706188155223
+    }
+  },
+  {
+    "timestamp": 1706188164.1334257,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003688",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "12.464",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.306"
+      },
+      "cs": 121526526008,
+      "ts": 1706188156223
+    }
+  },
+  {
+    "timestamp": 1706188164.1363435,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003691",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.80",
+        "bid1Size": "12.371",
+        "ask1Price": "39893.90",
+        "ask1Size": "1.316"
+      },
+      "cs": 121526527693,
+      "ts": 1706188156823
+    }
+  },
+  {
+    "timestamp": 1706188164.1392825,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003556",
+        "lastPrice": "39899.20",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.10",
+        "bid1Size": "2.707",
+        "ask1Price": "39899.20",
+        "ask1Size": "2.539"
+      },
+      "cs": 121526529306,
+      "ts": 1706188157023
+    }
+  },
+  {
+    "timestamp": 1706188168.4588056,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "0a60445d-88a0-49fd-b400-1523f7813c2c",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188168.4608624,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003556",
+        "markPrice": "39900.79",
+        "indexPrice": "39904.80",
+        "openInterestValue": "2449716663.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.10",
+        "bid1Size": "11.067",
+        "ask1Price": "39899.20",
+        "ask1Size": "0.128"
+      },
+      "cs": 121526552143,
+      "ts": 1706188161723
+    }
+  },
+  {
+    "timestamp": 1706188168.462569,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003556",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.20",
+        "bid1Size": "28.967",
+        "ask1Price": "39899.30",
+        "ask1Size": "0.128"
+      },
+      "cs": 121526554527,
+      "ts": 1706188162023
+    }
+  },
+  {
+    "timestamp": 1706188168.4643555,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003553",
+        "lastPrice": "39899.30",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.20",
+        "bid1Size": "23.461",
+        "ask1Price": "39899.30",
+        "ask1Size": "0.481"
+      },
+      "cs": 121526558157,
+      "ts": 1706188162723
+    }
+  },
+  {
+    "timestamp": 1706188168.4660692,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003556",
+        "lastPrice": "39899.20",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.20",
+        "bid1Size": "20.971",
+        "ask1Price": "39899.30",
+        "ask1Size": "0.446"
+      },
+      "cs": 121526560676,
+      "ts": 1706188163323
+    }
+  },
+  {
+    "timestamp": 1706188168.467845,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003553",
+        "markPrice": "39901.22",
+        "indexPrice": "39905.13",
+        "openInterest": "61397.596",
+        "openInterestValue": "2449838985.47",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.20",
+        "bid1Size": "25.425",
+        "ask1Price": "39899.30",
+        "ask1Size": "2.419"
+      },
+      "cs": 121526562308,
+      "ts": 1706188163823
+    }
+  },
+  {
+    "timestamp": 1706188176.5952742,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003583",
+        "lastPrice": "39898.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.80",
+        "bid1Size": "0.005",
+        "ask1Price": "39897.90",
+        "ask1Size": "8.904"
+      },
+      "cs": 121526567890,
+      "ts": 1706188165723
+    }
+  },
+  {
+    "timestamp": 1706188176.5977154,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003688",
+        "lastPrice": "39893.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39893.30",
+        "bid1Size": "0.150",
+        "ask1Price": "39893.40",
+        "ask1Size": "10.300"
+      },
+      "cs": 121526572029,
+      "ts": 1706188165923
+    }
+  },
+  {
+    "timestamp": 1706188176.6007922,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003711",
+        "lastPrice": "39893.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39892.90",
+        "bid1Size": "0.524",
+        "ask1Price": "39893.00",
+        "ask1Size": "6.267"
+      },
+      "cs": 121526576683,
+      "ts": 1706188166423
+    }
+  },
+  {
+    "timestamp": 1706188176.603764,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003743",
+        "lastPrice": "39891.70",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.60",
+        "bid1Size": "1.748",
+        "ask1Price": "39891.70",
+        "ask1Size": "6.185"
+      },
+      "cs": 121526579797,
+      "ts": 1706188166823
+    }
+  },
+  {
+    "timestamp": 1706188176.6070187,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003746",
+        "turnover24h": "3971125500.1268",
+        "volume24h": "99376.4740",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "5.789",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.658"
+      },
+      "cs": 121526583605,
+      "ts": 1706188167623
+    }
+  },
+  {
+    "timestamp": 1706188176.6100426,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003758",
+        "lastPrice": "39891.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.273",
+        "ask1Price": "39891.10",
+        "ask1Size": "0.113"
+      },
+      "cs": 121526585026,
+      "ts": 1706188168123
+    }
+  },
+  {
+    "timestamp": 1706188176.6133118,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003758",
+        "lastPrice": "39891.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "10.125",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.106"
+      },
+      "cs": 121526588675,
+      "ts": 1706188169123
+    }
+  },
+  {
+    "timestamp": 1706188176.6161945,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003758",
+        "lastPrice": "39891.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.825",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.394"
+      },
+      "cs": 121526589643,
+      "ts": 1706188169423
+    }
+  },
+  {
+    "timestamp": 1706188182.5330057,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003761",
+        "lastPrice": "39891.00",
+        "markPrice": "39895.18",
+        "indexPrice": "39899.23",
+        "openInterestValue": "2449468143.99",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.831",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.172"
+      },
+      "cs": 121526591423,
+      "ts": 1706188170023
+    }
+  },
+  {
+    "timestamp": 1706188182.5361497,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003761",
+        "lastPrice": "39891.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.747",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.431"
+      },
+      "cs": 121526592725,
+      "ts": 1706188170523
+    }
+  },
+  {
+    "timestamp": 1706188182.538739,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003758",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "5.907",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.936"
+      },
+      "cs": 121526594438,
+      "ts": 1706188171123
+    }
+  },
+  {
+    "timestamp": 1706188182.5412576,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003758",
+        "lastPrice": "39891.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.714",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.471"
+      },
+      "cs": 121526595666,
+      "ts": 1706188171523
+    }
+  },
+  {
+    "timestamp": 1706188182.5440085,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003758",
+        "markPrice": "39895.45",
+        "indexPrice": "39899.35",
+        "openInterestValue": "2449484721.34",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.393",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.438"
+      },
+      "cs": 121526596865,
+      "ts": 1706188172023
+    }
+  },
+  {
+    "timestamp": 1706188182.546262,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003761",
+        "lastPrice": "39891.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "6.342",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.542"
+      },
+      "cs": 121526598879,
+      "ts": 1706188172823
+    }
+  },
+  {
+    "timestamp": 1706188182.5485585,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003758",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "7.302",
+        "ask1Price": "39891.10",
+        "ask1Size": "1.434"
+      },
+      "cs": 121526600819,
+      "ts": 1706188173523
+    }
+  },
+  {
+    "timestamp": 1706188182.550812,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003761",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "7.418",
+        "ask1Price": "39891.10",
+        "ask1Size": "0.282"
+      },
+      "cs": 121526603682,
+      "ts": 1706188174023
+    }
+  },
+  {
+    "timestamp": 1706188182.5532534,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003758",
+        "fundingRate": "0.0001",
+        "bid1Price": "39891.00",
+        "bid1Size": "7.509",
+        "ask1Price": "39891.10",
+        "ask1Size": "0.685"
+      },
+      "cs": 121526605249,
+      "ts": 1706188174323
+    }
+  },
+  {
+    "timestamp": 1706188182.5556688,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003673",
+        "lastPrice": "39894.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39894.40",
+        "bid1Size": "10.095",
+        "ask1Price": "39894.50",
+        "ask1Size": "0.038"
+      },
+      "cs": 121526613004,
+      "ts": 1706188175823
+    }
+  },
+  {
+    "timestamp": 1706188182.558264,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003636",
+        "markPrice": "39895.18",
+        "openInterestValue": "2449611128.31",
+        "fundingRate": "0.0001",
+        "bid1Price": "39896.00",
+        "bid1Size": "8.501",
+        "ask1Price": "39896.10",
+        "ask1Size": "1.965"
+      },
+      "cs": 121526614833,
+      "ts": 1706188176223
+    }
+  },
+  {
+    "timestamp": 1706188182.5608187,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003623",
+        "lastPrice": "39896.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.80",
+        "bid1Size": "8.313",
+        "ask1Price": "39897.90",
+        "ask1Size": "0.400"
+      },
+      "cs": 121526616836,
+      "ts": 1706188176523
+    }
+  },
+  {
+    "timestamp": 1706188190.8464038,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003588",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.90",
+        "bid1Size": "14.533",
+        "ask1Price": "39898.00",
+        "ask1Size": "0.060"
+      },
+      "cs": 121526623231,
+      "ts": 1706188177223
+    }
+  },
+  {
+    "timestamp": 1706188190.85149,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003588",
+        "markPrice": "39898.07",
+        "indexPrice": "39902.75",
+        "openInterestValue": "2449788577.72",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.90",
+        "bid1Size": "14.077",
+        "ask1Price": "39898.00",
+        "ask1Size": "0.073"
+      },
+      "cs": 121526630874,
+      "ts": 1706188178223
+    }
+  },
+  {
+    "timestamp": 1706188190.8582108,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003586",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.90",
+        "bid1Size": "15.427",
+        "ask1Price": "39898.00",
+        "ask1Size": "0.391"
+      },
+      "cs": 121526633893,
+      "ts": 1706188178623
+    }
+  },
+  {
+    "timestamp": 1706188190.8635178,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003586",
+        "lastPrice": "39898.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.90",
+        "bid1Size": "9.587",
+        "ask1Price": "39898.00",
+        "ask1Size": "0.694"
+      },
+      "cs": 121526640458,
+      "ts": 1706188180023
+    }
+  },
+  {
+    "timestamp": 1706188190.8684974,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003586",
+        "fundingRate": "0.0001",
+        "bid1Price": "39897.90",
+        "bid1Size": "7.896",
+        "ask1Price": "39898.00",
+        "ask1Size": "1.982"
+      },
+      "cs": 121526642492,
+      "ts": 1706188180523
+    }
+  },
+  {
+    "timestamp": 1706188190.8733997,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003563",
+        "lastPrice": "39898.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39898.80",
+        "bid1Size": "11.284",
+        "ask1Price": "39898.90",
+        "ask1Size": "0.188"
+      },
+      "cs": 121526651579,
+      "ts": 1706188182323
+    }
+  },
+  {
+    "timestamp": 1706188190.8784335,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003566",
+        "lastPrice": "39898.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39898.80",
+        "bid1Size": "11.284",
+        "ask1Price": "39898.90",
+        "ask1Size": "1.659"
+      },
+      "cs": 121526653362,
+      "ts": 1706188182523
+    }
+  },
+  {
+    "timestamp": 1706188190.8835678,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003551",
+        "lastPrice": "39899.40",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.40",
+        "bid1Size": "10.840",
+        "ask1Price": "39899.50",
+        "ask1Size": "0.253"
+      },
+      "cs": 121526659401,
+      "ts": 1706188183123
+    }
+  },
+  {
+    "timestamp": 1706188198.6890764,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "0a60445d-88a0-49fd-b400-1523f7813c2c",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188198.69305,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003548",
+        "markPrice": "39900.69",
+        "indexPrice": "39905.12",
+        "openInterest": "61400.932",
+        "openInterestValue": "2449939553.44",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.40",
+        "bid1Size": "12.084",
+        "ask1Price": "39899.50",
+        "ask1Size": "0.378"
+      },
+      "cs": 121526666999,
+      "ts": 1706188184523
+    }
+  },
+  {
+    "timestamp": 1706188198.6967053,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003548",
+        "lastPrice": "39899.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.40",
+        "bid1Size": "13.125",
+        "ask1Price": "39899.50",
+        "ask1Size": "0.463"
+      },
+      "cs": 121526672802,
+      "ts": 1706188185423
+    }
+  },
+  {
+    "timestamp": 1706188198.7010696,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003536",
+        "markPrice": "39902.08",
+        "indexPrice": "39906.17",
+        "openInterestValue": "2450024900.74",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.90",
+        "bid1Size": "9.842",
+        "ask1Price": "39900.00",
+        "ask1Size": "2.856"
+      },
+      "cs": 121526676455,
+      "ts": 1706188186523
+    }
+  },
+  {
+    "timestamp": 1706188198.7046375,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003541",
+        "lastPrice": "39899.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.40",
+        "bid1Size": "0.514",
+        "ask1Price": "39899.50",
+        "ask1Size": "11.770"
+      },
+      "cs": 121526682387,
+      "ts": 1706188188423
+    }
+  },
+  {
+    "timestamp": 1706188198.7077005,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003753",
+        "lastPrice": "39891.30",
+        "markPrice": "39902.16",
+        "indexPrice": "39906.27",
+        "openInterestValue": "2450029812.81",
+        "fundingRate": "0.0001",
+        "bid1Price": "39899.40",
+        "bid1Size": "1.014",
+        "ask1Price": "39899.50",
+        "ask1Size": "11.352"
+      },
+      "cs": 121526684607,
+      "ts": 1706188188623
+    }
+  },
+  {
+    "timestamp": 1706188198.711064,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003786",
+        "fundingRate": "0.0001",
+        "bid1Price": "39890.00",
+        "bid1Size": "6.478",
+        "ask1Price": "39890.10",
+        "ask1Size": "2.102"
+      },
+      "cs": 121526693219,
+      "ts": 1706188189523
+    }
+  },
+  {
+    "timestamp": 1706188198.714143,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003948",
+        "lastPrice": "39883.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.50",
+        "bid1Size": "5.279",
+        "ask1Price": "39883.60",
+        "ask1Size": "2.570"
+      },
+      "cs": 121526698084,
+      "ts": 1706188189923
+    }
+  },
+  {
+    "timestamp": 1706188198.7172117,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003945",
+        "markPrice": "39887.63",
+        "indexPrice": "39891.80",
+        "openInterestValue": "2449137657.27",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.50",
+        "bid1Size": "0.065",
+        "ask1Price": "39883.60",
+        "ask1Size": "8.133"
+      },
+      "cs": 121526703568,
+      "ts": 1706188190723
+    }
+  },
+  {
+    "timestamp": 1706188198.720281,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003973",
+        "lastPrice": "39882.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.40",
+        "bid1Size": "0.103",
+        "ask1Price": "39882.50",
+        "ask1Size": "10.663"
+      },
+      "cs": 121526707020,
+      "ts": 1706188191023
+    }
+  },
+  {
+    "timestamp": 1706188210.7715678,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.004023",
+        "lastPrice": "39880.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39880.00",
+        "bid1Size": "1.949",
+        "ask1Price": "39880.10",
+        "ask1Size": "4.432"
+      },
+      "cs": 121526711817,
+      "ts": 1706188191623
+    }
+  },
+  {
+    "timestamp": 1706188210.7781339,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.004163",
+        "lastPrice": "39874.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39874.90",
+        "bid1Size": "0.024",
+        "ask1Price": "39875.00",
+        "ask1Size": "0.199"
+      },
+      "cs": 121526716018,
+      "ts": 1706188192223
+    }
+  },
+  {
+    "timestamp": 1706188210.7846315,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004183",
+        "turnover24h": "3972316641.9050",
+        "volume24h": "99406.3300",
+        "fundingRate": "0.0001",
+        "bid1Price": "39874.00",
+        "bid1Size": "0.717",
+        "ask1Price": "39874.10",
+        "ask1Size": "3.790"
+      },
+      "cs": 121526720005,
+      "ts": 1706188192623
+    }
+  },
+  {
+    "timestamp": 1706188210.7909026,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004185",
+        "lastPrice": "39874.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39874.00",
+        "bid1Size": "0.677",
+        "ask1Price": "39874.10",
+        "ask1Size": "4.460"
+      },
+      "cs": 121526720671,
+      "ts": 1706188192823
+    }
+  },
+  {
+    "timestamp": 1706188210.7972949,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004235",
+        "lastPrice": "39872.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39871.50",
+        "bid1Size": "0.075",
+        "ask1Price": "39871.60",
+        "ask1Size": "11.334"
+      },
+      "cs": 121526726997,
+      "ts": 1706188194923
+    }
+  },
+  {
+    "timestamp": 1706188210.8030965,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004248",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "3.093",
+        "ask1Price": "39871.00",
+        "ask1Size": "7.845"
+      },
+      "cs": 121526729763,
+      "ts": 1706188195223
+    }
+  },
+  {
+    "timestamp": 1706188210.8070467,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.00426",
+        "lastPrice": "39871.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "4.380",
+        "ask1Price": "39871.00",
+        "ask1Size": "0.322"
+      },
+      "cs": 121526732438,
+      "ts": 1706188195723
+    }
+  },
+  {
+    "timestamp": 1706188210.8120875,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.00426",
+        "lastPrice": "39871.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "4.862",
+        "ask1Price": "39871.00",
+        "ask1Size": "0.950"
+      },
+      "cs": 121526736621,
+      "ts": 1706188196623
+    }
+  },
+  {
+    "timestamp": 1706188210.8201005,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.00426",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "5.669",
+        "ask1Price": "39871.00",
+        "ask1Size": "2.373"
+      },
+      "cs": 121526739801,
+      "ts": 1706188197423
+    }
+  },
+  {
+    "timestamp": 1706188210.8288665,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.00426",
+        "markPrice": "39874.08",
+        "indexPrice": "39878.26",
+        "openInterestValue": "2448702581.23",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "8.661",
+        "ask1Price": "39871.00",
+        "ask1Size": "0.199"
+      },
+      "cs": 121526746072,
+      "ts": 1706188198923
+    }
+  },
+  {
+    "timestamp": 1706188220.4722,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.00426",
+        "lastPrice": "39871.00",
+        "fundingRate": "0.0001",
+        "bid1Price": "39870.90",
+        "bid1Size": "8.035",
+        "ask1Price": "39871.00",
+        "ask1Size": "0.218"
+      },
+      "cs": 121526755485,
+      "ts": 1706188200823
+    }
+  },
+  {
+    "timestamp": 1706188220.4765503,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.004258",
+        "markPrice": "39873.87",
+        "indexPrice": "39878.06",
+        "openInterestValue": "2448689684.95",
+        "fundingRate": "0.0001",
+        "bid1Price": "39873.80",
+        "bid1Size": "7.737",
+        "ask1Price": "39873.90",
+        "ask1Size": "1.188"
+      },
+      "cs": 121526757094,
+      "ts": 1706188201023
+    }
+  },
+  {
+    "timestamp": 1706188220.4802754,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.004188",
+        "fundingRate": "0.0001",
+        "bid1Price": "39873.80",
+        "bid1Size": "6.496",
+        "ask1Price": "39873.90",
+        "ask1Size": "0.414"
+      },
+      "cs": 121526758674,
+      "ts": 1706188201423
+    }
+  },
+  {
+    "timestamp": 1706188220.4835963,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.004183",
+        "lastPrice": "39874.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39875.40",
+        "bid1Size": "10.371",
+        "ask1Price": "39875.50",
+        "ask1Size": "1.932"
+      },
+      "cs": 121526762950,
+      "ts": 1706188202423
+    }
+  },
+  {
+    "timestamp": 1706188220.486993,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.004148",
+        "fundingRate": "0.0001",
+        "bid1Price": "39876.70",
+        "bid1Size": "4.317",
+        "ask1Price": "39876.80",
+        "ask1Size": "0.314"
+      },
+      "cs": 121526764183,
+      "ts": 1706188202623
+    }
+  },
+  {
+    "timestamp": 1706188220.4906962,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003956",
+        "lastPrice": "39876.70",
+        "fundingRate": "0.0001",
+        "bid1Price": "39876.70",
+        "bid1Size": "6.099",
+        "ask1Price": "39876.80",
+        "ask1Size": "1.664"
+      },
+      "cs": 121526765425,
+      "ts": 1706188202924
+    }
+  },
+  {
+    "timestamp": 1706188220.49426,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003954",
+        "lastPrice": "39876.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39876.70",
+        "bid1Size": "6.238",
+        "ask1Price": "39876.80",
+        "ask1Size": "0.296"
+      },
+      "cs": 121526766147,
+      "ts": 1706188203223
+    }
+  },
+  {
+    "timestamp": 1706188220.4976752,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003954",
+        "lastPrice": "39876.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39876.70",
+        "bid1Size": "8.031",
+        "ask1Price": "39876.80",
+        "ask1Size": "0.104"
+      },
+      "cs": 121526768001,
+      "ts": 1706188203723
+    }
+  },
+  {
+    "timestamp": 1706188220.501663,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003904",
+        "fundingRate": "0.0001",
+        "bid1Price": "39878.70",
+        "bid1Size": "6.078",
+        "ask1Price": "39878.80",
+        "ask1Size": "2.538"
+      },
+      "cs": 121526770271,
+      "ts": 1706188203923
+    }
+  },
+  {
+    "timestamp": 1706188220.5055025,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003889",
+        "lastPrice": "39879.40",
+        "fundingRate": "0.0001",
+        "bid1Price": "39879.30",
+        "bid1Size": "9.068",
+        "ask1Price": "39879.40",
+        "ask1Size": "1.635"
+      },
+      "cs": 121526772831,
+      "ts": 1706188204323
+    }
+  },
+  {
+    "timestamp": 1706188220.5094118,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003891",
+        "markPrice": "39879.40",
+        "indexPrice": "39881.76",
+        "openInterestValue": "2448881015.54",
+        "fundingRate": "0.0001",
+        "bid1Price": "39879.30",
+        "bid1Size": "4.040",
+        "ask1Price": "39879.40",
+        "ask1Size": "2.664"
+      },
+      "cs": 121526775072,
+      "ts": 1706188205123
+    }
+  },
+  {
+    "timestamp": 1706188220.5131414,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003831",
+        "lastPrice": "39881.70",
+        "fundingRate": "0.0001",
+        "bid1Price": "39881.70",
+        "bid1Size": "15.419",
+        "ask1Price": "39881.80",
+        "ask1Size": "1.350"
+      },
+      "cs": 121526781233,
+      "ts": 1706188206423
+    }
+  },
+  {
+    "timestamp": 1706188220.5171082,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003761",
+        "lastPrice": "39884.50",
+        "fundingRate": "0.0001",
+        "bid1Price": "39884.40",
+        "bid1Size": "8.936",
+        "ask1Price": "39884.50",
+        "ask1Size": "3.633"
+      },
+      "cs": 121526783626,
+      "ts": 1706188206723
+    }
+  },
+  {
+    "timestamp": 1706188220.5207775,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003761",
+        "turnover24h": "3967557219.1449",
+        "volume24h": "99287.5450",
+        "fundingRate": "0.0001",
+        "bid1Price": "39884.40",
+        "bid1Size": "8.626",
+        "ask1Price": "39884.50",
+        "ask1Size": "2.068"
+      },
+      "cs": 121526786653,
+      "ts": 1706188207723
+    }
+  },
+  {
+    "timestamp": 1706188220.5252268,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003766",
+        "lastPrice": "39884.30",
+        "fundingRate": "0.0001",
+        "bid1Price": "39881.50",
+        "bid1Size": "0.729",
+        "ask1Price": "39881.60",
+        "ask1Size": "1.352"
+      },
+      "cs": 121526790797,
+      "ts": 1706188208623
+    }
+  },
+  {
+    "timestamp": 1706188220.5295646,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003834",
+        "markPrice": "39884.50",
+        "indexPrice": "39887.93",
+        "openInterestValue": "2449194192.10",
+        "fundingRate": "0.0001",
+        "bid1Price": "39881.50",
+        "bid1Size": "5.489",
+        "ask1Price": "39881.60",
+        "ask1Size": "0.964"
+      },
+      "cs": 121526794202,
+      "ts": 1706188209323
+    }
+  },
+  {
+    "timestamp": 1706188234.1287332,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "0a60445d-88a0-49fd-b400-1523f7813c2c",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188234.1352227,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003834",
+        "fundingRate": "0.0001",
+        "bid1Price": "39881.60",
+        "bid1Size": "14.756",
+        "ask1Price": "39881.70",
+        "ask1Size": "0.010"
+      },
+      "cs": 121526802198,
+      "ts": 1706188212023
+    }
+  },
+  {
+    "timestamp": 1706188234.1408277,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003779",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.80",
+        "bid1Size": "6.536",
+        "ask1Price": "39883.90",
+        "ask1Size": "2.559"
+      },
+      "cs": 121526803673,
+      "ts": 1706188212423
+    }
+  },
+  {
+    "timestamp": 1706188234.1461186,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003779",
+        "markPrice": "39883.80",
+        "indexPrice": "39887.61",
+        "openInterest": "61407.512",
+        "openInterestValue": "2449164927.11",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.80",
+        "bid1Size": "5.274",
+        "ask1Price": "39883.90",
+        "ask1Size": "4.499"
+      },
+      "cs": 121526804492,
+      "ts": 1706188213424
+    }
+  },
+  {
+    "timestamp": 1706188234.151853,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "PlusTick",
+        "price24hPcnt": "-0.003776",
+        "lastPrice": "39883.90",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.80",
+        "bid1Size": "7.277",
+        "ask1Price": "39883.90",
+        "ask1Size": "0.205"
+      },
+      "cs": 121526809120,
+      "ts": 1706188215723
+    }
+  },
+  {
+    "timestamp": 1706188234.161816,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroPlusTick",
+        "price24hPcnt": "-0.003776",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.80",
+        "bid1Size": "7.350",
+        "ask1Price": "39883.90",
+        "ask1Size": "0.248"
+      },
+      "cs": 121526817869,
+      "ts": 1706188217623
+    }
+  },
+  {
+    "timestamp": 1706188234.1686869,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "ZeroMinusTick",
+        "price24hPcnt": "-0.003779",
+        "lastPrice": "39883.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39883.80",
+        "bid1Size": "0.822",
+        "ask1Price": "39883.90",
+        "ask1Size": "5.759"
+      },
+      "cs": 121526824628,
+      "ts": 1706188219223
+    }
+  },
+  {
+    "timestamp": 1706188234.1739872,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "tickDirection": "MinusTick",
+        "price24hPcnt": "-0.003801",
+        "lastPrice": "39882.90",
+        "markPrice": "39883.80",
+        "indexPrice": "39887.26",
+        "openInterestValue": "2449164927.11",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.80",
+        "bid1Size": "0.075",
+        "ask1Price": "39882.90",
+        "ask1Size": "8.948"
+      },
+      "cs": 121526827128,
+      "ts": 1706188219623
+    }
+  },
+  {
+    "timestamp": 1706188234.1799302,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003804",
+        "lastPrice": "39882.80",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.80",
+        "bid1Size": "0.675",
+        "ask1Price": "39882.90",
+        "ask1Size": "9.146"
+      },
+      "cs": 121526830184,
+      "ts": 1706188220423
+    }
+  },
+  {
+    "timestamp": 1706188234.1870098,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003804",
+        "fundingRate": "0.0001",
+        "bid1Price": "39882.30",
+        "bid1Size": "0.673",
+        "ask1Price": "39882.40",
+        "ask1Size": "2.524"
+      },
+      "cs": 121526833747,
+      "ts": 1706188221523
+    }
+  },
+  {
+    "timestamp": 1706188234.1928983,
+    "data": {
+      "topic": "tickers.BTCUSDT",
+      "type": "delta",
+      "data": {
+        "symbol": "BTCUSDT",
+        "price24hPcnt": "-0.003804",
+        "markPrice": "39883.14",
+        "indexPrice": "39887.29",
+        "openInterestValue": "2449124398.15",
+        "fundingRate": "0.0001",
+        "bid1Price": "39881.50",
+        "bid1Size": "0.946",
+        "ask1Price": "39881.60",
+        "ask1Size": "4.063"
+      },
+      "cs": 121526835562,
+      "ts": 1706188221723
+    }
+  }
+]

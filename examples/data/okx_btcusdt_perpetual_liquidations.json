@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": 1706188127.7968154,
+    "data": {
+      "arg": {
+        "channel": "liquidation-orders",
+        "instType": "SWAP"
+      },
+      "data": [
+        {
+          "details": [
+            {
+              "bkLoss": "0",
+              "bkPx": "0.00000036976",
+              "ccy": "",
+              "posSide": "short",
+              "side": "buy",
+              "sz": "21",
+              "ts": "1706188125828"
+            }
+          ],
+          "instFamily": "SATS-USDT",
+          "instId": "SATS-USDT-SWAP",
+          "instType": "SWAP",
+          "uly": "SATS-USDT"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9617248,
+    "data": {}
+  },
+  {
+    "timestamp": 1706188222.19368,
+    "data": {
+      "arg": {
+        "channel": "liquidation-orders",
+        "instType": "SWAP"
+      },
+      "data": [
+        {
+          "details": [
+            {
+              "bkLoss": "0",
+              "bkPx": "4.655",
+              "ccy": "",
+              "posSide": "long",
+              "side": "sell",
+              "sz": "12",
+              "ts": "1706188207280"
+            }
+          ],
+          "instFamily": "UMA-USDT",
+          "instId": "UMA-USDT-SWAP",
+          "instType": "SWAP",
+          "uly": "UMA-USDT"
+        }
+      ]
+    }
+  }
+]

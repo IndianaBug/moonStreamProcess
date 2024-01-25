@@ -1,0 +1,255 @@
+[
+  {
+    "timestamp": 1706195611.7186959,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195622.712853,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195633.7045202,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195644.6997373,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195655.689361,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195666.6808922,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195677.6766355,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195688.6681547,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195699.665028,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195710.6638398,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195721.6575549,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195732.6492753,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195743.6427906,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195754.638074,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195765.6343439,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195776.652433,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195787.650086,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195798.6426826,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195809.6403656,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195820.6361167,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195831.6318307,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195842.6304715,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  },
+  {
+    "timestamp": 1706196507.0250723,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706169600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "40102.94827893"
+      }
+    ]
+  }
+]

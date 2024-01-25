@@ -1,0 +1,278 @@
+[
+  {
+    "timestamp": 1706195611.7300189,
+    "data": [
+      {
+        "longAccount": "0.7376",
+        "longShortRatio": "2.8110",
+        "shortAccount": "0.2624",
+        "pair": "BTCUSD",
+        "timestamp": 1706195100000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195622.7313268,
+    "data": [
+      {
+        "longAccount": "0.7376",
+        "longShortRatio": "2.8110",
+        "shortAccount": "0.2624",
+        "pair": "BTCUSD",
+        "timestamp": 1706195100000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195633.7286336,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195644.7286432,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195655.7214837,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195666.721229,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195677.7399397,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195688.7371368,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195699.7353785,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195710.7352903,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195721.730884,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195732.7365208,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195743.736917,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195754.7326252,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195765.73916,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195776.7359738,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195787.7338874,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195798.7320065,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195809.7374587,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195820.7368248,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195831.7366965,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706195842.7311232,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706195400000
+      }
+    ]
+  },
+  {
+    "timestamp": 1706196507.0226152,
+    "data": [
+      {
+        "longAccount": "0.7381",
+        "longShortRatio": "2.8183",
+        "shortAccount": "0.2619",
+        "pair": "BTCUSD",
+        "timestamp": 1706196000000
+      }
+    ]
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "timestamp": 1706195611.7194366,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78479.738",
+      "time": 1706195607454
+    }
+  },
+  {
+    "timestamp": 1706195615.7265422,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78479.887",
+      "time": 1706195611019
+    }
+  },
+  {
+    "timestamp": 1706195619.7128277,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78481.091",
+      "time": 1706195614793
+    }
+  },
+  {
+    "timestamp": 1706195623.6984792,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78479.938",
+      "time": 1706195622201
+    }
+  },
+  {
+    "timestamp": 1706195627.6913903,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78479.938",
+      "time": 1706195622201
+    }
+  },
+  {
+    "timestamp": 1706195631.6910403,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78485.692",
+      "time": 1706195625403
+    }
+  },
+  {
+    "timestamp": 1706195635.6832952,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78484.182",
+      "time": 1706195628110
+    }
+  },
+  {
+    "timestamp": 1706195639.6698236,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78485.613",
+      "time": 1706195636983
+    }
+  },
+  {
+    "timestamp": 1706195643.661668,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78485.644",
+      "time": 1706195640629
+    }
+  },
+  {
+    "timestamp": 1706195647.6625526,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78487.361",
+      "time": 1706195644158
+    }
+  },
+  {
+    "timestamp": 1706195651.6556783,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78486.936",
+      "time": 1706195648057
+    }
+  },
+  {
+    "timestamp": 1706195655.6471848,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78486.435",
+      "time": 1706195651681
+    }
+  },
+  {
+    "timestamp": 1706195659.6360762,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78487.187",
+      "time": 1706195654969
+    }
+  },
+  {
+    "timestamp": 1706195663.6306698,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78486.010",
+      "time": 1706195659020
+    }
+  },
+  {
+    "timestamp": 1706195667.619062,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78485.205",
+      "time": 1706195662304
+    }
+  },
+  {
+    "timestamp": 1706195671.6860306,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78493.842",
+      "time": 1706195666162
+    }
+  },
+  {
+    "timestamp": 1706195675.7975767,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.167",
+      "time": 1706195673758
+    }
+  },
+  {
+    "timestamp": 1706195679.79048,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.209",
+      "time": 1706195677045
+    }
+  },
+  {
+    "timestamp": 1706195683.785033,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.506",
+      "time": 1706195681124
+    }
+  },
+  {
+    "timestamp": 1706195687.785038,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.506",
+      "time": 1706195681124
+    }
+  },
+  {
+    "timestamp": 1706195691.7832658,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78506.880",
+      "time": 1706195688282
+    }
+  },
+  {
+    "timestamp": 1706195695.7744586,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78506.299",
+      "time": 1706195691487
+    }
+  },
+  {
+    "timestamp": 1706195699.764508,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78506.498",
+      "time": 1706195695690
+    }
+  },
+  {
+    "timestamp": 1706195703.7527137,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78506.667",
+      "time": 1706195698774
+    }
+  },
+  {
+    "timestamp": 1706195707.7395902,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78505.583",
+      "time": 1706195703112
+    }
+  },
+  {
+    "timestamp": 1706195711.7302105,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78502.732",
+      "time": 1706195706921
+    }
+  },
+  {
+    "timestamp": 1706195715.7184916,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78502.680",
+      "time": 1706195710509
+    }
+  },
+  {
+    "timestamp": 1706195719.7095635,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78501.627",
+      "time": 1706195717804
+    }
+  },
+  {
+    "timestamp": 1706195723.7020242,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78501.627",
+      "time": 1706195717804
+    }
+  },
+  {
+    "timestamp": 1706195727.6919925,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.462",
+      "time": 1706195721824
+    }
+  },
+  {
+    "timestamp": 1706195731.6829193,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78502.443",
+      "time": 1706195725538
+    }
+  },
+  {
+    "timestamp": 1706195735.6756535,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78502.431",
+      "time": 1706195732841
+    }
+  },
+  {
+    "timestamp": 1706195739.6689742,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.893",
+      "time": 1706195735444
+    }
+  },
+  {
+    "timestamp": 1706195743.6561348,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.558",
+      "time": 1706195739831
+    }
+  },
+  {
+    "timestamp": 1706195747.6499968,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.454",
+      "time": 1706195743484
+    }
+  },
+  {
+    "timestamp": 1706195751.6435313,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.335",
+      "time": 1706195747030
+    }
+  },
+  {
+    "timestamp": 1706195755.6335526,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.304",
+      "time": 1706195750929
+    }
+  },
+  {
+    "timestamp": 1706195759.6204388,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78503.281",
+      "time": 1706195754348
+    }
+  },
+  {
+    "timestamp": 1706195763.6139548,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.732",
+      "time": 1706195760890
+    }
+  },
+  {
+    "timestamp": 1706195767.6054313,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.694",
+      "time": 1706195762122
+    }
+  },
+  {
+    "timestamp": 1706195771.6021817,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.161",
+      "time": 1706195765342
+    }
+  },
+  {
+    "timestamp": 1706195775.6003203,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.641",
+      "time": 1706195772922
+    }
+  },
+  {
+    "timestamp": 1706195779.593532,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.927",
+      "time": 1706195777250
+    }
+  },
+  {
+    "timestamp": 1706195783.5803218,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78504.927",
+      "time": 1706195777250
+    }
+  },
+  {
+    "timestamp": 1706195787.5708234,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78505.329",
+      "time": 1706195780886
+    }
+  },
+  {
+    "timestamp": 1706195791.565563,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78510.069",
+      "time": 1706195788262
+    }
+  },
+  {
+    "timestamp": 1706195795.5573163,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78510.647",
+      "time": 1706195791175
+    }
+  },
+  {
+    "timestamp": 1706195799.5478742,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78515.048",
+      "time": 1706195795358
+    }
+  },
+  {
+    "timestamp": 1706195803.542233,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78523.496",
+      "time": 1706195798397
+    }
+  },
+  {
+    "timestamp": 1706195807.5320275,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78518.851",
+      "time": 1706195802921
+    }
+  },
+  {
+    "timestamp": 1706195811.5222006,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78521.698",
+      "time": 1706195805682
+    }
+  },
+  {
+    "timestamp": 1706195815.5376933,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78519.260",
+      "time": 1706195814120
+    }
+  },
+  {
+    "timestamp": 1706195819.526021,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.616",
+      "time": 1706195816701
+    }
+  },
+  {
+    "timestamp": 1706195823.5174687,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.654",
+      "time": 1706195817805
+    }
+  },
+  {
+    "timestamp": 1706195827.5093005,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.348",
+      "time": 1706195825095
+    }
+  },
+  {
+    "timestamp": 1706195831.5010023,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.287",
+      "time": 1706195827230
+    }
+  },
+  {
+    "timestamp": 1706195835.4965935,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.132",
+      "time": 1706195831962
+    }
+  },
+  {
+    "timestamp": 1706195839.4875472,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78520.648",
+      "time": 1706195836259
+    }
+  },
+  {
+    "timestamp": 1706196507.0238638,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78359.977",
+      "time": 1706196504297
+    }
+  },
+  {
+    "timestamp": 1706196511.012747,
+    "data": {
+      "symbol": "BTCUSDT",
+      "openInterest": "78362.521",
+      "time": 1706196505724
+    }
+  }
+]

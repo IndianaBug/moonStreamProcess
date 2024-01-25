@@ -1,0 +1,7562 @@
+[
+  {
+    "timestamp": 1706188115.6161056,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188115529,
+      "data": [
+        {
+          "T": 1706188115527,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.158",
+          "p": "39889.20",
+          "L": "ZeroMinusTick",
+          "i": "a70bc9a5-9bec-5774-8a45-b2f3c4145db0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188116.0819206,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188115994,
+      "data": [
+        {
+          "T": 1706188115993,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.031",
+          "p": "39889.20",
+          "L": "ZeroMinusTick",
+          "i": "10cf6fbf-ffe9-5582-a0d1-fbdc4b2768de",
+          "BT": false
+        },
+        {
+          "T": 1706188115993,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.035",
+          "p": "39889.20",
+          "L": "ZeroMinusTick",
+          "i": "763c0293-cb1c-5cf6-bd4d-162d1afab197",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2149398,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188116718,
+      "data": [
+        {
+          "T": 1706188116717,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.204",
+          "p": "39889.20",
+          "L": "ZeroMinusTick",
+          "i": "859ffc54-bebb-5d1e-ade1-35d23a981df1",
+          "BT": false
+        },
+        {
+          "T": 1706188116717,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.021",
+          "p": "39889.20",
+          "L": "ZeroMinusTick",
+          "i": "9c31a5c2-66cb-58ec-8c31-3ccf0210b61e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.215357,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188116967,
+      "data": [
+        {
+          "T": 1706188116966,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39889.00",
+          "L": "MinusTick",
+          "i": "115357d7-5084-5101-99c9-a5fc4c4bf9ab",
+          "BT": false
+        },
+        {
+          "T": 1706188116966,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39888.40",
+          "L": "MinusTick",
+          "i": "af7ba3a4-4461-5e18-a8d4-438623b98793",
+          "BT": false
+        },
+        {
+          "T": 1706188116966,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39888.30",
+          "L": "MinusTick",
+          "i": "4630aa78-f17b-5cd5-85fa-b9a344335f51",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.215863,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188117446,
+      "data": [
+        {
+          "T": 1706188117445,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.012",
+          "p": "39888.00",
+          "L": "ZeroMinusTick",
+          "i": "bb8a91df-a7b0-5ad4-98a9-0e795d8302c3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2163231,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188118750,
+      "data": [
+        {
+          "T": 1706188118749,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39888.00",
+          "L": "ZeroMinusTick",
+          "i": "e842c575-280b-528f-b4b2-6c4ec243aefb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2167895,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188118961,
+      "data": [
+        {
+          "T": 1706188118959,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.088",
+          "p": "39887.90",
+          "L": "MinusTick",
+          "i": "de0aa88a-0b27-5abf-924b-5ac5059d9bd8",
+          "BT": false
+        },
+        {
+          "T": 1706188118959,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39887.90",
+          "L": "ZeroMinusTick",
+          "i": "74dbab4b-8507-56a6-b37d-515b11959dd8",
+          "BT": false
+        },
+        {
+          "T": 1706188118959,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.165",
+          "p": "39887.60",
+          "L": "MinusTick",
+          "i": "d7d0f867-088d-5dea-9b12-f52e0fb24aa5",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2173162,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188118964,
+      "data": [
+        {
+          "T": 1706188118962,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.015",
+          "p": "39886.10",
+          "L": "ZeroMinusTick",
+          "i": "41783625-1fe4-5fda-a73a-57851eef41d8",
+          "BT": false
+        },
+        {
+          "T": 1706188118962,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39885.10",
+          "L": "MinusTick",
+          "i": "d6fe75f4-ea88-5aec-9443-93cc3704bce3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.217897,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188118978,
+      "data": [
+        {
+          "T": 1706188118976,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39882.60",
+          "L": "MinusTick",
+          "i": "f28ba669-9356-5676-84b7-cced2769f574",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2184947,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188119009,
+      "data": [
+        {
+          "T": 1706188119008,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.029",
+          "p": "39882.60",
+          "L": "ZeroMinusTick",
+          "i": "f7d7346f-0043-5a79-bcb0-8ef602759bfb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.219116,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188119178,
+      "data": [
+        {
+          "T": 1706188119176,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "2.102",
+          "p": "39882.60",
+          "L": "ZeroMinusTick",
+          "i": "16b95783-721e-5dd2-946d-f0a3bcbf36d3",
+          "BT": false
+        },
+        {
+          "T": 1706188119176,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.250",
+          "p": "39882.60",
+          "L": "ZeroMinusTick",
+          "i": "87819e29-1d48-58a5-936c-4005ad8b8fc5",
+          "BT": false
+        },
+        {
+          "T": 1706188119176,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39882.60",
+          "L": "ZeroMinusTick",
+          "i": "470cb438-531c-5fef-bd42-c27f44fd29fb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.2198694,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188119190,
+      "data": [
+        {
+          "T": 1706188119189,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.017",
+          "p": "39879.10",
+          "L": "ZeroMinusTick",
+          "i": "9e4095d8-e4c1-57b5-b904-93affbb68212",
+          "BT": false
+        },
+        {
+          "T": 1706188119189,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.304",
+          "p": "39879.10",
+          "L": "ZeroMinusTick",
+          "i": "4dc651ae-6aee-56c8-8e96-a611995e2dd4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188120.220615,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188119591,
+      "data": [
+        {
+          "T": 1706188119590,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39879.00",
+          "L": "ZeroMinusTick",
+          "i": "294853d0-1270-534e-bbca-63a234cdb269",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2590694,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188120714,
+      "data": [
+        {
+          "T": 1706188120713,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39882.50",
+          "L": "ZeroPlusTick",
+          "i": "1ab0649e-3267-51b4-9c9d-9a4605e179c4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2599928,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188121755,
+      "data": [
+        {
+          "T": 1706188121753,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39882.40",
+          "L": "ZeroMinusTick",
+          "i": "a793b193-6e42-5ff6-b9f4-aa50df4f8a33",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2614887,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188122497,
+      "data": [
+        {
+          "T": 1706188122495,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39882.50",
+          "L": "ZeroPlusTick",
+          "i": "92ed8cbc-4dc3-5c08-828e-23615f9119fb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2626266,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188123141,
+      "data": [
+        {
+          "T": 1706188123139,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39882.50",
+          "L": "PlusTick",
+          "i": "a4b6169c-dd0f-5b57-90ed-365a091f905e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2636774,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188123436,
+      "data": [
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.387",
+          "p": "39882.50",
+          "L": "PlusTick",
+          "i": "e78b9604-8322-5e3a-b454-1b2051a68e40",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.041",
+          "p": "39882.50",
+          "L": "ZeroPlusTick",
+          "i": "875167b7-a2ea-579b-a04f-32beab80f049",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.064",
+          "p": "39882.50",
+          "L": "ZeroPlusTick",
+          "i": "9dae2989-f724-5aae-a8b7-b9b10c0a91e7",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39882.60",
+          "L": "PlusTick",
+          "i": "b21a129c-2604-58c3-85c0-ccfa0aec3221",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39884.00",
+          "L": "PlusTick",
+          "i": "a50e49d5-e646-5fb0-8cd8-a64767d9dbcb",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39884.50",
+          "L": "PlusTick",
+          "i": "34c911d2-007a-5de4-91a8-727bd58503b2",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.715",
+          "p": "39885.30",
+          "L": "PlusTick",
+          "i": "e43eb5b9-3507-5603-b54e-186ff85883cd",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.186",
+          "p": "39885.60",
+          "L": "PlusTick",
+          "i": "cba53968-ac5c-568d-b280-77f950fbb778",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39886.00",
+          "L": "PlusTick",
+          "i": "99722b06-f88b-547c-b661-88c3e4dd0cf3",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.097",
+          "p": "39886.20",
+          "L": "PlusTick",
+          "i": "d03e326d-ec89-5e4c-abe3-c7e216b1e04b",
+          "BT": false
+        },
+        {
+          "T": 1706188123434,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.350",
+          "p": "39886.30",
+          "L": "PlusTick",
+          "i": "b3b79786-9f75-5c9e-a590-ae9363c81db3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188127.7178416,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188125344,
+      "data": [
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.499",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "fd2ca343-da27-5ac1-bac5-9a398fa02983",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.137",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "a4eacee2-e61a-5572-b2cd-df13fc147139",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.006",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "6cff9792-0bfe-5132-8aee-da347d2593d7",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "53fc37b6-cfcc-56c4-bc31-4dc19b23e82b",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.014",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "29ae5b71-d952-50cf-be8c-f6ae9ac5d3ed",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.101",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "01323c5a-c8c0-5130-b82a-34d9852a64d4",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "39886.40",
+          "L": "ZeroPlusTick",
+          "i": "7d7c3f5d-714c-517b-b989-215982b72579",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39886.50",
+          "L": "PlusTick",
+          "i": "6dbbfb98-6646-572e-8bc6-4117ef2e4b1e",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39886.50",
+          "L": "ZeroPlusTick",
+          "i": "c2756202-f35b-5504-b60d-a98b01eafff4",
+          "BT": false
+        },
+        {
+          "T": 1706188125343,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.271",
+          "p": "39887.10",
+          "L": "PlusTick",
+          "i": "0860ca09-817f-5693-856b-82a42831fa08",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188128.8353882,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188126684,
+      "data": [
+        {
+          "T": 1706188126682,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "bfe57a99-e55b-5182-9d0e-e1a550ded372",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188128.8369315,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188127475,
+      "data": [
+        {
+          "T": 1706188127473,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.075",
+          "p": "39889.00",
+          "L": "PlusTick",
+          "i": "06e936d6-4977-5357-8780-5e68a4127cd0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188130.8523428,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188129136,
+      "data": [
+        {
+          "T": 1706188129135,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.000",
+          "p": "39889.00",
+          "L": "PlusTick",
+          "i": "849d8fb8-a5b5-50bc-a4a4-7c6847418013",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188131.5725746,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188130618,
+      "data": [
+        {
+          "T": 1706188130617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "ea9f5875-a6cb-5424-b74b-c27d53783617",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188132.0755877,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188130821,
+      "data": [
+        {
+          "T": 1706188130820,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39888.90",
+          "L": "ZeroMinusTick",
+          "i": "6a6a23c4-859f-57f7-9650-7bca43008780",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188132.0776145,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188131154,
+      "data": [
+        {
+          "T": 1706188131153,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.128",
+          "p": "39889.00",
+          "L": "PlusTick",
+          "i": "493d246e-eb7f-5768-aa6a-1be334dc7ae4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188132.8552742,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188131701,
+      "data": [
+        {
+          "T": 1706188131700,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "9702c554-bf0f-57a7-8c41-7034ea314d55",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188133.5791545,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188132380,
+      "data": [
+        {
+          "T": 1706188132378,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.042",
+          "p": "39888.90",
+          "L": "MinusTick",
+          "i": "e192cfc0-5b14-5183-881a-a6f48ee2da3c",
+          "BT": false
+        },
+        {
+          "T": 1706188132378,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.099",
+          "p": "39888.90",
+          "L": "ZeroMinusTick",
+          "i": "17dfb7bb-9014-526d-b9cf-d8dc0b97d0a4",
+          "BT": false
+        },
+        {
+          "T": 1706188132378,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.107",
+          "p": "39888.90",
+          "L": "ZeroMinusTick",
+          "i": "d5281392-a59c-5b72-a374-a2bfd09b21c4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188134.9858496,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188132912,
+      "data": [
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "ac178e73-3cb2-5fa1-8b4f-9905f8b8a67f",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.056",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "3ecd2634-5590-521a-9427-b0480d85e99c",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.282",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "8c1a92c0-8cee-55d9-9e2c-547db645c92a",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.717",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "372f3277-dc20-538c-b9b1-2827f4383785",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "77b75059-e01e-52c0-a839-93b6f2df3b49",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.500",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "e926e341-fb77-57ce-9859-c36324a8621d",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.521",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "4b3a7126-bc73-54d4-93ba-0c3511a5983e",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.170",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "6f3ef402-f6d4-5824-8d91-4d3cdc3da8c5",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.923",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "2b6a3e3c-e0c3-5f03-a794-86dfa90cb824",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.183",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "befe94e2-7f5f-5b24-a0c4-267bd1cee280",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.049",
+          "p": "39889.00",
+          "L": "ZeroPlusTick",
+          "i": "b085a1a3-d029-5321-bf14-b99905387f28",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39889.10",
+          "L": "PlusTick",
+          "i": "86119fdf-3fef-50d3-9dbc-7381662ab40e",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39889.20",
+          "L": "PlusTick",
+          "i": "8456b2e5-76f5-5026-bf8d-975c9f6b6a11",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.029",
+          "p": "39889.30",
+          "L": "PlusTick",
+          "i": "b16fd9e3-6c48-529d-8b68-b43f40151315",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.052",
+          "p": "39889.50",
+          "L": "PlusTick",
+          "i": "9016d9bd-a592-5ae3-b04f-0c5f2b9aa41e",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.678",
+          "p": "39889.50",
+          "L": "ZeroPlusTick",
+          "i": "9f6a4275-bd4e-5c32-9c8e-d4da63298f14",
+          "BT": false
+        },
+        {
+          "T": 1706188132911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.788",
+          "p": "39889.50",
+          "L": "ZeroPlusTick",
+          "i": "2c89cb5a-2fed-50d7-a9fb-d0a08b3094cd",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188136.5956874,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188133937,
+      "data": [
+        {
+          "T": 1706188133935,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "39891.50",
+          "L": "PlusTick",
+          "i": "497918ca-0aac-5468-b695-10e5718b4ad4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188136.599031,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188134261,
+      "data": [
+        {
+          "T": 1706188134259,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.052",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "3314ca09-a8be-5899-a110-fa32797673e2",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188136.602218,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188134843,
+      "data": [
+        {
+          "T": 1706188134842,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.000",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "159af79e-0448-5cdf-b87e-e2939d09cc07",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188138.025675,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188135129,
+      "data": [
+        {
+          "T": 1706188135127,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.500",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "98b61a31-8de3-5ce9-bb94-e88d448193fe",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188138.0282485,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188135489,
+      "data": [
+        {
+          "T": 1706188135487,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.008",
+          "p": "39891.60",
+          "L": "PlusTick",
+          "i": "65195d94-54cf-5938-bd7c-d4fd02bc80bb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188138.0300777,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188136007,
+      "data": [
+        {
+          "T": 1706188136005,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.218",
+          "p": "39891.60",
+          "L": "PlusTick",
+          "i": "44fcd14e-f9f7-581d-9a8c-7044e5b835af",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188138.0319352,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188136397,
+      "data": [
+        {
+          "T": 1706188136396,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.195",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "48ee0010-346b-552c-ae17-42391506ff64",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188139.8007586,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "5a614f4e-66cd-4d82-9ff5-aa0c243a0785",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188139.8046021,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188137679,
+      "data": [
+        {
+          "T": 1706188137678,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39891.50",
+          "L": "MinusTick",
+          "i": "3a3682f9-4603-58b9-bb90-de001aabd959",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188142.9443452,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188139099,
+      "data": [
+        {
+          "T": 1706188139097,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.205",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "711528d1-808f-5cfd-aefa-427fa94201ec",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.70574,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188141400,
+      "data": [
+        {
+          "T": 1706188141399,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.007",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "60b6b7d1-961b-54d4-8bdc-f95f0234a45e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.7152667,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188141700,
+      "data": [
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39891.50",
+          "L": "MinusTick",
+          "i": "b59e07ea-9479-5823-9913-71e497e24edd",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "34d00423-8eb5-53c6-9c71-8828d5d05b8b",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.019",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "77e66375-caae-5c14-9dd6-43eb3e82da09",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "f86d5578-503a-5b02-8689-b160b27cd85e",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "53914b95-4f80-56e8-9e93-bbd6db20486d",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "6be41bd1-970a-59dd-a1d4-5280361990e6",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.550",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "37b17502-85d7-5747-9d27-07f8d902bf88",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.710",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "643af853-fb12-5f0b-8868-2707ae9dd447",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.750",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "b6f7b36c-1cfc-59d1-9141-69bfaf984448",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.980",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "eb7eda6a-2d0b-56a3-91f4-4d890e14cb94",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.710",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "d2f9d3e8-483c-54fc-ad03-2c2e2f5e340c",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.451",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "8f745eeb-b239-58d7-bfcc-d68adde3a4ea",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.090",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "f746de7f-9550-5641-addf-2279b976f458",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "7d315a00-aa27-51ff-b06a-d0b92c6582fb",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.047",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "255ab439-2ac2-5b9f-8965-d651b7a73843",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.089",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "4c2b7324-21ba-5cd7-ab37-0cb1fd8a1915",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.052",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "d95db284-72aa-5c8e-a2e8-903d08ea79b6",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39891.40",
+          "L": "MinusTick",
+          "i": "d090f73c-4c3b-5a75-8531-634f6579a22a",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.132",
+          "p": "39891.40",
+          "L": "ZeroMinusTick",
+          "i": "adfe7ba8-61d1-52ad-882b-46b84b007ce0",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.40",
+          "L": "ZeroMinusTick",
+          "i": "76b71f18-9d89-5e3d-979e-b3d339f81c81",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.30",
+          "L": "MinusTick",
+          "i": "102399fe-1daf-5447-9645-d02b141cd6f5",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39891.20",
+          "L": "MinusTick",
+          "i": "35be57bd-f62c-5908-902d-6898f2365e87",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.00",
+          "L": "MinusTick",
+          "i": "2f6d9b45-e263-50c1-95a5-f73715b64102",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.90",
+          "L": "MinusTick",
+          "i": "d5b02177-6af8-566f-976a-dbd9b8ab88d2",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.50",
+          "L": "MinusTick",
+          "i": "9e61bbee-4295-5040-8dad-f4c722c2eea4",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.30",
+          "L": "MinusTick",
+          "i": "6d98e274-b3b4-554e-ad6d-467a7e315160",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.10",
+          "L": "MinusTick",
+          "i": "f4990179-150e-5f10-b48a-5f4769c85c1c",
+          "BT": false
+        },
+        {
+          "T": 1706188141698,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39890.00",
+          "L": "MinusTick",
+          "i": "2a9e83c1-463d-5236-a741-e71b38d045f6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.7205794,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188141708,
+      "data": [
+        {
+          "T": 1706188141706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39891.50",
+          "L": "ZeroPlusTick",
+          "i": "6ed22525-b278-5c8b-91fd-b6ab8debe678",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.7255843,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188141714,
+      "data": [
+        {
+          "T": 1706188141712,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39891.50",
+          "L": "ZeroPlusTick",
+          "i": "8b2f0764-ae64-5425-9333-834c8e052a27",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.7305698,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188142056,
+      "data": [
+        {
+          "T": 1706188142055,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.022",
+          "p": "39891.60",
+          "L": "ZeroPlusTick",
+          "i": "0a68e486-9222-56ac-bd9b-feb20aa3989e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.734611,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188142279,
+      "data": [
+        {
+          "T": 1706188142278,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.003",
+          "p": "39891.70",
+          "L": "PlusTick",
+          "i": "7be4ab5f-674d-5349-b01c-4c0d0eb40dc8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188147.7390254,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188142853,
+      "data": [
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.041",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "746bf215-4056-5742-ba8b-ca854da4df70",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.038",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "78899a65-3984-56e8-b023-1391e7a270dd",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.251",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "fe0d48ff-1341-560d-a377-6a1a130eea09",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "c1f59642-ac70-5ac1-854c-4d3e093aefa0",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "1ed0daf4-325a-5eab-991d-e59162001210",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "b913d88c-0848-50fc-8cdb-2671870c48a6",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "5118b6f0-4baa-5c8d-9fe4-4c58f67d9308",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "1.029",
+          "p": "39891.50",
+          "L": "MinusTick",
+          "i": "15185d9d-1a8a-52cb-9467-eff22f8a4e89",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "2a9771a3-69a0-5de3-8374-5ddeb868d81d",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "1.029",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "96cef022-7f6d-5e52-b2b1-2c9374085ccd",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39891.50",
+          "L": "ZeroMinusTick",
+          "i": "51741051-79ec-5a6c-bb94-e246b17e3cdd",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39891.30",
+          "L": "MinusTick",
+          "i": "f124aad4-2115-5bed-9bd3-8a577c3f3464",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.80",
+          "L": "MinusTick",
+          "i": "7e485f03-1c67-50e7-ac90-9bb403d8a354",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.20",
+          "L": "MinusTick",
+          "i": "b8e4ab87-7918-5f5c-8517-df9330969d64",
+          "BT": false
+        },
+        {
+          "T": 1706188142852,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39890.10",
+          "L": "MinusTick",
+          "i": "6f97cbda-0327-5d3a-a0de-5d62884978c3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7308497,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188143037,
+      "data": [
+        {
+          "T": 1706188143036,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.118",
+          "p": "39891.70",
+          "L": "PlusTick",
+          "i": "b7d3422e-7bb5-5864-93f3-d1cff481bb70",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7346964,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188143741,
+      "data": [
+        {
+          "T": 1706188143739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39891.60",
+          "L": "ZeroMinusTick",
+          "i": "c0fc7820-c5e6-5850-af7d-a5597de42d63",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.739121,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188145037,
+      "data": [
+        {
+          "T": 1706188145036,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.493",
+          "p": "39891.70",
+          "L": "ZeroPlusTick",
+          "i": "2611c9ed-40cd-50b2-9382-d37cbbb2220c",
+          "BT": false
+        },
+        {
+          "T": 1706188145036,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39891.70",
+          "L": "ZeroPlusTick",
+          "i": "ad4f3005-2587-53fe-9515-32bba1d3ab4e",
+          "BT": false
+        },
+        {
+          "T": 1706188145036,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.124",
+          "p": "39891.70",
+          "L": "ZeroPlusTick",
+          "i": "12df2f12-e5ef-5c07-8d34-aa4c94ff34a1",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7435884,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188145502,
+      "data": [
+        {
+          "T": 1706188145500,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "39891.80",
+          "L": "ZeroPlusTick",
+          "i": "4486c322-e158-5717-a421-fbe4a95b0f88",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.748551,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188146190,
+      "data": [
+        {
+          "T": 1706188146188,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.106",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "cdd33f6a-847e-5150-80c5-9a0c630abc75",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7531328,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188146665,
+      "data": [
+        {
+          "T": 1706188146664,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.300",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "82ec0411-a2f7-5ba9-9ce9-2010666ba6a7",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7579532,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188146679,
+      "data": [
+        {
+          "T": 1706188146677,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39891.80",
+          "L": "MinusTick",
+          "i": "3f588318-f88a-532e-ab48-7e618f508111",
+          "BT": false
+        },
+        {
+          "T": 1706188146677,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.071",
+          "p": "39891.80",
+          "L": "ZeroMinusTick",
+          "i": "2972e984-5872-5242-8fc5-19c1642bbccb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188152.7630286,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188147234,
+      "data": [
+        {
+          "T": 1706188147233,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.110",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "c0134bc1-b101-5092-94bc-5a4078f2a40f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.7646618,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188147888,
+      "data": [
+        {
+          "T": 1706188147887,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.144",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "d65897aa-fbcc-520e-9af8-d945347f7f3c",
+          "BT": false
+        },
+        {
+          "T": 1706188147887,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.018",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "f0af0796-42d7-5102-b080-556fe2a4a70f",
+          "BT": false
+        },
+        {
+          "T": 1706188147887,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.138",
+          "p": "39891.90",
+          "L": "ZeroPlusTick",
+          "i": "bd580253-059b-5ac6-bb9c-ba1baddbf162",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.7681174,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188148473,
+      "data": [
+        {
+          "T": 1706188148471,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.296",
+          "p": "39892.20",
+          "L": "PlusTick",
+          "i": "248323d5-1efb-5176-8268-2f0df1b659dc",
+          "BT": false
+        },
+        {
+          "T": 1706188148471,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.451",
+          "p": "39892.20",
+          "L": "ZeroPlusTick",
+          "i": "ac3857c3-e247-584d-a7d6-37ff66b0eb58",
+          "BT": false
+        },
+        {
+          "T": 1706188148471,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.202",
+          "p": "39892.20",
+          "L": "ZeroPlusTick",
+          "i": "e3735725-39eb-57b6-8729-1d738acd8d37",
+          "BT": false
+        },
+        {
+          "T": 1706188148471,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.023",
+          "p": "39892.20",
+          "L": "ZeroPlusTick",
+          "i": "118431ed-1283-5a70-8b3a-5d7a3c5698a9",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.7724247,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188149257,
+      "data": [
+        {
+          "T": 1706188149256,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39893.90",
+          "L": "PlusTick",
+          "i": "a1176729-ea6a-5c78-aa3c-28c478f23235",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.7761197,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188149774,
+      "data": [
+        {
+          "T": 1706188149773,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "f94ed30f-c06e-5d4a-86e1-d4a99229d6b5",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.781524,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188150402,
+      "data": [
+        {
+          "T": 1706188150400,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.068",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "9e9771d4-4d9f-5cec-b4d9-c6c50c0f268b",
+          "BT": false
+        },
+        {
+          "T": 1706188150400,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.032",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "0de22f65-2ecd-5618-bf78-cf548b5afc8c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.787075,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188151520,
+      "data": [
+        {
+          "T": 1706188151518,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.012",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "8d9159b9-9e1f-5a78-a71d-cdde823927e2",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.7925596,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188152117,
+      "data": [
+        {
+          "T": 1706188152115,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.077",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "121fbc00-8178-5ab3-90e4-2d4eb17e93b0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.798349,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188152684,
+      "data": [
+        {
+          "T": 1706188152682,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "39893.90",
+          "L": "PlusTick",
+          "i": "a1d64787-d7b1-5aa9-a26b-8ca97def2b68",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.8029253,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188152811,
+      "data": [
+        {
+          "T": 1706188152810,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.128",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "a32e9576-d30d-5d4d-87cb-cb34ab32e35f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188157.8078425,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188153265,
+      "data": [
+        {
+          "T": 1706188153263,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.500",
+          "p": "39893.90",
+          "L": "PlusTick",
+          "i": "ed5ab9a8-fc48-5fd2-ac98-2a9d0c2a8514",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1539528,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188153809,
+      "data": [
+        {
+          "T": 1706188153807,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.006",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "15e35c22-2370-5f00-b7f9-c71606bbe7ba",
+          "BT": false
+        },
+        {
+          "T": 1706188153807,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.415",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "ea69abb6-35e9-54c2-a90d-c930347b39b7",
+          "BT": false
+        },
+        {
+          "T": 1706188153807,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "3f1e34a5-a516-5a23-a20c-034c701dec24",
+          "BT": false
+        },
+        {
+          "T": 1706188153807,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.101",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "8575c124-97e7-564a-808a-348bfd996dd5",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1578772,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188155189,
+      "data": [
+        {
+          "T": 1706188155188,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39893.80",
+          "L": "ZeroMinusTick",
+          "i": "0ae1dafa-7b1a-5bb2-8cb9-e2fb48946dd6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.161559,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188156142,
+      "data": [
+        {
+          "T": 1706188156141,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "e683ae95-1040-56af-95ba-18b7898b97da",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1651747,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188156744,
+      "data": [
+        {
+          "T": 1706188156743,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39893.80",
+          "L": "ZeroMinusTick",
+          "i": "4f5740d4-b16a-513f-82a3-155b952e6924",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1689124,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188156913,
+      "data": [
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39893.90",
+          "L": "PlusTick",
+          "i": "12d85c24-6b37-5e18-adfe-fdc91a00aebb",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "9ab2f5e3-5d47-5364-ab41-752559a43a3c",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.612",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "ec520385-2d9b-5504-b756-77bd2ff301cf",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.113",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "15056766-7800-5d5f-a09a-03463b8c0788",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.406",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "f6f5818d-0bcf-57a8-9e60-dbf7a36107f9",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.165",
+          "p": "39893.90",
+          "L": "ZeroPlusTick",
+          "i": "eed9f247-3d97-5af5-9cf3-8f7901dc10ca",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.00",
+          "L": "PlusTick",
+          "i": "982404c4-4fc9-5746-a648-ead323b627a9",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.016",
+          "p": "39894.00",
+          "L": "ZeroPlusTick",
+          "i": "d2fa5e12-492f-5238-bed7-ef3c2da7b13b",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39894.00",
+          "L": "ZeroPlusTick",
+          "i": "bb715cc1-bd8d-5131-a74c-50454511c087",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39894.20",
+          "L": "PlusTick",
+          "i": "63412fb2-f4e7-5bde-b058-9135de173214",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39894.40",
+          "L": "PlusTick",
+          "i": "2bc8504f-9b97-5323-b26a-33778062c859",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.60",
+          "L": "PlusTick",
+          "i": "dcfce76f-a88d-5e18-9418-0eda96b33ea3",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.70",
+          "L": "PlusTick",
+          "i": "eb9b5ddb-14e8-5874-a027-9b8dbf6cb2fb",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.003",
+          "p": "39894.70",
+          "L": "ZeroPlusTick",
+          "i": "eacb3430-02e9-5b2f-a5be-c3801626dfae",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.70",
+          "L": "ZeroPlusTick",
+          "i": "1b6c57d6-3e8a-5813-a15d-058ab8a4a152",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.70",
+          "L": "ZeroPlusTick",
+          "i": "192ed75e-a46e-55eb-9377-c5c1c137e48c",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39894.80",
+          "L": "PlusTick",
+          "i": "a6ee3f3a-41a0-518d-a0e8-c1f72cdbd07a",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39894.90",
+          "L": "PlusTick",
+          "i": "95312ff8-c1f2-51db-80b6-d3204e1586d7",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.048",
+          "p": "39895.00",
+          "L": "PlusTick",
+          "i": "d160757d-ac32-521c-8f8c-9c192c54b562",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "39895.00",
+          "L": "ZeroPlusTick",
+          "i": "93e6f0e6-8309-5f7d-8d34-7a970dcd1a5f",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39895.10",
+          "L": "PlusTick",
+          "i": "fc27ca55-3c94-560e-9ed4-e69eb22fe332",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39895.10",
+          "L": "ZeroPlusTick",
+          "i": "5de9bf6b-4fc5-5ab1-a834-33a5adc1ebda",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.022",
+          "p": "39895.20",
+          "L": "PlusTick",
+          "i": "97d36c25-c6ca-5e7a-958c-917d1969126f",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.037",
+          "p": "39895.20",
+          "L": "ZeroPlusTick",
+          "i": "7b9703fd-0dca-5688-b7e6-bb40247b62cb",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.013",
+          "p": "39895.30",
+          "L": "PlusTick",
+          "i": "11f56b61-eee9-59b5-abb5-e4405c44d5b2",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39895.30",
+          "L": "ZeroPlusTick",
+          "i": "a4ce0199-33f7-5b30-b02e-4963dfe29495",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39895.30",
+          "L": "ZeroPlusTick",
+          "i": "ae3ce932-ae3e-5a02-8331-2f3fb8312140",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39895.30",
+          "L": "ZeroPlusTick",
+          "i": "e6baa4fd-e1cb-51ec-91ed-6d40d29d0dde",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39895.40",
+          "L": "PlusTick",
+          "i": "05999974-e3c5-5627-bd25-30449788660e",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39895.50",
+          "L": "PlusTick",
+          "i": "bb55042e-1b58-5144-9fb6-93d203717648",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39895.60",
+          "L": "PlusTick",
+          "i": "7a6355e8-bf3a-5cd5-92f7-96cbb23339fe",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39895.60",
+          "L": "ZeroPlusTick",
+          "i": "c9447486-ee34-5edf-8be0-b3af5ec7f4ba",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39895.60",
+          "L": "ZeroPlusTick",
+          "i": "e58a3632-b808-5b61-b483-ee75672a30d6",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.330",
+          "p": "39895.80",
+          "L": "PlusTick",
+          "i": "0eee86ed-b45c-5473-83ed-43da7968dbbb",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.999",
+          "p": "39895.80",
+          "L": "ZeroPlusTick",
+          "i": "d7b48127-1ed3-5287-adee-c63b9cbec380",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.415",
+          "p": "39895.80",
+          "L": "ZeroPlusTick",
+          "i": "8a94899c-813d-538a-841d-dea018ed5529",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.063",
+          "p": "39895.80",
+          "L": "ZeroPlusTick",
+          "i": "0a886d7f-36d4-58e2-9840-f98aa0b8c021",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.058",
+          "p": "39896.00",
+          "L": "PlusTick",
+          "i": "372a1539-ea78-518f-bb09-a0563d57b866",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39896.00",
+          "L": "ZeroPlusTick",
+          "i": "345f66ca-e63d-5340-b1d3-14a153219d7e",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39896.20",
+          "L": "PlusTick",
+          "i": "2131abf0-0d17-52fe-9f3a-313d448eebc6",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39896.20",
+          "L": "ZeroPlusTick",
+          "i": "a30d6a7b-ecc7-53ac-a3fa-9eb196af9d7e",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.018",
+          "p": "39896.30",
+          "L": "PlusTick",
+          "i": "260e4ae7-9b24-524c-ba0a-55ea6840f4f5",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39896.30",
+          "L": "ZeroPlusTick",
+          "i": "d5a3c46f-912f-5fa7-87d6-5e3c527482a1",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "39896.70",
+          "L": "PlusTick",
+          "i": "fda21ae7-ade0-599f-903d-d42c00291415",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39896.70",
+          "L": "ZeroPlusTick",
+          "i": "e428f138-0791-51ea-b3d1-8086c8fa6e44",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39896.80",
+          "L": "PlusTick",
+          "i": "f0cd0b90-b2f8-5107-96ce-0d0179544d84",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39896.80",
+          "L": "ZeroPlusTick",
+          "i": "33ddc167-a91a-5d2c-9d78-9034d2e150a1",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.149",
+          "p": "39897.00",
+          "L": "PlusTick",
+          "i": "218c70f1-d824-514a-9813-80c86097ab57",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.039",
+          "p": "39897.00",
+          "L": "ZeroPlusTick",
+          "i": "4ad60543-6567-5832-90a5-099a1fd24aee",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.10",
+          "L": "PlusTick",
+          "i": "0a5a8daa-00f0-5501-975f-41baf4166540",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.30",
+          "L": "PlusTick",
+          "i": "b4fa64c5-2a10-59fa-b17c-a4155727f30e",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39897.40",
+          "L": "PlusTick",
+          "i": "9faa9e88-9779-5a04-9300-bf22777ee6fd",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.40",
+          "L": "ZeroPlusTick",
+          "i": "3136836e-c35a-5ebf-879f-b40ab14560f0",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39897.70",
+          "L": "PlusTick",
+          "i": "f20a4cd2-d020-5dae-8c17-3bb6f05492d0",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39897.70",
+          "L": "ZeroPlusTick",
+          "i": "f3124ae0-4aaa-598f-8cde-aac235cdc649",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.70",
+          "L": "ZeroPlusTick",
+          "i": "03499f74-99ae-5ed0-a7bd-60b8fede6670",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.703",
+          "p": "39897.70",
+          "L": "ZeroPlusTick",
+          "i": "133dd946-e9b9-5fb6-b42a-33f05cee3cb1",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.330",
+          "p": "39897.80",
+          "L": "PlusTick",
+          "i": "c9eab948-6943-5c46-8333-f68e7f6373e7",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.999",
+          "p": "39897.80",
+          "L": "ZeroPlusTick",
+          "i": "a903be56-a576-57b4-ab8d-d6a9aab0f381",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.415",
+          "p": "39897.80",
+          "L": "ZeroPlusTick",
+          "i": "afa183b8-9f5f-5d63-ba39-42dc29dd993a",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.019",
+          "p": "39897.80",
+          "L": "ZeroPlusTick",
+          "i": "f19beaa9-03bb-5dc1-bafb-b8bdacaae05b",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39897.80",
+          "L": "ZeroPlusTick",
+          "i": "a364956d-2ae4-5b7b-bb58-58128d9aef8b",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.018",
+          "p": "39897.80",
+          "L": "ZeroPlusTick",
+          "i": "88a7925d-e69b-5503-b76f-b712d070f994",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.90",
+          "L": "PlusTick",
+          "i": "a7e6a16d-913e-528e-988f-225a40460329",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "1.050",
+          "p": "39897.90",
+          "L": "ZeroPlusTick",
+          "i": "87b49af2-014f-57bb-9e3a-fd039179d821",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39897.90",
+          "L": "ZeroPlusTick",
+          "i": "e03530d0-062c-514e-9c2e-523a6669f32e",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39898.00",
+          "L": "PlusTick",
+          "i": "7a9a7986-54b0-53aa-80db-d1c3bac8b731",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39898.10",
+          "L": "PlusTick",
+          "i": "612a359c-61bf-5562-89b1-bc0bff007e01",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39898.10",
+          "L": "ZeroPlusTick",
+          "i": "97955f88-db65-5ca8-8b55-ab0ed2affb19",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39898.20",
+          "L": "PlusTick",
+          "i": "6e69e463-d3d5-50de-ad6b-eaf8b829786b",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39898.30",
+          "L": "PlusTick",
+          "i": "b605dd35-61e5-5443-a1c3-befc2e4adf50",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.008",
+          "p": "39898.50",
+          "L": "PlusTick",
+          "i": "e73b6189-25f9-5181-b87d-31fa926fc959",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.015",
+          "p": "39898.50",
+          "L": "ZeroPlusTick",
+          "i": "a595f267-7bfa-55c2-b8a8-cb2a1823a2d7",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39898.50",
+          "L": "ZeroPlusTick",
+          "i": "346c4624-388e-5a03-bb31-9ebc01d13f5a",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "39898.60",
+          "L": "PlusTick",
+          "i": "0de0b6a0-0856-5b0f-be3d-575956a23975",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.033",
+          "p": "39898.60",
+          "L": "ZeroPlusTick",
+          "i": "b12f4e41-543b-58f2-8703-4be2b8125e1b",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39898.70",
+          "L": "PlusTick",
+          "i": "8e4855d5-8548-5b8e-ad1b-55f399544d0f",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39898.90",
+          "L": "PlusTick",
+          "i": "573105b1-0774-55d7-b1cb-3bc679498d94",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.00",
+          "L": "PlusTick",
+          "i": "ce4f601d-24ba-5dce-bb01-f75389930c71",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.00",
+          "L": "ZeroPlusTick",
+          "i": "4b51bfcd-bcec-5335-8641-ea0d006ab76d",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.00",
+          "L": "ZeroPlusTick",
+          "i": "a025adf5-d0e8-5165-b0f3-b3320a9a1ce2",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.10",
+          "L": "PlusTick",
+          "i": "7b07e748-f00e-5c35-875c-b60aa8ad59eb",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.10",
+          "L": "ZeroPlusTick",
+          "i": "14e47ed9-a212-5109-a3e0-2cdd55f7fd99",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.10",
+          "L": "ZeroPlusTick",
+          "i": "63543d0e-9e13-53df-9b95-953ff52e4c27",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.125",
+          "p": "39899.10",
+          "L": "ZeroPlusTick",
+          "i": "fb9a71ec-12b1-5c9e-a11a-cea221443552",
+          "BT": false
+        },
+        {
+          "T": 1706188156911,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.829",
+          "p": "39899.20",
+          "L": "PlusTick",
+          "i": "ec6a75a1-8710-5bde-820d-703d955d7ad0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1742013,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188156920,
+      "data": [
+        {
+          "T": 1706188156918,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "a97badc0-fe55-58e4-a0ac-39f4d50468f8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1818516,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188156939,
+      "data": [
+        {
+          "T": 1706188156938,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39899.20",
+          "L": "PlusTick",
+          "i": "71dfaecb-1f94-5a08-9ebe-8d0baf35ed6e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.188611,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188157076,
+      "data": [
+        {
+          "T": 1706188157075,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.024",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "467c0b5c-f768-5dd6-9ef7-fc991b724569",
+          "BT": false
+        },
+        {
+          "T": 1706188157075,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.300",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "60e65706-d413-5eb9-be41-697c3359d572",
+          "BT": false
+        },
+        {
+          "T": 1706188157075,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.048",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "ac71dec0-f9f8-57a0-97cc-1879190b1041",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.1969225,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188157218,
+      "data": [
+        {
+          "T": 1706188157216,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.239",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "096ec0f4-57c9-5db3-9ccd-191dcc56d53c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.204829,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188157416,
+      "data": [
+        {
+          "T": 1706188157415,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.071",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "bd77629e-e621-56cb-87c7-26a65a828b85",
+          "BT": false
+        },
+        {
+          "T": 1706188157415,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "2a064dcd-ad63-5c79-938d-de1e9e32a9cc",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.2119706,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188157914,
+      "data": [
+        {
+          "T": 1706188157912,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "c03d3e54-db8f-5c65-b9d7-f4c97c86f99c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.2179537,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188158454,
+      "data": [
+        {
+          "T": 1706188158452,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "7d14ab9f-f4cd-589b-8d51-16a3a1edc472",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188163.224268,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188158682,
+      "data": [
+        {
+          "T": 1706188158680,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.828",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "8d4b9cd5-d6e3-5e92-a792-4b9f538f1b1a",
+          "BT": false
+        },
+        {
+          "T": 1706188158680,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "d80d5d61-b7fb-5087-8cc1-1f75082b5f7d",
+          "BT": false
+        },
+        {
+          "T": 1706188158680,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.102",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "e653fbb8-3b47-5fa2-aa53-30883bf195ad",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4061432,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "5a614f4e-66cd-4d82-9ff5-aa0c243a0785",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "timestamp": 1706188168.4129114,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188159670,
+      "data": [
+        {
+          "T": 1706188159669,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "32255d4d-4138-5aa0-b455-fb4fe796b156",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4194727,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188160570,
+      "data": [
+        {
+          "T": 1706188160569,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "18309362-0191-5cb7-9e2b-3d8f860a0267",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4258149,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188161248,
+      "data": [
+        {
+          "T": 1706188161247,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "f7486d49-677b-5d9c-8a2e-7599e055ee76",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.431513,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188161731,
+      "data": [
+        {
+          "T": 1706188161730,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39899.20",
+          "L": "ZeroPlusTick",
+          "i": "741f4d12-3ecb-5e5d-98f7-397a1a951f05",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4370227,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188161926,
+      "data": [
+        {
+          "T": 1706188161925,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.30",
+          "L": "PlusTick",
+          "i": "7e9d4ff1-bad1-50d3-9ac5-f41a78ca3c26",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4422634,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188162018,
+      "data": [
+        {
+          "T": 1706188162017,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.092",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "1b3cffde-d514-5c58-897a-2a9abd33cc59",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4476893,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188163062,
+      "data": [
+        {
+          "T": 1706188163060,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.30",
+          "L": "ZeroPlusTick",
+          "i": "8292af03-fe37-5e14-89cf-aa3a167a21da",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.4536395,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188163280,
+      "data": [
+        {
+          "T": 1706188163279,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39899.20",
+          "L": "MinusTick",
+          "i": "b8e6e8d1-ec53-5cca-bb06-615477bff58c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.4831102,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188164378,
+      "data": [
+        {
+          "T": 1706188164377,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.003",
+          "p": "39899.30",
+          "L": "ZeroPlusTick",
+          "i": "872f3096-6386-5b1f-aff9-adb6c5c6c66a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.4905958,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188164816,
+      "data": [
+        {
+          "T": 1706188164814,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.30",
+          "L": "ZeroPlusTick",
+          "i": "e6a27984-2786-5ab2-acbf-2b6510ca468c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.4975727,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165434,
+      "data": [
+        {
+          "T": 1706188165432,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39899.30",
+          "L": "ZeroPlusTick",
+          "i": "2f1f9024-9101-555f-9d0c-eeb722fd88f9",
+          "BT": false
+        },
+        {
+          "T": 1706188165432,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.881",
+          "p": "39899.30",
+          "L": "ZeroPlusTick",
+          "i": "c701b93c-852f-5327-b151-3298fe9e0cc3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5046747,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165669,
+      "data": [
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "MinusTick",
+          "i": "29d2981c-d8f8-57e8-a161-ec9d45af722c",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.226",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "b8f227e6-afb7-527e-b001-fe8be1167edc",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "0d52f9c1-d48c-5ee9-b683-0cb23285383d",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "1dfce71f-2157-5715-b60f-57c10d9a3076",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "aedf94c1-4df4-5a74-b2dc-c9845d927062",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "ec94b282-0864-5445-bf92-a16c0b59d741",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.050",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "dee0ac99-f48b-5c92-b8d1-b2c71a24595e",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "531f9c56-92d7-5bd3-8460-9c104c282f60",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "bedb49dc-1d83-5160-8870-592805199cbc",
+          "BT": false
+        },
+        {
+          "T": 1706188165668,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.026",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "929ce89a-f64f-5168-b545-8d0fa7b1a1eb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5108168,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165677,
+      "data": [
+        {
+          "T": 1706188165675,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.302",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "a0fc16fb-9228-584d-acb3-af16f323fce4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5167227,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165677,
+      "data": [
+        {
+          "T": 1706188165676,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.753",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "a7bcf02f-671e-5155-a1bf-4e6d319a9153",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5229428,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165681,
+      "data": [
+        {
+          "T": 1706188165679,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.011",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "908086ae-72c2-5a41-9c8f-0b47c226c847",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.530093,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165686,
+      "data": [
+        {
+          "T": 1706188165684,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.351",
+          "p": "39899.20",
+          "L": "ZeroMinusTick",
+          "i": "c129f5fe-ecfd-5b17-8dc0-72a5a77f38f0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.536706,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165707,
+      "data": [
+        {
+          "T": 1706188165706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39899.10",
+          "L": "MinusTick",
+          "i": "edd7f936-9ddf-5f47-8530-bd23ffd90218",
+          "BT": false
+        },
+        {
+          "T": 1706188165706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39899.10",
+          "L": "ZeroMinusTick",
+          "i": "8c30e05c-a413-5887-95b8-49a29558ef8d",
+          "BT": false
+        },
+        {
+          "T": 1706188165706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39899.10",
+          "L": "ZeroMinusTick",
+          "i": "d3ebc2a0-8b6a-5e7a-97ef-96ccc23cb24f",
+          "BT": false
+        },
+        {
+          "T": 1706188165706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39898.40",
+          "L": "MinusTick",
+          "i": "cb3b5b51-6e7b-549e-b0f8-7f3691471146",
+          "BT": false
+        },
+        {
+          "T": 1706188165706,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39898.10",
+          "L": "MinusTick",
+          "i": "a6f7c3e4-8e47-5e94-8fbc-3fefdfbd579e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5461955,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165741,
+      "data": [
+        {
+          "T": 1706188165739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39897.70",
+          "L": "MinusTick",
+          "i": "d186deb0-4ca0-5e88-b68e-82cdf5c19aef",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5530808,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165745,
+      "data": [
+        {
+          "T": 1706188165744,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39896.90",
+          "L": "MinusTick",
+          "i": "d9676238-2fd2-53d8-8c01-ccacae6e48cd",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5593162,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165839,
+      "data": [
+        {
+          "T": 1706188165837,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39894.70",
+          "L": "MinusTick",
+          "i": "8d642fc7-2d5d-5b76-bda4-11d77a962700",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5656278,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188165981,
+      "data": [
+        {
+          "T": 1706188165980,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.031",
+          "p": "39893.40",
+          "L": "MinusTick",
+          "i": "ff06aae3-5fdc-53e7-9e46-542f360b0863",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.572108,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188166362,
+      "data": [
+        {
+          "T": 1706188166361,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39893.10",
+          "L": "MinusTick",
+          "i": "c97c128f-2c93-564a-ad6a-b26570860aab",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.5788279,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188166436,
+      "data": [
+        {
+          "T": 1706188166434,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.024",
+          "p": "39892.90",
+          "L": "MinusTick",
+          "i": "5e5d1bdb-c5a3-5e25-bc7e-2b11a35ccdc3",
+          "BT": false
+        },
+        {
+          "T": 1706188166434,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.006",
+          "p": "39892.90",
+          "L": "ZeroMinusTick",
+          "i": "b8ac10dc-8767-55ee-b930-bd90c8676aef",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188176.587518,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188166771,
+      "data": [
+        {
+          "T": 1706188166770,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39891.80",
+          "L": "MinusTick",
+          "i": "4bc638fb-5964-5b3c-bcad-8859856b3574",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.8933399,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188166921,
+      "data": [
+        {
+          "T": 1706188166920,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.044",
+          "p": "39891.70",
+          "L": "ZeroMinusTick",
+          "i": "c7e68d31-8028-5065-94db-524af3cb3b9a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.900775,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188168110,
+      "data": [
+        {
+          "T": 1706188168108,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39891.10",
+          "L": "MinusTick",
+          "i": "8a5a573d-f4ab-55ad-b0b7-7b76d209f782",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9080753,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188168766,
+      "data": [
+        {
+          "T": 1706188168764,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.059",
+          "p": "39891.00",
+          "L": "MinusTick",
+          "i": "e161c382-2dfb-502a-a36d-17744d4bbd1c",
+          "BT": false
+        },
+        {
+          "T": 1706188168764,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39891.00",
+          "L": "ZeroMinusTick",
+          "i": "31417bed-34e3-5f5b-8dc3-ea636693f6e2",
+          "BT": false
+        },
+        {
+          "T": 1706188168764,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "39891.00",
+          "L": "ZeroMinusTick",
+          "i": "dd621817-60cd-5d1c-8289-104ff059fea4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.915368,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188169214,
+      "data": [
+        {
+          "T": 1706188169213,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.012",
+          "p": "39891.00",
+          "L": "MinusTick",
+          "i": "4172e4c4-bafb-55cc-9874-ee2399b5a3c4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9233437,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188169556,
+      "data": [
+        {
+          "T": 1706188169554,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.018",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "404ed3a0-0d8a-5550-9e4c-c9bb955d9553",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.93398,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188170076,
+      "data": [
+        {
+          "T": 1706188170074,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39891.10",
+          "L": "PlusTick",
+          "i": "939da433-a1c1-5348-816b-80fa6e4545c3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9421175,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188170709,
+      "data": [
+        {
+          "T": 1706188170708,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.017",
+          "p": "39891.10",
+          "L": "PlusTick",
+          "i": "3ecae841-7cd9-5d19-91e7-681e0a18213b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9501114,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188171340,
+      "data": [
+        {
+          "T": 1706188171338,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.535",
+          "p": "39891.00",
+          "L": "MinusTick",
+          "i": "02ebb1e3-2920-51c1-b64e-7a654e354d57",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9586039,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188171514,
+      "data": [
+        {
+          "T": 1706188171512,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39891.10",
+          "L": "PlusTick",
+          "i": "f7b81cfd-faa2-5b1a-ae6a-9f2403155c6b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.967091,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188171809,
+      "data": [
+        {
+          "T": 1706188171808,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "879060d5-56ba-5a13-82ce-9cbee6d64077",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9774873,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188172461,
+      "data": [
+        {
+          "T": 1706188172460,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.250",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "a70daf85-2fb0-5080-8b29-d139f742b459",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9880216,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188172940,
+      "data": [
+        {
+          "T": 1706188172939,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39891.10",
+          "L": "PlusTick",
+          "i": "2dbb0d49-6a48-58de-a420-789ae03eb0d6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188181.9990375,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188173619,
+      "data": [
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.380",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "4d4bba5f-9a98-59f2-ad09-3a9c181f88d8",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "2d392863-8ee0-5552-a6ad-23e418b7e87b",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.175",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "3bcb71a6-57c8-52ec-b578-ad551c3609b9",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.075",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "0bd8eeda-509d-5437-a6e9-ff6098f5ba7c",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.252",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "c7da786b-6062-54ac-978e-9e97c22c7c2c",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.059",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "22436172-3cc3-52da-8a08-72790e7385c1",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.300",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "dcfb7d4b-d7cd-5a57-8eb1-aa5310ed7c3c",
+          "BT": false
+        },
+        {
+          "T": 1706188173617,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "a253964a-8055-5799-b3cd-3ea3d6d7b988",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188182.0075965,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188173880,
+      "data": [
+        {
+          "T": 1706188173879,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39891.00",
+          "L": "MinusTick",
+          "i": "4d497c1d-44d1-5f4b-bd54-3d9f12ce3621",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188182.016611,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188174030,
+      "data": [
+        {
+          "T": 1706188174029,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.049",
+          "p": "39891.10",
+          "L": "PlusTick",
+          "i": "e8be40df-6e3e-5ce0-8613-7e447775e536",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188182.0245106,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188175415,
+      "data": [
+        {
+          "T": 1706188175413,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.013",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "d4226e90-378c-5c28-babd-8a8d200a02a9",
+          "BT": false
+        },
+        {
+          "T": 1706188175413,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.037",
+          "p": "39891.10",
+          "L": "ZeroPlusTick",
+          "i": "20e661d4-74d6-5372-b75b-273aa2df59ac",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8190725,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188175481,
+      "data": [
+        {
+          "T": 1706188175479,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.381",
+          "p": "39891.70",
+          "L": "PlusTick",
+          "i": "ea0e2ce4-fd2b-5abd-ac8f-b6032d01e570",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.826844,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188175904,
+      "data": [
+        {
+          "T": 1706188175903,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.038",
+          "p": "39894.50",
+          "L": "ZeroPlusTick",
+          "i": "756aba22-e770-5909-bfb9-1e7d18204002",
+          "BT": false
+        },
+        {
+          "T": 1706188175903,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.300",
+          "p": "39894.50",
+          "L": "ZeroPlusTick",
+          "i": "37b2f396-9bdc-5672-8452-b435995370f0",
+          "BT": false
+        },
+        {
+          "T": 1706188175903,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39894.60",
+          "L": "PlusTick",
+          "i": "d0754b11-52e6-50cf-9f08-9175ca4776fa",
+          "BT": false
+        },
+        {
+          "T": 1706188175903,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "39896.00",
+          "L": "PlusTick",
+          "i": "897b354a-0642-5f0a-91a5-1a0f05513353",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.837449,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188176999,
+      "data": [
+        {
+          "T": 1706188176998,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.092",
+          "p": "39897.90",
+          "L": "PlusTick",
+          "i": "64d2a679-d2d4-5cb9-8edb-180f3a833334",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.848089,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188177290,
+      "data": [
+        {
+          "T": 1706188177288,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39897.90",
+          "L": "ZeroPlusTick",
+          "i": "a89f589b-698d-55d6-a767-e2de9e1b0ca6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8571618,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188178580,
+      "data": [
+        {
+          "T": 1706188178579,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.051",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "86c75026-0cae-5fdd-b78d-9ecfa8b8bed0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8651154,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188179941,
+      "data": [
+        {
+          "T": 1706188179940,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39898.00",
+          "L": "PlusTick",
+          "i": "0386faf3-b155-58d8-b7ad-b44dbd517e73",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8739486,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188181431,
+      "data": [
+        {
+          "T": 1706188181430,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "6dfa9e7c-1f6b-5112-b274-fb7971529c76",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8817582,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188182135,
+      "data": [
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "9f0557bc-0876-529b-bfda-9a972cff5b86",
+          "BT": false
+        },
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "2e53cb26-b9aa-548a-9231-8abac347abb5",
+          "BT": false
+        },
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.077",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "016161ea-9f2e-5373-8673-d9dbf79818ee",
+          "BT": false
+        },
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.071",
+          "p": "39898.00",
+          "L": "ZeroPlusTick",
+          "i": "def0ae6c-3d4b-5aaf-b3cd-303547e64f8a",
+          "BT": false
+        },
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39898.10",
+          "L": "PlusTick",
+          "i": "6307fde6-50ae-56a3-8a85-21d914a7dcfd",
+          "BT": false
+        },
+        {
+          "T": 1706188182133,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.100",
+          "p": "39898.30",
+          "L": "PlusTick",
+          "i": "313f240d-392f-50d5-a787-70d0a5f3a6bf",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.8929787,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188182278,
+      "data": [
+        {
+          "T": 1706188182277,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.879",
+          "p": "39898.80",
+          "L": "ZeroPlusTick",
+          "i": "46fb6a32-9c87-5c4a-af14-ac387f22aeef",
+          "BT": false
+        },
+        {
+          "T": 1706188182277,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "39898.80",
+          "L": "ZeroPlusTick",
+          "i": "a18a4f1e-abf9-5b7d-adf7-44f682ba3605",
+          "BT": false
+        },
+        {
+          "T": 1706188182277,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.091",
+          "p": "39898.90",
+          "L": "PlusTick",
+          "i": "b3948b0e-e9d3-578b-bc61-f00de62c37ae",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.9028616,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188182605,
+      "data": [
+        {
+          "T": 1706188182604,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "39898.90",
+          "L": "PlusTick",
+          "i": "8b0a0ec4-10b4-5f60-bb44-183d22703dfd",
+          "BT": false
+        },
+        {
+          "T": 1706188182604,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39899.00",
+          "L": "PlusTick",
+          "i": "ba9aecab-1eb1-51fc-be12-92fc57fec628",
+          "BT": false
+        },
+        {
+          "T": 1706188182604,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.20",
+          "L": "PlusTick",
+          "i": "6a544832-c1e7-531e-84d8-9bf94f9a96f0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188188.911412,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188183183,
+      "data": [
+        {
+          "T": 1706188183181,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.023",
+          "p": "39899.50",
+          "L": "PlusTick",
+          "i": "fec6f69e-ab78-5fba-bbe0-62477fc78a1f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.7258987,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188184014,
+      "data": [
+        {
+          "T": 1706188184013,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.027",
+          "p": "39899.50",
+          "L": "ZeroPlusTick",
+          "i": "5916d311-0d76-58b7-9cfa-896acd9f52b6",
+          "BT": false
+        },
+        {
+          "T": 1706188184013,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.048",
+          "p": "39899.50",
+          "L": "ZeroPlusTick",
+          "i": "a722b20b-c5c1-53e6-9ba8-cf7f0f299db6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.7863908,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188184667,
+      "data": [
+        {
+          "T": 1706188184666,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.006",
+          "p": "39899.50",
+          "L": "ZeroPlusTick",
+          "i": "fe20bdfa-3569-5bc1-b53b-076be8886532",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.8012853,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185086,
+      "data": [
+        {
+          "T": 1706188185085,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.007",
+          "p": "39899.50",
+          "L": "ZeroPlusTick",
+          "i": "3f1114b3-c9cd-518e-af8d-046684cb1c45",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.8110392,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185420,
+      "data": [
+        {
+          "T": 1706188185419,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.013",
+          "p": "39899.50",
+          "L": "PlusTick",
+          "i": "eccc92a8-b63e-5bef-abfc-973985019b8f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.8225148,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185582,
+      "data": [
+        {
+          "T": 1706188185581,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "2b512034-11e9-53fb-9d4b-fd9635707240",
+          "BT": false
+        },
+        {
+          "T": 1706188185581,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.025",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "e99cae2d-fbab-52e5-b898-7d19673d2b36",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.8324964,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185583,
+      "data": [
+        {
+          "T": 1706188185581,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.055",
+          "p": "39899.70",
+          "L": "MinusTick",
+          "i": "28544981-7a6b-5d4c-a825-e1bb5e5d3f08",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.8843737,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185584,
+      "data": [
+        {
+          "T": 1706188185582,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.080",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "8d9c889f-2848-58f8-a600-c0e18b65f373",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.895066,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185591,
+      "data": [
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.051",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "4c0c1245-f938-5330-838a-626d1975b859",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "f34da6db-5c4b-586e-9ea5-e5eaa8ecde9f",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "6ba134bb-d3c7-5d88-8f3d-95687c3e592a",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "19db8cd2-0f3f-51da-bbf8-fe350fca89ff",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "886c11d4-41d5-584d-a97b-52812693177e",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.028",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "0fd99752-e841-5523-8bad-e0efcd05e68c",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "5023bb20-c82f-5930-99a9-2e67587d5551",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "564500ac-86ff-5229-a410-90385699575f",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "c0786587-8a1b-53aa-8375-0666b1cd4125",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "a4190383-8aae-5d62-af0b-86796a2cf701",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "fd340f06-2335-5b8b-8652-694fe6924273",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "ccaee780-757c-5b2b-a1f9-081d4ee2d9d4",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.282",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "826c5000-7673-5797-b407-a49940ae68a2",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.200",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "ded86e60-4999-5cf4-bdcf-e3eb129acdd3",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.012",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "6d845ef2-aa11-54dc-9569-86bff9fdb5b4",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "305a3390-64d1-58f0-81f0-614862a4220e",
+          "BT": false
+        },
+        {
+          "T": 1706188185588,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.404",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "a9706804-d457-512e-87ee-6f1d06343712",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.909256,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185591,
+      "data": [
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.032",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "f6197c69-a649-504e-a952-18c3657ca8b7",
+          "BT": false
+        },
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "aa1e9235-3279-53b3-8f2d-366a643ea489",
+          "BT": false
+        },
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "9acc96ad-0b69-531d-bcfa-8f70a00a848b",
+          "BT": false
+        },
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.022",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "22faf05f-df65-53c0-85a6-a3bff902d4c4",
+          "BT": false
+        },
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.040",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "fe247c51-a20c-5129-a769-70a6066b2f7e",
+          "BT": false
+        },
+        {
+          "T": 1706188185589,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.106",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "f0a7cfdc-9fae-5e14-8c2d-01829fd064b9",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188198.9923944,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188185784,
+      "data": [
+        {
+          "T": 1706188185782,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "294b8d75-76b9-58cd-a216-53ba9ff1cb84",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0096788,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188186112,
+      "data": [
+        {
+          "T": 1706188186111,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.174",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "8a7a454f-9e0c-520a-83cc-30f05e5551e2",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0273693,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188186861,
+      "data": [
+        {
+          "T": 1706188186859,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.028",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "98039ebc-91cb-5509-bb05-8d0254644c49",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0418282,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188091,
+      "data": [
+        {
+          "T": 1706188188089,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.037",
+          "p": "39900.00",
+          "L": "ZeroPlusTick",
+          "i": "a8c13152-243d-5978-ad2f-3206f2661cc0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0522332,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188358,
+      "data": [
+        {
+          "T": 1706188188357,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.120",
+          "p": "39899.90",
+          "L": "ZeroMinusTick",
+          "i": "e565d58d-2ace-5876-9deb-2d1f0c196990",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0652404,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188450,
+      "data": [
+        {
+          "T": 1706188188448,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39899.50",
+          "L": "MinusTick",
+          "i": "476171ff-1fb9-58a8-8649-92f8414f1919",
+          "BT": false
+        },
+        {
+          "T": 1706188188448,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39899.50",
+          "L": "ZeroMinusTick",
+          "i": "1b257761-d5f5-5e6c-b03d-3ad95f0bc42f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188199.0874872,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188608,
+      "data": [
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.381",
+          "p": "39899.40",
+          "L": "ZeroMinusTick",
+          "i": "2cf33790-0a83-5001-86e6-d23ca6de36fc",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39899.40",
+          "L": "ZeroMinusTick",
+          "i": "269e9d97-69f2-56a9-8ea0-2e79c4e1e553",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39899.30",
+          "L": "MinusTick",
+          "i": "80e6b904-f425-5c57-b8a2-4b9d084b37c9",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.549",
+          "p": "39899.00",
+          "L": "MinusTick",
+          "i": "8a545fc5-ac7a-5abd-afd4-ed138b31c21c",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39898.10",
+          "L": "MinusTick",
+          "i": "e3e29b2f-faae-55d0-95fc-dec9fd1621f1",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39897.90",
+          "L": "MinusTick",
+          "i": "d3a15c72-ccc7-5408-8237-5e3eecfc5b7c",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39897.80",
+          "L": "MinusTick",
+          "i": "6d5473dd-4409-5df5-ab07-3a945ae49c46",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.100",
+          "p": "39897.70",
+          "L": "MinusTick",
+          "i": "f72086e9-8ccc-5ad5-b34e-5190cc88b083",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.023",
+          "p": "39897.50",
+          "L": "MinusTick",
+          "i": "6441ff99-a366-55dc-b26a-a2c8e68a0d53",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39896.70",
+          "L": "MinusTick",
+          "i": "5bd5c5b1-a07f-5d53-8c8e-36b435ae9f0e",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39896.60",
+          "L": "MinusTick",
+          "i": "b677821c-eb6b-53b6-84b0-c47871c0cfd6",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39896.30",
+          "L": "MinusTick",
+          "i": "f9e66dbc-4cbf-526d-aa4d-7ab33329ab44",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39896.20",
+          "L": "MinusTick",
+          "i": "95451022-1f22-57d5-a856-a8ffd550ffae",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.075",
+          "p": "39895.90",
+          "L": "MinusTick",
+          "i": "cb8cfa3c-8dd6-57cd-a54a-d453d66df661",
+          "BT": false
+        },
+        {
+          "T": 1706188188606,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.075",
+          "p": "39895.80",
+          "L": "MinusTick",
+          "i": "e8adf6ed-438a-5253-aa4a-9709947990ee",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.778721,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188612,
+      "data": [
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.238",
+          "p": "39894.60",
+          "L": "MinusTick",
+          "i": "709c464c-e8a7-5e22-91cf-3464d944cddf",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "1.350",
+          "p": "39894.50",
+          "L": "MinusTick",
+          "i": "4d4b394f-7103-524e-8d38-987125cf3fd8",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.029",
+          "p": "39894.40",
+          "L": "MinusTick",
+          "i": "52099b31-7d1f-57cf-a210-26e9e3f2245f",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.012",
+          "p": "39893.80",
+          "L": "MinusTick",
+          "i": "62db59a0-dcde-5ad4-848e-14a465cda8a1",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.60",
+          "L": "MinusTick",
+          "i": "2f9257cd-80b0-5aa8-84bb-009a4d69d48a",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.50",
+          "L": "MinusTick",
+          "i": "5354446d-e66a-578e-826b-17612bed14cb",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.50",
+          "L": "ZeroMinusTick",
+          "i": "4d8650c9-4d33-5010-abd5-3604127dc446",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.50",
+          "L": "ZeroMinusTick",
+          "i": "dc4996fd-7a83-56d2-9403-97fe6a1f7496",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.50",
+          "L": "ZeroMinusTick",
+          "i": "af3fff44-3aa1-5b34-854c-8ef569e1a973",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.50",
+          "L": "ZeroMinusTick",
+          "i": "9ad64571-3598-57b9-83d3-52e2f08bc0ab",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.40",
+          "L": "MinusTick",
+          "i": "44d9716b-70a3-535f-9a36-1b175ecb4880",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.40",
+          "L": "ZeroMinusTick",
+          "i": "d8d2b97d-f54d-5de7-9c86-f948d2a5e2a5",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.40",
+          "L": "ZeroMinusTick",
+          "i": "a11fbf90-6a31-546b-89fc-e7f0e2d952b1",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39893.40",
+          "L": "ZeroMinusTick",
+          "i": "30ebc556-4c8c-5439-aa45-71a232c634cd",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "39892.40",
+          "L": "MinusTick",
+          "i": "67dd5aa3-c0f9-52cf-8354-1344c71ffd01",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39892.40",
+          "L": "ZeroMinusTick",
+          "i": "69c764d7-a974-54db-b396-bd8c2c00dc7a",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39892.20",
+          "L": "MinusTick",
+          "i": "770d2bb2-c1b4-59ec-8af3-3445a127e860",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39892.10",
+          "L": "MinusTick",
+          "i": "4a711120-1447-56e7-b439-f6c17563d4eb",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.121",
+          "p": "39892.00",
+          "L": "MinusTick",
+          "i": "7bdee2d3-fce4-5722-8b6a-a474bb5d726e",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39892.00",
+          "L": "ZeroMinusTick",
+          "i": "c1ac0d47-3ce5-5a04-84aa-b6e2bc597d99",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39891.90",
+          "L": "MinusTick",
+          "i": "40350768-f2ab-5421-b977-a290ab26003c",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39891.80",
+          "L": "MinusTick",
+          "i": "4fd82eaf-52c2-5420-9717-3328e9ef7390",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39891.80",
+          "L": "ZeroMinusTick",
+          "i": "b2841503-7f6f-583c-9340-d5651dd193f7",
+          "BT": false
+        },
+        {
+          "T": 1706188188610,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.229",
+          "p": "39891.70",
+          "L": "MinusTick",
+          "i": "1aa500a6-c37b-59ec-b35b-c8d96ad00ae3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.7905636,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188613,
+      "data": [
+        {
+          "T": 1706188188612,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.051",
+          "p": "39891.40",
+          "L": "MinusTick",
+          "i": "ae08e59b-83a6-5ee6-979b-3afe6d269b52",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8026962,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188614,
+      "data": [
+        {
+          "T": 1706188188612,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.051",
+          "p": "39891.40",
+          "L": "ZeroMinusTick",
+          "i": "a140bbe7-96ff-592f-8b8d-843c612e79f6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.813346,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188616,
+      "data": [
+        {
+          "T": 1706188188614,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.619",
+          "p": "39891.40",
+          "L": "ZeroMinusTick",
+          "i": "0e9ee10f-57a9-599c-9be3-17478529ac32",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8238902,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188617,
+      "data": [
+        {
+          "T": 1706188188615,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.051",
+          "p": "39891.40",
+          "L": "ZeroMinusTick",
+          "i": "3236b5af-21ad-54b1-9136-eab0062bad1d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.835866,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188621,
+      "data": [
+        {
+          "T": 1706188188618,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39891.30",
+          "L": "PlusTick",
+          "i": "7f186a3d-69d5-510c-a435-bd7e756c8c4b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.849203,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188188662,
+      "data": [
+        {
+          "T": 1706188188660,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39890.00",
+          "L": "MinusTick",
+          "i": "7f8a49b2-6f83-5fe3-9a1b-61ea80b2f8af",
+          "BT": false
+        },
+        {
+          "T": 1706188188660,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39890.00",
+          "L": "ZeroMinusTick",
+          "i": "509b72f7-20d6-5d9f-a1ff-4424bcdcffb3",
+          "BT": false
+        },
+        {
+          "T": 1706188188660,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.152",
+          "p": "39890.00",
+          "L": "ZeroMinusTick",
+          "i": "910d93b2-ae22-5bf9-8e82-aa5a2451c748",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8615963,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188189459,
+      "data": [
+        {
+          "T": 1706188189457,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.202",
+          "p": "39890.10",
+          "L": "PlusTick",
+          "i": "09e33f57-195a-5fb6-bb6e-114526499e22",
+          "BT": false
+        },
+        {
+          "T": 1706188189457,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.071",
+          "p": "39890.10",
+          "L": "ZeroPlusTick",
+          "i": "be3dc68d-c9ec-52cf-bb78-db9173be9085",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8740652,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188189753,
+      "data": [
+        {
+          "T": 1706188189751,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.845",
+          "p": "39890.00",
+          "L": "ZeroMinusTick",
+          "i": "42f95ddd-cb44-5c31-a368-edd9ffcaf3a8",
+          "BT": false
+        },
+        {
+          "T": 1706188189751,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.245",
+          "p": "39889.40",
+          "L": "MinusTick",
+          "i": "96df0605-bb29-59cb-9235-f67af75a773d",
+          "BT": false
+        },
+        {
+          "T": 1706188189751,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.023",
+          "p": "39889.30",
+          "L": "MinusTick",
+          "i": "6aef5cc7-23dd-5bbd-9713-2a29cdc926b2",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8856137,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188189754,
+      "data": [
+        {
+          "T": 1706188189752,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.024",
+          "p": "39888.90",
+          "L": "ZeroMinusTick",
+          "i": "b33f7e26-39b1-57fe-a6e1-511428cad7a0",
+          "BT": false
+        },
+        {
+          "T": 1706188189752,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.027",
+          "p": "39888.80",
+          "L": "MinusTick",
+          "i": "c9d8077a-253c-5807-9793-beedb3159b62",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.8978,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188189769,
+      "data": [
+        {
+          "T": 1706188189767,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39886.00",
+          "L": "MinusTick",
+          "i": "c07645ea-13f5-5703-9e02-44b3fa87acdd",
+          "BT": false
+        },
+        {
+          "T": 1706188189767,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39885.30",
+          "L": "MinusTick",
+          "i": "3df48660-29ab-5586-bbe9-320f2c70512c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.9086711,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188189830,
+      "data": [
+        {
+          "T": 1706188189829,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.018",
+          "p": "39883.50",
+          "L": "MinusTick",
+          "i": "72ae76c9-c35e-5b77-8fbc-c85bdacf2d01",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.9182518,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188190906,
+      "data": [
+        {
+          "T": 1706188190904,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.060",
+          "p": "39883.60",
+          "L": "ZeroPlusTick",
+          "i": "30b31356-c0ec-5bc0-80d8-bf6b8f792302",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.9307668,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188190947,
+      "data": [
+        {
+          "T": 1706188190946,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39883.40",
+          "L": "MinusTick",
+          "i": "e144c4b6-088a-5120-ba01-393640b287eb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.9457102,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188190959,
+      "data": [
+        {
+          "T": 1706188190957,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.006",
+          "p": "39882.50",
+          "L": "MinusTick",
+          "i": "b174e669-a4f5-57cc-ba71-fb20cc53d439",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.9598346,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188191523,
+      "data": [
+        {
+          "T": 1706188191522,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39882.40",
+          "L": "MinusTick",
+          "i": "70d8aab3-d8dd-52a1-8222-aa77054476f5",
+          "BT": false
+        },
+        {
+          "T": 1706188191522,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.100",
+          "p": "39882.40",
+          "L": "ZeroMinusTick",
+          "i": "d8867e5a-ad2b-5252-94d8-4bf32a72110f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.3468769,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188191567,
+      "data": [
+        {
+          "T": 1706188191566,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.012",
+          "p": "39880.90",
+          "L": "MinusTick",
+          "i": "15e03116-3f48-50d9-8376-9a0fa98b4f35",
+          "BT": false
+        },
+        {
+          "T": 1706188191566,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.005",
+          "p": "39880.60",
+          "L": "MinusTick",
+          "i": "ee435425-b442-5442-9cdf-37320b6d7bcb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.358829,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188191854,
+      "data": [
+        {
+          "T": 1706188191853,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.049",
+          "p": "39880.10",
+          "L": "MinusTick",
+          "i": "ea9a498a-8a6b-5925-afe2-0aeec56cea42",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.3688533,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192207,
+      "data": [
+        {
+          "T": 1706188192205,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.069",
+          "p": "39880.00",
+          "L": "MinusTick",
+          "i": "02e77392-ae60-58e3-8bbe-8e185dd18cc6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.3827035,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192209,
+      "data": [
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.034",
+          "p": "39879.40",
+          "L": "ZeroMinusTick",
+          "i": "d9a11a47-ddf1-51fb-9e84-7da69fb3b415",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.075",
+          "p": "39879.20",
+          "L": "MinusTick",
+          "i": "67eff2da-811a-52a6-9b08-de03054e335c",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.030",
+          "p": "39878.70",
+          "L": "MinusTick",
+          "i": "91e4defe-6587-5bf3-b2d3-07f54eeb87a2",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39878.00",
+          "L": "MinusTick",
+          "i": "61ddf419-89f4-5042-bab3-70d885345d5c",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39878.00",
+          "L": "ZeroMinusTick",
+          "i": "af139541-d5d3-58d3-b321-890f2365e71f",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.136",
+          "p": "39877.80",
+          "L": "MinusTick",
+          "i": "e327c9e7-ca84-50f7-9702-62fd2710e8c6",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.119",
+          "p": "39877.20",
+          "L": "MinusTick",
+          "i": "802b1a6c-5f2e-5fb2-b565-bcdb5c8fefe5",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.106",
+          "p": "39877.20",
+          "L": "ZeroMinusTick",
+          "i": "79629190-bcd8-517b-87cb-28243d7b009f",
+          "BT": false
+        },
+        {
+          "T": 1706188192207,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.125",
+          "p": "39877.00",
+          "L": "MinusTick",
+          "i": "4ae1802e-bf79-591a-b521-33c8821a07cc",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.396547,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192210,
+      "data": [
+        {
+          "T": 1706188192208,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.051",
+          "p": "39876.40",
+          "L": "ZeroMinusTick",
+          "i": "2e1c939a-d77b-595a-922a-14810577fcc8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.411438,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192214,
+      "data": [
+        {
+          "T": 1706188192212,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.316",
+          "p": "39876.00",
+          "L": "MinusTick",
+          "i": "447ddf57-f28d-506e-bf58-d6e858ec9553",
+          "BT": false
+        },
+        {
+          "T": 1706188192212,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.024",
+          "p": "39875.90",
+          "L": "MinusTick",
+          "i": "1b424887-4f15-5558-a4e2-3dc4b7585054",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.424253,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192217,
+      "data": [
+        {
+          "T": 1706188192215,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39874.90",
+          "L": "MinusTick",
+          "i": "bd5a2b12-b376-5133-b8fe-e42e58e59857",
+          "BT": false
+        },
+        {
+          "T": 1706188192215,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.024",
+          "p": "39874.90",
+          "L": "ZeroMinusTick",
+          "i": "39c99df3-bc40-5ff7-a40a-a9c6e886c240",
+          "BT": false
+        },
+        {
+          "T": 1706188192215,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.026",
+          "p": "39874.90",
+          "L": "ZeroMinusTick",
+          "i": "e6bb0459-1369-5f48-8941-ac266bc1105c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.440639,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192248,
+      "data": [
+        {
+          "T": 1706188192246,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "39874.50",
+          "L": "MinusTick",
+          "i": "0a7086b5-0fad-5335-9a36-9748497d9f09",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.4532504,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188192741,
+      "data": [
+        {
+          "T": 1706188192739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39874.00",
+          "L": "MinusTick",
+          "i": "26acb662-80e1-5241-915e-6075072fd6ab",
+          "BT": false
+        },
+        {
+          "T": 1706188192739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.037",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "3f689b0e-d64d-545b-8375-40c83b475c2d",
+          "BT": false
+        },
+        {
+          "T": 1706188192739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "b0c0ba65-94e9-578e-9904-66a88ba7a7c9",
+          "BT": false
+        },
+        {
+          "T": 1706188192739,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "a139facb-33e7-51f9-8863-77e1e3006dc3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.4635124,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188193725,
+      "data": [
+        {
+          "T": 1706188193723,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.186",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "d068cc98-ed93-5009-808d-44ffb16d078f",
+          "BT": false
+        },
+        {
+          "T": 1706188193723,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.059",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "639c1f84-a311-5a07-9533-a84f16753d8b",
+          "BT": false
+        },
+        {
+          "T": 1706188193723,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.097",
+          "p": "39874.00",
+          "L": "ZeroMinusTick",
+          "i": "6c8fe44e-f647-594e-8835-994ec0d9e561",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.4791183,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188195040,
+      "data": [
+        {
+          "T": 1706188195038,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.007",
+          "p": "39871.60",
+          "L": "MinusTick",
+          "i": "116b041b-85a0-5d39-b4e9-3e3559651284",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.4934063,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188195242,
+      "data": [
+        {
+          "T": 1706188195240,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.030",
+          "p": "39870.90",
+          "L": "MinusTick",
+          "i": "e3b18e4d-b9b0-55d9-8da7-6fd9d6e31166",
+          "BT": false
+        },
+        {
+          "T": 1706188195240,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.055",
+          "p": "39870.90",
+          "L": "ZeroMinusTick",
+          "i": "d70d654c-7b7b-5cc7-aaa5-077db0b161ab",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5082712,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188195840,
+      "data": [
+        {
+          "T": 1706188195839,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.245",
+          "p": "39870.90",
+          "L": "MinusTick",
+          "i": "83a0fd35-c234-5f06-9e90-b82804fb0cf8",
+          "BT": false
+        },
+        {
+          "T": 1706188195839,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.248",
+          "p": "39870.90",
+          "L": "ZeroMinusTick",
+          "i": "7afac001-65d6-5ec8-a1c8-9ba4558fcc0e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5230439,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188195924,
+      "data": [
+        {
+          "T": 1706188195922,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39870.90",
+          "L": "MinusTick",
+          "i": "3c642aec-6238-5686-80d3-3be21d486abb",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5414248,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188196413,
+      "data": [
+        {
+          "T": 1706188196411,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39870.90",
+          "L": "ZeroMinusTick",
+          "i": "b985a556-3870-5d65-8a63-cc6359d4cb9e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188218.5597436,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188197374,
+      "data": [
+        {
+          "T": 1706188197372,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.005",
+          "p": "39871.00",
+          "L": "ZeroPlusTick",
+          "i": "6be7b41e-377e-5295-ac49-72388dbc4b5d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.5865347,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188200817,
+      "data": [
+        {
+          "T": 1706188200815,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.032",
+          "p": "39871.00",
+          "L": "PlusTick",
+          "i": "98fe6443-bf12-5f04-8892-e679d9268abf",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.605201,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188200834,
+      "data": [
+        {
+          "T": 1706188200833,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39871.10",
+          "L": "PlusTick",
+          "i": "fd8335f8-ceaa-5ca4-983c-b307ba122f13",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.6225197,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188201352,
+      "data": [
+        {
+          "T": 1706188201351,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39873.90",
+          "L": "ZeroPlusTick",
+          "i": "e88bb760-1da7-5541-b7e9-ccf0d9f24809",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.6378412,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188202226,
+      "data": [
+        {
+          "T": 1706188202224,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.048",
+          "p": "39873.90",
+          "L": "ZeroPlusTick",
+          "i": "ade75f54-1f80-5d8e-9a7d-dbc4947d921a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.657067,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188202325,
+      "data": [
+        {
+          "T": 1706188202324,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39874.10",
+          "L": "PlusTick",
+          "i": "104f227f-85bc-555c-b061-725c87a4355d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.6789038,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188202578,
+      "data": [
+        {
+          "T": 1706188202577,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.012",
+          "p": "39875.50",
+          "L": "ZeroPlusTick",
+          "i": "a204403c-1ac8-5922-8c7f-fc716c40cc24",
+          "BT": false
+        },
+        {
+          "T": 1706188202577,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.035",
+          "p": "39875.50",
+          "L": "ZeroPlusTick",
+          "i": "47e856be-4cb2-5b39-9a34-904b9d7a1545",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.695007,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188203218,
+      "data": [
+        {
+          "T": 1706188203217,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39876.80",
+          "L": "PlusTick",
+          "i": "e9613d1b-8fb1-55fe-b430-369af35fff2d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.7121267,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188203673,
+      "data": [
+        {
+          "T": 1706188203672,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.014",
+          "p": "39876.80",
+          "L": "PlusTick",
+          "i": "dc967c89-2524-555a-a9ac-c19f0b97ac4b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.7279193,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188203767,
+      "data": [
+        {
+          "T": 1706188203766,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.029",
+          "p": "39877.20",
+          "L": "PlusTick",
+          "i": "6bd3afa7-602d-5d25-8fcd-974aaf33ceff",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.7494457,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188203865,
+      "data": [
+        {
+          "T": 1706188203864,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.004",
+          "p": "39878.80",
+          "L": "ZeroPlusTick",
+          "i": "ba68c926-107c-587a-9e06-cee3d0b12f0d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.7661014,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188204190,
+      "data": [
+        {
+          "T": 1706188204189,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39879.30",
+          "L": "PlusTick",
+          "i": "1c3ec141-6a07-50ae-96cb-53b06c1cb0fe",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.7815561,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188204558,
+      "data": [
+        {
+          "T": 1706188204557,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39879.30",
+          "L": "MinusTick",
+          "i": "a060eee6-97ba-5aee-a536-764b2fa08dc1",
+          "BT": false
+        },
+        {
+          "T": 1706188204557,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.226",
+          "p": "39879.30",
+          "L": "ZeroMinusTick",
+          "i": "61316df3-1358-5ec7-ba11-71cdc73bb25d",
+          "BT": false
+        },
+        {
+          "T": 1706188204557,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "39879.30",
+          "L": "ZeroMinusTick",
+          "i": "b6fa1f97-0093-5927-9e10-61a4ea279080",
+          "BT": false
+        },
+        {
+          "T": 1706188204557,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39879.30",
+          "L": "ZeroMinusTick",
+          "i": "a07c63cd-0a20-5165-826c-7b5fe4a07f27",
+          "BT": false
+        },
+        {
+          "T": 1706188204557,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.077",
+          "p": "39879.30",
+          "L": "ZeroMinusTick",
+          "i": "c1c3b452-d3f1-506d-8814-2c792e93cfc4",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.797076,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188206365,
+      "data": [
+        {
+          "T": 1706188206364,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.029",
+          "p": "39879.40",
+          "L": "ZeroPlusTick",
+          "i": "26b1d255-9e0f-59e6-9b97-62736bcca92f",
+          "BT": false
+        },
+        {
+          "T": 1706188206364,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.015",
+          "p": "39879.40",
+          "L": "ZeroPlusTick",
+          "i": "b5ba7646-0905-5637-8a71-6874cb6f8df2",
+          "BT": false
+        },
+        {
+          "T": 1706188206364,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.006",
+          "p": "39879.40",
+          "L": "ZeroPlusTick",
+          "i": "c4ee72f3-a807-5d65-8137-a68af23ab5b2",
+          "BT": false
+        },
+        {
+          "T": 1706188206364,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "39879.50",
+          "L": "PlusTick",
+          "i": "2d837ad3-9df4-54f4-b4a3-10a49d995ed1",
+          "BT": false
+        },
+        {
+          "T": 1706188206364,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39880.00",
+          "L": "PlusTick",
+          "i": "a30bd655-3277-54b5-b95d-b9722847286b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.8116162,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188206507,
+      "data": [
+        {
+          "T": 1706188206506,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "39884.00",
+          "L": "PlusTick",
+          "i": "058efc3a-62f8-5ef0-90b1-bcc76eed6f16",
+          "BT": false
+        },
+        {
+          "T": 1706188206506,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39884.00",
+          "L": "ZeroPlusTick",
+          "i": "6fad09e3-3079-5ccf-b0ed-c1e103d35a85",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.8253202,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188208040,
+      "data": [
+        {
+          "T": 1706188208039,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39884.50",
+          "L": "ZeroPlusTick",
+          "i": "aa9027fb-fea8-5c21-afb2-76de56f1c5f2",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188230.8402543,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188209215,
+      "data": [
+        {
+          "T": 1706188209214,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39881.60",
+          "L": "MinusTick",
+          "i": "2109e42a-b2bf-55ab-acd3-0af9c9e9d208",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.154633,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188209961,
+      "data": [
+        {
+          "T": 1706188209960,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "14360b6c-f6ba-5d48-bef9-95512db1eb8d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.1680636,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188210089,
+      "data": [
+        {
+          "T": 1706188210087,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.026",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "4cb644da-5d3f-57d5-8499-82b1905f791c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.1832287,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188210115,
+      "data": [
+        {
+          "T": 1706188210113,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.003",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "66a6d9a7-4c62-52a7-a0c9-82ada556ee77",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.199977,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188210346,
+      "data": [
+        {
+          "T": 1706188210345,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.026",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "22524f1d-8519-50b9-817e-9e9c1966c20a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.2223887,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188211080,
+      "data": [
+        {
+          "T": 1706188211079,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "19a310ff-28b4-5996-8fb9-3e7bd64cc262",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.240957,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188212096,
+      "data": [
+        {
+          "T": 1706188212095,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "39883.80",
+          "L": "PlusTick",
+          "i": "1047f665-e9bc-5086-9d23-be884b583a63",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.2573514,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188213298,
+      "data": [
+        {
+          "T": 1706188213296,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39883.80",
+          "L": "ZeroPlusTick",
+          "i": "0815b322-68d6-563c-a59b-282afec28bd3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.2717416,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188217545,
+      "data": [
+        {
+          "T": 1706188217544,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.008",
+          "p": "39883.90",
+          "L": "ZeroPlusTick",
+          "i": "6bb9a80b-c810-5790-aa25-f255864a002f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.2866762,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188218452,
+      "data": [
+        {
+          "T": 1706188218450,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.122",
+          "p": "39883.90",
+          "L": "ZeroPlusTick",
+          "i": "4668fcb6-f4d8-5abf-b0a9-3bfdfc133766",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.3047974,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188219144,
+      "data": [
+        {
+          "T": 1706188219142,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39883.80",
+          "L": "ZeroMinusTick",
+          "i": "d76453ab-93bf-5d7c-9444-79ae00501330",
+          "BT": false
+        },
+        {
+          "T": 1706188219142,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.025",
+          "p": "39883.80",
+          "L": "ZeroMinusTick",
+          "i": "a8c0f4b7-2f5c-52a4-ae0e-fd8ed52d3eac",
+          "BT": false
+        },
+        {
+          "T": 1706188219142,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.012",
+          "p": "39883.80",
+          "L": "ZeroMinusTick",
+          "i": "397df07a-6ca0-5c21-ad6d-de6f00db9421",
+          "BT": false
+        },
+        {
+          "T": 1706188219142,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.004",
+          "p": "39883.80",
+          "L": "ZeroMinusTick",
+          "i": "1c8aa6e8-976b-5b7e-9034-65075385e4d4",
+          "BT": false
+        },
+        {
+          "T": 1706188219142,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39883.80",
+          "L": "ZeroMinusTick",
+          "i": "aeb2d43a-4468-5389-ae2c-e20a550d6a00",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.3196669,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188220200,
+      "data": [
+        {
+          "T": 1706188220198,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "39882.90",
+          "L": "ZeroMinusTick",
+          "i": "e7bcc408-e670-5af0-925c-624bf1ba824b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.3368084,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188222373,
+      "data": [
+        {
+          "T": 1706188222372,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.002",
+          "p": "39881.60",
+          "L": "MinusTick",
+          "i": "783f171a-08aa-5994-b221-5646eee3ab76",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.357178,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188223176,
+      "data": [
+        {
+          "T": 1706188223175,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "f995f062-8742-5113-ba2a-2fc2736e5147",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.371406,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188225158,
+      "data": [
+        {
+          "T": 1706188225156,
+          "s": "BTCUSDT",
+          "S": "Buy",
+          "v": "0.050",
+          "p": "39881.60",
+          "L": "ZeroMinusTick",
+          "i": "315ec436-0e87-54fe-957c-e945c4bfe645",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.3914638,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188226638,
+      "data": [
+        {
+          "T": 1706188226637,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "39881.50",
+          "L": "MinusTick",
+          "i": "512d2a34-9bdf-5ecb-886d-8b560d63486f",
+          "BT": false
+        },
+        {
+          "T": 1706188226637,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "b92dbdec-7a56-5130-8507-b3bbdfb84b75",
+          "BT": false
+        },
+        {
+          "T": 1706188226637,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.025",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "7fdef87d-2c73-5c04-8c54-193165b59b0c",
+          "BT": false
+        },
+        {
+          "T": 1706188226637,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.052",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "16f1f4a5-d979-5bb0-ab3f-a56ef4ef904a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188243.411887,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "type": "snapshot",
+      "ts": 1706188227494,
+      "data": [
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.352",
+          "p": "39881.50",
+          "L": "MinusTick",
+          "i": "4b22b3a7-f462-5ea1-a7dd-fe09bba55476",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.251",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "5da7087f-4d17-5a3f-b7ed-612a7750cd49",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.075",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "f6d53d9e-db62-5b2a-bd95-11c8a779685c",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.075",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "d08d2179-1991-5d65-964c-ffdd29ad03b9",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.002",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "788aa533-972c-50bf-abc8-10c89075c2d5",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.159",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "13867372-23ce-548b-911a-4527393c6345",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.732",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "e9b19074-fb29-57d5-8833-736ac64d1cf0",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.980",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "91d44142-7c71-5f01-a6a4-a92a9ae4aadf",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.500",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "149b8798-cecb-510e-bb79-0928266e2c7e",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.300",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "08043872-1966-5ccd-a022-2b56476cfb14",
+          "BT": false
+        },
+        {
+          "T": 1706188227493,
+          "s": "BTCUSDT",
+          "S": "Sell",
+          "v": "0.431",
+          "p": "39881.50",
+          "L": "ZeroMinusTick",
+          "i": "4e416067-b57b-5b90-b4c2-eddfebf8fe7f",
+          "BT": false
+        }
+      ]
+    }
+  }
+]

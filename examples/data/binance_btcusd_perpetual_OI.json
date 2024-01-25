@@ -1,0 +1,602 @@
+[
+  {
+    "timestamp": 1706195611.7161057,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195615.708618,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195619.7021496,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195623.6928847,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195627.6866872,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195631.6854556,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195635.6768024,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195639.6679916,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195643.663541,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899329",
+      "contractType": "PERPETUAL",
+      "time": 1706195590355
+    }
+  },
+  {
+    "timestamp": 1706195647.6610937,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195651.653143,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195655.6420217,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195659.637397,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195663.633316,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195667.620147,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195671.6139617,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899643",
+      "contractType": "PERPETUAL",
+      "time": 1706195625469
+    }
+  },
+  {
+    "timestamp": 1706195675.6073961,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195679.6002948,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195683.5908175,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195687.5776079,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195691.5673504,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195695.5598037,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195699.5467432,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898764",
+      "contractType": "PERPETUAL",
+      "time": 1706195658459
+    }
+  },
+  {
+    "timestamp": 1706195703.535991,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195707.5276067,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195711.5201156,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195715.5168898,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195719.51478,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195723.50661,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195727.498067,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195731.491674,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195735.4884675,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195739.4848063,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898898",
+      "contractType": "PERPETUAL",
+      "time": 1706195688131
+    }
+  },
+  {
+    "timestamp": 1706195743.4756505,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195747.467547,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195751.4613938,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195755.4525228,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195759.4419894,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195763.4325173,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195767.4296079,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195771.4239595,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898874",
+      "contractType": "PERPETUAL",
+      "time": 1706195714932
+    }
+  },
+  {
+    "timestamp": 1706195775.438854,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898352",
+      "contractType": "PERPETUAL",
+      "time": 1706195739679
+    }
+  },
+  {
+    "timestamp": 1706195779.4324825,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898352",
+      "contractType": "PERPETUAL",
+      "time": 1706195739679
+    }
+  },
+  {
+    "timestamp": 1706195783.4273562,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898352",
+      "contractType": "PERPETUAL",
+      "time": 1706195739679
+    }
+  },
+  {
+    "timestamp": 1706195787.42871,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195791.425755,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195795.417741,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195799.408084,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195803.4003303,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195807.3931189,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195811.385036,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195815.3768747,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195819.3712227,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899211",
+      "contractType": "PERPETUAL",
+      "time": 1706195811270
+    }
+  },
+  {
+    "timestamp": 1706195823.3660834,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195827.358916,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7898715",
+      "contractType": "PERPETUAL",
+      "time": 1706195776128
+    }
+  },
+  {
+    "timestamp": 1706195831.3504202,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899211",
+      "contractType": "PERPETUAL",
+      "time": 1706195811270
+    }
+  },
+  {
+    "timestamp": 1706195835.3461404,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899211",
+      "contractType": "PERPETUAL",
+      "time": 1706195811270
+    }
+  },
+  {
+    "timestamp": 1706195839.3439603,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7899211",
+      "contractType": "PERPETUAL",
+      "time": 1706195811270
+    }
+  },
+  {
+    "timestamp": 1706196507.0161276,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7896171",
+      "contractType": "PERPETUAL",
+      "time": 1706196483957
+    }
+  },
+  {
+    "timestamp": 1706196511.008317,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "7896171",
+      "contractType": "PERPETUAL",
+      "time": 1706196483957
+    }
+  }
+]

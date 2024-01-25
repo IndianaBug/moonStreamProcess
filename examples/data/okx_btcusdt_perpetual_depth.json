@@ -1,0 +1,2094 @@
+[
+  {
+    "timestamp": 1706188124.7800627,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062925",
+          "px": "39892",
+          "sz": "0.01813",
+          "side": "buy",
+          "ts": "1706188117070",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7803175,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062928",
+          "px": "39892",
+          "sz": "0.00105157",
+          "side": "buy",
+          "ts": "1706188117958",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7807608,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062931",
+          "px": "39889.3",
+          "sz": "0.10032541",
+          "side": "sell",
+          "ts": "1706188118946",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7811208,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062933",
+          "px": "39888",
+          "sz": "0.03445515",
+          "side": "sell",
+          "ts": "1706188118947",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7815363,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062935",
+          "px": "39886.6",
+          "sz": "0.02980441",
+          "side": "sell",
+          "ts": "1706188118947",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7819161,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062937",
+          "px": "39884.9",
+          "sz": "0.30054556",
+          "side": "sell",
+          "ts": "1706188118949",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.7823875,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062939",
+          "px": "39884.8",
+          "sz": "0.00698811",
+          "side": "sell",
+          "ts": "1706188118949",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188124.782851,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062941",
+          "px": "39883.5",
+          "sz": "0.00005594",
+          "side": "buy",
+          "ts": "1706188119356",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.2649658,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062943",
+          "px": "39884.7",
+          "sz": "0.00029374",
+          "side": "sell",
+          "ts": "1706188122178",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188126.265765,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062945",
+          "px": "39888.1",
+          "sz": "0.00250626",
+          "side": "buy",
+          "ts": "1706188123327",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188127.7955728,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062947",
+          "px": "39890.6",
+          "sz": "0.00136558",
+          "side": "buy",
+          "ts": "1706188125929",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188128.8885317,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062949",
+          "px": "39892.1",
+          "sz": "0.00466317",
+          "side": "buy",
+          "ts": "1706188127688",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188134.5587695,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062951",
+          "px": "39892.4",
+          "sz": "0.0030041",
+          "side": "buy",
+          "ts": "1706188132890",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188139.866661,
+    "data": {}
+  },
+  {
+    "timestamp": 1706188146.8320677,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062954",
+          "px": "39894.1",
+          "sz": "0.00752",
+          "side": "buy",
+          "ts": "1706188139910",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188146.8334792,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062956",
+          "px": "39895",
+          "sz": "0.00752",
+          "side": "buy",
+          "ts": "1706188141810",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188146.8345304,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062958",
+          "px": "39895",
+          "sz": "0.00025065",
+          "side": "buy",
+          "ts": "1706188142771",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188153.0467842,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062960",
+          "px": "39894.9",
+          "sz": "0.01",
+          "side": "sell",
+          "ts": "1706188145502",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188153.0481033,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062962",
+          "px": "39894.9",
+          "sz": "0.0106",
+          "side": "sell",
+          "ts": "1706188145794",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188153.0494156,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062964",
+          "px": "39897.1",
+          "sz": "0.01813",
+          "side": "buy",
+          "ts": "1706188147292",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188158.9533908,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062966",
+          "px": "39897.1",
+          "sz": "0.0087208",
+          "side": "buy",
+          "ts": "1706188148522",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188158.954578,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062969",
+          "px": "39899.7",
+          "sz": "0.00104858",
+          "side": "buy",
+          "ts": "1706188149836",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188158.9587538,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062971",
+          "px": "39899.8",
+          "sz": "0.00001468",
+          "side": "buy",
+          "ts": "1706188151712",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188164.1440043,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478062973",
+          "px": "39899.9",
+          "sz": "0.00002992",
+          "side": "sell",
+          "ts": "1706188157165",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9722624,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063001",
+          "px": "39900",
+          "sz": "0.00746559",
+          "side": "buy",
+          "ts": "1706188159279",
+          "count": "28"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9734554,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063003",
+          "px": "39901.9",
+          "sz": "0.04",
+          "side": "buy",
+          "ts": "1706188159450",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9746292,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063005",
+          "px": "39903.2",
+          "sz": "0.00010615",
+          "side": "buy",
+          "ts": "1706188159889",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9756963,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063007",
+          "px": "39903.7",
+          "sz": "0.01226135",
+          "side": "buy",
+          "ts": "1706188159889",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.9768713,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063010",
+          "px": "39904.9",
+          "sz": "0.00001467",
+          "side": "sell",
+          "ts": "1706188160694",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188168.977969,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063014",
+          "px": "39906.4",
+          "sz": "0.01504",
+          "side": "buy",
+          "ts": "1706188162828",
+          "count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.1643822,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063017",
+          "px": "39902.2",
+          "sz": "0.00452964",
+          "side": "buy",
+          "ts": "1706188164167",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.165622,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063019",
+          "px": "39901.1",
+          "sz": "0.00469298",
+          "side": "buy",
+          "ts": "1706188164186",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.166836,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063021",
+          "px": "39901",
+          "sz": "0.02507745",
+          "side": "sell",
+          "ts": "1706188165724",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.1688375,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063023",
+          "px": "39900",
+          "sz": "0.00109",
+          "side": "sell",
+          "ts": "1706188165731",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.17078,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063025",
+          "px": "39896.1",
+          "sz": "0.01188",
+          "side": "buy",
+          "ts": "1706188165821",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188175.17218,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063027",
+          "px": "39897.5",
+          "sz": "0.00610729",
+          "side": "buy",
+          "ts": "1706188169554",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8063657,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063029",
+          "px": "39898.2",
+          "sz": "0.00280799",
+          "side": "buy",
+          "ts": "1706188171644",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8080502,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063031",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8096845,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063033",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.81132,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063035",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8129554,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063037",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8146071,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063039",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.816268,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063041",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8180656,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063043",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8202026,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063045",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8232136,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063047",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8253367,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063049",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.827271,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063051",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.829222,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063053",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.8310695,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063055",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.833122,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063057",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188183.835131,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063059",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4625454,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063061",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4648023,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063063",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4669774,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063065",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4691122,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063067",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4718926,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063069",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4739332,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063071",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4760916,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063073",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4783478,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063075",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4807122,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063077",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4833496,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063079",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4860654,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063081",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4886296,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063083",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4911582,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063085",
+          "px": "39898.2",
+          "sz": "0.00001098",
+          "side": "buy",
+          "ts": "1706188172602",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4941657,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063087",
+          "px": "39898.2",
+          "sz": "0.0099",
+          "side": "buy",
+          "ts": "1706188176433",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.4988556,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063090",
+          "px": "39902.5",
+          "sz": "0.00029253",
+          "side": "sell",
+          "ts": "1706188176830",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188189.5022647,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063092",
+          "px": "39903.9",
+          "sz": "0.0046",
+          "side": "buy",
+          "ts": "1706188178435",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5640657,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063094",
+          "px": "39903.9",
+          "sz": "0.06162555",
+          "side": "buy",
+          "ts": "1706188179378",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5673823,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063096",
+          "px": "39904.2",
+          "sz": "0.00096",
+          "side": "buy",
+          "ts": "1706188182399",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5703306,
+    "data": {}
+  },
+  {
+    "timestamp": 1706188197.5730214,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063101",
+          "px": "39905.9",
+          "sz": "0.00001464",
+          "side": "buy",
+          "ts": "1706188185480",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5757575,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063103",
+          "px": "39905.9",
+          "sz": "0.25058951",
+          "side": "buy",
+          "ts": "1706188187168",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5802033,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063105",
+          "px": "39905.9",
+          "sz": "0.02004966",
+          "side": "buy",
+          "ts": "1706188187454",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5844498,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063111",
+          "px": "39902",
+          "sz": "0.300362",
+          "side": "sell",
+          "ts": "1706188188593",
+          "count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5889597,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063113",
+          "px": "39900",
+          "sz": "0.0832",
+          "side": "sell",
+          "ts": "1706188188593",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5942564,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063115",
+          "px": "39896.8",
+          "sz": "0.01",
+          "side": "sell",
+          "ts": "1706188188597",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.5994425,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063118",
+          "px": "39896",
+          "sz": "0.03715017",
+          "side": "sell",
+          "ts": "1706188188597",
+          "count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6045113,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063121",
+          "px": "39892.7",
+          "sz": "0.03760086",
+          "side": "buy",
+          "ts": "1706188189074",
+          "count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6095092,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063126",
+          "px": "39892.7",
+          "sz": "0.24142248",
+          "side": "buy",
+          "ts": "1706188189418",
+          "count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6145062,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063128",
+          "px": "39894.1",
+          "sz": "0.00417411",
+          "side": "sell",
+          "ts": "1706188189428",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6191576,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063132",
+          "px": "39892.9",
+          "sz": "0.04204422",
+          "side": "sell",
+          "ts": "1706188189738",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6239202,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063134",
+          "px": "39892.6",
+          "sz": "0.00550473",
+          "side": "sell",
+          "ts": "1706188189741",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188197.6286156,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063136",
+          "px": "39892.7",
+          "sz": "0.00768336",
+          "side": "buy",
+          "ts": "1706188189756",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5648997,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063139",
+          "px": "39889.2",
+          "sz": "0.02607745",
+          "side": "sell",
+          "ts": "1706188191720",
+          "count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5685081,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063142",
+          "px": "39883.4",
+          "sz": "0.00263268",
+          "side": "sell",
+          "ts": "1706188192191",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5719059,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063144",
+          "px": "39881.4",
+          "sz": "0.16977407",
+          "side": "sell",
+          "ts": "1706188192192",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5752354,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063146",
+          "px": "39881.1",
+          "sz": "0.0057064",
+          "side": "sell",
+          "ts": "1706188192192",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5796766,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063148",
+          "px": "39880.3",
+          "sz": "0.02933261",
+          "side": "sell",
+          "ts": "1706188192192",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5844905,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063150",
+          "px": "39879.1",
+          "sz": "0.03851266",
+          "side": "sell",
+          "ts": "1706188192192",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.5911553,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063152",
+          "px": "39878",
+          "sz": "0.11392856",
+          "side": "sell",
+          "ts": "1706188192192",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.597918,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063154",
+          "px": "39878.1",
+          "sz": "0.00269803",
+          "side": "buy",
+          "ts": "1706188192293",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188207.6030984,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063156",
+          "px": "39878",
+          "sz": "0.00088153",
+          "side": "sell",
+          "ts": "1706188197302",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.113395,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063158",
+          "px": "39878.7",
+          "sz": "0.02218729",
+          "side": "buy",
+          "ts": "1706188201655",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.1175494,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063160",
+          "px": "39878.7",
+          "sz": "0.0002924",
+          "side": "buy",
+          "ts": "1706188202287",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.1219597,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063162",
+          "px": "39878.7",
+          "sz": "0.04385506",
+          "side": "buy",
+          "ts": "1706188203681",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.1263554,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063165",
+          "px": "39883.4",
+          "sz": "0.00263268",
+          "side": "buy",
+          "ts": "1706188205890",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.1302042,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063167",
+          "px": "39884.7",
+          "sz": "0.00125809",
+          "side": "sell",
+          "ts": "1706188206346",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.134507,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063169",
+          "px": "39888.6",
+          "sz": "0.0573",
+          "side": "buy",
+          "ts": "1706188207693",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188222.1386173,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063171",
+          "px": "39886.4",
+          "sz": "0.0290687",
+          "side": "buy",
+          "ts": "1706188209696",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2557945,
+    "data": {}
+  },
+  {
+    "timestamp": 1706188234.2633407,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063174",
+          "px": "39887.3",
+          "sz": "0.00593568",
+          "side": "sell",
+          "ts": "1706188214775",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2679222,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063176",
+          "px": "39888",
+          "sz": "0.00250691",
+          "side": "buy",
+          "ts": "1706188215702",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2716093,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063178",
+          "px": "39889.4",
+          "sz": "0.0012",
+          "side": "buy",
+          "ts": "1706188217318",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2753904,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063180",
+          "px": "39889.3",
+          "sz": "0.00425305",
+          "side": "sell",
+          "ts": "1706188217553",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2814775,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063182",
+          "px": "39884.1",
+          "sz": "0.00001462",
+          "side": "buy",
+          "ts": "1706188219293",
+          "count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1706188234.2881677,
+    "data": {
+      "arg": {
+        "channel": "trades",
+        "instId": "BTC-USDT"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT",
+          "tradeId": "478063185",
+          "px": "39884",
+          "sz": "0.0054",
+          "side": "sell",
+          "ts": "1706188222059",
+          "count": "2"
+        }
+      ]
+    }
+  }
+]

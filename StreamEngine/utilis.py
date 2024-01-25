@@ -1,8 +1,6 @@
 import numpy as np
 
 
-
-
 def booksflow_find_level(price, level_size):
     return np.ceil(price / level_size) * level_size
 
