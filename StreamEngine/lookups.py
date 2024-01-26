@@ -4,7 +4,7 @@ import datetime
 from dateutil import parser
 import arrow
 from typing import Tuple
-from utilis import calculate_option_time_to_expire_deribit, calculate_option_time_to_expire_okex
+from utilis import calculate_option_time_to_expire_deribit, calculate_option_time_to_expire_okex, calculate_option_time_to_expire_bybit
 
 ### BINANCE ###
 
@@ -25,6 +25,7 @@ def binance_funding_lookup(response : json) -> Tuple[float, str]:
     timestamp = response.get("data")[0].get("fundingTime")
     timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
     return funding, timestamp
+
 
 
 def binance_OI_lookup(response : json) -> Tuple[float, str]:
@@ -155,6 +156,22 @@ def bybit_trade_lookup(response : json) -> Tuple[str, float, float, str]:
     return side, price, size, timestamp
 
 
+def bybit_option_oi_lookup(response : json, side : str) -> Tuple[np.array, np.array, np.array, str]:
+    """
+        side : P, C
+    """
+
+    r = json.load(response)
+
+    strikes = np.array([float(d.get("symbol").split("-")[-2]) for d in r.get("result").get("list") if d.get("symbol").split("-")[-1] == side])
+    ois = np.array([float(d.get("openInterest")) for d in r.get("result").get("list") if d.get("symbol").split("-")[-1] == side])
+    countdowns = np.array([calculate_option_time_to_expire_bybit(d.get("symbol").split("-")[1]) for d in r.get("result").get("list") if d.get("symbol").split("-")[-1] == side])
+    
+    timestamp = datetime.fromtimestamp(r.get("time") / 10**3).strftime('%Y-%m-%d %H:%M:%S')
+    
+    return strikes, countdowns, ois, timestamp
+
+
 
 
 ### COINBASE ###
@@ -225,11 +242,17 @@ def okx_option_oi_lookup(response : dict, side : str) -> Tuple[np.array, np.arra
     return strikes, countdowns, ois, timestamp
 
 
+
+
+
 def okx_GTA_lookup(response : dict) -> Tuple[float, str]:
     ratio = float(response.get("data").get("data")[0][1])
     timestamp = int(response.get("data").get("data")[0][0]) / 1000
     timestamp = arrow.get(timestamp).format('YYYY-MM-DD HH:mm:ss')
     return ratio, timestamp
+
+
+
 
 def okx_depth_lookup(response : dict, side : str) -> Tuple[list, str]:
     """
@@ -241,6 +264,8 @@ def okx_depth_lookup(response : dict, side : str) -> Tuple[list, str]:
     return formated_books, timestamp
 
 
+
+
 def okx_trades_lookup(response : dict) -> Tuple[str, float, float, str]:    
     side = response.get("data").get("data")[0].get("side")
     price = float(response.get("data").get("data")[0].get("px"))
@@ -248,11 +273,28 @@ def okx_trades_lookup(response : dict) -> Tuple[str, float, float, str]:
     timestamp = arrow.get(int(response.get("data").get("data")[0]["ts"]) / 1000).format('YYYY-MM-DD HH:mm:ss')
     return side, price, amount, timestamp
 
+
+
+
 def okx_funding_lookup(response : dict) -> Tuple[float, str]:
-    return    
-    rate = float(response.get("data").get("data")[0].get("some"))
-    timestamp = arrow.get(int(response.get("data").get("data")[0]["ts"]) / 1000).format('YYYY-MM-DD HH:mm:ss')
+    response = json.load(response)
+    rate = float(response.get("data")[0].get("fundingRate"))
+    timestamp = datetime.fromtimestamp(float(response.get("data")[0].get("ts")) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
     return rate, timestamp
+
+
+
+def okex_liquidations_lookup(response : json) -> Tuple[str, float, float, str]:
+    response = json.load(response)
+    ticker = response.get("data").get("data")[0].get("instFamily")
+    timestamp = datetime.fromtimestamp(float(response.get("data").get("data")[0].get("details")[0].get("ts")) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
+    if "BTC" in ticker:
+        side = response.get("data").get("data")[0].get("details")[0].get("side")
+        price = float(response.get("data").get("data")[0].get("details")[0].get("bkPx"))
+        amount = float(response.get("data").get("data")[0].get("details")[0].get("sz"))
+        return side, price, amount, timestamp
+    else:
+        return 0, 0, 0, timestamp
 
 
 ## DERIBIT ###
@@ -262,6 +304,7 @@ def deribit_option_oi_lookup(response : dict, side : str) -> Tuple[np.array, np.
     """
         side : P, C
     """
+    response = json.loads(response)
     strikes = np.array([float(x["instrument_name"].split('-')[-2]) for x in response["data"]["result"] if x["instrument_name"].split('-')[-1] == side])
     countdowns = np.array([calculate_option_time_to_expire_deribit(x["instrument_name"].split('-')[1]) for x in response["data"]["result"] if x["instrument_name"].split('-')[-1] == side])
     ois = np.array([float(x["open_interest"]) for x in response["data"]["result"] if x["instrument_name"].split('-')[-1] == side])
