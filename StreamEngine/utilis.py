@@ -32,3 +32,27 @@ def booksflow_datatrim(current_price, dataDict, side, book_ceil_thresh):
             keys_to_remove.append(level)
     for level in keys_to_remove:
         del dataDict[side][level]
+
+def calculate_option_time_to_expire_deribit(date : str):                                  
+    today_day = datetime.datetime.now().timetuple().tm_yday
+    today_year = datetime.datetime.now().year
+    f = datetime.datetime.strptime(date, "%d%b%y")
+    expiration_date = f.timetuple().tm_yday
+    expiration_year = f.year
+    if today_year == expiration_year:
+        r = expiration_date - today_day
+    if today_year == expiration_year + 1:
+        r = 365 + expiration_date - today_day
+    return float(r)
+
+def calculate_option_time_to_expire_okex(date):                                  
+    today_day = datetime.datetime.now().timetuple().tm_yday
+    today_year = datetime.datetime.now().year
+    f = datetime.datetime.strptime(date, "%y%m%d")
+    expiration_date = f.timetuple().tm_yday
+    expiration_year = f.year
+    if today_year == expiration_year:
+        r = expiration_date - today_day
+    if today_year == expiration_year + 1:
+        r = 365 + expiration_date - today_day
+    return float(r)
