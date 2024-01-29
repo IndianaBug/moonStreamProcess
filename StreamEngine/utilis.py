@@ -62,3 +62,13 @@ def calculate_option_time_to_expire_bybit(date):
     current_date = datetime.now()
     days_left = (target_date - current_date).days
     return int(days_left)
+
+
+def merge_suffixes(n):
+    """
+        The maximum amount of datasets to aggregate is the len(alphabet). 
+        Modify this function to get more aggregation possibilities
+    """
+    alphabet = 'xyzabcdefghijklmnopqrstuvw'
+    suffixes = [f'_{alphabet[i]}' for i in range(n)]
+    return suffixes
