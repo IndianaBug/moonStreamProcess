@@ -1,254 +1,129 @@
 [
   {
-    "timestamp": 1706195611.7129889,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43385.75,
+    "timestamp": 1706607140.9809277,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195622.706494,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43390.78,
+    "timestamp": 1706607151.9092724,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195633.6976087,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43393.33,
+    "timestamp": 1706607162.9310083,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195644.6939087,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.6048462,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195655.6872773,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43420.66,
+    "timestamp": 1706607266.7694447,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195666.6945367,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43427.0,
+    "timestamp": 1706607348.5300786,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195677.692915,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.0458136,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   },
   {
-    "timestamp": 1706195688.685607,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.5174406,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195699.6837285,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195710.6783144,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195721.6687,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195732.6607401,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195743.6576416,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195754.6774688,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195765.66853,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195776.6576722,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195787.6540997,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195798.6500995,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195809.6432474,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195820.6372938,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195831.6332705,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195842.6348374,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
-      }
-    ]
-  },
-  {
-    "timestamp": 1706196507.0174584,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "fundingTime": 1706169600001,
-        "fundingRate": "0.00010000",
-        "markPrice": "40122.98766288"
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00009492",
+        "markPrice": "43346.60000000"
       }
     ]
   }

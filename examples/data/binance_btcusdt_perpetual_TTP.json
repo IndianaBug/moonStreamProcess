@@ -1,277 +1,137 @@
 [
   {
-    "timestamp": 1706195611.713945,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43385.75,
+    "timestamp": 1706607141.31922,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195621.985791,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43393.32,
+    "timestamp": 1706607152.2492707,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195632.9914837,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43393.33,
+    "timestamp": 1706607163.2349849,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195643.9919875,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.6057801,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195654.9861417,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43420.66,
+    "timestamp": 1706607266.7708895,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195665.9787955,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43427.0,
+    "timestamp": 1706607348.5289514,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
       }
     ]
   },
   {
-    "timestamp": 1706195676.9902344,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.0449376,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
+        "longAccount": "0.5682",
+        "longShortRatio": "1.3161",
+        "shortAccount": "0.4318",
+        "timestamp": 1706607300000
       }
     ]
   },
   {
-    "timestamp": 1706195687.9870203,
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.516888,
     "data": [
       {
         "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195698.9788716,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195709.9699907,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195720.9587002,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6702",
-        "longShortRatio": "2.0321",
-        "shortAccount": "0.3298",
-        "timestamp": 1706195400000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195731.951256,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195742.941297,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195753.933275,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195764.9284406,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195775.9357526,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195786.9308393,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195797.9213328,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195808.9194727,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195819.925128,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195830.9189765,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706195841.9476342,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6703",
-        "longShortRatio": "2.0331",
-        "shortAccount": "0.3297",
-        "timestamp": 1706195700000
-      }
-    ]
-  },
-  {
-    "timestamp": 1706196507.0110261,
-    "data": [
-      {
-        "symbol": "BTCUSDT",
-        "longAccount": "0.6699",
-        "longShortRatio": "2.0294",
-        "shortAccount": "0.3301",
-        "timestamp": 1706196300000
+        "longAccount": "0.5681",
+        "longShortRatio": "1.3156",
+        "shortAccount": "0.4319",
+        "timestamp": 1706608200000
       }
     ]
   }
