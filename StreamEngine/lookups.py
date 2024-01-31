@@ -11,12 +11,15 @@ from utilis import calculate_option_time_to_expire_deribit, calculate_option_tim
 def binance_liquidations_lookup(response : json) -> Tuple[str, float, float, str]:
     response = json.loads(response)
     price = float(response.get("btc_price"))
+    instrument = response["instrument"]
     try:
         amount = float(response.get("data").get("o").get("q"))
         side = response.get("data").get("o").get("S").lower()
         price = float(response.get("data").get("o").get("p"))
         timestamp = response.get("data").get("o").get("T")
         timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        if instrument == "btcusd":
+            amount = (amount * 100) / price # different units for different contracts
         return side, price, amount, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
@@ -39,11 +42,14 @@ def binance_funding_lookup(response : json) -> Tuple[float, float, str]:
 
 def binance_OI_lookup(response : json) -> Tuple[float, float, str]:
     response = json.loads(response)
+    instrument = response["instrument"]
     price = response.get("btc_price")
     try:
         openInterest = float(response.get("data").get("openInterest"))
         timestamp = response.get("data").get("time")
         timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        if instrument == "btcusd":
+            openInterest = (openInterest * 100) / price
         return openInterest, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
@@ -75,9 +81,10 @@ def binance_GTA_TTA_TTP_lookup(response : json) -> Tuple[float, float, float, st
             return np.nan, np.nan, np.nan, price, timestamp
 
 
-def binance_trades_lookup(response : json) -> Tuple[str, float, float, str]:
-
+def binance_trades_lookup(response : json) -> list:
     response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
     price = response.get("btc_price")
     try:
         quantity = float(response.get("data").get("q"))
@@ -88,10 +95,12 @@ def binance_trades_lookup(response : json) -> Tuple[str, float, float, str]:
             side = "sell"
         timestamp = response.get("data").get("E")
         timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        return side, price, quantity, timestamp
+        if insType == "perpetual" and instrument == "btcusd":
+            quantity = (quantity * 100) / price
+        return [[side, price, quantity, timestamp]]
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, timestamp
+        return [[np.nan, np.nan, np.nan, timestamp]]
 
 
 def binance_depth_lookup(response : json, side : str) -> Tuple[list, str]:
@@ -105,7 +114,9 @@ def binance_depth_lookup(response : json, side : str) -> Tuple[list, str]:
     """
     side = "bid" if side == "bids" else "ask"
     response = json.loads(response)
-    print(response["timestamp"])
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response["btc_price"]
     timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
 
     if side == "ask":
@@ -131,6 +142,9 @@ def binance_depth_lookup(response : json, side : str) -> Tuple[list, str]:
             pass
     
     books = [[float(x[0]), float(x[1])] for x in books]
+
+    if insType == "perpetual" and instrument == "btcusd":
+        books = [(x*100) / price for x in books]
     
     return books, timestamp
 
@@ -186,6 +200,7 @@ def bybit_OI_funding_lookup(response : json) -> Tuple[float, str]:
         timestamp = float(response.get("data").get("ts"))
         openInterestValue = float(response.get("data").get("data").get("openInterestValue"))
         timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        openInterestValue = openInterestValue / price
         return funding, openInterestValue, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
@@ -208,19 +223,22 @@ def bybit_liquidations_lookup(response : json) -> Tuple[str, float, float, str]:
 
 
 
-def bybit_trade_lookup(response : json) -> Tuple[str, float, float, str]:
+def bybit_trade_lookup(response : json) -> list:
     response = json.loads(response)
     price = response["btc_price"]
     try:
-        side = response.get("data").get("data")[0].get("S", np.nan).lower()
-        price = float(response.get("data").get("data")[0].get("p"))
-        size = float(response.get("data").get("data")[0].get("v"))
-        timestamp = response.get("data").get("data")[0].get("T")
-        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        return side, price, size, timestamp
+        l = []
+        for trade in response.get("data").get("data"):
+            side = trade.get("S").lower()
+            price = float(trade.get("p"))
+            size = float(trade.get("v"))
+            timestamp = trade.get("T")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, size, timestamp])
+        return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, price, np.nan, timestamp
+        return [[np.nan, np.nan, np.nan, timestamp]]
 
 
 def bybit_option_oi_lookup(response : json, side : str) -> Tuple[np.array, np.array, np.array, float, str]:
@@ -291,21 +309,21 @@ def coinbase_depth_lookup(response, side) -> Tuple[list, str]:
 
 
 
-def coinbase_trades_lookup(response : dict) -> Tuple[str, float, float, str]:
-
+def coinbase_trades_lookup(response : dict) -> list:
     response = json.loads(response)
-
-    if response.get("data").get("events") != np.nan: 
-        if response.get("data").get("events")[0].get("subscriptions") != np.nan:
-            return np.nan, np.nan, np.nan, parser.parse(response.get("data").get("timestamp")).strftime('%Y-%m-%d %H:%M:%S')
-
-    if response.get("data").get("events") != np.nan:
-        if response.get("data").get("events")[0].get("type") != np.nan:
-          side = response.get("data").get("events")[0].get("trades")[0].get("side").lower()
-          price = float(response.get("data").get("events")[0].get("trades")[0].get("price"))
-          amount = float(response.get("data").get("events")[0].get("trades")[0].get("size"))
-          timestamp = parser.parse(response.get("data").get("events")[0].get("trades")[0].get("time")).strftime('%Y-%m-%d %H:%M:%S')
-          return side, price, amount, timestamp
+    try:
+        l = []
+        trades = response.get("data").get("events")[0].get("trades")
+        for trade in trades:
+            side = trade.get("side").lower()
+            price = float(trade.get("price"))
+            size = float(trade.get("size"))
+            timestamp = parser.parse(trade.get("time")).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, size, timestamp])
+        return l
+    except:
+        timestamp = parser.parse(response.get("data").get("timestamp")).strftime('%Y-%m-%d %H:%M:%S')
+        return [np.nan, np.nan, np.nan, timestamp]
 
 
 ## OKX ###
@@ -352,11 +370,15 @@ def okx_depth_lookup(response : dict, side : str) -> Tuple[list, str]:
         side : asks, bids
     """
     response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
     price = response["btc_price"]
     try:
         books = response.get("data").get("data")[0][side]
         formated_books = [[float(x[0]), float(x[1])] for x in books]
         timestamp = arrow.get(int(response.get("data").get("data")[0]["ts"]) / 1000).format('YYYY-MM-DD HH:mm:ss')
+        if instrument == "btcusd" and insType == "perpetual":
+            formated_books = [(x * 100) / price for x in formated_books]
         return formated_books, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
@@ -365,19 +387,25 @@ def okx_depth_lookup(response : dict, side : str) -> Tuple[list, str]:
 
 
 
-def okx_trades_lookup(response : dict) -> Tuple[str, float, float, str]:
+def okx_trades_lookup(response : dict) -> list:
     response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
     price = response["btc_price"]
-    try:    
-        side = response.get("data").get("data")[0].get("side")
-        price = float(response.get("data").get("data")[0].get("px"))
-        amount = float(response.get("data").get("data")[0].get("sz"))
-        timestamp = arrow.get(int(response.get("data").get("data")[0]["ts"]) / 1000).format('YYYY-MM-DD HH:mm:ss')
-        return side, price, amount, timestamp
+    try:
+        l = []
+        for trade in response.get("data").get("data"):
+            side = trade.get("side")
+            price = float(trade.get("px"))
+            amount = float(trade.get("sz"))
+            timestamp = arrow.get(int(trade["ts"]) / 1000).format('YYYY-MM-DD HH:mm:ss')
+            if instrument == "btcusd" and insType == "perpetual":
+                amount = (amount * 100) / price
+            l.append([side, price, amount, timestamp])
+        return l
     except:
         timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, timestamp
-
+        return [[np.nan, np.nan, np.nan, timestamp]]
 
 
 
@@ -386,31 +414,42 @@ def okx_funding_lookup(response : dict) -> Tuple[float, float, str]:
     response = json.loads(response)
     price = response["btc_price"]
     try:
-        rate = float(response.get("data")[0].get("fundingRate"))
-        timestamp = datetime.fromtimestamp(float(response.get("data")[0].get("ts")) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        rate = float(response.get("data").get("data")[0].get("fundingRate"))
+        timestamp = datetime.datetime.fromtimestamp(float(response.get("data").get("data")[0].get("ts")) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
         return rate, price, timestamp
     except:
-        timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
         return np.nan, np.nan, timestamp
 
 
-def okex_liquidations_lookup(response : json) -> Tuple[str, float, float, str]:
-    response = json.load(response)
+def okex_liquidations_lookup(response : json) -> list:
+    response = json.loads(response)
     price = response["btc_price"]
     try:
-        ticker = response.get("data").get("data")[0].get("instFamily")
-        timestamp = datetime.fromtimestamp(float(response.get("data").get("data")[0].get("details")[0].get("ts")) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        if "BTC" in ticker:
-            side = response.get("data").get("data")[0].get("details")[0].get("side")
-            price = float(response.get("data").get("data")[0].get("details")[0].get("bkPx"))
-            amount = float(response.get("data").get("data")[0].get("details")[0].get("sz"))
-            return side, price, amount, timestamp
-        else:
-            return 0, 0, 0, timestamp
+        l = []
+        for liquidation in response.get("data").get("data"):
+            ticker = liquidation.get("instFamily")
+            if "BTC" in ticker:
+                for detail in liquidation.get("details"):
+                    side = detail.get("side")
+                    price = float(detail.get("bkPx"))
+                    amount = float(detail.get("sz"))
+                    timestamp = detail.get("ts")
+                    timestamp = datetime.datetime.fromtimestamp(float(timestamp) / 10**3).strftime('%Y-%m-%d %H:%M:%S')
+                    l.append([side, price, amount, timestamp])
+        return l
     except:
-        timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, timestamp
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return []
 
+def okex_OI_lookup(response : json) -> Tuple[str, float, float, str]:
+    response = json.loads(response)
+    price = response["btc_price"]
+    try:
+        oi = float(response.get("data").get("data")[0].get("oi"))
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return []
 
 
 ## DERIBIT ###
