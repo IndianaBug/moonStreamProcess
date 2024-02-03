@@ -1,6 +1,7 @@
 import numpy as np 
 import pandas as pd 
 import datetime
+import json
 
 
 from utilis import booksflow_find_level, booksflow_compute_percent_variation, booksflow_manipulate_arrays, booksflow_datatrim, merge_suffixes
@@ -25,6 +26,7 @@ class booksflow():
         self.exchange = exchange
         self.symbol = symbol
         self.insType = insType
+        self.lookup = lookup
         self.level_size = float(level_size)
         self.book_ceil_thresh = book_ceil_thresh
         self.df = pd.DataFrame()
@@ -37,31 +39,38 @@ class booksflow():
     
     def update_books(self, books):
 
-        bids = self.lookup(books, "bids")
+        bids, timestamp = self.lookup(books, "bids")
         asks, timestamp = self.lookup(books, "asks")
 
+        if asks == [[0, 0]] or bids == [[0, 0]]:
+            return
+
         self.B['timestamp'] = timestamp
-        self.price = (bids[0][0] + asks[0][0]) / 2
+        try:
+            self.price = (max(self.B['bids'].keys()) + min(self.B['asks'].keys())) / 2
+        except:
+            self.price = (bids[0][0] + asks[0][0]) / 2
          
         self.update_books_helper(bids, "bids")
         self.update_books_helper(asks, "asks")
         
-        self.current_second = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second
+        self.current_second = datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second
 
         if self.current_second > self.previous_second:
-            self.dfs_input_books(current_price)
+            self.dfs_input_books()
             self.previous_second = self.current_second
         if self.previous_second > self.current_second:
-            self.df.replace(0, method='ffill', inplace=True)     
-            self.df.replace(0, method='bfill', inplace=True)
+            for col in self.df.columns:
+                self.df[col] = self.df[col].replace(0, pd.NA).ffill()
+                self.df[col] = self.df[col].replace(0, pd.NA).bfill()
             self.snapshot = self.df.copy()
             self.df = pd.DataFrame()
             self.previous_second = self.current_second
             # Delete unnecessary data
-            booksflow_datatrim(current_price, self.B, 'bids', self.book_ceil_thresh)
-            booksflow_datatrim(current_price, self.B, 'asks', self.book_ceil_thresh)
+            booksflow_datatrim(self.price, self.B, 'bids', self.book_ceil_thresh)
+            booksflow_datatrim(self.price, self.B, 'asks', self.book_ceil_thresh)
             # Start everything all over again
-            self.dfs_input_books(current_price)
+            self.dfs_input_books()
 
     def update_books_helper(self, books, side):
         """
@@ -94,17 +103,17 @@ class booksflow():
         columns = [str(col) for col in unique_levels]
 
         if self.df.empty:
-            self.df = pd.DataFrame(0, index=list(range(60)), columns = columns)
+            self.df = pd.DataFrame(0, index=list(range(60)), columns = columns, dtype='float64')
             self.df.loc[self.current_second] = group_sums
             sorted_columns = sorted(map(float, self.df.columns))
             self.df = self.df[map(str, sorted_columns)]
         else:
-            old_levels = np.array(self.df.columns)
-            new_levels = np.setdiff1d(np.array(columns), old_levels)
-            full_new_levels = np.concatenate((old_levels, np.setdiff1d(new_levels, old_levels))) 
+            old_levels = np.array(self.df.columns, dtype=np.float64)
+            new_levels = np.setdiff1d(np.array(columns, dtype=np.float64), old_levels)
             for l in new_levels:
-                self.df[l] = 0
-            sums = booksflow_manipulate_arrays(old_levels, full_new_levels, group_sums)
+                self.df[str(l)] = 0
+                self.df[str(l)]= self.df[str(l)].astype("float64")
+            sums = booksflow_manipulate_arrays(old_levels, np.array(columns, dtype=np.float64), group_sums)
             self.df.loc[self.current_second] = sums
             sorted_columns = sorted(map(float, self.df.columns))
             self.df = self.df[map(str, sorted_columns)] 
@@ -130,98 +139,134 @@ class tradesflow():
         self.insType = insType
         self.level_size = float(level_size)
         self.lookup = lookup
-        self.buys = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
-        self.sells = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.buys = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype='float64')
+        self.sells = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype='float64')
         self.snapshot_buys = None
         self.snapshot_sells = None
         self.snapshot_total = None
-        self.snapshot_buys_dominance = None
-        self.snapshot_sells_dominance = None
         self.previous_second = -1
         self.current_second = 0
 
-    def dfs_input_trades(self, trade ):
+    def input_trades(self, data) :
+        for trade in self.lookup(data):
+            try:
+                side, price, amount, timestamp = trade
+                self.dfs_input_trade(side, price, amount, timestamp)
+            except:
+                continue
 
-        side, price, amount, timestamp = self.lookup(trade)
-        self.current_second  =  datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second
 
-        if self.previous_second > current_second:
+    def dfs_input_trade(self, side, price, amount, timestamp):
+
+        self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
+
+        if self.previous_second > self.current_second:
 
             self.snapshot_buys = self.buys.copy()
-            self.snapshot.fillna(0, inplace = True)
+            self.snapshot_buys.fillna(0, inplace = True)
             self.snapshot_sells = self.sells.copy()
-            self.snapshot.fillna(0, inplace = True)
+            self.snapshot_sells.fillna(0, inplace = True)
             
-            self.snapshot_buys['price'].replace(0, method='ffill', inplace=True)
-            self.snapshot_buys['price'].replace(0, method='bfill', inplace=True)
-            self.snapshot_sells['price'].replace(0, method='ffill', inplace=True)
-            self.snapshot_sells['price'].replace(0, method='bfill', inplace=True)
+            self.snapshot_buys['price'] = self.snapshot_buys['price'].replace(0, pd.NA).ffill()
+            self.snapshot_buys['price'] = self.snapshot_buys['price'].replace(0, pd.NA).bfill()
+            self.snapshot_sells['price'] = self.snapshot_sells['price'].replace(0, pd.NA).ffill()
+            self.snapshot_sells['price'] = self.snapshot_sells['price'].replace(0, pd.NA).bfill()
 
-            self.snapshot_total = self.snapshot_buys.copy() + self.snapshot_sells.copy()
-            self.snapshot_buys_dominance = self.snapshot_buys.copy() - self.snapshot_sells.copy()
-            self.snapshot_dominance_buys.apply(lambda x: max(x, 0), inplace=True)
-            self.snapshot_sells_dominance = self.snapshot_sells.copy() - self.snapshot_buys.copy()
-            self.snapshot_dominance_buys.apply(lambda x: min(x, 0), inplace=True)
+            merged_df = pd.merge(self.snapshot_buys.copy(), self.snapshot_sells.copy(), left_index=True, right_index=True, how='outer', suffixes=('_buys', '_sells')).fillna(0)
+
+            common_columns_dic = {column.split("_")[0] : [] for column in merged_df.columns.tolist()}
+            for column in merged_df.columns.tolist():
+                common_columns_dic[column.split("_")[0]].append(column)
+
+            self.snapshot_total = pd.DataFrame()
+            for common_columns in common_columns_dic.keys():
+                for index, column in enumerate(common_columns_dic[common_columns]):
+                    if index == 0 and "price" not in column:
+                        self.snapshot_total[common_columns] = merged_df[column]
+                    if "price" not in column:
+                        self.snapshot_total[common_columns] = self.snapshot_total[common_columns] + merged_df[column]
+            self.snapshot_total.insert(0, 'price', self.snapshot_buys['price'])
+
     
-            self.buys = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
-            self.sells = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+            self.buys = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype='float64')
+            self.sells = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype='float64')
 
         self.previous_second = self.current_second
 
         if side == 'buy':
-            self.buys.loc[current_second, 'price'] = price
-            level = booksflow_find_level(current_price, self.level_size)
+            self.buys.loc[self.current_second, 'price'] = price
+            level = booksflow_find_level(price, self.level_size)
             current_columns = (map(float, [x for x in self.buys.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.buys[str(level)] = 0
-                self.buys.loc[current_second, str(level)] += amount
+                self.buys[str(level)] = self.buys[str(level)].astype("float64")
+                self.buys.loc[self.current_second, str(level)] += amount
             else:
-                self.buys.loc[current_second, str(level)] += amount
+                self.buys.loc[self.current_second, str(level)] += amount
 
         
         if side == 'sell':
-            self.sells.loc[current_second, 'price'] = price
-            level = booksflow_find_level(current_price, self.level_size)
+            self.sells.loc[self.current_second, 'price'] = price
+            level = booksflow_find_level(price, self.level_size)
             current_columns = (map(float, [x for x in self.sells.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.sells[str(level)] = 0
-                self.sells.loc[current_second, str(level)] += amount
+                self.sells[str(level)] = self.sells[str(level)].astype("float64")
+                self.sells.loc[self.current_second, str(level)] += amount
             else:
-                self.sells.loc[current_second, str(level)] += amount
+                self.sells.loc[self.current_second, str(level)] += amount
 
 
 
 
 
 
-class oiflow():
+class oiFundingflow():
     """
         Important notes: 
             Maintain consistency in the current timestamp across all flows
             Aggregation explanation:  If the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40, and so forth.
     """
 
-    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int, lookup : callable):
+    def __init__(self, exchange : str, symbol : str, insType : str, level_size : int, lookup_oi : callable, lookup_funding : callable = None):
         """
             insType : spot, future, perpetual 
             level_size : the magnitude of the level to aggragate upon (measured in unites of the quote to base pair
             lookup : a function that returns formated oi with timestamp from response
+            Some apis fetch both funding and oi altogether, most doesn't. 
+            If api does, lookup_oi should look for both funding and oi 
         """
         self.exchange = exchange
         self.symbol = symbol
         self.insType = insType
         self.level_size = float(level_size)
-        self.lookup = lookup
-        self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.lookup_oi = lookup_oi
+        self.lookup_funding = lookup_funding
+        self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price', 'fundingRate', "oi"]), dtype='float64')
         self.snapshot = None
         self.previous_second = -1
         self.current_second = 0
         self.previous_oi = None
+        self.fundingRate = 0
 
-    def dfs_input_oi(self, tick):
+    
+    def input_oi_funding(self, oifundingdata):
+        funding, openInterestValue, price, timestamp = self.lookup_oi(oifundingdata)
+        self.fundingRate = funding
+        self.dfs_input(openInterestValue, price, timestamp)
+
+    def input_funding(self, fundingdata):
+        funding, price, timestamp = self.lookup_funding(fundingdata)
+        self.fundingRate = funding
+    
+    def input_oi(self, oidata):
+        oi, price, timestamp = self.lookup_oi(oidata)
+        self.dfs_input(oi, price, timestamp)
+    
+
+    def dfs_input(self, oi, price, timestamp):
         
-        oi, price, timestamp = self.lookup(tick)
-        self.current_second = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second 
+        self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
 
 
         if self.previous_oi == None:
@@ -229,21 +274,26 @@ class oiflow():
 
         amount = oi - self.previous_oi
 
-        if self.previous_second > current_second:
+        if self.previous_second > self.current_second:
             self.snapshot = self.raw_data.copy()
             self.snapshot.fillna(0, inplace = True)
-            self.snapshot['price'].replace(0, method='ffill', inplace=True)
-            self.snapshot['price'].replace(0, method='bfill', inplace=True)
-            self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+            for col in ['price', 'fundingRate', "oi"]:
+                self.snapshot[col] = self.snapshot[col].replace(0, pd.NA).ffill()
+                self.snapshot[col] = self.snapshot[col].replace(0, pd.NA).bfill()
+            self.raw_data = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price', 'fundingRate', "oi"]), dtype='float64')
         self.previous_second = self.current_second
-        self.raw_data.loc[current_second, 'price'] = price
+
+        self.raw_data.loc[self.current_second, 'price'] = price
         level = booksflow_find_level(price, self.level_size)
-        current_columns = (map(float, [x for x in self.raw_data.columns.tolist() if x != "price"]))
+        current_columns = (map(float, [x for x in self.raw_data.columns.tolist() if x not in ['price', 'fundingRate', "oi"]]))
         if level not in current_columns:
             self.raw_data[str(level)] = 0
-            self.raw_data.loc[current_second, str(level)] = amount
+            self.raw_data[str(level)] = self.raw_data[str(level)].astype("float64")
+            self.raw_data.loc[self.current_second, str(level)] = amount
         else:
-            self.raw_data.loc[current_second, str(level)] = amount
+            self.raw_data.loc[self.current_second, str(level)] = amount
+        self.raw_data.loc[self.current_second, "oi"] = oi
+        self.raw_data.loc[self.current_second, "fundingRate"] = self.fundingRate
 
         self.previous_oi = oi
 

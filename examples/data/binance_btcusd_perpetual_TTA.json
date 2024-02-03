@@ -1,0 +1,138 @@
+[
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43385.75,
+    "timestamp": 1706607140.9812462,
+    "data": [
+      {
+        "longAccount": "0.7122",
+        "longShortRatio": "2.4746",
+        "shortAccount": "0.2878",
+        "pair": "BTCUSD",
+        "timestamp": 1706606700000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43390.78,
+    "timestamp": 1706607151.9103906,
+    "data": [
+      {
+        "longAccount": "0.7122",
+        "longShortRatio": "2.4746",
+        "shortAccount": "0.2878",
+        "pair": "BTCUSD",
+        "timestamp": 1706606700000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43393.33,
+    "timestamp": 1706607162.9304986,
+    "data": [
+      {
+        "longAccount": "0.7122",
+        "longShortRatio": "2.4746",
+        "shortAccount": "0.2878",
+        "pair": "BTCUSD",
+        "timestamp": 1706606700000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.607075,
+    "data": [
+      {
+        "longAccount": "0.7122",
+        "longShortRatio": "2.4746",
+        "shortAccount": "0.2878",
+        "pair": "BTCUSD",
+        "timestamp": 1706606700000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43420.66,
+    "timestamp": 1706607266.7723012,
+    "data": [
+      {
+        "longAccount": "0.7122",
+        "longShortRatio": "2.4746",
+        "shortAccount": "0.2878",
+        "pair": "BTCUSD",
+        "timestamp": 1706606700000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43427.0,
+    "timestamp": 1706607348.5319302,
+    "data": [
+      {
+        "longAccount": "0.7123",
+        "longShortRatio": "2.4758",
+        "shortAccount": "0.2877",
+        "pair": "BTCUSD",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.0479665,
+    "data": [
+      {
+        "longAccount": "0.7125",
+        "longShortRatio": "2.4783",
+        "shortAccount": "0.2875",
+        "pair": "BTCUSD",
+        "timestamp": 1706607300000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "TTA",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.521244,
+    "data": [
+      {
+        "longAccount": "0.7110",
+        "longShortRatio": "2.4602",
+        "shortAccount": "0.2890",
+        "pair": "BTCUSD",
+        "timestamp": 1706607900000
+      }
+    ]
+  }
+]

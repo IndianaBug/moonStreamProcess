@@ -1,0 +1,4091 @@
+[
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43390.79,
+    "timestamp": 1706607146.3799815,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607146301,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202106",
+          "T": 1706607146299,
+          "p": "43391.95",
+          "v": "0.000064",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43392.23,
+    "timestamp": 1706607152.160456,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607152025,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202116",
+          "T": 1706607152023,
+          "p": "43392.86",
+          "v": "0.000917",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607153.6350517,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607153555,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202118",
+          "T": 1706607153553,
+          "p": "43393.39",
+          "v": "0.000109",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.33,
+    "timestamp": 1706607160.5938303,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.33,
+    "timestamp": 1706607165.192743,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607165102,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202131",
+          "T": 1706607165100,
+          "p": "43393.38",
+          "v": "0.004577",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607172.6468372,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607169351,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202133",
+          "T": 1706607169349,
+          "p": "43393.38",
+          "v": "0.00064",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607185.0131395,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607175973,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202137",
+          "T": 1706607175971,
+          "p": "43393.38",
+          "v": "0.011835",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.040099,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180040,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202143",
+          "T": 1706607180038,
+          "p": "43394",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202144",
+          "T": 1706607180038,
+          "p": "43394.26",
+          "v": "0.057612",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202145",
+          "T": 1706607180038,
+          "p": "43396",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202146",
+          "T": 1706607180038,
+          "p": "43396",
+          "v": "0.000513",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202147",
+          "T": 1706607180038,
+          "p": "43396.43",
+          "v": "0.061167",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202148",
+          "T": 1706607180038,
+          "p": "43396.84",
+          "v": "0.116622",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202149",
+          "T": 1706607180038,
+          "p": "43396.85",
+          "v": "0.115248",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202150",
+          "T": 1706607180038,
+          "p": "43397.1",
+          "v": "0.000198",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202151",
+          "T": 1706607180038,
+          "p": "43397.85",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202152",
+          "T": 1706607180038,
+          "p": "43398",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202153",
+          "T": 1706607180038,
+          "p": "43398.91",
+          "v": "0.135919",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202154",
+          "T": 1706607180038,
+          "p": "43398.94",
+          "v": "0.004963",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202155",
+          "T": 1706607180038,
+          "p": "43399.16",
+          "v": "0.115248",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202156",
+          "T": 1706607180038,
+          "p": "43399.66",
+          "v": "0.005",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202157",
+          "T": 1706607180038,
+          "p": "43399.79",
+          "v": "0.010001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202158",
+          "T": 1706607180038,
+          "p": "43399.94",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202159",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.000028",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202160",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.01",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202161",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.000165",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202162",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.004047",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202163",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202164",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.002506",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202165",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.004608",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202166",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.00008",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202167",
+          "T": 1706607180038,
+          "p": "43400",
+          "v": "0.001175",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202168",
+          "T": 1706607180038,
+          "p": "43400.73",
+          "v": "0.116622",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202169",
+          "T": 1706607180038,
+          "p": "43400.94",
+          "v": "0.00219",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202170",
+          "T": 1706607180038,
+          "p": "43401",
+          "v": "0.002",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202171",
+          "T": 1706607180038,
+          "p": "43401.01",
+          "v": "0.115207",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202172",
+          "T": 1706607180038,
+          "p": "43401.03",
+          "v": "0.004001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202173",
+          "T": 1706607180038,
+          "p": "43401.71",
+          "v": "0.068912",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202174",
+          "T": 1706607180038,
+          "p": "43401.72",
+          "v": "0.075808",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202175",
+          "T": 1706607180038,
+          "p": "43402",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202176",
+          "T": 1706607180038,
+          "p": "43402.03",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202177",
+          "T": 1706607180038,
+          "p": "43402.11",
+          "v": "0.004388",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202178",
+          "T": 1706607180038,
+          "p": "43402.95",
+          "v": "0.006743",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202179",
+          "T": 1706607180038,
+          "p": "43402.98",
+          "v": "0.45",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0416064,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180047,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202189",
+          "T": 1706607180045,
+          "p": "43405.36",
+          "v": "0.096542",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202190",
+          "T": 1706607180045,
+          "p": "43405.64",
+          "v": "0.011522",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202191",
+          "T": 1706607180045,
+          "p": "43405.64",
+          "v": "0.011522",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202192",
+          "T": 1706607180045,
+          "p": "43405.84",
+          "v": "0.003054",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202193",
+          "T": 1706607180045,
+          "p": "43406",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202194",
+          "T": 1706607180045,
+          "p": "43406.21",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202195",
+          "T": 1706607180045,
+          "p": "43406.36",
+          "v": "0.018432",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202196",
+          "T": 1706607180045,
+          "p": "43406.77",
+          "v": "0.0021",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.043246,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180074,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202201",
+          "T": 1706607180072,
+          "p": "43407.86",
+          "v": "0.022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202202",
+          "T": 1706607180072,
+          "p": "43407.86",
+          "v": "0.019",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202203",
+          "T": 1706607180072,
+          "p": "43408.34",
+          "v": "0.274798",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0449984,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180093,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202217",
+          "T": 1706607180091,
+          "p": "43407.36",
+          "v": "0.014852",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0478284,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180117,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202226",
+          "T": 1706607180115,
+          "p": "43412.4",
+          "v": "0.147186",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202227",
+          "T": 1706607180115,
+          "p": "43412.48",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202228",
+          "T": 1706607180115,
+          "p": "43412.56",
+          "v": "0.0062",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202229",
+          "T": 1706607180115,
+          "p": "43412.69",
+          "v": "0.069094",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0496986,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180182,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202231",
+          "T": 1706607180180,
+          "p": "43414",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202232",
+          "T": 1706607180180,
+          "p": "43414.47",
+          "v": "0.092184",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202233",
+          "T": 1706607180180,
+          "p": "43414.57",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202234",
+          "T": 1706607180180,
+          "p": "43414.87",
+          "v": "0.000198",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202235",
+          "T": 1706607180180,
+          "p": "43416",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202236",
+          "T": 1706607180180,
+          "p": "43416.29",
+          "v": "0.032812",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0516922,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180243,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202240",
+          "T": 1706607180241,
+          "p": "43417.2",
+          "v": "0.005",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0539267,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180349,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202242",
+          "T": 1706607180348,
+          "p": "43418",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0558746,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180488,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202245",
+          "T": 1706607180486,
+          "p": "43418.69",
+          "v": "0.070838",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202246",
+          "T": 1706607180486,
+          "p": "43418.75",
+          "v": "0.00022",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202247",
+          "T": 1706607180486,
+          "p": "43419.56",
+          "v": "0.010001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202248",
+          "T": 1706607180486,
+          "p": "43419.71",
+          "v": "0.00219",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202249",
+          "T": 1706607180486,
+          "p": "43420",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202250",
+          "T": 1706607180486,
+          "p": "43420",
+          "v": "0.0013",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202251",
+          "T": 1706607180486,
+          "p": "43420",
+          "v": "0.0018",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202252",
+          "T": 1706607180486,
+          "p": "43420",
+          "v": "0.0017",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202253",
+          "T": 1706607180486,
+          "p": "43420",
+          "v": "0.08481",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0578787,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180497,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202255",
+          "T": 1706607180496,
+          "p": "43420",
+          "v": "0.12569",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.06019,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180550,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202260",
+          "T": 1706607180548,
+          "p": "43420.18",
+          "v": "0.245943",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0625458,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180836,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202265",
+          "T": 1706607180834,
+          "p": "43421.8",
+          "v": "0.004001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202266",
+          "T": 1706607180834,
+          "p": "43421.8",
+          "v": "0.002913",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0648172,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607180976,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202268",
+          "T": 1706607180974,
+          "p": "43421.79",
+          "v": "0.000828",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43393.32,
+    "timestamp": 1706607187.0671346,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607181284,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202270",
+          "T": 1706607181282,
+          "p": "43421.8",
+          "v": "0.02303",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202271",
+          "T": 1706607181282,
+          "p": "43421.8",
+          "v": "0.076932",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43395.35,
+    "timestamp": 1706607192.9138973,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607185173,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202274",
+          "T": 1706607185171,
+          "p": "43420.22",
+          "v": "0.056003",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202275",
+          "T": 1706607185171,
+          "p": "43420.22",
+          "v": "0.087707",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43395.35,
+    "timestamp": 1706607192.9226825,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43395.35,
+    "timestamp": 1706607192.9258754,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607188392,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202283",
+          "T": 1706607188390,
+          "p": "43416.67",
+          "v": "0.009483",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43397.27,
+    "timestamp": 1706607202.4751225,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607194702,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202287",
+          "T": 1706607194700,
+          "p": "43416.01",
+          "v": "0.023033",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202288",
+          "T": 1706607194700,
+          "p": "43416.01",
+          "v": "0.01862",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202289",
+          "T": 1706607194700,
+          "p": "43416.67",
+          "v": "0.082336",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43397.27,
+    "timestamp": 1706607202.4769592,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607196276,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202295",
+          "T": 1706607196274,
+          "p": "43419.98",
+          "v": "0.005298",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202296",
+          "T": 1706607196274,
+          "p": "43419.98",
+          "v": "0.00363",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.5950155,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607202317,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202298",
+          "T": 1706607202315,
+          "p": "43419.98",
+          "v": "0.002437",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43404.18,
+    "timestamp": 1706607209.6971216,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607205222,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202300",
+          "T": 1706607205220,
+          "p": "43419.99",
+          "v": "0.000023",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43407.75,
+    "timestamp": 1706607214.9425607,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43407.75,
+    "timestamp": 1706607214.9444964,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607210431,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202303",
+          "T": 1706607210429,
+          "p": "43419.98",
+          "v": "0.001304",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43407.75,
+    "timestamp": 1706607214.9467945,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607212067,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202305",
+          "T": 1706607212065,
+          "p": "43419.98",
+          "v": "0.00242",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43415.16,
+    "timestamp": 1706607221.8323143,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607215634,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202307",
+          "T": 1706607215633,
+          "p": "43419.98",
+          "v": "0.000075",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43415.16,
+    "timestamp": 1706607221.8342614,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607217023,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202309",
+          "T": 1706607217021,
+          "p": "43419.98",
+          "v": "0.000334",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43415.16,
+    "timestamp": 1706607221.8361526,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607217630,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202311",
+          "T": 1706607217629,
+          "p": "43419.99",
+          "v": "0.181682",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.4,
+    "timestamp": 1706607231.8491154,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607222271,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202313",
+          "T": 1706607222269,
+          "p": "43419.99",
+          "v": "0.000631",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.9767706,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607228853,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202315",
+          "T": 1706607228851,
+          "p": "43419.98",
+          "v": "0.01",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.9792147,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230450,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202317",
+          "T": 1706607230449,
+          "p": "43419.99",
+          "v": "0.02553",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.9815576,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230556,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202319",
+          "T": 1706607230554,
+          "p": "43419.99",
+          "v": "0.060835",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.9838223,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230566,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202321",
+          "T": 1706607230564,
+          "p": "43419.99",
+          "v": "0.299869",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.986243,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230573,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202327",
+          "T": 1706607230572,
+          "p": "43420",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.988535,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230614,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202330",
+          "T": 1706607230612,
+          "p": "43423.21",
+          "v": "0.02303",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.6,
+    "timestamp": 1706607234.9909947,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607230778,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202332",
+          "T": 1706607230776,
+          "p": "43424.01",
+          "v": "0.004397",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43424.26,
+    "timestamp": 1706607242.2176926,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43424.26,
+    "timestamp": 1706607242.2216382,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607236621,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202336",
+          "T": 1706607236619,
+          "p": "43424.78",
+          "v": "0.004271",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0517066,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607241459,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202338",
+          "T": 1706607241458,
+          "p": "43424.78",
+          "v": "0.061728",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202339",
+          "T": 1706607241458,
+          "p": "43424.78",
+          "v": "0.000196",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202340",
+          "T": 1706607241458,
+          "p": "43424.78",
+          "v": "0.000759",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202341",
+          "T": 1706607241458,
+          "p": "43424.36",
+          "v": "0.074628",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202342",
+          "T": 1706607241458,
+          "p": "43424.01",
+          "v": "0.00642",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202343",
+          "T": 1706607241458,
+          "p": "43424",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202344",
+          "T": 1706607241458,
+          "p": "43423.99",
+          "v": "0.005",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202345",
+          "T": 1706607241458,
+          "p": "43422.6",
+          "v": "0.005298",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202346",
+          "T": 1706607241458,
+          "p": "43422.59",
+          "v": "0.132861",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0543299,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607246023,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202348",
+          "T": 1706607246022,
+          "p": "43422",
+          "v": "0.000115",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0568776,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607246953,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202352",
+          "T": 1706607246951,
+          "p": "43420.19",
+          "v": "0.004046",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202353",
+          "T": 1706607246951,
+          "p": "43420.18",
+          "v": "0.174932",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202354",
+          "T": 1706607246951,
+          "p": "43420.18",
+          "v": "0.123184",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0593834,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607246954,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202357",
+          "T": 1706607246952,
+          "p": "43420",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0619318,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607246957,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202361",
+          "T": 1706607246955,
+          "p": "43418",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0645401,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607246972,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202364",
+          "T": 1706607246970,
+          "p": "43416",
+          "v": "0.1",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0674558,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607247102,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202368",
+          "T": 1706607247100,
+          "p": "43414.43",
+          "v": "0.162746",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.070142,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607247103,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202373",
+          "T": 1706607247101,
+          "p": "43414",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43417.68,
+    "timestamp": 1706607253.0730104,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607247112,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202377",
+          "T": 1706607247110,
+          "p": "43410",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607262.19001,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607248948,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202379",
+          "T": 1706607248947,
+          "p": "43408.17",
+          "v": "0.000236",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607262.1931388,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607257158,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202381",
+          "T": 1706607257157,
+          "p": "43408.17",
+          "v": "0.035477",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5222018,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.525381,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607259990,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202384",
+          "T": 1706607259988,
+          "p": "43407.95",
+          "v": "0.141436",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202385",
+          "T": 1706607259988,
+          "p": "43407.95",
+          "v": "0.018193",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5283527,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607260014,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202387",
+          "T": 1706607260012,
+          "p": "43406",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5313232,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607260063,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202390",
+          "T": 1706607260061,
+          "p": "43405",
+          "v": "0.0013",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202391",
+          "T": 1706607260061,
+          "p": "43405",
+          "v": "0.07",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5342035,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607260460,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202394",
+          "T": 1706607260458,
+          "p": "43402.93",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202395",
+          "T": 1706607260458,
+          "p": "43402.93",
+          "v": "0.008225",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5379913,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607260523,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202397",
+          "T": 1706607260522,
+          "p": "43400.84",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5411634,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607263242,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202399",
+          "T": 1706607263240,
+          "p": "43400.71",
+          "v": "0.00119",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202400",
+          "T": 1706607263240,
+          "p": "43400.71",
+          "v": "0.019299",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202401",
+          "T": 1706607263240,
+          "p": "43400.71",
+          "v": "0.008143",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202402",
+          "T": 1706607263240,
+          "p": "43400.71",
+          "v": "0.07",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202403",
+          "T": 1706607263240,
+          "p": "43400.01",
+          "v": "0.001368",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.81,
+    "timestamp": 1706607280.165603,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607269051,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202406",
+          "T": 1706607269050,
+          "p": "43400.01",
+          "v": "0.029532",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202407",
+          "T": 1706607269050,
+          "p": "43400.01",
+          "v": "0.070468",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.81,
+    "timestamp": 1706607280.16925,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607273236,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202409",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202410",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.002",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202411",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.000252",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202412",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.061387",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202413",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.003963",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202414",
+          "T": 1706607273234,
+          "p": "43400",
+          "v": "0.03226",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43420.81,
+    "timestamp": 1706607280.172382,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607273357,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202416",
+          "T": 1706607273355,
+          "p": "43400",
+          "v": "0.008112",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8593287,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607276053,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202418",
+          "T": 1706607276052,
+          "p": "43400",
+          "v": "0.020174",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202419",
+          "T": 1706607276052,
+          "p": "43400",
+          "v": "0.079826",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8627071,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607279583,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202421",
+          "T": 1706607279582,
+          "p": "43400",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202422",
+          "T": 1706607279582,
+          "p": "43400",
+          "v": "0.211431",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8663788,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607279583,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202424",
+          "T": 1706607279582,
+          "p": "43400",
+          "v": "0.151723",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.86997,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607279584,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202426",
+          "T": 1706607279582,
+          "p": "43400",
+          "v": "0.096023",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202427",
+          "T": 1706607279582,
+          "p": "43400",
+          "v": "0.013774",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8757322,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607279686,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202429",
+          "T": 1706607279684,
+          "p": "43399.56",
+          "v": "0.010001",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202430",
+          "T": 1706607279684,
+          "p": "43399.56",
+          "v": "0.061831",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8804262,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607279739,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202432",
+          "T": 1706607279737,
+          "p": "43398",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202433",
+          "T": 1706607279737,
+          "p": "43398",
+          "v": "0.0018",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202434",
+          "T": 1706607279737,
+          "p": "43398",
+          "v": "0.061833",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.884448,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607282928,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202436",
+          "T": 1706607282926,
+          "p": "43397.61",
+          "v": "0.002331",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.887952,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607283151,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202438",
+          "T": 1706607283149,
+          "p": "43397.6",
+          "v": "0.007013",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202439",
+          "T": 1706607283149,
+          "p": "43397.59",
+          "v": "0.062987",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.8915346,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607283159,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202441",
+          "T": 1706607283158,
+          "p": "43397.59",
+          "v": "0.004422",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.88,
+    "timestamp": 1706607287.895289,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607283184,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202444",
+          "T": 1706607283182,
+          "p": "43396",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202445",
+          "T": 1706607283182,
+          "p": "43396",
+          "v": "0.0017",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.0106091,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "ee7bab8f-f696-4f65-8d49-eeb93717c0b1",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.014531,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607287310,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202449",
+          "T": 1706607287308,
+          "p": "43394.58",
+          "v": "0.00023",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.0182679,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607290418,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202451",
+          "T": 1706607290416,
+          "p": "43394.57",
+          "v": "0.07",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202452",
+          "T": 1706607290416,
+          "p": "43394.57",
+          "v": "0.03",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.0220144,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607293472,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202454",
+          "T": 1706607293470,
+          "p": "43394.57",
+          "v": "0.031211",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202455",
+          "T": 1706607293470,
+          "p": "43394.57",
+          "v": "0.038789",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.0263834,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607294123,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202461",
+          "T": 1706607294121,
+          "p": "43392.48",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202462",
+          "T": 1706607294121,
+          "p": "43392",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9342353,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607297301,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202465",
+          "T": 1706607297299,
+          "p": "43391.62",
+          "v": "0.006148",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202466",
+          "T": 1706607297299,
+          "p": "43391.62",
+          "v": "0.041652",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9390116,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607297392,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202468",
+          "T": 1706607297390,
+          "p": "43390",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202469",
+          "T": 1706607297390,
+          "p": "43390",
+          "v": "0.001152",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202470",
+          "T": 1706607297390,
+          "p": "43390",
+          "v": "0.0013",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202471",
+          "T": 1706607297390,
+          "p": "43390",
+          "v": "0.061419",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9433515,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607298786,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202475",
+          "T": 1706607298784,
+          "p": "43388.31",
+          "v": "0.007761",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9473104,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607299184,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202478",
+          "T": 1706607299182,
+          "p": "43388.3",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9514263,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607300023,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202483",
+          "T": 1706607300022,
+          "p": "43387.77",
+          "v": "0.0021",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.9553723,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607300168,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202487",
+          "T": 1706607300166,
+          "p": "43384.77",
+          "v": "0.000592",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.959517,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607303265,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202489",
+          "T": 1706607303263,
+          "p": "43384.77",
+          "v": "0.38996",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202490",
+          "T": 1706607303263,
+          "p": "43384.77",
+          "v": "0.060997",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202491",
+          "T": 1706607303263,
+          "p": "43384.77",
+          "v": "0.013953",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202492",
+          "T": 1706607303263,
+          "p": "43384.75",
+          "v": "0.004388",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202493",
+          "T": 1706607303263,
+          "p": "43384.12",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202494",
+          "T": 1706607303263,
+          "p": "43384",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7598827,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607309264,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202497",
+          "T": 1706607309262,
+          "p": "43381.95",
+          "v": "0.000115",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7644885,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607312893,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202500",
+          "T": 1706607312891,
+          "p": "43381.95",
+          "v": "0.001267",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.769217,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607315670,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202507",
+          "T": 1706607315669,
+          "p": "43380.28",
+          "v": "0.005302",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202508",
+          "T": 1706607315669,
+          "p": "43380.06",
+          "v": "0.002789",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202509",
+          "T": 1706607315669,
+          "p": "43380.02",
+          "v": "0.001267",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202510",
+          "T": 1706607315669,
+          "p": "43380.01",
+          "v": "0.001522",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202511",
+          "T": 1706607315669,
+          "p": "43380",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202512",
+          "T": 1706607315669,
+          "p": "43380",
+          "v": "0.000251",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202513",
+          "T": 1706607315669,
+          "p": "43380",
+          "v": "0.002",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202514",
+          "T": 1706607315669,
+          "p": "43379.94",
+          "v": "0.00022",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7743127,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607315680,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202516",
+          "T": 1706607315678,
+          "p": "43379.1",
+          "v": "0.000198",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202517",
+          "T": 1706607315678,
+          "p": "43379.1",
+          "v": "0.001522",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7801948,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607315698,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202519",
+          "T": 1706607315697,
+          "p": "43378.45",
+          "v": "0.0047",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7868698,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607316291,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202522",
+          "T": 1706607316289,
+          "p": "43377.02",
+          "v": "0.001334",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.533004,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607316947,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202523",
+          "T": 1706607316945,
+          "p": "43377.02",
+          "v": "0.010192",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202524",
+          "T": 1706607316945,
+          "p": "43377.02",
+          "v": "0.005408",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.539633,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607320183,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202527",
+          "T": 1706607320181,
+          "p": "43377",
+          "v": "0.000979",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5466821,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324576,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202530",
+          "T": 1706607324574,
+          "p": "43377",
+          "v": "0.014",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5535626,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324576,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202532",
+          "T": 1706607324575,
+          "p": "43377",
+          "v": "0.014",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.560329,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324577,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202534",
+          "T": 1706607324575,
+          "p": "43377",
+          "v": "0.013821",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202535",
+          "T": 1706607324575,
+          "p": "43377",
+          "v": "0.000179",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5675082,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324578,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202538",
+          "T": 1706607324576,
+          "p": "43376",
+          "v": "0.000305",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202539",
+          "T": 1706607324576,
+          "p": "43376",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202540",
+          "T": 1706607324576,
+          "p": "43376",
+          "v": "0.0002",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202541",
+          "T": 1706607324576,
+          "p": "43376",
+          "v": "0.0002",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202542",
+          "T": 1706607324576,
+          "p": "43375.91",
+          "v": "0.027157",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.572853,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324578,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202544",
+          "T": 1706607324577,
+          "p": "43375.91",
+          "v": "0.014",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5778904,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324585,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202555",
+          "T": 1706607324583,
+          "p": "43372.97",
+          "v": "0.014",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.586659,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607324614,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202557",
+          "T": 1706607324613,
+          "p": "43372.97",
+          "v": "0.092955",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202558",
+          "T": 1706607324613,
+          "p": "43372.97",
+          "v": "0.039045",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607631.4204338,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607602169,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202817",
+          "T": 1706607602168,
+          "p": "43378.56",
+          "v": "0.001",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607631.428932,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607606417,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202819",
+          "T": 1706607606415,
+          "p": "43378.56",
+          "v": "0.003",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.520185,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607612763,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202820",
+          "T": 1706607612762,
+          "p": "43378.56",
+          "v": "0.001303",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202821",
+          "T": 1706607612762,
+          "p": "43378.56",
+          "v": "0.13835",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202822",
+          "T": 1706607612762,
+          "p": "43378.56",
+          "v": "0.001559",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202823",
+          "T": 1706607612762,
+          "p": "43378.56",
+          "v": "0.007066",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202824",
+          "T": 1706607612762,
+          "p": "43378.55",
+          "v": "0.07",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202825",
+          "T": 1706607612762,
+          "p": "43378.55",
+          "v": "0.062235",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5292737,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607613704,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202828",
+          "T": 1706607613702,
+          "p": "43378.16",
+          "v": "0.00484",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5383341,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617235,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202830",
+          "T": 1706607617233,
+          "p": "43378.55",
+          "v": "0.059222",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202831",
+          "T": 1706607617233,
+          "p": "43378.57",
+          "v": "0.013491",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202832",
+          "T": 1706607617233,
+          "p": "43378.57",
+          "v": "0.022248",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202833",
+          "T": 1706607617233,
+          "p": "43378.57",
+          "v": "0.001567",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5474865,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617294,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202835",
+          "T": 1706607617293,
+          "p": "43378.79",
+          "v": "0.000001",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5563076,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617361,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202837",
+          "T": 1706607617359,
+          "p": "43379.42",
+          "v": "0.04704",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5647788,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617376,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202841",
+          "T": 1706607617375,
+          "p": "43379.5",
+          "v": "0.010524",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202842",
+          "T": 1706607617375,
+          "p": "43379.5",
+          "v": "0.00025",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202843",
+          "T": 1706607617375,
+          "p": "43379.61",
+          "v": "0.051714",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5742967,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617403,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202845",
+          "T": 1706607617402,
+          "p": "43380",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5830462,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617598,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202847",
+          "T": 1706607617596,
+          "p": "43382.37",
+          "v": "0.001384",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102202848",
+          "T": 1706607617596,
+          "p": "43382.72",
+          "v": "0.057627",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.5921881,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607617632,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202851",
+          "T": 1706607617631,
+          "p": "43384",
+          "v": "0.000138",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43380.28,
+    "timestamp": 1706607644.601287,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706607620675,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102202854",
+          "T": 1706607620673,
+          "p": "43385.89",
+          "v": "0.039408",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608386.4192855,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608372673,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203713",
+          "T": 1706608372672,
+          "p": "43420.84",
+          "v": "0.00202",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608398.9727988,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608377691,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203715",
+          "T": 1706608377690,
+          "p": "43420.84",
+          "v": "0.002009",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608398.9812603,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608380537,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203717",
+          "T": 1706608380534,
+          "p": "43420.84",
+          "v": "0.002376",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608398.9905531,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608382745,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203719",
+          "T": 1706608382743,
+          "p": "43420.84",
+          "v": "0.001972",
+          "S": "Buy",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608398.9993432,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608383186,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203723",
+          "T": 1706608383184,
+          "p": "43420.11",
+          "v": "0.061446",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102203724",
+          "T": 1706608383184,
+          "p": "43420.04",
+          "v": "0.002119",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102203725",
+          "T": 1706608383184,
+          "p": "43420",
+          "v": "0.000138",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102203726",
+          "T": 1706608383184,
+          "p": "43420",
+          "v": "0.002077",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102203727",
+          "T": 1706608383184,
+          "p": "43420",
+          "v": "0.00413",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 43421.1,
+    "timestamp": 1706608399.0089178,
+    "data": {
+      "topic": "publicTrade.BTCUSDT",
+      "ts": 1706608386338,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2290000000102203730",
+          "T": 1706608386336,
+          "p": "43418.02",
+          "v": "0.000423",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        },
+        {
+          "i": "2290000000102203731",
+          "T": 1706608386336,
+          "p": "43418.02",
+          "v": "0.000405",
+          "S": "Sell",
+          "s": "BTCUSDT",
+          "BT": false
+        }
+      ]
+    }
+  }
+]

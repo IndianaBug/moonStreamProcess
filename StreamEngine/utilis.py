@@ -15,15 +15,21 @@ def booksflow_manipulate_arrays(old_levels, new_levels, new_values):
     """
       helper for dynamically dealing with new columns
     """
-    full_new_levels = np.concatenate((old_levels, np.setdiff1d(new_levels, old_levels)))
-    full_new_values = np.zeros_like(full_new_levels)
-    for i in range(len(full_new_levels)):
-        index = np.where(new_levels == full_new_levels[i])[0]
-        if len(index) > 0:
-            full_new_values[i] = new_values[index[0]]
+    new_isolated_levels = np.setdiff1d(new_levels, old_levels)
+    sorted_new_values = np.array([])
+    for i in range(len(old_levels)):
+        index = np.where(new_levels == old_levels[i])[0]
+        if len(index) != 0:
+            sorted_new_values = np.append(sorted_new_values, new_values[index])
         else:
-            full_new_values[i] = 0     
-    return full_new_values
+            sorted_new_values = np.append(sorted_new_values,0)
+    for i in range(len(new_isolated_levels)):
+        index = np.where(new_levels == new_isolated_levels[i])[0]
+        if len(index) != 0:
+            sorted_new_values = np.append(sorted_new_values, new_values[index])    
+        else:
+            sorted_new_values = np.append(sorted_new_values,0)
+    return sorted_new_values
 
 def booksflow_datatrim(current_price, dataDict, side, book_ceil_thresh):
     keys_to_remove = []

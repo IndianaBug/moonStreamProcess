@@ -1,0 +1,130 @@
+[
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43385.75,
+    "timestamp": 1706607140.9815595,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43390.78,
+    "timestamp": 1706607151.907809,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43393.33,
+    "timestamp": 1706607162.9319572,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.6066473,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43420.66,
+    "timestamp": 1706607266.7699275,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43427.0,
+    "timestamp": 1706607348.5308435,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.0440416,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "fundingRate",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.5185013,
+    "data": [
+      {
+        "symbol": "BTCUSD_PERP",
+        "fundingTime": 1706601600000,
+        "fundingRate": "0.00010000",
+        "markPrice": "43354.77136994"
+      }
+    ]
+  }
+]
