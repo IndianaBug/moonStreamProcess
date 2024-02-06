@@ -38,11 +38,11 @@ class booksflow():
 
     
     def update_books(self, books):
-
-        bids, timestamp = self.lookup(books, "bids")
-        asks, timestamp = self.lookup(books, "asks")
-
-        if asks == [[0, 0]] or bids == [[0, 0]]:
+        
+        try:
+            bids, timestamp = self.lookup(books, "bids")
+            asks, timestamp = self.lookup(books, "asks")
+        except:
             return
 
         self.B['timestamp'] = timestamp
@@ -251,17 +251,26 @@ class oiFundingflow():
 
     
     def input_oi_funding(self, oifundingdata):
-        funding, openInterestValue, price, timestamp = self.lookup_oi(oifundingdata)
-        self.fundingRate = funding
-        self.dfs_input(openInterestValue, price, timestamp)
+        try:
+            funding, openInterestValue, price, timestamp = self.lookup_oi(oifundingdata)
+            self.fundingRate = funding
+            self.dfs_input(openInterestValue, price, timestamp)
+        except:
+            return
 
     def input_funding(self, fundingdata):
-        funding, price, timestamp = self.lookup_funding(fundingdata)
-        self.fundingRate = funding
+        try:
+            funding, price, timestamp = self.lookup_funding(fundingdata)
+            self.fundingRate = funding
+        except:
+            return
     
     def input_oi(self, oidata):
-        oi, price, timestamp = self.lookup_oi(oidata)
-        self.dfs_input(oi, price, timestamp)
+        try:
+            oi, price, timestamp = self.lookup_oi(oidata)
+            self.dfs_input(oi, price, timestamp)
+        except:
+            return
     
 
     def dfs_input(self, oi, price, timestamp):
@@ -325,9 +334,19 @@ class liquidationsflow():
         self.previous_second = -1
         self.current_second = 0
 
-    def dfs_input_liquidations(self, tick):
 
-        side, price, amount, timestamp = lookup(tick)
+    def input_liquidations(self, data):
+        try:
+            for liq in self.lookup(data):
+                side = liq[0]
+                price = liq[1]
+                amount = liq[2]
+                timestamp = liq[3]
+                self.dfs_input_liquidations(side, price, amount, timestamp)
+        except:
+            pass
+
+    def dfs_input_liquidations(self, side, price, amount, timestamp):
 
         current_second = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second
 
@@ -337,13 +356,11 @@ class liquidationsflow():
             self.snapshot_shorts = self.longs.copy()
             self.snapshot_total = self.longs.copy() + self.shorts.copy()
             
-            self.snapshot_longs.fillna(0, inplace = True)
-            self.snapshot_shorts.fillna(0, inplace = True)
-            
-            self.snapshot_longs['price'].replace(0, method='ffill', inplace=True)
-            self.snapshot_longs['price'].replace(0, method='bfill', inplace=True)
-            self.snapshot_shorts['price'].replace(0, method='ffill', inplace=True)
-            self.snapshot_shorts['price'].replace(0, method='bfill', inplace=True)
+            for col in ['price']:
+                self.longs[col] = self.longs[col].ffill()
+                self.longs[col] = self.longs[col].bfill()
+                self.shorts[col] = self.shorts[col].ffill()
+                self.shorts[col] = self.shorts[col].bfill()
 
             self.longs = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
             self.shorts = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
@@ -356,6 +373,7 @@ class liquidationsflow():
             current_columns = (map(float, [x for x in self.longs.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.longs[str(level)] = 0
+                self.longs[str(level)] = self.longs[str(level)].astype("float64")
                 self.longs.loc[current_second, str(level)] += amount
             else:
                 self.longs.loc[current_second, str(level)] += amount
@@ -366,6 +384,7 @@ class liquidationsflow():
             current_columns = (map(float, [x for x in self.shorts.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.shorts[str(level)] = 0
+                self.shorts[str(level)] = self.shorts[str(level)].astype("float64")
                 self.shorts.loc[current_second, str(level)] += amount
             else:
                 self.shorts.loc[current_second, str(level)] += amount

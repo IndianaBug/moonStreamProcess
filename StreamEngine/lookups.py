@@ -28,7 +28,7 @@ def binance_liquidations_lookup(response : json) -> list:
         return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan, np.nan, np.nan, timestamp]]
+        return None
 
 
 def binance_funding_lookup(response : json) -> Tuple[float, float, str]:
@@ -44,7 +44,7 @@ def binance_funding_lookup(response : json) -> Tuple[float, float, str]:
         return funding, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, timestamp 
+        return None
 
 
 
@@ -64,7 +64,7 @@ def binance_OI_lookup(response : json) -> Tuple[float, float, str]:
         return openInterest, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, timestamp
+        return None
 
 
 
@@ -92,7 +92,7 @@ def binance_GTA_TTA_TTP_lookup(response : json) -> Tuple[float, float, float, st
             return longAccount, shortAccount, longShortRation, price, timestamp
         except:
             timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-            return np.nan, np.nan, np.nan, price, timestamp
+            return None
 
 
 def binance_trades_lookup(response : json) -> list:
@@ -117,7 +117,7 @@ def binance_trades_lookup(response : json) -> list:
         return [[side, price, quantity, timestamp]]
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan, np.nan, np.nan, timestamp]]
+        return None
 
 
 def binance_depth_lookup(response : json, side : str) -> Tuple[list, str]:
@@ -167,7 +167,7 @@ def binance_depth_lookup(response : json, side : str) -> Tuple[list, str]:
         return books, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[0, 0]], timestamp
+        return None
 
 
 
@@ -188,7 +188,7 @@ def bybit_GTA_lookup(response : json) -> Tuple[float, float, float, str]:
         return buyRation, sellRation, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, timestamp
+        return None
 
 
 
@@ -215,7 +215,7 @@ def bybit_depth_lookup(response : json, side : str) -> Tuple[list, str]:
         return books, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[0, 0]], timestamp
+        return None
 
 
 def bybit_OI_funding_lookup(response : json) -> Tuple[float, float, float, str]:
@@ -233,7 +233,7 @@ def bybit_OI_funding_lookup(response : json) -> Tuple[float, float, float, str]:
         return funding, openInterestValue, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, timestamp
+        return None
 
 
 def bybit_liquidations_lookup(response : json) -> list:
@@ -253,7 +253,7 @@ def bybit_liquidations_lookup(response : json) -> list:
         return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan, np.nan, np.nan, timestamp]]
+        return None
 
 
 
@@ -275,7 +275,7 @@ def bybit_trade_lookup(response : json) -> list:
         return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan, np.nan, np.nan, timestamp]]
+        return None
 
 
 def bybit_option_oi_lookup(response : json, side : str) -> Tuple[np.array, np.array, np.array, float, str]:
@@ -296,7 +296,7 @@ def bybit_option_oi_lookup(response : json, side : str) -> Tuple[np.array, np.ar
         return strikes, countdowns, ois, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, price, timestamp
+        return None
 
 
 
@@ -315,7 +315,7 @@ def coinbase_depth_lookup(response, side) -> Tuple[list, str]:
     if response.get("data").get("events", np.nan) != np.nan:
         try: 
             if response.get("data").get("events")[0].get("subscriptions", None) != None:  
-                return [[0, 0]], parser.parse(response.get("data").get("timestamp")).strftime('%Y-%m-%d %H:%M:%S')
+                return None
         except:
             pass
 
@@ -365,7 +365,7 @@ def coinbase_trades_lookup(response : dict) -> list:
         return l
     except:
         timestamp = parser.parse(response.get("data").get("timestamp")).strftime('%Y-%m-%d %H:%M:%S')
-        return [np.nan, np.nan, np.nan, timestamp]
+        return None
 
 
 ## OKX ###
@@ -386,7 +386,7 @@ def okx_option_oi_lookup(response : dict, side : str) -> Tuple[np.array, np.arra
         return strikes, countdowns, ois, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(r["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, price, timestamp
+        return None
 
 
 
@@ -406,7 +406,7 @@ def okx_GTA_lookup(response : dict) -> Tuple[float, float, str]:
         return ratio, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, timestamp
+        return None
 
 
 
@@ -429,7 +429,7 @@ def okx_depth_lookup(response : dict, side : str) -> Tuple[list, str]:
         return formated_books, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[0, 0]], timestamp
+        return None
 
 
 
@@ -455,7 +455,7 @@ def okx_trades_lookup(response : dict) -> list:
         return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan, np.nan, np.nan, timestamp]]
+        return None
 
 
 
@@ -472,7 +472,7 @@ def okx_funding_lookup(response : dict) -> Tuple[float, float, str]:
         return rate, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, timestamp
+        return None
 
 
 def okx_liquidations_lookup(response : json) -> list:
@@ -497,7 +497,7 @@ def okx_liquidations_lookup(response : json) -> list:
         return l
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return [[np.nan,np.nan,np.nan,np.nan]]
+        return None
 
 def okx_OI_lookup(response : json) -> Tuple[float, float, str]:
     response = json.loads(response)
@@ -515,7 +515,7 @@ def okx_OI_lookup(response : json) -> Tuple[float, float, str]:
         return oi, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, timestamp
+        return None
 
 
 ## DERIBIT ###
@@ -536,7 +536,7 @@ def deribit_option_oi_lookup(response : dict, side : str) -> Tuple[np.array, np.
         return strikes, countdowns, ois, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return np.nan, np.nan, np.nan, np.nan, timestamp
+        return None
 
 
 
@@ -552,5 +552,5 @@ def lookup_news(data):
         formatted_datetime = input_datetime.strftime('%Y-%m-%d %H:%M:%S')
         return news, formatted_datetime
     except:
-        return np.nan, np.nan
+        return None
     
