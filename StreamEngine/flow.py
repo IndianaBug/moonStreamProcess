@@ -2,9 +2,7 @@ import numpy as np
 import pandas as pd 
 import datetime
 import json
-
-
-from utilis import booksflow_find_level, booksflow_compute_percent_variation, booksflow_manipulate_arrays, booksflow_datatrim, merge_suffixes
+from utilis import *
 
 class booksflow():
     """
@@ -389,82 +387,9 @@ class liquidationsflow():
             else:
                 self.shorts.loc[current_second, str(level)] += amount
 
-
-
-def build_option_dataframes(expiration_ranges, columns):
-    df_dic = {}
-    for i, exp_range in enumerate(expiration_ranges):
-        if i in [0, len(expiration_ranges)-1]:
-            df_dic[f'{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(exp_range)}'].set_index('timestamp', inplace=True)
-        if i in [len(expiration_ranges)-1]:
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
-        else:
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
-    df_dic.pop(f"{int(np.max(expiration_ranges))}_{int(np.min(expiration_ranges))}")
-    return df_dic
-
-
-def oiflowOption_getcolumns(price_percentage_ranges: np.array):
-    price_percentage_ranges = np.unique(np.sort(np.concatenate((price_percentage_ranges, -price_percentage_ranges)), axis=0))
-    price_percentage_ranges[price_percentage_ranges == -0] = 0
-    price_percentage_ranges[price_percentage_ranges == price_percentage_ranges[0]] = 0
-    price_percentage_ranges = np.unique(price_percentage_ranges)
-    columns = np.concatenate((np.array(['timestamp']), price_percentage_ranges), axis=0)
-    return column
-
-
-def oiflowOption_getranges(price_percentage_ranges: np.array):
-    price_percentage_ranges = np.unique(np.sort(np.concatenate((price_percentage_ranges, -price_percentage_ranges)), axis=0))
-    price_percentage_ranges[price_percentage_ranges == -0] = 0
-    price_percentage_ranges[price_percentage_ranges == price_percentage_ranges[0]] = 0
-    price_percentage_ranges = np.unique(price_percentage_ranges)
-    return price_percentage_ranges
-
-
-def oiflowOption_dictionary_helper(countdown_ranges, countdowns):
-    countdown_ranges_flt = sorted(list(set(([float(item) for sublist in [x.split('_') for x in countdown_ranges] for item in sublist]))))
-    mx = max(countdown_ranges_flt)
-    mn = min(countdown_ranges_flt)
-    l = {key: [] for key in countdown_ranges}
-    for index, cf in enumerate(countdown_ranges_flt):
-      for v in countdowns.tolist():
-          if cf == mn and v <= cf:
-              l[str(int(cf))].append(v)
-          if cf != mn and v <= cf and v > countdown_ranges_flt[index-1]:
-              l[f"{str(int(countdown_ranges_flt[index-1]))}_{str(int(cf))}"].append(v)
-          if cf == mx and v > cf:
-              l[str(int(cf))].append(v)
-    return l
-
-def oiflowOption_pcd(center, value):
-    if center == 0 and value > center:
-        return float(100)
-    if value == 0 and value < center:
-        return float(9999999999)
-    else:
-        diff = value - center
-        average = (center + value) / 2
-        percentage_diff = (diff / average) * 100
-        return percentage_diff
-
-def oiflowOption_choose_range(ppr, value):
-    for index, r in enumerate(ppr):
-        if index == 0 and value < r:
-            return ppr[0]
-        if index == len(ppr)-1 and value > r:
-            return ppr[-1]
-        if value < r and value >= ppr[index-1]:
-            return r
-
 class oiflowOption():
 
-    def __init__ (self, exchange : str, instrument : str, ranges : np.array,  expiry_windows : np.array, lookup : callable):
+    def __init__ (self, exchange : str, instrument : str, insType : str, ranges : np.array,  expiry_windows : np.array, lookup : callable):
 
         """
             The main objects of the class are  self.df_call self.df_put that contain 
@@ -485,6 +410,7 @@ class oiflowOption():
         self.exchange = exchange
         self.instrument = instrument
         self.lookup = lookup
+        self.insType = insType
         self.ranges = ranges
         self.expiry_windows = expiry_windows
         self.df_call = {}
@@ -499,7 +425,7 @@ class oiflowOption():
 
     def input_oi_helper(self, data : dict, side : str, df_side):
         
-        strikes, countdowns, oi, timestamp = self.lookup(data, side)
+        strikes, countdowns, oi, price, timestamp = self.lookup(data, side)
 
         options_data = {"strikes" : strikes, "countdown" :countdowns, "oi" : oi}
 
@@ -507,18 +433,20 @@ class oiflowOption():
         df = df[(df != 0).all(axis=1)]
 
         if side == "C":
-            self.df_call = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(ranges)) 
+            self.df_call = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(self.ranges), dtype="float64") 
         if side == "P": 
-            self.df_put = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(ranges)) 
+            self.df_put = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(self.ranges), dtype="float64") 
+        
+        print(self.df_call)
 
-        helper = oiflowOption_dictionary_helper(list(df_side.keys()), countdowns.unique())
-        ranges = oiflowOption_getranges(expiry_windows)
+        helper = oiflowOption_dictionary_helper(list(df_side.keys()), np.unique(countdowns))
+        ranges = oiflowOption_getranges(self.expiry_windows)
 
         for dfid in helper.keys():
             empty_df = pd.DataFrame()
             for countdown in helper[dfid]:
                 d = df[df['countdown'] == countdown ].drop(columns=['countdown'])
-                d['pcd'] = df['strikes'].apply(lambda x : oiflowOption_pcd(indexPrice, x))
+                d['pcd'] = df['strikes'].apply(lambda x : oiflowOption_pcd(price, x))
                 d['range'] = d['pcd'].apply(lambda x: oiflowOption_choose_range(ranges, x))
                 d = d.groupby(['range']).sum().reset_index().drop(columns=["strikes", "pcd"]).set_index('range')
                 missing_values = np.setdiff1d(ranges, d.index.values)
