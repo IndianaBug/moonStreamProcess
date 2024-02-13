@@ -257,7 +257,7 @@ def bybit_liquidations_lookup(response : json) -> list:
 
 
 
-def bybit_trade_lookup(response : json) -> list:
+def bybit_trades_lookup(response : json) -> list:
     """
         [[side, price, size, timestamp]]
     """

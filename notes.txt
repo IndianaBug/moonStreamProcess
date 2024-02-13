@@ -1,0 +1,3 @@
+C:\coding\SatoshiVaultEnv\api_stream\Scripts\activate
+
+cd C:\coding\TradeStreamEngine

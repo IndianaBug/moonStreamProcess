@@ -80,26 +80,6 @@ def merge_suffixes(n):
     suffixes = [f'_{alphabet[i]}' for i in range(n)]
     return suffixes
 
-
-def build_option_dataframes(expiration_ranges, columns):
-    df_dic = {}
-    for i, exp_range in enumerate(expiration_ranges):
-        if i in [0, len(expiration_ranges)-1]:
-            df_dic[f'{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(exp_range)}'].set_index('timestamp', inplace=True)
-        if i in [len(expiration_ranges)-1]:
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
-        else:
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns) #.set_index('timestamp')
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
-            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
-    df_dic.pop(f"{int(np.max(expiration_ranges))}_{int(np.min(expiration_ranges))}")
-    return df_dic
-
-
 def oiflowOption_getcolumns(price_percentage_ranges: np.array):
     price_percentage_ranges = np.unique(np.sort(np.concatenate((price_percentage_ranges, -price_percentage_ranges)), axis=0))
     price_percentage_ranges[price_percentage_ranges == -0] = 0
@@ -107,6 +87,25 @@ def oiflowOption_getcolumns(price_percentage_ranges: np.array):
     price_percentage_ranges = np.unique(price_percentage_ranges)
     columns = np.concatenate((np.array(['timestamp']), price_percentage_ranges), axis=0)
     return columns
+
+def build_option_dataframes(expiration_ranges, ppr):
+    columns = oiflowOption_getcolumns(ppr)
+    df_dic = {}
+    for i, exp_range in enumerate(expiration_ranges):
+        if i in [0, len(expiration_ranges)-1]:
+            df_dic[f'{int(exp_range)}'] = pd.DataFrame(columns=columns, dtype="float64") #.set_index('timestamp')
+            df_dic[f'{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(exp_range)}'].set_index('timestamp', inplace=True)
+        if i in [len(expiration_ranges)-1]:
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns, dtype="float64") #.set_index('timestamp')
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
+        else:
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'] = pd.DataFrame(columns=columns, dtype="float64") #.set_index('timestamp')
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}']['timestamp'] = pd.to_datetime([])
+            df_dic[f'{int(expiration_ranges[i-1])}_{int(exp_range)}'].set_index('timestamp', inplace=True)
+    df_dic.pop(f"{int(np.max(expiration_ranges))}_{int(np.min(expiration_ranges))}")
+    return df_dic
 
 
 def oiflowOption_getranges(price_percentage_ranges: np.array):
@@ -117,7 +116,9 @@ def oiflowOption_getranges(price_percentage_ranges: np.array):
     return price_percentage_ranges
 
 
-def oiflowOption_dictionary_helper(countdown_ranges, countdowns):
+def oiflowOption_dictionary_helper(dfs, countdowns):
+    countdown_ranges = list(dfs.keys())
+    countdowns = np.unique(countdowns)
     countdown_ranges_flt = sorted(list(set(([float(item) for sublist in [x.split('_') for x in countdown_ranges] for item in sublist]))))
     mx = max(countdown_ranges_flt)
     mn = min(countdown_ranges_flt)
@@ -132,7 +133,7 @@ def oiflowOption_dictionary_helper(countdown_ranges, countdowns):
               l[str(int(cf))].append(v)
     return l
 
-def oiflowOption_pcd(center, value):
+def getpcd(center, value):
     if center == 0 and value > center:
         return float(100)
     if value == 0 and value < center:

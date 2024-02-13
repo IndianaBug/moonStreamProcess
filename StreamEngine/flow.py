@@ -146,12 +146,15 @@ class tradesflow():
         self.current_second = 0
 
     def input_trades(self, data) :
-        for trade in self.lookup(data):
-            try:
-                side, price, amount, timestamp = trade
-                self.dfs_input_trade(side, price, amount, timestamp)
-            except:
-                continue
+        try:
+            for trade in self.lookup(data):
+                try:
+                    side, price, amount, timestamp = trade
+                    self.dfs_input_trade(side, price, amount, timestamp)
+                except:
+                    continue
+        except:
+            return
 
 
     def dfs_input_trade(self, side, price, amount, timestamp):
@@ -275,7 +278,6 @@ class oiFundingflow():
         
         self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
 
-
         if self.previous_oi == None:
             self.previous_oi = oi
 
@@ -324,8 +326,8 @@ class liquidationsflow():
         self.insType = insType
         self.level_size = float(level_size)
         self.lookup = lookup
-        self.longs = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
-        self.shorts = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+        self.longs = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype="float64")
+        self.shorts = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype="float64")
         self.snapshot_longs = None
         self.snapshot_shorts = None
         self.snapshot_total = None
@@ -346,9 +348,9 @@ class liquidationsflow():
 
     def dfs_input_liquidations(self, side, price, amount, timestamp):
 
-        current_second = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second
+        self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
 
-        if self.previous_second > current_second:
+        if self.previous_second > self.current_second:
 
             self.snapshot_longs = self.longs.copy()
             self.snapshot_shorts = self.longs.copy()
@@ -360,96 +362,78 @@ class liquidationsflow():
                 self.shorts[col] = self.shorts[col].ffill()
                 self.shorts[col] = self.shorts[col].bfill()
 
-            self.longs = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
-            self.shorts = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']))
+            self.longs = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype="float64")
+            self.shorts = pd.DataFrame(0, index=list(range(0, 60, 1)) , columns=np.array(['price']), dtype="float64")
         
         self.previous_second = self.current_second
 
         if side == "buy":
-            self.longs.loc[current_second, 'price'] = price
+            self.longs.loc[self.current_second, 'price'] = price
             level = booksflow_find_level(price, self.level_size)
             current_columns = (map(float, [x for x in self.longs.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.longs[str(level)] = 0
                 self.longs[str(level)] = self.longs[str(level)].astype("float64")
-                self.longs.loc[current_second, str(level)] += amount
+                self.longs.loc[self.current_second, str(level)] += amount
             else:
-                self.longs.loc[current_second, str(level)] += amount
+                self.longs.loc[self.current_second, str(level)] += amount
 
         if side == "sell":
-            self.shorts.loc[current_second, 'price'] = price
+            self.shorts.loc[self.current_second, 'price'] = price
             level = booksflow_find_level(price, self.level_size)
             current_columns = (map(float, [x for x in self.shorts.columns.tolist() if x != "price"]))
             if level not in current_columns:
                 self.shorts[str(level)] = 0
                 self.shorts[str(level)] = self.shorts[str(level)].astype("float64")
-                self.shorts.loc[current_second, str(level)] += amount
+                self.shorts.loc[self.current_second, str(level)] += amount
             else:
-                self.shorts.loc[current_second, str(level)] += amount
+                self.shorts.loc[self.current_second, str(level)] += amount
+
+
 
 class oiflowOption():
 
-    def __init__ (self, exchange : str, instrument : str, insType : str, ranges : np.array,  expiry_windows : np.array, lookup : callable):
+    """ 
+        example:
+        pranges = np.array([0.0, 1.0, 2.0, 5.0, 10.0])  : percentage ranges of strikes from current price
+        expiry_windows = np.array([0.0, 1.0, 3.0, 7.0])  : expiration window ranges
 
-        """
-            The main objects of the class are  self.df_call self.df_put that contain 
-            dictionaries of dataframes of OIs by strices by expiration ranges of puts and calls options
-            ranges : ranges of % difference of the strike price from current price
-            expiry_windows :  is used to create heatmaps of OI per strike per expiration limit.
-                                 np.array([1.0, 7.0, 35.0]) will create 4 expiration ranges 
-                                    - (0 , 1]
-                                    - (1 , 7]
-                                    - (7, 35]
-                                    - (35, +inf)
-            lookup : A function to access dictionary elements that returns 3 lists with the same length:
-                    - strikes
-                    - expirations
-                    - open interest
-                    where each index corresponds to strake, expiration countdown and open interest for the same instrument
-        """
+    """
+
+    def __init__ (self, exchange : str, instrument : str, insType : str, pranges : np.array,  expiry_windows : np.array, lookup : callable):
         self.exchange = exchange
         self.instrument = instrument
         self.lookup = lookup
         self.insType = insType
-        self.ranges = ranges
+        self.pranges = pranges
         self.expiry_windows = expiry_windows
-        self.df_call = {}
-        self.df_put = {}
+        self.df_call = dict()
+        self.df_put = dict()
 
-    def input_oi(self, data : json):
+    def input_oi(self, data):
+        try:
+            self.input_oi_helper(data, "C")
+            self.input_oi_helper(data, "P")
+        except:
+            return
 
-        self.input_oi_helper(data=data, side="C", df_side = self.df_call)
-        self.input_oi_helper(data=data, side="P", df_side = self.df_put)
-
-
-
-    def input_oi_helper(self, data : dict, side : str, df_side):
-        
+    def input_oi_helper(self, data : dict, side : str):
         strikes, countdowns, oi, price, timestamp = self.lookup(data, side)
-
+        timestamp = datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').replace(minute=0, second=0)
         options_data = {"strikes" : strikes, "countdown" :countdowns, "oi" : oi}
-
         df = pd.DataFrame(options_data).groupby(['countdown', 'strikes']).sum().reset_index()
         df = df[(df != 0).all(axis=1)]
-
-        if side == "C":
-            self.df_call = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(self.ranges), dtype="float64") 
-        if side == "P": 
-            self.df_put = build_option_dataframes(self.expiry_windows, columns=oiflowOption_getcolumns(self.ranges), dtype="float64") 
-        
-        print(self.df_call)
-
-        helper = oiflowOption_dictionary_helper(list(df_side.keys()), np.unique(countdowns))
-        ranges = oiflowOption_getranges(self.expiry_windows)
-
+        dictDataFrame = build_option_dataframes(self.expiry_windows, self.pranges)
+        helper = oiflowOption_dictionary_helper(dictDataFrame, countdowns)
+        fullPranges = oiflowOption_getranges(self.pranges)
         for dfid in helper.keys():
             empty_df = pd.DataFrame()
             for countdown in helper[dfid]:
                 d = df[df['countdown'] == countdown ].drop(columns=['countdown'])
-                d['pcd'] = df['strikes'].apply(lambda x : oiflowOption_pcd(price, x))
-                d['range'] = d['pcd'].apply(lambda x: oiflowOption_choose_range(ranges, x))
+                d['pcd'] = df['strikes'].apply(lambda x : getpcd(price, x))
+                d['range'] = d['pcd'].apply(lambda x: oiflowOption_choose_range(fullPranges, x))
                 d = d.groupby(['range']).sum().reset_index().drop(columns=["strikes", "pcd"]).set_index('range')
-                missing_values = np.setdiff1d(ranges, d.index.values)
+                missing_values = np.setdiff1d(fullPranges, d.index.values)
                 new_rows = pd.DataFrame({'oi': 0}, index=missing_values)
                 combined_df = pd.concat([d, new_rows])
                 combined_df = combined_df.transpose() 
@@ -457,9 +441,17 @@ class oiflowOption():
                 combined_df.set_index('timestamp', inplace=True)
                 combined_df = combined_df.sort_index(axis=1)
                 empty_df = pd.concat([empty_df, combined_df], ignore_index=True)
-            df_side[dfid].loc[pd.to_datetime(timestamp)]  = empty_df.sum(axis=0).values.T
-            df_side[dfid] = df_side[dfid].tail(1)
-        
+            empty_df  = empty_df.sum(axis=0).values.T
+            try:
+                dictDataFrame[dfid].loc[pd.to_datetime(timestamp)] = empty_df
+            except:
+                pass
+        if side == "C":
+            self.df_call = dictDataFrame.copy()
+        if side == "P": 
+            self.df_put = dictDataFrame.copy()     
+
+
         
 class voidflow():
     """
