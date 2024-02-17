@@ -1,6 +1,7 @@
 import numpy as np
 import datetime
 import pandas as pd
+from itertools import chain
 
 def booksflow_find_level(price, level_size):
     return np.ceil(price / level_size) * level_size
@@ -152,3 +153,32 @@ def oiflowOption_choose_range(ppr, value):
             return ppr[-1]
         if value < r and value >= ppr[index-1]:
             return r
+        
+
+def oiflow_merge_columns(common_columns_dic, oidf):
+    new_data = pd.DataFrame(dtype="float64")
+    commoncolumnsDict = {key: value for key, value in common_columns_dic.items() if key not in ["oi", "price", "fundingRate"]}
+    for common_columns in commoncolumnsDict.keys():
+        for index, column in enumerate(commoncolumnsDict[common_columns]):
+            if index == 0:
+                new_data[common_columns] = oidf[column]
+            else:
+                new_data[common_columns] = new_data[common_columns] + oidf[column]
+    return new_data
+
+
+def flatten_list(nested_list):
+    flat_list = []
+    for item in nested_list:
+        if isinstance(item, list):
+            flat_list.extend(flatten_list(item))
+        else:
+            flat_list.append(item)
+    return flat_list
+
+def synthesis_Trades_mergeDict(dictionaries):
+    concatenated_dict = {key : [] for d in dictionaries for key in d.keys()}
+    for d in dictionaries:
+        for key, value in d.items():
+            concatenated_dict[key].append(value)
+    return flatten_list(concatenated_dict.values())

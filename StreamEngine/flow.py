@@ -144,6 +144,10 @@ class tradesflow():
         self.snapshot_total = None
         self.previous_second = -1
         self.current_second = 0
+        self.numberBuyTrades = 0
+        self.numberSellTrades = 0
+        self.buyTrades = dict()
+        self.sellTrades = dict()
 
     def input_trades(self, data) :
         try:
@@ -152,7 +156,7 @@ class tradesflow():
                     side, price, amount, timestamp = trade
                     self.dfs_input_trade(side, price, amount, timestamp)
                 except:
-                    continue
+                    pass
         except:
             return
 
@@ -161,7 +165,28 @@ class tradesflow():
 
         self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
 
+        # Count number of trades
+        if side == "buy":
+            self.numberBuyTrades += 1
+        if side == "sell":
+            self.numberSellTrades += 1
+
+        # Write down all trades
+        if side == "buy":
+            if self.current_second not in self.buyTrades:
+                self.buyTrades[self.current_second] = []
+            self.buyTrades[self.current_second].append(amount)
+        if side == "sell":
+            if self.current_second not in self.sellTrades:
+                self.sellTrades[self.current_second] = []
+            self.sellTrades[self.current_second].append(amount)    
+        
         if self.previous_second > self.current_second:
+
+            self.numberBuyTrades = 0
+            self.numberSellTrades = 0
+            self.buyTrades = dict()
+            self.sellTrades = dict()
 
             self.snapshot_buys = self.buys.copy()
             self.snapshot_buys.fillna(0, inplace = True)
@@ -174,7 +199,7 @@ class tradesflow():
             self.snapshot_sells['price'] = self.snapshot_sells['price'].replace(0, pd.NA).bfill()
 
             merged_df = pd.merge(self.snapshot_buys.copy(), self.snapshot_sells.copy(), left_index=True, right_index=True, how='outer', suffixes=('_buys', '_sells')).fillna(0)
-
+            
             common_columns_dic = {column.split("_")[0] : [] for column in merged_df.columns.tolist()}
             for column in merged_df.columns.tolist():
                 common_columns_dic[column.split("_")[0]].append(column)
@@ -184,7 +209,7 @@ class tradesflow():
                 for index, column in enumerate(common_columns_dic[common_columns]):
                     if index == 0 and "price" not in column:
                         self.snapshot_total[common_columns] = merged_df[column]
-                    if "price" not in column:
+                    if "price" not in column and index != 0:
                         self.snapshot_total[common_columns] = self.snapshot_total[common_columns] + merged_df[column]
             self.snapshot_total.insert(0, 'price', self.snapshot_buys['price'])
 
@@ -224,6 +249,8 @@ class tradesflow():
 
 class oiFundingflow():
     """
+        # IMPORTANT NOTE:  INPUT FUNDING FIRST
+
         Important notes: 
             Maintain consistency in the current timestamp across all flows
             Aggregation explanation:  If the level_size is 20, books between [0-20) go to level 20, [20, 40) go to level 40, and so forth.
@@ -333,6 +360,10 @@ class liquidationsflow():
         self.snapshot_total = None
         self.previous_second = -1
         self.current_second = 0
+        self.longsCount = 0
+        self.shortsCount = 0
+        self.longsList = dict()
+        self.shortsList = dict()
 
 
     def input_liquidations(self, data):
@@ -350,7 +381,23 @@ class liquidationsflow():
 
         self.current_second = int(datetime.datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').second)
 
+        if side == "sell":
+            if timestamp not in self.shortsList:
+                self.shortsList[timestamp] = []
+            self.shortsList[timestamp].append(amount)
+            self.shortsCount += 1
+        if side == "buy":
+            if timestamp not in self.longsList:
+                self.longsList[timestamp] = []
+            self.longsList[timestamp].append(amount)
+            self.longsCount += 1
+
         if self.previous_second > self.current_second:
+
+            self.longsCount = 0
+            self.shortsCount = 0
+            self.longsList = dict()
+            self.shortsList = dict()
 
             self.snapshot_longs = self.longs.copy()
             self.snapshot_shorts = self.longs.copy()
