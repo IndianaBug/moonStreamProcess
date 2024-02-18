@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from utilis import merge_suffixes, oiflow_merge_columns, synthesis_Trades_mergeDict
+import time
+from utilis import merge_suffixes, oiflow_merge_columns, synthesis_Trades_mergeDict, last_non_zero
 
 class booksmerger():
 
@@ -21,6 +22,8 @@ class booksmerger():
 
     def retrive_data(self, key):
         """
+            Arguments
+
             Single values:
                 timestamp
 
@@ -80,6 +83,8 @@ class tradesmerger():
 
     def retrive_data(self, key):
         """
+            Arguments
+
             Single values:
                 timestamp, buyVolume, sellVolume, open, close
                 low, high, volatility, numberBuyTrades, numberSellTrades
@@ -179,6 +184,8 @@ class oiomnifier():
 
     def retrive_data(self, key):
         """
+            Arguments
+
             Single values:
                 timestamp, price, weighted_funding, total_oi, oi_increases
                 oi_volatility, oi_change, 
@@ -274,8 +281,10 @@ class lomnifier():
         self.snapshot = dict()
         self.suffixes = merge_suffixes(len(axis))
 
-    def retrive_data(self, key):
+    def retrive_data(self, key : str):
         """
+            Arguments
+
             Single values:
                 timestamp, price, longsTotal, shortsTotal 
 
@@ -323,18 +332,109 @@ class lomnifier():
         sum["price"] = price
 
         self.snapshot["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
-        self.snapshot["price"] =sum["price"].iloc[-1]
+        self.snapshot["price"] =last_non_zero(sum["price"].values)
 
         if side == "long":
-            total_longs = sum.copy().drop(["price"]).sum().sum()
-            total_longs_heatmap = sum.copy().drop(["price"]).sum(axis=0)
+            total_longs = sum.copy().drop(["price"], axis=1).sum().sum()
+            total_longs_heatmap = sum.copy().drop(["price"], axis=1).sum(axis=0)
             self.snapshot["longsTotal"] = total_longs
             self.snapshot["longs"] = dict(zip(total_longs_heatmap.index.tolist(), total_longs_heatmap.values.tolist()))
         if side == "short":
-            total_longs = sum.copy().drop(["price"]).sum().sum()
-            total_longs_heatmap = sum.copy().drop(["price"]).sum(axis=0)
+            total_longs = sum.copy().drop(["price"], axis=1).sum().sum()
+            total_longs_heatmap = sum.copy().drop(["price"], axis=1).sum(axis=0)
             self.snapshot["shortsTotal"] = total_longs
             self.snapshot["shorts"] = dict(zip(total_longs_heatmap.index.tolist(), total_longs_heatmap.values.tolist()))
+
+
+class booksadjustments():
+    """
+        Gathers statistical information on canceled limit and reinforced limit orders order books in the form of a heatmap variance over 60 second history
+    """
+    def __init__ (self, instrument : str, insType : str, axis : dict):
+        """
+            axis : A dictionary that encapsulates aggregated books and trades
+            snapshot_voids : A dataset with canceled books over time
+            snapshot_reinforce : A dataset with reinforced books over time
+            data : dictionary of the last data 
+        """
+        self.instrument = instrument
+        self.insType = insType
+        self.axis = axis
+        self.snapshot_voids = pd.DataFrame()
+        self.snapshot_reinforce = pd.DataFrame()
+        self.data = dict()
+
+    def retrive_data(self, key : str):
+        """
+            Arguments
+
+            Single values:
+                timestamp, price, totalVoids, totalReinforces (total voids and total reinforced orders over all levels at this timestamp)
+                totalVoidsStd, totalReinforcesStd
+            Heatmaps:
+                voids, reinforces, voidsStd, reinforcesStd
+        """
+        return self.data.get(key, None)    
+
+
+    def get_adjusted_orders(self):
+
+        
+        df_books = self.axis['books'].snapshot.copy()
+        df_trades = self.axis['trades'].snapshot_total.copy()
+        merged_df = pd.merge(df_books, df_trades, how='outer', left_index=True, right_index=True, suffixes=('_books', '_trades'))
+        common_columns_trades = df_books.columns.intersection(df_trades.columns).tolist()
+        uncommon_columns =  [col for col in df_books.columns.tolist() if col not in df_trades.columns.tolist()]
+
+        snapshot = pd.DataFrame(dtype="float64")
+        
+        for column in common_columns_trades:
+            if "price" not in column:
+                snapshot[column] = merged_df[column + '_books'].sub(merged_df[column + '_trades'], fill_value=0)
+        for column in uncommon_columns:
+            if "price" not in column:
+                snapshot[column] = df_books[column]
+        sorted_columns = sorted(map(float, [c for c in snapshot.columns if "price" not in c]))
+        snapshot = snapshot[map(str, sorted_columns)]
+        for column in snapshot.columns.tolist():
+            snapshot[column] = snapshot[column].shift(-1) - snapshot[column]
+        snapshot = snapshot[:-1]
+
+        voids = snapshot.copy().applymap(lambda x: abs(x) if x < 0 else 0)
+        reinforces = snapshot.copy().applymap(lambda x: x if x > 0 else 0)
+
+        self.data["price"] = df_trades["price"].iloc[-1]
+        self.data["voids"] = dict(zip(voids.sum(axis=0).index.tolist(), voids.sum(axis=0).values.tolist()))
+        self.data["reinforces"] = dict(zip(reinforces.sum(axis=0).index.tolist(), reinforces.sum(axis=0).values.tolist()))
+        self.data["voidsStd"] = dict(zip(voids.std(axis=0).index.tolist(), voids.std(axis=0).values.tolist()))
+        self.data["reinforcesStd"] = dict(zip(reinforces.std(axis=0).index.tolist(), reinforces.std(axis=0).values.tolist()))
+        self.data["totalVoids"] = voids.sum().sum()
+        self.data["totalReinforces"] = reinforces.sum().sum()
+        self.data["totalVoidsStd"] = voids.sum().std()
+        self.data["totalReinforcesStd"] = reinforces.sum().std()
+
+        for column in voids.columns:
+            non_zero_timestamps = np.where(voids[column] != 0)[0]
+            meddian_void_duration = np.median(np.diff(non_zero_timestamps))
+            if meddian_void_duration != np.nan:
+                if self.data.get("voidsDuration") == None:
+                    self.data["voidsDuration"] = {}
+                self.data["voidsDuration"][column] = meddian_void_duration
+                self.data["voidsDurationStd"][column] = np.std(non_zero_timestamps)
+
+        for column in reinforces.columns:
+            non_zero_timestamps = np.where(reinforces[column] != 0)[0]
+            meddian_void_duration = np.median(np.diff(non_zero_timestamps))
+            if meddian_void_duration != np.nan:
+                if self.data.get("reinforcesDuration") == None:
+                    self.data["reinforcesDuration"] = {}
+                self.data["reinforcesDuration"][column] = meddian_void_duration
+                self.data["reinforcesDurationStd"][column] = np.std(non_zero_timestamps)
+
+
+
+
+
 
 
 # class omnify(mergemaster):

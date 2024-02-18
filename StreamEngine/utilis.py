@@ -182,3 +182,11 @@ def synthesis_Trades_mergeDict(dictionaries):
         for key, value in d.items():
             concatenated_dict[key].append(value)
     return flatten_list(concatenated_dict.values())
+
+
+
+def last_non_zero(arr):
+    for i in range(-1, -len(arr) - 1, -1):
+        if arr[i] != 0:
+            return arr[i]
+    return None  # Return None if the array is all zeros

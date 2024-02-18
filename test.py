@@ -1,7 +1,20 @@
-import requests
+import threading
+import time
+from datetime import datetime
 
-url_usd = "https://dapi.binance.com/dapi/v1/openInterest?symbol=BTCUSD_PERP"
+def my_function():
+    print("hello, pasha")
 
-url_usdt = "https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT"
+def run_at_specific_time():
+    try:
+        while True:
+            current_second = datetime.now().second
+            if current_second > 58:
+                my_function()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("Exiting the program.")
 
-print(requests.get(url_usd).json)
+timer_thread = threading.Thread(target=run_at_specific_time)
+timer_thread.start()
+timer_thread.join()
