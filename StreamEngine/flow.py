@@ -510,19 +510,42 @@ class indicatorflow():
         self.instrument = instrument
         self.exchange = exchange
         self.insType = insType
+        self.indType = indType
         self.lookup = lookup
         self.data = dict()
 
-    def binance_gta_tta_ttp(self, data):
+    def retrive_data(self, key):
         """
-            Needs to be used for global tradesrs accountrs, positions and top traders accounts and positions
+            timestamp, ratio, price
+            longAccount, shortAccount if applicable
+        """
+        return self.data.get(key, None)
+
+    def input_binance_gta_tta_ttp(self, data):
+        """
+            Needs to be used for global tradesrs accountrs, positions and top traders accounts and positions of binance
         """
         longAccount, shortAccount, longShortRation, price, timestamp = self.lookup(data)
         self.data["timestamp"] = timestamp
         self.data["longAccount"]  = longAccount
         self.data["shortAccount"]  = shortAccount
-        self.data["longShortRation"]  = longShortRation
+        self.data["ratio"]  = longShortRation
         self.data["price"]  = price
 
-    def simple_gta(self. data):
-        buyRation, sellRation, timestamp = self.lookup(data)
+    def input_bybit_gta(self, data):
+        """
+            Processor of bybit global traders buy adn sell ratio
+        """
+        buyRation, sellRation, price, timestamp = self.lookup(data)
+        self.data["timestamp"] = timestamp
+        self.data["ratio"]  = buyRation / sellRation
+        self.data["price"]  = price
+
+    def input_okx_gta(self, data):
+        """
+            OKx's ration is about all BTC futures contracts
+        """
+        ratio, price, timestamp = self.lookup(data)
+        self.data["timestamp"] = timestamp
+        self.data["ratio"]  = ratio
+        self.data["price"]  = price

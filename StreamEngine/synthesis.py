@@ -433,6 +433,7 @@ class booksadjustments():
         self.data["totalReinforces"] = reinforces.sum().sum()
         self.data["totalVoidsStd"] = voids.sum().std()
         self.data["totalReinforcesStd"] = reinforces.sum().std()
+        self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
 
         for column in voids.columns:
             non_zero_timestamps = np.where(voids[column] != 0)[0]
@@ -516,5 +517,52 @@ class OOImerger():
                         if key not in self.data["puts"][puts]:
                             self.data["puts"][puts][key] = 0
                         self.data["puts"][puts][key] += value 
+
+                    self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
                 except:
                     continue    
+
+
+
+class indomnifier():
+
+    """
+        Merges the same indicator from different exchanges weighted by total open interest
+    """
+
+    def __init__ (self, instrument, insType, indType, axis):
+        """
+            axis : the dictionary of classes indicatorsflow
+        """
+        self.instrument = instrument
+        self.insType = insType
+        self.indType = indType
+        self.axis = axis
+        self.data = dict()
+        self.open_interest = dict()
+
+    def retrive_data(self, key):
+        """
+            timestamp, ratio
+        """
+        return self.data.get(key)
+
+    def inputOI(self, data):
+        """
+            Inputs open interest by instrument 
+        """
+        self.open_interest = data
+
+    def inputgta(self):
+        """
+            merges gta, gtp, tta, ttp's
+            make sure the self.open_interest keys have the same order as axis's keys
+            since okx provides global btc long shorts ration, the code has some slight changes
+        """
+        ratios = [x.data.get("ratio") for x in self.axis] # must contain 4 ratios
+        ois = list(self.open_interest.values())
+        weighted_ratio = np.average(ratios, weights=ois)
+        self.data["ratio"] = weighted_ratio
+        self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    

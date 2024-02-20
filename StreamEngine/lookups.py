@@ -185,7 +185,7 @@ def bybit_GTA_lookup(response : json) -> Tuple[float, float, float, str]:
         sellRation = float(response.get("data").get("result").get("list")[0].get("sellRatio"))
         timestamp = int(response.get("data").get("result").get("list")[0].get("timestamp"))
         timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        return buyRation, sellRation, timestamp
+        return buyRation, sellRation, price, timestamp
     except:
         timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
         return None
