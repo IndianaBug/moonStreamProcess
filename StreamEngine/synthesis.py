@@ -30,7 +30,10 @@ class booksmerger():
             Heatmaps:
                 books
         """
-        return self.snapshotO.get(key, None)
+        if key != None:
+            return self.snapshotO.get(key, None)
+        else:
+            return self.snapshotO
 
     def merge_snapshots(self):
         
@@ -95,7 +98,11 @@ class tradesmerger():
             History of changes: (a list of trades in chronological order over 60 seconds)
                 buyTrades, sellTrades
         """
-        return self.snapshotO.get(key, None)
+        if key != None:
+            return self.snapshotO.get(key, None)
+        else:
+            return self.snapshotO
+
 
 
     def merge_snapshots(self):
@@ -196,12 +203,20 @@ class oiomnifier():
             
             History of changes: (a list of changes in chronological order over 60 seconds)
                 ois
+            Dicrionary of ois per instrument
+                OIs_per_instrument
         """
-        return self.snapshot.get(key, None)
+        if key != None:
+            return self.snapshot.get(key, None)
+        else:
+            return self.snapshot
+
 
     def merge_snapshots(self):
         snapshots = [self.axis[ex].snapshot for ex in self.axis.keys()]
         self.merge_snapshots_helper(snapshots)
+        oi_instruments = {ex : self.axis[ex].snapshot.iloc[-1].loc["oi"] for ex in self.axis.keys()}
+        self.snapshot["OIs_per_instrument"] = oi_instruments
 
     def merge_snapshots_helper(self, snapshots):
 
@@ -294,7 +309,10 @@ class lomnifier():
             History of liquidations: (a list of liquidations in chronological order)
                 longsLiquidations, shortsLiquidations
         """
-        return self.snapshot.get(key, None)
+        if key != None:
+            return self.snapshot.get(key, None)
+        else:
+            return self.snapshot
 
     def merge_snapshots(self):
 
@@ -364,7 +382,7 @@ class booksadjustments():
         self.snapshot_reinforce = pd.DataFrame()
         self.data = dict()
 
-    def retrive_data(self, key : str):
+    def retrive_data(self, key : str = None):
         """
             Arguments
 
@@ -374,7 +392,10 @@ class booksadjustments():
             Heatmaps:
                 voids, reinforces, voidsStd, reinforcesStd
         """
-        return self.data.get(key, None)    
+        if key != None:
+            return self.data.get(key, None)
+        else:
+            return self.data
 
 
     def get_adjusted_orders(self):
@@ -419,6 +440,8 @@ class booksadjustments():
             if meddian_void_duration != np.nan:
                 if self.data.get("voidsDuration") == None:
                     self.data["voidsDuration"] = {}
+                if self.data.get("voidsDurationStd") == None:
+                    self.data["voidsDurationStd"] = {}
                 self.data["voidsDuration"][column] = meddian_void_duration
                 self.data["voidsDurationStd"][column] = np.std(non_zero_timestamps)
 
@@ -428,122 +451,10 @@ class booksadjustments():
             if meddian_void_duration != np.nan:
                 if self.data.get("reinforcesDuration") == None:
                     self.data["reinforcesDuration"] = {}
+                if self.data.get("reinforcesDurationStd") == None:
+                    self.data["reinforcesDurationStd"] = {}
                 self.data["reinforcesDuration"][column] = meddian_void_duration
                 self.data["reinforcesDurationStd"][column] = np.std(non_zero_timestamps)
-
-
-
-
-
-
-
-# class omnify(mergemaster):
-#     """
-#        Universal 1 minute snapshot merger summarizer, Books, OI, Liquidations, Trades, Voids
-#     """
-#     def __init__(self, *args, **kwargs):
-#         """
-#             books: 
-#                 snapshot_lastbooks - 1m price close, open, high, low, price standart deviation, last books of each levels
-#                 snapshot_booksvar - 1m price close, total standart deviation of books, standart deviation of books over 1 minute at each price level
-#             trades:
-#                 snapshot_trades - 1m price close, 1 min volume traded, trades distribution over each price level
-#                 snapshot_tradesstd - 1m price close, 1 min total standart deviation of books, standart deviation distribution over each price level
-#             oi : 
-#                 snapshot_oi - 1m price close, total increase/decrease of open interest, distribution of open interest increase decrease over each price level
-#                 snapshot_oistd -  1m price close, total standart deviation of open interest, standart deviation of open interest over each price level
-#             voids : 
-#                 snapshot_voids - 1m price close, 1 min volume of closed books at over every price level
-#                 snapshot_voidsstd -  1m price close, 1 min volume std of closed books at over every price level
-#             liquidations:
-#                 snapshot_liquidations - 1m price close, total liquidations over 1 minute, liquidations at each price level
-#         """
-#         super().__init__(*args, **kwargs)
-#         if flowType == 'books':
-#             self.snapshot_lastbooks = pd.DataFrame()
-#             self.snapshot_booksvar = pd.DataFrame()
-#         if flowType == 'trades':
-#             self.snapshot_trades = pd.DataFrame()
-#             self.snapshot_tradesvar = pd.DataFrame()
-#         if flowType == 'oi':
-#             self.snapshot_oi = pd.DataFrame()
-#             self.snapshot_oivar = pd.DataFrame()
-#         if flowType == 'liquidations':
-#             self.snapshot_liquidations = pd.DataFrame()
-
-
-#     def omnify_snapshots(self):
-        
-#         super().merge_snapshots()
-
-#         if self.flowType == 'books':
-            
-#             # Last books
-#             self.snapshot_lastbooks = self.snapshot.drop(columns=['price']).iloc[-1].T
-#             openn = self.napshot['price'].values[0]
-#             low = self.snapshot['price'].values.min()
-#             high = self.snapshot['price'].values.max()
-#             close = self.snapshot['price'].values[-1]
-#             price_var = self.snapshot['price'].std()
-#             for index, col, value in enumerate(zip(['open', 'low', 'high', 'close', 'price_var'], [openn, low, high, close, price_var])):
-#                 self.snapshot_lastbooks.insert(loc=index, column=col, value=[value])
-            
-#             # Books var
-#             self.snapshot_booksvar = self.snapshot.var().T
-#             renamed_columns = ["".join([col, "_var"]) for col in self.snapshot_booksvar.columns.tolist()]
-#             self.snapshot_booksvar = self.snapshot_booksvar.rename(columns=dict(zip(self.snapshot_booksvar.columns, renamed_columns)))
-#             total_var = self.snapshot.std().sum()
-#             for index, col, value in enumerate(zip(['close', 'books_var'], [close, total_var])):
-#                 self.snapshot_booksvar.insert(loc=index, column=col, value=[value])            
-
-
-#         if self.flowType == 'trades':
-
-#             # trades
-#             price = self.snapshot.copy()['price'].values[-1]
-#             df = self.snapshot.copy().drop(columns=['price'])
-#             # Drop columns with only 0s
-#             df = df.loc[(df != 0).any(axis=1)]
-#             total_volume = df.sum().sum()
-#             self.snapshot_trades = df.sum().T
-#             for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_volume])):
-#                 self.snapshot_trades.insert(loc=index, column=col, value=[value])
-
-#             # trades variance. Higher variance indicate the presence of block trades
-#             df = self.snapshot.copy().drop(columns=['price'])
-#             self.snapshot_tradesvar = df.loc[(df != 0).any(axis=1)].var().T
-#             total_variance = self.snapshot_trades.sum()
-#             for index, col, value in enumerate(zip(['price', 'volume_variance'], [price, total_variance])):
-#                 self.snapshot_tradesvar.insert(loc=index, column=col, value=[value])
-
-#         if self.flowType == 'oi':
-
-#             # oi increase/decrease
-#             price = self.snapshot.copy()['price'].values[-1]
-#             df = self.snapshot.copy().drop(columns=['price'])
-#             df = df.loc[(df != 0).any(axis=1)]
-#             total_oi = df.sum().sum()
-#             self.snapshot_oi = df.sum().T
-#             for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_oi])):
-#                 self.snapshot_oi.insert(loc=index, column=col, value=[value])
-
-#             # on increase/decrease variance
-#             self.snapshot_oivar  = self.snapshot.copy().drop(columns=['price'])
-#             self.snapshot_oivar  = self.snapshot_oivar.loc[(df != 0).any(axis=1)].var().T
-#             total_oi = self.snapshot_oivar.sum()
-#             for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_oi])):
-#                 self.snapshot_oivar.insert(loc=index, column=col, value=[value])
-
-
-#         if self.flowType == 'liquidations':
-#             price = self.snapshot.copy()['price'].values[-1]
-#             self.snapshot_liquidations  = self.snapshot.copy().drop(columns=['price'])
-#             total_liquidations = self.snapshot_liquidations.sum().sum()
-#             self.snapshot_liquidations = self.snapshot_liquidations.sum().T
-#             for index, col, value in enumerate(zip(['price', 'total_volume'], [price, total_liquidations])):
-#                 self.snapshot_oivar.insert(loc=index, column=col, value=[value])
-
-
 
 
 
@@ -551,35 +462,59 @@ class OOImerger():
     """
         Aggregates Option data from different exchanges
     """
-    def __init__(self, processes: list, number_rows=741):
+    def __init__(self, instrument : str, insType : str, expiry_windows : np.array, pranges : np.array, axis : dict):
+        self.instrument = instrument
+        self.insType = insType
+        self.axis = axis
+        self.expiry_windows = expiry_windows
+        self.pranges = pranges
+        self.data = {
+            "puts" : {},
+            "calls" : {}
+        }
+
+    def retrive_data(self, side=None, key_1=None, key_2=None):
         """
-            number_rows = The length of the dataset to keep
+            - The function behavior depends on the values of expiry_windows and pranges:    
+
+            side : puts, calls
+            key_1 : expiry_windows 
+                if expiry_windows = [0.0, 1.0, 3.0, 7.0], then legit keys are "0", "0_1" , "1_3" ... "7" all in string
+            key_2 : pranges
+               if pranges==[0.0, 1.0, 2.0, 5.0, 10.0],
+               keys will be -5.0, -2.0, -1.0, 0.0, 1.0, 2.0, 5.0, 10.0  in str
         """
-        self.processes = processes
-        self.snapshot_columns = ["price"]+[f"{vvv}_{v}_{vv}" for vvv in ["call", "put"] for v in self.processes[0].df_call.keys() for vv in list(self.processes[0].df_call[next(iter(self.processes[0].df_call))].columns)]
-        self.snapshot = pd.DataFrame(index=pd.to_datetime([], utc=True), columns=[self.snapshot_columns]).rename_axis('timestamp')
-        self.number_rows = number_rows
+        if side != None and  key_1 != None and key_2 != None:
+            return self.data[side][key_1][key_2]
+        if side != None and  key_1 != None and key_2 == None:
+            return self.data[side][key_1]      
+        if side != None and  key_1 == None and key_2 == None:
+            return self.data[side]
+        if side == None and  key_1 == None and key_2 == None:
+            return self.data
+    
+    def mergeoi(self):
+        for exchange in self.axis .keys():
+            for calls, puts in zip(self.axis [exchange].df_call.keys(), self.axis [exchange].df_put.keys()):
+                try:
+                    values_call = self.axis [exchange].df_call[calls].values.tolist()[0]
+                    keys_call = self.axis [exchange].df_call[calls].columns.tolist()
 
-    def input_data(self, raw_data, index_price):
+                    values_put = self.axis [exchange].df_put[calls].values.tolist()[0]
+                    keys_put = self.axis [exchange].df_put[calls].columns.tolist()
 
-        dic_df_call = { key : pd.DataFrame() for key in self.processes[0].df_call.keys()}
-        dic_df_put = { key : pd.DataFrame() for key in self.processes[0].df_put.keys()}
-        
-        for c, data in zip(self.processes, raw_data):
-            c.input_oi(data, index_price)
+                    if calls not in self.data["calls"]:
+                        self.data["calls"][calls] = {}        
+                    for key, value in zip(keys_call, values_call):
+                        if key not in self.data["calls"][calls]:
+                            self.data["calls"][calls][key] = 0
+                        self.data["calls"][calls][key] += value
 
-        for c in self.processes:
-            for key in c.df_put.keys():
-                dic_df_call[key] = pd.concat([dic_df_call[key], c.df_call[key]], ignore_index=True)
-                dic_df_put[key] = pd.concat([dic_df_call[key], c.df_put[key]], ignore_index=True)
-
-        for frame in dic_df_call.keys():
-            dic_df_call[frame] = dic_df_call[frame].sum().to_frame().T
-            dic_df_put[frame] = dic_df_put[frame].sum().to_frame().T
-
-        self.snapshot.loc[pd.to_datetime(time.time(), unit='s', utc=True)]  = np.concatenate((np.array([float(index_price)]), pd.concat([dic_df_put[x] for x in dic_df_call] + [dic_df_put[x] for x in dic_df_put], axis=1, ignore_index=True).values[0]))
-
-        if len(self.snapshot) > self.number_rows:
-            self.snapshot.iloc[1:]
-
-
+                    if puts not in self.data["puts"]:
+                        self.data["puts"][puts] = {}        
+                    for key, value in zip(keys_put, values_put):
+                        if key not in self.data["puts"][puts]:
+                            self.data["puts"][puts][key] = 0
+                        self.data["puts"][puts][key] += value 
+                except:
+                    continue    

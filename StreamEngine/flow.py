@@ -335,7 +335,6 @@ class oiFundingflow():
 
 
 
-
 class liquidationsflow():
     """
         Important notes: 
@@ -440,14 +439,13 @@ class liquidationsflow():
 
 class oiflowOption():
 
-    """ 
-        example:
-        pranges = np.array([0.0, 1.0, 2.0, 5.0, 10.0])  : percentage ranges of strikes from current price
-        expiry_windows = np.array([0.0, 1.0, 3.0, 7.0])  : expiration window ranges
-
-    """
-
     def __init__ (self, exchange : str, instrument : str, insType : str, pranges : np.array,  expiry_windows : np.array, lookup : callable):
+        """ 
+            example:
+                pranges = np.array([0.0, 1.0, 2.0, 5.0, 10.0])  : percentage ranges of strikes from current price
+                expiry_windows = np.array([0.0, 1.0, 3.0, 7.0])  : expiration window ranges
+
+        """
         self.exchange = exchange
         self.instrument = instrument
         self.lookup = lookup
@@ -499,68 +497,32 @@ class oiflowOption():
             self.df_put = dictDataFrame.copy()     
 
 
-        
-class voidflow():
+class indicatorflow():
     """
-        Gathers statistical information on canceled limit order books in the form of a heatmap variance over 60 second history
-        return pd.Dataframe with columns indicating levels. df contains only 1 row
+        Can be used for the processing of any simple indicator
+        Saves the indicators data in a dictionary data.
     """
-    def __init__ (self, instrument : str, insType : str, axis : dict):
+    def __init__ (self, instrument : str, exchange : str, insType : str, indType : str,  lookup : callable):
         """
-            axis : A dictionary that encapsulates a collection of flows originating from diverse exchanges in the key "books
-                   and the collection of trades origination from different exchanges in the key "trades"
-                   Each key contains the corresponding 60 second pd.Dataframes of heatmap data
-                   should be:
-                   {
-                      books : classbooks.merge.object
-                      trades : classtrades.merge.object
-                   }
-                   snapshot_voids    : total closed orders per timestamp,  
-                                       closed orders heatmap per level, 
-                   snapshot_voidsvar : total variance of closed orders
-                                       heatmap of variances of closed orders per level
+            insType : perpetual, spot option ....
+            indType : give a name to the indicator
         """
         self.instrument = instrument
+        self.exchange = exchange
         self.insType = insType
-        self.axis = axis
-        self.snapshot_voids = pd.DataFrame()
-        self.snapshot_voidsvar = pd.DataFrame()
+        self.lookup = lookup
+        self.data = dict()
 
-    def get_voids(self, current_price):
+    def binance_gta_tta_ttp(self, data):
+        """
+            Needs to be used for global tradesrs accountrs, positions and top traders accounts and positions
+        """
+        longAccount, shortAccount, longShortRation, price, timestamp = self.lookup(data)
+        self.data["timestamp"] = timestamp
+        self.data["longAccount"]  = longAccount
+        self.data["shortAccount"]  = shortAccount
+        self.data["longShortRation"]  = longShortRation
+        self.data["price"]  = price
 
-        
-        df_books = self.axis['books'].snapshot.copy()
-        df_trades = self.axis['trades'].snapshot.copy()
-        merged_df = pd.merge(df_books, df_trades, how='outer', left_index=True, right_index=True, suffixes=('_books', '_trades'))
-        common_columns = df_books.columns.intersection(df_trades.columns).tolist()
-        
-        for column in common_columns:
-            if "price" not in column:
-                merged_df[column] = merged_df[column + '_books'].sub(merged_df[column + '_trades'], fill_value=0)
-                merged_df = merged_df.drop([column + '_books', column + '_trades'], axis=1)
-        merged_df = merged_df.drop('price_books', axis=1)
-        merged_df = merged_df.rename(columns={'price_trades': 'price'})
-
-        sorted_columns = sorted(map(float, [c for c in merged_df.columns if "price" not in c]))
-        merged_df = merged_df[map(str, ['price'] + sorted_columns)] 
-
-        for index in range(len(merged_df)):
-            if index != 0:
-                merged_df.iloc[index-1] = merged_df.iloc[index].values - merged_df.iloc[index-1].values
-
-        price = merged_df['price'].values[-1]
-        self.snapshot_voids = merged_df.drop(columns=['price']).sum(axis=0).T
-        snapshot_voids_columns = ["_".join([x.split('.')[0], "void_volume"]) for x in merged_df.columns.tolist()]
-        self.snapshot_voids = self.snapshot_voids.rename(columns=dict(zip(self.snapshot_voids.columns, snapshot_voids_columns)))
-        total_closed = merged_df.sum(axis=0).sum().values[0]
-        self.snapshot_voids.insert(0, 'price', [price])
-        self.snapshot_voids.insert(0, 'void_volume', [total_closed])
-
-        self.snapshot_voidsvar = merged_df.var().T
-        snapshot_voids_columns = ["_".join([x.split('.')[0], "voidvar_volume"]) for x in merged_df.columns.tolist()]
-        self.snapshot_voidsvar = self.snapshot_voids.rename(columns=dict(zip(self.snapshot_voids.columns, snapshot_voids_columns)))
-        total_variance = self.snapshot_voidsvar.var().sum().values[0]
-        self.snapshot_voids.insert(0, 'price', [price])
-        self.snapshot_voidsvar.insert(0, 'voidvar_volume', [total_variance])
-        
-    
+    def simple_gta(self. data):
+        buyRation, sellRation, timestamp = self.lookup(data)
