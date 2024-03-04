@@ -541,11 +541,15 @@ class indomnifier():
         self.data = dict()
         self.open_interest = dict()
 
-    def retrive_data(self, key):
+    def retrive_data(self, key=None):
         """
             timestamp, ratio
+            is key == None, returns the whole dictionary
         """
-        return self.data.get(key)
+        if key != None:
+            return self.data.get(key)
+        else:
+            return self.data
 
     def inputOI(self, data):
         """
@@ -553,16 +557,42 @@ class indomnifier():
         """
         self.open_interest = data
 
+
     def inputgta(self):
         """
             merges gta, gtp, tta, ttp's
             make sure the self.open_interest keys have the same order as axis's keys
             since okx provides global btc long shorts ration, the code has some slight changes
         """
-        ratios = [x.data.get("ratio") for x in self.axis] # must contain 4 ratios
-        ois = list(self.open_interest.values())
-        weighted_ratio = np.average(ratios, weights=ois)
+        ratios = [self.axis[x].data.get("ratio") for x in self.axis.keys()] # has 4 ratios
+        ois = self.open_interest.items() # has 5 ois since oks provides btc global ratio, be careful with order of ois
+        formated_ois = []
+        okxoi = 0
+        for instrument, oi in ois:
+            if instrument in ["okx_btcusdt", "okx_btcusd"]:
+                okxoi += oi
+            else:
+                formated_ois.append(oi)
+        print(ratios, formated_ois)
+        formated_ois.insert(-1, okxoi)
+        weighted_ratio = np.average(ratios, weights=formated_ois)
         self.data["ratio"] = weighted_ratio
         self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+        #       axis_perpetual_oifunding = {
+        #     "binance_btcusdt" : binance1o,
+        #     "binance_btcusd" : binance2o,
+        #     "okx_btcusdt" : okx1o,
+        #     "okx_btcusd" : okx2o,
+        #     "bybit_btcusdt" : bybitOF,
+        # }
+
+        # axisgta = {
+        #     "binance_usdt" : binance_gta,
+        #     "binance_usd" : binance2_gta,
+        #     "okx_btc_all" : okx_gta, 
+        #     "bybit_usdt" : bybit_gta,
+        # }
+
 
     

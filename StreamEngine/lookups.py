@@ -554,3 +554,809 @@ def lookup_news(data):
     except:
         return None
     
+
+# Bingx
+    
+def bingx_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    side = "bid" if side == "bids" else "ask"
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response["btc_price"]
+    timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        if side == "ask":
+            for key in ["a", "asks"]:
+                books = response["data"].get("data").get(key, np.nan)
+                if books is np.nan:
+                    continue
+                else:
+                    break
+
+        if side == "bid":
+            for key in ["b", "bids"]:
+                books = response["data"].get("data").get(key, np.nan)
+                if books is np.nan:
+                    continue
+                else:
+                    break
+
+        if response["data"].get("E", np.nan) != np.nan:
+            try:
+                timestamp = datetime.datetime.fromtimestamp(float(response["data"].get("E")/ 10**3)).strftime('%Y-%m-%d %H:%M:%S')
+            except:
+                pass
+        
+        books = [[float(x[0]), float(x[1])] for x in books]
+
+        if insType == "perpetual" and instrument == "btcusd":
+            books = [[x[0], x[1]*100/price] for x in books]
+        
+        return books, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+def bingx_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("data").get("lastFundingRate"))
+        timestamp = response.get("timestamp")
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+def bingx_OI_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        oi, price, timestamp
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    price = response.get("btc_price")
+    try:
+        openInterest = float(response.get("data").get("data").get("openInterest"))
+        timestamp = response.get("data").get("data").get("time")
+        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        if instrument == "btcusd":
+            openInterest = (openInterest * 100) / price
+        return openInterest, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+def bingx_PerpTrades_lookup(response : json) -> list:
+    """
+        [side, price, amount, timestamp]
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response.get("btc_price")
+    try:
+        l = []
+        for r in response.get("data").get("data"):
+            quantity = float(r.get("q"))
+            price = float(r.get("p"))
+            if r.get("m") == True:
+                side = "buy"
+            else:
+                side = "sell"
+            timestamp = r.get("T")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            if insType == "perpetual" and instrument == "btcusd":
+                quantity = (quantity * 100) / price
+            l.append([side, price, quantity, timestamp])
+        return l
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+def bingx_SpotTrades_lookup(response : json) -> list:
+    """
+        [side, price, amount, timestamp]
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response.get("btc_price")
+    try:
+        l = []
+        r =  response.get("data").get("data")
+        quantity = float(r.get("q"))
+        price = float(r.get("p"))
+        if r.get("m") == True:
+            side = "buy"
+        else:
+            side = "sell"
+        timestamp = r.get("T")
+        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        if insType == "perpetual" and instrument == "btcusd":
+            quantity = (quantity * 100) / price
+        l.append([side, price, quantity, timestamp])
+        return l
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+### BITGET ###
+    
+def bitget_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    side = "bid" if side == "bids" else "ask"
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response["btc_price"]
+    timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        if side == "ask":
+            for key in ["a", "asks"]:
+                books = response["data"].get("data").get(key, np.nan)
+                if books is np.nan:
+                    continue
+                else:
+                    break
+
+        if side == "bid":
+            for key in ["b", "bids"]:
+                books = response["data"].get("data").get(key, np.nan)
+                if books is np.nan:
+                    continue
+                else:
+                    break
+
+        if response["data"].get("E", np.nan) != np.nan:
+            try:
+                timestamp = datetime.datetime.fromtimestamp(float(response["data"].get("E")/ 10**3)).strftime('%Y-%m-%d %H:%M:%S')
+            except:
+                pass
+        
+        books = [[float(x[0]), float(x[1])] for x in books]
+
+        if insType == "perpetual" and instrument == "btcusd":
+            books = [[x[0], x[1]*100/price] for x in books]
+        
+        return books, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+
+def bitget_trades_lookup(response : json) -> list:
+    """
+        [side, price, amount, timestamp]
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response.get("btc_price")
+    try:
+        l = []
+        for t in response.get("data").get("data"):
+            quantity = float(t.get("size"))
+            price = float(t.get("price"))
+            side = str(t.get("side"))
+            timestamp = float(t.get("ts"))
+            timestamp = datetime.datetime.fromtimestamp(timestamp / 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+        return l
+    except:
+        return None
+    
+def bitget_OI_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("data")[0].get("fundingRate"))
+        price = float(response.get("data").get("data")[0].get("lastPr"))
+        OI = float(response.get("data").get("data")[0].get("holdingAmount"))
+        timestamp = response.get("data").get("ts")
+        timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, OI, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+### DERIBIT ###
+
+def deribit_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response["btc_price"]
+    timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        if side == "asks":
+            books = response.get("data").get("params").get("data").get("asks")
+            books = [[x[1], x[2]/price] for x in books]
+        if side == "bids":
+            books = response.get("data").get("params").get("data").get("bids")
+            books = [[x[1], x[2]/price] for x in books]
+        timestamp = response.get("data").get("params").get("data").get("timestamp")
+        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+        return books, timestamp
+    except:
+        return None
+
+
+def deribit_OI_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = response.get("data").get("params").get("data").get("funding_8h")
+        OI = response.get("data").get("params").get("data").get("open_interest") / 10
+        price = response.get("data").get("params").get("data").get("last_price")
+        timestamp = response.get("data").get("params").get("data").get("timestamp")
+        timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, OI, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+def deribit_trades_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        l = []
+        for t in response.get("data").get("params").get("data"):
+            side = t.get("direction")
+            price = t.get("price")
+            quantity = t.get("amount") / price
+            timestamp = t.get("timestamp")
+            timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+        return l
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+
+### gateio ### 
+    
+def gateio_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    response = json.loads(response)
+    instrument = response["instrument"]
+    insType = response["insType"]
+    price = response["btc_price"]
+    timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+    if insType == "spot":
+        try:
+            if side == "asks":
+                books = response.get("data").get("result").get("a")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            if side == "bids":
+                books = response.get("data").get("result").get("b")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            timestamp = response.get("data").get("result").get("t")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            try:
+                if side == "asks":
+                    books = response.get("data").get("asks")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                if side == "bids":
+                    books = response.get("data").get("bids")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                timestamp = response.get("data").get("update")
+                timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+                return books, timestamp
+            except:
+                return None
+
+    if insType == "perpetual":
+        try:
+            if side == "asks":
+                books = response.get("data").get("asks")
+                books = [[float(x.get("p")), float(x.get("s")) * 0.0001] for x in books]
+            if side == "bids":
+                books = response.get("data").get("bids")
+                books = [[float(x.get("p")), float(x.get("s")) * 0.0001] for x in books]
+            timestamp = response.get("data").get("update")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            return None
+
+
+def gate_trades_lookup(response : json) -> Tuple[float, float, str]:
+    """
+
+        returns funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "perpetual":
+        try:
+            l = []
+            for trade in response.get("data"):
+                side = "buy" if trade.get("size") > 0 else "sell"
+                price = float(trade.get("price"))
+                quantity = abs(trade.get("size")) * 0.0001
+                timestamp = trade.get("create_time_ms")
+                timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+                l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+    if insType == "spot":
+        try:
+            trade = response.get("data").get("result")
+            l = []
+            side = trade.get("side")
+            price = float(trade.get("price"))
+            quantity = float(trade.get("amount"))
+            timestamp = float(trade.get("create_time_ms"))
+            timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+        
+def gateio_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("funding_rate"))
+        price = float(response.get("data").get("funding_rate"))
+        timestamp = float(response.get("timestamp"))
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+def gateio_OI_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        data = response.get("data")[0]
+        OI = float(data.get("open_interest"))
+        timestamp = float(data.get("time"))
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return OI, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+
+def gateio_OI_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        OI, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        OI = float(response.get("data").get("open_interest_usd")) * 0.0001
+        timestamp = float(response.get("data").get("time"))
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return OI, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+def gateio_liquidations_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        l = []
+        liquidations = response.get("data")
+        for liquidation in liquidations:
+            if liquidation.get("contract") == "BTC_USDT":
+                side = "buy" if float(liquidation.get("size")) > 0 else "sell"
+                price = float(liquidation.get("fill_price"))
+                amount = float(liquidation.get("size"))
+                amount = amount * 0.0001
+                timestamp = liquidation.get("time")
+                timestamp = datetime.datetime.fromtimestamp(float(timestamp)).strftime('%Y-%m-%d %H:%M:%S')
+                l.append([side, price, amount, timestamp])
+        return l
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+## HTX ###
+    
+def htx_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "perpetual":
+        try:
+            if side == "asks":
+                books = response.get("data").get("tick").get("asks")
+                books = [[float(x[0]), float(x[1]) / price * 100] for x in books]
+            if side == "bids":
+                books = response.get("data").get("tick").get("bids")
+                books = [[float(x[0]), float(x[1])/ price * 100] for x in books]
+            timestamp = response.get("data").get("ts")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+    if insType == "spot":
+        try:
+            if side == "asks":
+                books = response.get("data").get("tick").get("asks")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            if side == "bids":
+                books = response.get("data").get("tick").get("bids")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            timestamp = response.get("data").get("ts")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+        
+def htx_trades_lookup(response : json) -> Tuple[float, float, str]:
+    """
+
+        returns funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "perpetual":
+        try:
+            l = []
+            for trade in response.get("data").get("tick").get("data"):
+                side = trade.get("direction")
+                price = float(trade.get("price"))
+                quantity = abs(trade.get("quantity")) * 0.001
+                timestamp = trade.get("ts")
+                timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+                l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+    if insType == "spot":
+        try:
+            l = []
+            for trade in response.get("data").get("tick").get("data"):
+                side = trade.get("direction")
+                price = float(trade.get("price"))
+                quantity = abs(trade.get("amount"))
+                timestamp = trade.get("ts")
+                timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+                l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+        
+
+def htx_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        OI, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("data")[0].get("close"))
+        timestamp = float(response.get("data").get("ts"))
+        timestamp = datetime.datetime.fromtimestamp(timestamp / 10 **3).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+
+def htx_OI_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        OI, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        OI = float(response.get("data").get("data").get("tick")[0].get("value")) / price
+        timestamp = float(response.get("data").get("ts"))
+        timestamp = datetime.datetime.fromtimestamp(timestamp / 10 **3).strftime('%Y-%m-%d %H:%M:%S')
+        return OI, price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+
+
+### Kucoin ###
+    
+def kucoin_OI_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("data").get("fundingFeeRate"))
+        price = float(response.get("data").get("data").get("lastTradePrice"))
+        OI = float(response.get("data").get("data").get("openInterest"))
+        timestamp = response.get("timestamp")
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, OI * 0.001 , price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+def kucoin_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "spot":
+        try:
+            if side == "asks":
+                books = response.get("data").get("data").get("changes").get("asks")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            if side == "bids":
+                books = response.get("data").get("data").get("changes").get("bids")
+                books = [[float(x[0]), float(x[1])] for x in books]
+            timestamp = response.get("data").get("data").get("time")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            try:
+                if side == "asks":
+                    books = response.get("data").get("data").get("asks")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                if side == "bids":
+                    books = response.get("data").get("data").get("bids")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                timestamp = response.get("data").get("data").get("time")
+                timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+                return books, timestamp
+            except:
+                return None
+    if insType == "perpetual":
+            try:
+                books = response.get("data").get("data").get("change")
+                l = [[float(books.split(",")[0] * 0.001), float(books.split(",")[-1])]]
+                return l
+            except:
+                return None
+            
+
+def kucoin_trades_lookup(response : json) -> Tuple[float, float, str]:
+    """
+
+        returns funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "perpetual":
+        try:
+            l = []
+            trade = response.get("data").get("data")
+            side = trade.get("side")
+            price = float(trade.get("price"))
+            quantity = trade.get("size") * 0.001
+            timestamp = response.get("timestamp")
+            timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+    if insType == "spot":
+        try:
+            l = []
+            trade = response.get("data").get("data")
+            side = trade.get("side")
+            price = float(trade.get("price"))
+            quantity = trade.get("size")
+            timestamp = response.get("timestamp")
+            timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+        
+
+
+### MEXC ###
+        
+def mexc_OI_funding_lookup(response : json) -> Tuple[float, float, str]:
+    """
+        funding, OI, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    try:
+        funding = float(response.get("data").get("data").get("riseFallRate"))
+        price = float(response.get("data").get("data").get("lastPrice"))
+        OI = float(response.get("data").get("data").get("holdVol"))
+        timestamp = response.get("timestamp")
+        timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+        return funding, OI * 0.0001 , price, timestamp
+    except:
+        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+        return None
+    
+
+
+def mexc_depth_lookup(response : json, side : str) -> Tuple[list, str]:
+    """
+        side : bids, asks
+        Must return a list of float and timestamp in string format
+        [
+            [float(price), float(amount)],
+            .....
+        ]
+        returns: [[price, amount]...], timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "spot":
+        try:
+            if side == "asks" and "asks" in response.get("data").get("d"):
+                books = response.get("data").get("d").get("asks")
+                books = [[float(x.get("p")), float(x.get("v"))] for x in books]
+            if side == "bids" and "bids" in response.get("data").get("d"):
+                books = response.get("data").get("d").get("bids")
+                books = [[float(x.get("p")), float(x.get("v"))] for x in books]
+            timestamp = response.get("data").get("t")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            try:
+                if side == "asks":
+                    books = response.get("data").get("response").get("asks")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                if side == "bids":
+                    books = response.get("data").get("response").get("bids")
+                    books = [[float(x[0]), float(x[1])] for x in books]
+                timestamp = response.get("data").get("response").get("timestamp")
+                timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+                return books, timestamp
+            except:
+                return None
+    if insType == "perpetual":
+        try:
+            if side == "asks":
+                books = response.get("data").get("data").get("asks")
+                books = [[float(x[0]), float(x[1]) * 0.0001] for x in books]
+            if side == "bids":
+                books = response.get("data").get("data").get("bids")
+                books = [[float(x[0]), float(x[1]) * 0.0001] for x in books]
+            timestamp = response.get("data").get("ts")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return books, timestamp
+        except:
+            try:
+                if side == "asks":
+                    books = response.get("data").get("response").get("data").get("asks")
+                    books = [[float(x[0]), float(x[1] * 0.0001)] for x in books]
+                if side == "bids":
+                    books = response.get("data").get("response").get("data").get("bids")
+                    books = [[float(x[0]), float(x[1] * 0.0001)] for x in books]
+                timestamp = response.get("data").get("response").get("data").get("timestamp")
+                timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+                return books, timestamp
+            except:
+                return None
+
+
+def mexc_trades_lookup(response : json) -> Tuple[float, float, str]:
+    """
+
+        returns funding, price, timestamp
+    """
+    response = json.loads(response)
+    price = float(response.get("btc_price"))
+    insType = response["insType"]
+    if insType == "spot":
+        try:
+            l = []
+            for trade in  response.get("data").get("d").get("deals"):
+                side = "buy" if trade.get("S") == 1 else "sell"
+                price = float(trade.get("p"))
+                quantity = float(trade.get("v")) 
+                timestamp = response.get("data").get("t")
+                timestamp = datetime.datetime.fromtimestamp(timestamp /10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+                l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
+    if insType == "perpetual":
+        try:
+            l = []
+            trade = response.get("data").get("data")
+            side = "buy" if trade.get("S") == 1 else "sell"
+            price = float(trade.get("p"))
+            quantity = float(trade.get("v")) * 0.0001
+            timestamp = response.get("data").get("ts")
+            timestamp = datetime.datetime.fromtimestamp(timestamp /10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+            l.append([side, price, quantity, timestamp])
+            return l
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
