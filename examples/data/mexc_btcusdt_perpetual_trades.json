@@ -1,0 +1,2199 @@
+[
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416042.701697,
+    "data": {
+      "channel": "rs.sub.deal",
+      "data": "success",
+      "ts": 1709416039020
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416042.701911,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61909.6,
+        "v": 5,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416039021
+      },
+      "channel": "push.deal",
+      "ts": 1709416039021
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416042.702209,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61909.5,
+        "v": 400,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416039493
+      },
+      "channel": "push.deal",
+      "ts": 1709416039493
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416042.702607,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.7,
+        "v": 1177,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416039703
+      },
+      "channel": "push.deal",
+      "ts": 1709416039704
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416042.7030196,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.5,
+        "v": 8,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416040007
+      },
+      "channel": "push.deal",
+      "ts": 1709416040008
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.393943,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.8,
+        "v": 162,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416040334
+      },
+      "channel": "push.deal",
+      "ts": 1709416040334
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6758034,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.7,
+        "v": 4,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416041007
+      },
+      "channel": "push.deal",
+      "ts": 1709416041007
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.676293,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.6,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416041021
+      },
+      "channel": "push.deal",
+      "ts": 1709416041021
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6768312,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.6,
+        "v": 4,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416041033
+      },
+      "channel": "push.deal",
+      "ts": 1709416041033
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6773694,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61908.8,
+        "v": 5215,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416041245
+      },
+      "channel": "push.deal",
+      "ts": 1709416041245
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.677949,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61906,
+        "v": 25,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416041790
+      },
+      "channel": "push.deal",
+      "ts": 1709416041817
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6785746,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.3,
+        "v": 25,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416041961
+      },
+      "channel": "push.deal",
+      "ts": 1709416041961
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6792176,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.4,
+        "v": 161,
+        "T": 1,
+        "O": 3,
+        "M": 2,
+        "t": 1709416042194
+      },
+      "channel": "push.deal",
+      "ts": 1709416042195
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6798768,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.3,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416043015
+      },
+      "channel": "push.deal",
+      "ts": 1709416043015
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6805713,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.3,
+        "v": 10,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416043029
+      },
+      "channel": "push.deal",
+      "ts": 1709416043029
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.916436,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61902.6,
+        "v": 1300,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416043292
+      },
+      "channel": "push.deal",
+      "ts": 1709416043292
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.917214,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61902.4,
+        "v": 400,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416043370
+      },
+      "channel": "push.deal",
+      "ts": 1709416043371
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1836421,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 38,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416043490
+      },
+      "channel": "push.deal",
+      "ts": 1709416043490
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1844997,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 1624,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416043523
+      },
+      "channel": "push.deal",
+      "ts": 1709416043524
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1853435,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416044080
+      },
+      "channel": "push.deal",
+      "ts": 1709416044080
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1862535,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 14,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416044103
+      },
+      "channel": "push.deal",
+      "ts": 1709416044104
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1872525,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 490,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416044644
+      },
+      "channel": "push.deal",
+      "ts": 1709416044644
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1882386,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.6,
+        "v": 5,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416044996
+      },
+      "channel": "push.deal",
+      "ts": 1709416044996
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.189268,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 5,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416046126
+      },
+      "channel": "push.deal",
+      "ts": 1709416046135
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.190355,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 3768,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416046218
+      },
+      "channel": "push.deal",
+      "ts": 1709416046218
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1914854,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 29,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416046348
+      },
+      "channel": "push.deal",
+      "ts": 1709416046348
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.192596,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 1,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416046996
+      },
+      "channel": "push.deal",
+      "ts": 1709416046996
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1937666,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 3,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416047013
+      },
+      "channel": "push.deal",
+      "ts": 1709416047014
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416052.1949832,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 805,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416047163
+      },
+      "channel": "push.deal",
+      "ts": 1709416047164
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4878218,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 161,
+        "T": 1,
+        "O": 3,
+        "M": 2,
+        "t": 1709416047934
+      },
+      "channel": "push.deal",
+      "ts": 1709416047934
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.489173,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 7,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416048009
+      },
+      "channel": "push.deal",
+      "ts": 1709416048009
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4905562,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 1,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416048022
+      },
+      "channel": "push.deal",
+      "ts": 1709416048022
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4919157,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 2836,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416048177
+      },
+      "channel": "push.deal",
+      "ts": 1709416048177
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.493286,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 774,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416048466
+      },
+      "channel": "push.deal",
+      "ts": 1709416048467
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4947345,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 7,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416049009
+      },
+      "channel": "push.deal",
+      "ts": 1709416049009
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4961364,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 7,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416049020
+      },
+      "channel": "push.deal",
+      "ts": 1709416049020
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.4975986,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416050008
+      },
+      "channel": "push.deal",
+      "ts": 1709416050008
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.499137,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 1,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416050026
+      },
+      "channel": "push.deal",
+      "ts": 1709416050027
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.500707,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 1000,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416050163
+      },
+      "channel": "push.deal",
+      "ts": 1709416050163
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5021942,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 1,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416051009
+      },
+      "channel": "push.deal",
+      "ts": 1709416051009
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.503833,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 8,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416051021
+      },
+      "channel": "push.deal",
+      "ts": 1709416051021
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.505463,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 8,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416051032
+      },
+      "channel": "push.deal",
+      "ts": 1709416051032
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5072114,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 99,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416051328
+      },
+      "channel": "push.deal",
+      "ts": 1709416051328
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5089276,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 94,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416051771
+      },
+      "channel": "push.deal",
+      "ts": 1709416051772
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5106916,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 7,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416052001
+      },
+      "channel": "push.deal",
+      "ts": 1709416052001
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5124607,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 9,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416052015
+      },
+      "channel": "push.deal",
+      "ts": 1709416052015
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5142875,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 4,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416053008
+      },
+      "channel": "push.deal",
+      "ts": 1709416053008
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.018909,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 6,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416054012
+      },
+      "channel": "push.deal",
+      "ts": 1709416054012
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.021032,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 10,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416055003
+      },
+      "channel": "push.deal",
+      "ts": 1709416055003
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.023278,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 182,
+        "T": 1,
+        "O": 3,
+        "M": 2,
+        "t": 1709416055633
+      },
+      "channel": "push.deal",
+      "ts": 1709416055654
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0251613,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.5,
+        "v": 38,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416055985
+      },
+      "channel": "push.deal",
+      "ts": 1709416055985
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0270746,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 12,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416055996
+      },
+      "channel": "push.deal",
+      "ts": 1709416055996
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0290082,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61900.4,
+        "v": 3,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416056047
+      },
+      "channel": "push.deal",
+      "ts": 1709416056047
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.031023,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416057019
+      },
+      "channel": "push.deal",
+      "ts": 1709416057019
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0330112,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416057032
+      },
+      "channel": "push.deal",
+      "ts": 1709416057032
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0353994,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 6,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416057042
+      },
+      "channel": "push.deal",
+      "ts": 1709416057042
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0379047,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416058020
+      },
+      "channel": "push.deal",
+      "ts": 1709416058020
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0408103,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416058029
+      },
+      "channel": "push.deal",
+      "ts": 1709416058029
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0458279,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416058057
+      },
+      "channel": "push.deal",
+      "ts": 1709416058057
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0485702,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 1,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416058237
+      },
+      "channel": "push.deal",
+      "ts": 1709416058238
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0508025,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 42,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416058543
+      },
+      "channel": "push.deal",
+      "ts": 1709416058544
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.053032,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 500,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416058591
+      },
+      "channel": "push.deal",
+      "ts": 1709416058592
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0553432,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 184,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416059001
+      },
+      "channel": "push.deal",
+      "ts": 1709416059001
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0577824,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 745,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416059006
+      },
+      "channel": "push.deal",
+      "ts": 1709416059006
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.060141,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 185,
+        "T": 2,
+        "O": 1,
+        "M": 2,
+        "t": 1709416059313
+      },
+      "channel": "push.deal",
+      "ts": 1709416059313
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0626981,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 892,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416059425
+      },
+      "channel": "push.deal",
+      "ts": 1709416059452
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0650756,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 8109,
+        "T": 1,
+        "O": 3,
+        "M": 2,
+        "t": 1709416060036
+      },
+      "channel": "push.deal",
+      "ts": 1709416060037
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0675147,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 19,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416060053
+      },
+      "channel": "push.deal",
+      "ts": 1709416060053
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0705156,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 8109,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416060249
+      },
+      "channel": "push.deal",
+      "ts": 1709416060249
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0740268,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 9,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416061014
+      },
+      "channel": "push.deal",
+      "ts": 1709416061014
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0770347,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 2473,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416061305
+      },
+      "channel": "push.deal",
+      "ts": 1709416061306
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416071.0795987,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416062010
+      },
+      "channel": "push.deal",
+      "ts": 1709416062010
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.025278,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 16,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416063007
+      },
+      "channel": "push.deal",
+      "ts": 1709416063007
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.028697,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 12,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416064004
+      },
+      "channel": "push.deal",
+      "ts": 1709416064004
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.031831,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416065001
+      },
+      "channel": "push.deal",
+      "ts": 1709416065001
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.03454,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 6,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416065017
+      },
+      "channel": "push.deal",
+      "ts": 1709416065017
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0372472,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 4,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416066016
+      },
+      "channel": "push.deal",
+      "ts": 1709416066016
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0400631,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 5,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416066027
+      },
+      "channel": "push.deal",
+      "ts": 1709416066027
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0438848,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 5,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416066037
+      },
+      "channel": "push.deal",
+      "ts": 1709416066037
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0499532,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 2881,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416066624
+      },
+      "channel": "push.deal",
+      "ts": 1709416066624
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0531607,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 1,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416067004
+      },
+      "channel": "push.deal",
+      "ts": 1709416067004
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0565882,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416067015
+      },
+      "channel": "push.deal",
+      "ts": 1709416067016
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0595343,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416067106
+      },
+      "channel": "push.deal",
+      "ts": 1709416067107
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0625055,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3723,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416067486
+      },
+      "channel": "push.deal",
+      "ts": 1709416067486
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.065512,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 5,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416068005
+      },
+      "channel": "push.deal",
+      "ts": 1709416068005
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.068813,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416068018
+      },
+      "channel": "push.deal",
+      "ts": 1709416068018
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.072119,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 5,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416068028
+      },
+      "channel": "push.deal",
+      "ts": 1709416068028
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0752466,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 2,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416069010
+      },
+      "channel": "push.deal",
+      "ts": 1709416069010
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0791566,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416069022
+      },
+      "channel": "push.deal",
+      "ts": 1709416069022
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0823135,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 6,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416070010
+      },
+      "channel": "push.deal",
+      "ts": 1709416070010
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0855143,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 4,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416070020
+      },
+      "channel": "push.deal",
+      "ts": 1709416070020
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0904646,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 4,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416070030
+      },
+      "channel": "push.deal",
+      "ts": 1709416070031
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0938082,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 6,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416071010
+      },
+      "channel": "push.deal",
+      "ts": 1709416071010
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0970886,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 98,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416072058
+      },
+      "channel": "push.deal",
+      "ts": 1709416072067
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.1004739,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 8,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416072060
+      },
+      "channel": "push.deal",
+      "ts": 1709416072068
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.1039472,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 5,
+        "T": 2,
+        "O": 3,
+        "M": 1,
+        "t": 1709416073006
+      },
+      "channel": "push.deal",
+      "ts": 1709416073006
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.1073067,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 4,
+        "T": 1,
+        "O": 1,
+        "M": 2,
+        "t": 1709416073959
+      },
+      "channel": "push.deal",
+      "ts": 1709416073959
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.1106594,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 6,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416074029
+      },
+      "channel": "push.deal",
+      "ts": 1709416074029
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9357657,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 9,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416075005
+      },
+      "channel": "push.deal",
+      "ts": 1709416075005
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9392745,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 2,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416075018
+      },
+      "channel": "push.deal",
+      "ts": 1709416075019
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9428608,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 1,
+        "T": 2,
+        "O": 3,
+        "M": 2,
+        "t": 1709416075896
+      },
+      "channel": "push.deal",
+      "ts": 1709416075896
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9463918,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 3,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416076017
+      },
+      "channel": "push.deal",
+      "ts": 1709416076017
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9504266,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 164,
+        "T": 1,
+        "O": 3,
+        "M": 2,
+        "t": 1709416076734
+      },
+      "channel": "push.deal",
+      "ts": 1709416076734
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9540448,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61903.9,
+        "v": 7,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416077013
+      },
+      "channel": "push.deal",
+      "ts": 1709416077013
+    }
+  },
+  {
+    "exchange": "mexc",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9576976,
+    "data": {
+      "symbol": "BTC_USDT",
+      "data": {
+        "p": 61904,
+        "v": 4,
+        "T": 1,
+        "O": 3,
+        "M": 1,
+        "t": 1709416077027
+      },
+      "channel": "push.deal",
+      "ts": 1709416077028
+    }
+  }
+]

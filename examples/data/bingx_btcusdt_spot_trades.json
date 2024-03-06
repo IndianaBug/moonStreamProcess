@@ -1,0 +1,971 @@
+[
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.225943,
+    "data": {
+      "code": 0,
+      "id": "fiUIconDFFxKGsFkoJKl",
+      "msg": "SUCCESS",
+      "timestamp": 1709416038962
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.226248,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416039116,
+        "T": 1709416039101,
+        "e": "trade",
+        "m": true,
+        "p": "61838.88",
+        "q": "0.04394",
+        "s": "BTC-USDT",
+        "t": "91431525"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.2266521,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416039682,
+        "T": 1709416039672,
+        "e": "trade",
+        "m": false,
+        "p": "61839.01",
+        "q": "0.02755",
+        "s": "BTC-USDT",
+        "t": "91431526"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6426587,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416040587,
+        "T": 1709416040584,
+        "e": "trade",
+        "m": true,
+        "p": "61838.94",
+        "q": "0.01326",
+        "s": "BTC-USDT",
+        "t": "91431528"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6431086,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416041190,
+        "T": 1709416041181,
+        "e": "trade",
+        "m": true,
+        "p": "61839.15",
+        "q": "0.01309",
+        "s": "BTC-USDT",
+        "t": "91431529"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6435783,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416042067,
+        "T": 1709416042062,
+        "e": "trade",
+        "m": true,
+        "p": "61839.78",
+        "q": "0.00022",
+        "s": "BTC-USDT",
+        "t": "91431532"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6440787,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416042582,
+        "T": 1709416042567,
+        "e": "trade",
+        "m": true,
+        "p": "61839.47",
+        "q": "0.03154",
+        "s": "BTC-USDT",
+        "t": "91431533"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6446083,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416043116,
+        "T": 1709416043100,
+        "e": "trade",
+        "m": false,
+        "p": "61839.83",
+        "q": "0.01515",
+        "s": "BTC-USDT",
+        "t": "91431534"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9830625,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416044250,
+        "T": 1709416044233,
+        "e": "trade",
+        "m": false,
+        "p": "61839.45",
+        "q": "0.00614",
+        "s": "BTC-USDT",
+        "t": "91431535"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9838576,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416045595,
+        "T": 1709416045580,
+        "e": "trade",
+        "m": false,
+        "p": "61839.52",
+        "q": "0.03541",
+        "s": "BTC-USDT",
+        "t": "91431536"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9846876,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416046333,
+        "T": 1709416046304,
+        "e": "trade",
+        "m": true,
+        "p": "61839.50",
+        "q": "0.01329",
+        "s": "BTC-USDT",
+        "t": "91431537"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.985559,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416047089,
+        "T": 1709416047057,
+        "e": "trade",
+        "m": false,
+        "p": "61839.57",
+        "q": "0.00710",
+        "s": "BTC-USDT",
+        "t": "91431540"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.83691,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416050160,
+        "T": 1709416050136,
+        "e": "trade",
+        "m": true,
+        "p": "61839.04",
+        "q": "0.02496",
+        "s": "BTC-USDT",
+        "t": "91431541"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8376613,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416051076,
+        "T": 1709416051057,
+        "e": "trade",
+        "m": false,
+        "p": "61839.01",
+        "q": "0.03186",
+        "s": "BTC-USDT",
+        "t": "91431543"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8384054,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416051846,
+        "T": 1709416051833,
+        "e": "trade",
+        "m": false,
+        "p": "61838.68",
+        "q": "0.02811",
+        "s": "BTC-USDT",
+        "t": "91431544"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8392303,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416052716,
+        "T": 1709416052683,
+        "e": "trade",
+        "m": false,
+        "p": "61838.97",
+        "q": "0.00248",
+        "s": "BTC-USDT",
+        "t": "91431547"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.840043,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416053289,
+        "T": 1709416053276,
+        "e": "trade",
+        "m": false,
+        "p": "61838.81",
+        "q": "0.01198",
+        "s": "BTC-USDT",
+        "t": "91431548"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9481485,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416054257,
+        "T": 1709416054248,
+        "e": "trade",
+        "m": true,
+        "p": "61838.87",
+        "q": "0.00093",
+        "s": "BTC-USDT",
+        "t": "91431551"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9491558,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416055095,
+        "T": 1709416055063,
+        "e": "trade",
+        "m": true,
+        "p": "61838.63",
+        "q": "0.03020",
+        "s": "BTC-USDT",
+        "t": "91431555"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9501007,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416055607,
+        "T": 1709416055585,
+        "e": "trade",
+        "m": false,
+        "p": "61839.29",
+        "q": "0.00062",
+        "s": "BTC-USDT",
+        "t": "91431559"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.951117,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416056242,
+        "T": 1709416056220,
+        "e": "trade",
+        "m": true,
+        "p": "61839.04",
+        "q": "0.01353",
+        "s": "BTC-USDT",
+        "t": "91431561"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.952128,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416057191,
+        "T": 1709416057178,
+        "e": "trade",
+        "m": false,
+        "p": "61839.22",
+        "q": "0.07121",
+        "s": "BTC-USDT",
+        "t": "91431563"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9532354,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416057841,
+        "T": 1709416057828,
+        "e": "trade",
+        "m": true,
+        "p": "61839.24",
+        "q": "0.06846",
+        "s": "BTC-USDT",
+        "t": "91431565"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9543564,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416058902,
+        "T": 1709416058886,
+        "e": "trade",
+        "m": true,
+        "p": "61839.29",
+        "q": "0.04102",
+        "s": "BTC-USDT",
+        "t": "91431566"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9556193,
+    "data": {
+      "ping": "0a4c523ce8124cb9bd618f617e163277",
+      "time": "2024-03-03T05:47:38.936+0800"
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9567707,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416059568,
+        "T": 1709416059557,
+        "e": "trade",
+        "m": true,
+        "p": "61838.95",
+        "q": "0.01213",
+        "s": "BTC-USDT",
+        "t": "91431569"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9579244,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416060635,
+        "T": 1709416060578,
+        "e": "trade",
+        "m": false,
+        "p": "61839.17",
+        "q": "0.00613",
+        "s": "BTC-USDT",
+        "t": "91431572"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9591506,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416061334,
+        "T": 1709416061304,
+        "e": "trade",
+        "m": false,
+        "p": "61839.03",
+        "q": "0.04354",
+        "s": "BTC-USDT",
+        "t": "91431577"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.960382,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416062626,
+        "T": 1709416062603,
+        "e": "trade",
+        "m": true,
+        "p": "61839.21",
+        "q": "0.03846",
+        "s": "BTC-USDT",
+        "t": "91431578"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7682133,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416064055,
+        "T": 1709416064037,
+        "e": "trade",
+        "m": false,
+        "p": "61839.18",
+        "q": "0.01544",
+        "s": "BTC-USDT",
+        "t": "91431581"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7695608,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416065118,
+        "T": 1709416065109,
+        "e": "trade",
+        "m": true,
+        "p": "61839.78",
+        "q": "0.01598",
+        "s": "BTC-USDT",
+        "t": "91431586"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7709136,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416066498,
+        "T": 1709416066484,
+        "e": "trade",
+        "m": false,
+        "p": "61840.00",
+        "q": "0.00836",
+        "s": "BTC-USDT",
+        "t": "91431587"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7722523,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416067610,
+        "T": 1709416067603,
+        "e": "trade",
+        "m": true,
+        "p": "61839.65",
+        "q": "0.00309",
+        "s": "BTC-USDT",
+        "t": "91431589"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7735887,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416069014,
+        "T": 1709416069001,
+        "e": "trade",
+        "m": false,
+        "p": "61838.78",
+        "q": "0.00130",
+        "s": "BTC-USDT",
+        "t": "91431590"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7749999,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416070598,
+        "T": 1709416070574,
+        "e": "trade",
+        "m": true,
+        "p": "61839.86",
+        "q": "0.03991",
+        "s": "BTC-USDT",
+        "t": "91431591"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7764874,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416071145,
+        "T": 1709416071131,
+        "e": "trade",
+        "m": false,
+        "p": "61839.79",
+        "q": "0.05383",
+        "s": "BTC-USDT",
+        "t": "91431592"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7779815,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416071661,
+        "T": 1709416071652,
+        "e": "trade",
+        "m": false,
+        "p": "61839.67",
+        "q": "0.02722",
+        "s": "BTC-USDT",
+        "t": "91431594"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.7795582,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416072469,
+        "T": 1709416072456,
+        "e": "trade",
+        "m": false,
+        "p": "61839.93",
+        "q": "0.04931",
+        "s": "BTC-USDT",
+        "t": "91431597"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416088.78112,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416073885,
+        "T": 1709416073865,
+        "e": "trade",
+        "m": true,
+        "p": "61839.96",
+        "q": "0.09278",
+        "s": "BTC-USDT",
+        "t": "91431598"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9286096,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416074766,
+        "T": 1709416074724,
+        "e": "trade",
+        "m": false,
+        "p": "61839.58",
+        "q": "0.05171",
+        "s": "BTC-USDT",
+        "t": "91431601"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.93029,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416075870,
+        "T": 1709416075857,
+        "e": "trade",
+        "m": false,
+        "p": "61839.69",
+        "q": "0.03295",
+        "s": "BTC-USDT",
+        "t": "91431603"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9320552,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416076603,
+        "T": 1709416076581,
+        "e": "trade",
+        "m": false,
+        "p": "61839.79",
+        "q": "0.02442",
+        "s": "BTC-USDT",
+        "t": "91431605"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  },
+  {
+    "exchange": "bingx",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.9337628,
+    "data": {
+      "code": 0,
+      "data": {
+        "E": 1709416077238,
+        "T": 1709416077225,
+        "e": "trade",
+        "m": true,
+        "p": "61839.59",
+        "q": "0.01698",
+        "s": "BTC-USDT",
+        "t": "91431607"
+      },
+      "dataType": "BTC-USDT@trade",
+      "success": true
+    }
+  }
+]

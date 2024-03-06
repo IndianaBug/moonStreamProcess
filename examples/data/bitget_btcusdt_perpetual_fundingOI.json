@@ -1,0 +1,6486 @@
+[
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.126063,
+    "data": {
+      "event": "subscribe",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      }
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.1262898,
+    "data": {}
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.1266005,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61888.5",
+          "askPr": "61889.4",
+          "bidSz": "1",
+          "askSz": "0.006",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61881.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416039210"
+        }
+      ],
+      "ts": 1709416039212
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.1269877,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61888.4",
+          "askPr": "61889.4",
+          "bidSz": "2",
+          "askSz": "0.006",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61882.9",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416039469"
+        }
+      ],
+      "ts": 1709416039471
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.127459,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61887.4",
+          "askPr": "61888.5",
+          "bidSz": "1",
+          "askSz": "1.248",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61882.9",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416039736"
+        }
+      ],
+      "ts": 1709416039738
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.127969,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61887.4",
+          "askPr": "61888.5",
+          "bidSz": "1",
+          "askSz": "1.248",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61882.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416040012"
+        }
+      ],
+      "ts": 1709416040013
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.1285517,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61887.4",
+          "askPr": "61887.5",
+          "bidSz": "1",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.6",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51280.992",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416040273"
+        }
+      ],
+      "ts": 1709416040275
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.424403,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61887.4",
+          "askPr": "61887.5",
+          "bidSz": "1",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.6",
+          "indexPrice": "61840.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416040533"
+        }
+      ],
+      "ts": 1709416040534
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4251583,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61887.4",
+          "askPr": "61887.5",
+          "bidSz": "1",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.6",
+          "indexPrice": "61840.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.112",
+          "quoteVolume": "13056230650.252",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416040796"
+        }
+      ],
+      "ts": 1709416040798
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.425956,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61887.4",
+          "askPr": "61887.5",
+          "bidSz": "1",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.6",
+          "indexPrice": "61840.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.112",
+          "quoteVolume": "13056230650.252",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416041050"
+        }
+      ],
+      "ts": 1709416041054
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4269676,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.4",
+          "bidPr": "61887.3",
+          "askPr": "61887.5",
+          "bidSz": "3.026",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.112",
+          "quoteVolume": "13056230650.252",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416041308"
+        }
+      ],
+      "ts": 1709416041309
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4279308,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.4",
+          "bidPr": "61887.3",
+          "askPr": "61887.5",
+          "bidSz": "3.026",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.9",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210434.882",
+          "quoteVolume": "13056092639.445",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416041575"
+        }
+      ],
+      "ts": 1709416041577
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4289505,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.4",
+          "bidPr": "61887.3",
+          "askPr": "61887.5",
+          "bidSz": "3.012",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.9",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.135",
+          "quoteVolume": "13056232073.662",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416041847"
+        }
+      ],
+      "ts": 1709416041849
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.430021,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.4",
+          "bidPr": "61887.3",
+          "askPr": "61887.5",
+          "bidSz": "3.012",
+          "askSz": "0.435",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.9",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.135",
+          "quoteVolume": "13056232073.662",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416042116"
+        }
+      ],
+      "ts": 1709416042118
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4312356,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61881.6",
+          "askPr": "61882.2",
+          "bidSz": "3.04",
+          "askSz": "0.852",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.0",
+          "indexPrice": "61840.9",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.135",
+          "quoteVolume": "13056232073.662",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416042383"
+        }
+      ],
+      "ts": 1709416042387
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4324248,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61881.6",
+          "askPr": "61882.2",
+          "bidSz": "3.04",
+          "askSz": "0.852",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.0",
+          "indexPrice": "61841.4",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.135",
+          "quoteVolume": "13056232073.662",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416042641"
+        }
+      ],
+      "ts": 1709416042643
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.433707,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61887.5",
+          "bidPr": "61881.6",
+          "askPr": "61882.2",
+          "bidSz": "3.04",
+          "askSz": "0.852",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01144",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.0",
+          "indexPrice": "61841.4",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.479",
+          "quoteVolume": "13056253362.856",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416042895"
+        }
+      ],
+      "ts": 1709416042897
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.4351127,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.2",
+          "bidPr": "61881.6",
+          "askPr": "61882.2",
+          "bidSz": "3.057",
+          "askSz": "0.832",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.0",
+          "indexPrice": "61841.4",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.479",
+          "quoteVolume": "13056253362.856",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416043154"
+        }
+      ],
+      "ts": 1709416043156
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.9434793,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.0",
+          "bidPr": "61881.6",
+          "askPr": "61881.7",
+          "bidSz": "1",
+          "askSz": "0.189",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61841.4",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.479",
+          "quoteVolume": "13056253362.856",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416043414"
+        }
+      ],
+      "ts": 1709416043418
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7893808,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.0",
+          "bidPr": "61881.6",
+          "askPr": "61881.7",
+          "bidSz": "1",
+          "askSz": "0.189",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61840.7",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210437.479",
+          "quoteVolume": "13056253362.856",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416043682"
+        }
+      ],
+      "ts": 1709416043684
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7909656,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.2",
+          "bidSz": "0.565",
+          "askSz": "0.832",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61840.7",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210459.148",
+          "quoteVolume": "13057594283.914",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416043947"
+        }
+      ],
+      "ts": 1709416043948
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7925847,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.2",
+          "bidSz": "0.565",
+          "askSz": "0.832",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61840.7",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210459.148",
+          "quoteVolume": "13057594283.914",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416044207"
+        }
+      ],
+      "ts": 1709416044209
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7942202,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.2",
+          "bidSz": "0.565",
+          "askSz": "0.832",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61840.7",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210459.148",
+          "quoteVolume": "13057594283.914",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416044464"
+        }
+      ],
+      "ts": 1709416044466
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7959905,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210459.148",
+          "quoteVolume": "13057594283.914",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416044731"
+        }
+      ],
+      "ts": 1709416044734
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.797822,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61840.7",
+          "holdingAmount": "51280.992",
+          "baseVolume": "210437.111",
+          "quoteVolume": "13056230588.364",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416044997"
+        }
+      ],
+      "ts": 1709416044999
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.7999127,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61886.5",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210437.112",
+          "quoteVolume": "13056230650.252",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416045256"
+        }
+      ],
+      "ts": 1709416045273
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.80208,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210434.882",
+          "quoteVolume": "13056092639.445",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416045551"
+        }
+      ],
+      "ts": 1709416045553
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.804235,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416045814"
+        }
+      ],
+      "ts": 1709416045815
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8062947,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416046073"
+        }
+      ],
+      "ts": 1709416046075
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8084674,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.2",
+          "indexPrice": "61839.6",
+          "holdingAmount": "51280.992",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416046331"
+        }
+      ],
+      "ts": 1709416046335
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8107026,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.2",
+          "indexPrice": "61839.5",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416046611"
+        }
+      ],
+      "ts": 1709416046613
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8130097,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.2",
+          "indexPrice": "61839.5",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416046877"
+        }
+      ],
+      "ts": 1709416046879
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8154771,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.2",
+          "indexPrice": "61839.5",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416047137"
+        }
+      ],
+      "ts": 1709416047139
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8179133,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61881.7",
+          "bidPr": "61879.8",
+          "askPr": "61882.4",
+          "bidSz": "0.565",
+          "askSz": "0.268",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01153",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.2",
+          "indexPrice": "61839.5",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416047418"
+        }
+      ],
+      "ts": 1709416047420
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.8205726,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.505",
+          "askSz": "3.056",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.9",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.249",
+          "quoteVolume": "13057600533.826",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416047684"
+        }
+      ],
+      "ts": 1709416047685
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5163403,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.012",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.9",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.249",
+          "quoteVolume": "13057600533.826",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416047941"
+        }
+      ],
+      "ts": 1709416047942
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5190644,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.012",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.9",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.249",
+          "quoteVolume": "13057600533.826",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416048198"
+        }
+      ],
+      "ts": 1709416048200
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5217726,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.053",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.9",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.249",
+          "quoteVolume": "13057600533.826",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416048458"
+        }
+      ],
+      "ts": 1709416048460
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5245996,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.053",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.9",
+          "holdingAmount": "51276.453",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416048723"
+        }
+      ],
+      "ts": 1709416048725
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5281787,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.032",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.5",
+          "holdingAmount": "51280.995",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416049107"
+        }
+      ],
+      "ts": 1709416049109
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.531613,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.032",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416049370"
+        }
+      ],
+      "ts": 1709416049373
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5347462,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.6",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.032",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416049641"
+        }
+      ],
+      "ts": 1709416049643
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.538029,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416049906"
+        }
+      ],
+      "ts": 1709416049908
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5412152,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416050169"
+        }
+      ],
+      "ts": 1709416050171
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5445106,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.028",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210461.564",
+          "quoteVolume": "13057743796.907",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416050432"
+        }
+      ],
+      "ts": 1709416050435
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5482478,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210461.564",
+          "quoteVolume": "13057743796.907",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416050699"
+        }
+      ],
+      "ts": 1709416050701
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5519724,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.025",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.173",
+          "quoteVolume": "13057595830.957",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416050959"
+        }
+      ],
+      "ts": 1709416050961
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.555583,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "2.215",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.695",
+          "baseVolume": "210461.586",
+          "quoteVolume": "13057745158.370",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416051235"
+        }
+      ],
+      "ts": 1709416051241
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5591183,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "2.215",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.8",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416051501"
+        }
+      ],
+      "ts": 1709416051510
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.562724,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "2.215",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51295.775",
+          "baseVolume": "210461.591",
+          "quoteVolume": "13057745467.794",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416051757"
+        }
+      ],
+      "ts": 1709416051759
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5663311,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.043",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51295.775",
+          "baseVolume": "210461.591",
+          "quoteVolume": "13057745467.794",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416052016"
+        }
+      ],
+      "ts": 1709416052017
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5701113,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.043",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51295.775",
+          "baseVolume": "210461.591",
+          "quoteVolume": "13057745467.794",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416052275"
+        }
+      ],
+      "ts": 1709416052277
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5739646,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.039",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210459.250",
+          "quoteVolume": "13057600595.711",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416052534"
+        }
+      ],
+      "ts": 1709416052538
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5779192,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.039",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51269.638",
+          "baseVolume": "210461.591",
+          "quoteVolume": "13057745467.794",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416052819"
+        }
+      ],
+      "ts": 1709416052823
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.581935,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.039",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.7",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210461.564",
+          "quoteVolume": "13057743796.907",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416053200"
+        }
+      ],
+      "ts": 1709416053202
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5859635,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61884.7",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.029",
+          "askSz": "3.039",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01148",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.5",
+          "indexPrice": "61839.0",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210476.902",
+          "quoteVolume": "13058692982.904",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416053468"
+        }
+      ],
+      "ts": 1709416053470
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416061.5899885,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.028",
+          "askSz": "3.055",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.2",
+          "indexPrice": "61839.0",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210476.902",
+          "quoteVolume": "13058692982.904",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416053724"
+        }
+      ],
+      "ts": 1709416053727
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0365524,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.028",
+          "askSz": "3.055",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.2",
+          "indexPrice": "61839.0",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210476.902",
+          "quoteVolume": "13058692982.904",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416053989"
+        }
+      ],
+      "ts": 1709416053991
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0415835,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61882.4",
+          "askPr": "61884.7",
+          "bidSz": "0.028",
+          "askSz": "3.031",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.2",
+          "indexPrice": "61839.0",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210476.902",
+          "quoteVolume": "13058692982.904",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416054372"
+        }
+      ],
+      "ts": 1709416054374
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0458841,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.41",
+          "askSz": "3.046",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416054641"
+        }
+      ],
+      "ts": 1709416054642
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0502257,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.41",
+          "askSz": "3.046",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416054906"
+        }
+      ],
+      "ts": 1709416054907
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0547113,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.41",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416055164"
+        }
+      ],
+      "ts": 1709416055166
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0598526,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.41",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416055416"
+        }
+      ],
+      "ts": 1709416055418
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.066449,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61884.7",
+          "bidSz": "0.41",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61883.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416055673"
+        }
+      ],
+      "ts": 1709416055675
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0749598,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61883.2",
+          "askPr": "61884.7",
+          "bidSz": "0.276",
+          "askSz": "3.03",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.0",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416055932"
+        }
+      ],
+      "ts": 1709416055934
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.07967,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61883.2",
+          "askPr": "61884.7",
+          "bidSz": "0.276",
+          "askSz": "3.03",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416056196"
+        }
+      ],
+      "ts": 1709416056197
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0843663,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61883.2",
+          "askPr": "61884.7",
+          "bidSz": "0.276",
+          "askSz": "3.03",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416056456"
+        }
+      ],
+      "ts": 1709416056459
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0900853,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61884.6",
+          "askPr": "61887.4",
+          "bidSz": "1.074",
+          "askSz": "3.046",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.5",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416056731"
+        }
+      ],
+      "ts": 1709416056733
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.0949855,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.448",
+          "askSz": "3.043",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51281.695",
+          "baseVolume": "210461.586",
+          "quoteVolume": "13057745158.370",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416056995"
+        }
+      ],
+      "ts": 1709416056997
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1000493,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.448",
+          "askSz": "3.043",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416057265"
+        }
+      ],
+      "ts": 1709416057266
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1053352,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.448",
+          "askSz": "3.043",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.1",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416057532"
+        }
+      ],
+      "ts": 1709416057534
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1108153,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.035",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.4",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416057789"
+        }
+      ],
+      "ts": 1709416057792
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1163135,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.035",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.4",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416058065"
+        }
+      ],
+      "ts": 1709416058068
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1216114,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.03",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.775",
+          "baseVolume": "210461.591",
+          "quoteVolume": "13057745467.794",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416058457"
+        }
+      ],
+      "ts": 1709416058459
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1269221,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61882.4",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.03",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01152",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416058720"
+        }
+      ],
+      "ts": 1709416058721
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1326325,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.045",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416058980"
+        }
+      ],
+      "ts": 1709416058982
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.13809,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.045",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416059238"
+        }
+      ],
+      "ts": 1709416059240
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1438468,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.045",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416059496"
+        }
+      ],
+      "ts": 1709416059497
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1500533,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.023",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.412",
+          "quoteVolume": "13059776643.533",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416059758"
+        }
+      ],
+      "ts": 1709416059761
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.155721,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.412",
+          "quoteVolume": "13059776643.533",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416060019"
+        }
+      ],
+      "ts": 1709416060021
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1614835,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.025",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.412",
+          "quoteVolume": "13059776643.533",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416060283"
+        }
+      ],
+      "ts": 1709416060285
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1673033,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.005",
+          "askSz": "3.022",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.841",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416060656"
+        }
+      ],
+      "ts": 1709416060662
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.173286,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.005",
+          "askSz": "3.022",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.432",
+          "quoteVolume": "13059777881.295",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416060916"
+        }
+      ],
+      "ts": 1709416060918
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1793516,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.005",
+          "askSz": "3.047",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.432",
+          "quoteVolume": "13059777881.295",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416061172"
+        }
+      ],
+      "ts": 1709416061174
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1853662,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.1",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.005",
+          "askSz": "3.047",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.9",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.432",
+          "quoteVolume": "13059777881.295",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416061430"
+        }
+      ],
+      "ts": 1709416061432
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.191407,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "1.074",
+          "askSz": "3.055",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.432",
+          "quoteVolume": "13059777881.295",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416061709"
+        }
+      ],
+      "ts": 1709416061713
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.1976342,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "1.074",
+          "askSz": "3.055",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416061979"
+        }
+      ],
+      "ts": 1709416061981
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.204023,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.851",
+          "askSz": "3.051",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416062243"
+        }
+      ],
+      "ts": 1709416062246
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416070.2103188,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.851",
+          "askSz": "3.051",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61838.6",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416062503"
+        }
+      ],
+      "ts": 1709416062505
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3041136,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.016",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416062746"
+        }
+      ],
+      "ts": 1709416062758
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3105955,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.016",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416063027"
+        }
+      ],
+      "ts": 1709416063029
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3170965,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.02",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416063295"
+        }
+      ],
+      "ts": 1709416063298
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3237002,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.02",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61838.7",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416063556"
+        }
+      ],
+      "ts": 1709416063558
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3301709,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.196",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416063823"
+        }
+      ],
+      "ts": 1709416063825
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3368144,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.196",
+          "askSz": "3.019",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416064082"
+        }
+      ],
+      "ts": 1709416064083
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.343486,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.196",
+          "askSz": "3.053",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210476.903",
+          "quoteVolume": "13058693044.787",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416064322"
+        }
+      ],
+      "ts": 1709416064324
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3507085,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61888.1",
+          "askPr": "61888.2",
+          "bidSz": "0.196",
+          "askSz": "3.021",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.4",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416064583"
+        }
+      ],
+      "ts": 1709416064585
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3584726,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.015",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.4",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416064840"
+        }
+      ],
+      "ts": 1709416064844
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3662536,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.015",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.4",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416065108"
+        }
+      ],
+      "ts": 1709416065110
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3732176,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.04",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416065368"
+        }
+      ],
+      "ts": 1709416065372
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3802185,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.04",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416065635"
+        }
+      ],
+      "ts": 1709416065637
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.387326,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.04",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.3",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416065893"
+        }
+      ],
+      "ts": 1709416065900
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.3945537,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.022",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416066148"
+        }
+      ],
+      "ts": 1709416066151
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4018898,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416066404"
+        }
+      ],
+      "ts": 1709416066406
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4091775,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.059",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416066678"
+        }
+      ],
+      "ts": 1709416066680
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4165468,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.017",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416066947"
+        }
+      ],
+      "ts": 1709416066950
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4239168,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.017",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416067199"
+        }
+      ],
+      "ts": 1709416067201
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4314167,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.017",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.9",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416067465"
+        }
+      ],
+      "ts": 1709416067467
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4401724,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.025",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.8",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416067721"
+        }
+      ],
+      "ts": 1709416067722
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4483771,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.025",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.8",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416067976"
+        }
+      ],
+      "ts": 1709416067977
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.456127,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.074",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.8",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416068234"
+        }
+      ],
+      "ts": 1709416068236
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4641454,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.412",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.412",
+          "quoteVolume": "13059776643.533",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416068484"
+        }
+      ],
+      "ts": 1709416068486
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4743829,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.564",
+          "askSz": "3.328",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.531",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416068750"
+        }
+      ],
+      "ts": 1709416068752
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.4864588,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.564",
+          "askSz": "3.328",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.531",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416069012"
+        }
+      ],
+      "ts": 1709416069014
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.494465,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61884.7",
+          "askPr": "61888.2",
+          "bidSz": "0.019",
+          "askSz": "3.328",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51295.775",
+          "baseVolume": "210494.547",
+          "quoteVolume": "13059784998.436",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416069283"
+        }
+      ],
+      "ts": 1709416069286
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5026243,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.0",
+          "bidPr": "61882.8",
+          "askPr": "61888.2",
+          "bidSz": "4",
+          "askSz": "3.209",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01146",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416069689"
+        }
+      ],
+      "ts": 1709416069691
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5107262,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61882.8",
+          "askPr": "61888.2",
+          "bidSz": "4",
+          "askSz": "3.209",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.7",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51295.847",
+          "baseVolume": "210494.469",
+          "quoteVolume": "13059780171.159",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416070063"
+        }
+      ],
+      "ts": 1709416070065
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5192192,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61883",
+          "askPr": "61888.2",
+          "bidSz": "5",
+          "askSz": "3.139",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.5",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416070330"
+        }
+      ],
+      "ts": 1709416070332
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5274155,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61883",
+          "askPr": "61888.2",
+          "bidSz": "5",
+          "askSz": "3.139",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.5",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416070588"
+        }
+      ],
+      "ts": 1709416070589
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5357258,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61883",
+          "askPr": "61888.2",
+          "bidSz": "5",
+          "askSz": "3.139",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.5",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416070848"
+        }
+      ],
+      "ts": 1709416070851
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416077.5447452,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.169",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.5",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416071102"
+        }
+      ],
+      "ts": 1709416071105
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.1454809,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.169",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.5",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416071366"
+        }
+      ],
+      "ts": 1709416071368
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.1640506,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.279",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.3",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416071622"
+        }
+      ],
+      "ts": 1709416071624
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.1732616,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.291",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.3",
+          "indexPrice": "61840.5",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416071878"
+        }
+      ],
+      "ts": 1709416071879
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.1838799,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.291",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.3",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.301",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416072143"
+        }
+      ],
+      "ts": 1709416072145
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.1930673,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.291",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.3",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416072413"
+        }
+      ],
+      "ts": 1709416072415
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.203507,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416072675"
+        }
+      ],
+      "ts": 1709416072677
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.213141,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.531",
+          "baseVolume": "210494.507",
+          "quoteVolume": "13059782522.910",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416072940"
+        }
+      ],
+      "ts": 1709416072945
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.2229578,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416073200"
+        }
+      ],
+      "ts": 1709416073202
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.235665,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61885.0",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.528",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416073468"
+        }
+      ],
+      "ts": 1709416073470
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.2487092,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416073730"
+        }
+      ],
+      "ts": 1709416073734
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.2618818,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416073994"
+        }
+      ],
+      "ts": 1709416073998
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.275957,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61885",
+          "askPr": "61888.2",
+          "bidSz": "0.01",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416074254"
+        }
+      ],
+      "ts": 1709416074255
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.2913125,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61885",
+          "askPr": "61888.2",
+          "bidSz": "0.01",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416074515"
+        }
+      ],
+      "ts": 1709416074516
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.3065395,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61885",
+          "askPr": "61888.2",
+          "bidSz": "0.01",
+          "askSz": "3.253",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.8",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416074774"
+        }
+      ],
+      "ts": 1709416074776
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.3229358,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61885",
+          "askPr": "61888.2",
+          "bidSz": "0.01",
+          "askSz": "3.18",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416075030"
+        }
+      ],
+      "ts": 1709416075032
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.3390455,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61886.5",
+          "bidPr": "61885",
+          "askPr": "61888.2",
+          "bidSz": "0.01",
+          "askSz": "3.18",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01145",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416075285"
+        }
+      ],
+      "ts": 1709416075287
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.3554842,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "3.207",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416075542"
+        }
+      ],
+      "ts": 1709416075544
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.3813708,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "4.032",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416075807"
+        }
+      ],
+      "ts": 1709416075811
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.407852,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61888.2",
+          "bidSz": "0.565",
+          "askSz": "4.032",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.6",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416076076"
+        }
+      ],
+      "ts": 1709416076078
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4241772,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61886.1",
+          "bidSz": "0.565",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416076312"
+        }
+      ],
+      "ts": 1709416076315
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4339542,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61886.1",
+          "bidSz": "0.565",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416076586"
+        }
+      ],
+      "ts": 1709416076587
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.443971,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61886.1",
+          "bidSz": "0.565",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.704",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416076844"
+        }
+      ],
+      "ts": 1709416076846
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4540164,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51281.701",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416077091"
+        }
+      ],
+      "ts": 1709416077093
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4643686,
+    "data": {}
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.474941,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.531",
+          "baseVolume": "210521.715",
+          "quoteVolume": "13061466330.547",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416077472"
+        }
+      ],
+      "ts": 1709416077474
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4863822,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416077737"
+        }
+      ],
+      "ts": 1709416077739
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.4968941,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416077998"
+        }
+      ],
+      "ts": 1709416078000
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5087376,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416078260"
+        }
+      ],
+      "ts": 1709416078262
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5194476,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416078524"
+        }
+      ],
+      "ts": 1709416078528
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5297737,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416078897"
+        }
+      ],
+      "ts": 1709416078899
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5403411,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61885",
+          "askPr": "61886.1",
+          "bidSz": "0.01",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51297.755",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416079153"
+        }
+      ],
+      "ts": 1709416079155
+    }
+  },
+  {
+    "exchange": "bitget",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "fundingOI",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5513797,
+    "data": {
+      "action": "snapshot",
+      "arg": {
+        "instType": "USDT-FUTURES",
+        "channel": "ticker",
+        "instId": "BTCUSDT"
+      },
+      "data": [
+        {
+          "instId": "BTCUSDT",
+          "lastPr": "61888.2",
+          "bidPr": "61886",
+          "askPr": "61886.1",
+          "bidSz": "0.565",
+          "askSz": "1.296",
+          "open24h": "61813.5",
+          "high24h": "62752.6",
+          "low24h": "61588.0",
+          "change24h": "-0.01143",
+          "fundingRate": "0.000584",
+          "nextFundingTime": "1709424000000",
+          "markPrice": "61884.7",
+          "indexPrice": "61840.1",
+          "holdingAmount": "51296.531",
+          "baseVolume": "210521.884",
+          "quoteVolume": "13061476789.653",
+          "openUtc": "62401.5",
+          "symbolType": "1",
+          "symbol": "BTCUSDT",
+          "deliveryPrice": "0",
+          "ts": "1709416079413"
+        }
+      ],
+      "ts": 1709416079417
+    }
+  }
+]

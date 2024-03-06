@@ -1,0 +1,92 @@
+[
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416040.210358,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "4655328e-ab1f-4a48-843e-b1a01665468b",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0119176,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "4655328e-ab1f-4a48-843e-b1a01665468b",
+      "req_id": "",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 66288.0,
+    "timestamp": 1709569714.0171957,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "a57d808f-1fc3-45d5-8d9d-1a6f48194a7a",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 66287.14,
+    "timestamp": 1709570085.8667915,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "1db52d93-b30a-4240-b43a-4fdbd2176358",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 66305.81,
+    "timestamp": 1709570530.2670076,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "a8333f7d-34e4-4521-8ae0-cab945af41fa",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 66517.13,
+    "timestamp": 1709576051.248612,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "8fafb6ef-d3ea-4b5d-9b0a-411fa344fd0c",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  }
+]
