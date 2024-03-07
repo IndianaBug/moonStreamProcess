@@ -753,6 +753,7 @@ def bitget_depth_lookup(response : json, side : str) -> Tuple[list, str]:
                 books = response.get("data").get("data")[0].get("asks")
             if side == "bids":
                 books = response.get("data").get("data")[0].get("bids")
+            books = [list(map(lambda xx : float(xx), x)) for x in books]
             timestamp = datetime.datetime.fromtimestamp(float(response.get("data").get("data")[0].get("ts")) / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
             return books, timestamp
         except:
@@ -761,6 +762,7 @@ def bitget_depth_lookup(response : json, side : str) -> Tuple[list, str]:
                     books = response.get("data").get("response").get("data").get("asks")
                 if side == "bids":
                     books = response.get("data").get("response").get("data").get("bids")
+                books = [list(map(lambda xx : float(xx), x)) for x in books]
                 timestamp = datetime.datetime.fromtimestamp(response.get("data").get("response").get("requestTime") / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
                 return books, timestamp
             except:
@@ -768,11 +770,11 @@ def bitget_depth_lookup(response : json, side : str) -> Tuple[list, str]:
     if insType == 'spot':
         try:
             if side == "asks":
-                books = response.get("data").get("data").get("asks")
+                books = response.get("data").get("data")[0].get("asks")
             if side == "bids":
-                books = response.get("data").get("data").get("bids")
+                books = response.get("data").get("data")[0].get("bids")
             books = [list(map(lambda xx : float(xx), x)) for x in books]
-            timestamp = datetime.datetime.fromtimestamp(response.get("data").get("ts") / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+            timestamp = datetime.datetime.fromtimestamp(float(response.get("data").get("data")[0].get("ts")) / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
             return books, timestamp
         except:
             try:
@@ -933,7 +935,7 @@ def gateio_depth_lookup(response : json, side : str) -> Tuple[list, str]:
                 timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
                 return books, timestamp
             except Exception as e:
-                print(f"An error occurred: {e}")
+                # print(f"An error occurred: {e}")
                 return None
 
     if insType == "perpetual":
@@ -949,44 +951,6 @@ def gateio_depth_lookup(response : json, side : str) -> Tuple[list, str]:
             return books, timestamp
         except:
             return None
-
-
-def gate_trades_lookup(response : json) -> Tuple[float, float, str]:
-    """
-
-        returns funding, price, timestamp
-    """
-    response = json.loads(response)
-    price = float(response.get("btc_price"))
-    insType = response["insType"]
-    if insType == "perpetual":
-        try:
-            l = []
-            for trade in response.get("data"):
-                side = "buy" if trade.get("size") > 0 else "sell"
-                price = float(trade.get("price"))
-                quantity = abs(trade.get("size")) * 0.0001
-                timestamp = trade.get("create_time_ms")
-                timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
-                l.append([side, price, quantity, timestamp])
-            return l
-        except:
-            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-            return None
-    if insType == "spot":
-        try:
-            trade = response.get("data").get("result")
-            l = []
-            side = trade.get("side")
-            price = float(trade.get("price"))
-            quantity = float(trade.get("amount"))
-            timestamp = float(trade.get("create_time_ms"))
-            timestamp = datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
-            l.append([side, price, quantity, timestamp])
-            return l
-        except:
-            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-            return None
         
 def gateio_funding_lookup(response : json) -> Tuple[float, float, str]:
     """
@@ -996,7 +960,6 @@ def gateio_funding_lookup(response : json) -> Tuple[float, float, str]:
     price = float(response.get("btc_price"))
     try:
         funding = float(response.get("data").get("funding_rate"))
-        price = float(response.get("data").get("funding_rate"))
         timestamp = float(response.get("timestamp"))
         timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
         return funding, price, timestamp
@@ -1030,7 +993,7 @@ def gateio_trades_lookup(response : json) -> list:
         try:
             l = []
             for t in response.get("data"):
-                quantity = float(t.get("size"))
+                quantity = float(t.get("size")) * 0.0001
                 price = float(t.get("price"))
                 side = "sell" if float(t.get("size")) < 0 else "buy"
                 timestamp = float(t.get("create_time_ms"))
@@ -1048,8 +1011,8 @@ def gateio_OI_lookup(response : json) -> Tuple[float, float, str]:
     response = json.loads(response)
     price = float(response.get("btc_price"))
     try:
-        OI = float(response.get("data").get("open_interest_usd")) / price
-        timestamp = float(response.get("data").get("time"))
+        OI = float(response.get("data")[0].get("open_interest_usd")) / price
+        timestamp = float(response.get("data")[0].get("time"))
         timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
         return OI, price, timestamp
     except:
@@ -1237,6 +1200,7 @@ def kucoin_depth_lookup(response : json, side : str) -> Tuple[list, str]:
                 books = [[float(x[0]), float(x[1])] for x in books]
             timestamp = response.get("data").get("data").get("time")
             timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            books = [[price, 0]] if len(books) == 0 else books 
             return books, timestamp
         except:
             try:
@@ -1254,10 +1218,26 @@ def kucoin_depth_lookup(response : json, side : str) -> Tuple[list, str]:
     if insType == "perpetual":
             try:
                 books = response.get("data").get("data").get("change")
-                l = [[float(books.split(",")[0] * 0.001), float(books.split(",")[-1])]]
-                return l
+                books = books.split(",")
+                s = books.pop(1)
+                s = "asks" if s == "sell" else "bids"
+                books = list(map(lambda x: float(x), books))
+                books[1] = books[1] * 0.001
+                timestamp = response.get("data").get("data").get("timestamp")
+                timestamp =  datetime.datetime.fromtimestamp(timestamp / 10 ** 3).strftime('%Y-%m-%d %H:%M:%S')
+                books = [[price, 0]] if len(books) == 0 else [books]
+                return books, timestamp
             except:
-                return None
+                try:
+                    if side == "asks":
+                        books = response.get("data").get("response").get("data").get("asks")
+                    if side == "bids":
+                        books = response.get("data").get("response").get("data").get("bids")
+                        timestamp = response.get("data").get("response").get("data").get("ts")
+                        timestamp =  datetime.datetime.fromtimestamp(timestamp / 10 ** 9).strftime('%Y-%m-%d %H:%M:%S')
+                    return books, timestamp
+                except:
+                    return None
             
 
 def kucoin_trades_lookup(response : json) -> Tuple[float, float, str]:

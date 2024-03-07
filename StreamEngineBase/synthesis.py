@@ -20,7 +20,7 @@ class booksmerger():
         self.suffixes = merge_suffixes(len(axis))
         self.snapshotO = dict()  # Omnified
 
-    def retrive_data(self, key):
+    def retrive_data(self, key=None):
         """
             Arguments
 
@@ -84,7 +84,7 @@ class tradesmerger():
         self.suffixes = merge_suffixes(len(axis))
         self.snapshotO = dict() # Omnified
 
-    def retrive_data(self, key):
+    def retrive_data(self, key= None):
         """
             Arguments
 
@@ -520,7 +520,7 @@ class OOImerger():
 
                     self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
                 except:
-                    continue    
+                    continue     
 
 
 
@@ -573,7 +573,6 @@ class indomnifier():
                 okxoi += oi
             else:
                 formated_ois.append(oi)
-        print(ratios, formated_ois)
         formated_ois.insert(-1, okxoi)
         weighted_ratio = np.average(ratios, weights=formated_ois)
         self.data["ratio"] = weighted_ratio

@@ -1,0 +1,182 @@
+[
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43385.75,
+    "timestamp": 1706607140.9800637,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43390.79,
+    "timestamp": 1706607145.2273464,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43390.78,
+    "timestamp": 1706607149.1543822,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607153.0892909,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607157.1242447,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607161.2841003,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607165.4164443,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510621",
+      "contractType": "PERPETUAL",
+      "time": 1706607123148
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607191.386052,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8510557",
+      "contractType": "PERPETUAL",
+      "time": 1706607151958
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43421.4,
+    "timestamp": 1706607231.861226,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8513438",
+      "contractType": "PERPETUAL",
+      "time": 1706607182971
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.81,
+    "timestamp": 1706607285.1679442,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8512804",
+      "contractType": "PERPETUAL",
+      "time": 1706607246057
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.040369,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8509930",
+      "contractType": "PERPETUAL",
+      "time": 1706607575621
+    }
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.5162039,
+    "data": {
+      "symbol": "BTCUSD_PERP",
+      "pair": "BTCUSD",
+      "openInterest": "8495467",
+      "contractType": "PERPETUAL",
+      "time": 1706608340470
+    }
+  }
+]

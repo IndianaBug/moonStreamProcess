@@ -93,8 +93,8 @@ class booksflow():
             Inputs bids and asks into dfs
         """
 
-        prices = np.array(list(map(float, self.B['bids'].keys())) + list(map(float, self.B['asks'].keys())), dtype=np.float16)
-        amounts = np.array(list(map(float, self.B['bids'].values())) + list(map(float, self.B['asks'].values())), dtype=np.float16)
+        prices = np.array(list(map(float, self.B['bids'].keys())) + list(map(float, self.B['asks'].keys())), dtype=np.float64)
+        amounts = np.array(list(map(float, self.B['bids'].values())) + list(map(float, self.B['asks'].values())), dtype=np.float64)
         levels = [booksflow_find_level(lev, self.level_size) for lev in  prices]
         unique_levels, inverse_indices = np.unique(levels, return_inverse=True)
         group_sums = np.bincount(inverse_indices, weights=amounts)

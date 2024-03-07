@@ -1,0 +1,138 @@
+[
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43385.75,
+    "timestamp": 1706607141.31922,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43393.32,
+    "timestamp": 1706607152.2492707,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43393.33,
+    "timestamp": 1706607163.2349849,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43400.0,
+    "timestamp": 1706607207.6057801,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43420.66,
+    "timestamp": 1706607266.7708895,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43427.0,
+    "timestamp": 1706607348.5289514,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5677",
+        "longShortRatio": "1.3133",
+        "shortAccount": "0.4323",
+        "timestamp": 1706607000000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43381.91,
+    "timestamp": 1706607591.0449376,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5682",
+        "longShortRatio": "1.3161",
+        "shortAccount": "0.4318",
+        "timestamp": 1706607300000
+      }
+    ]
+  },
+  {
+    "exchange": "binance",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "TTP",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.516888,
+    "data": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5681",
+        "longShortRatio": "1.3156",
+        "shortAccount": "0.4319",
+        "timestamp": 1706608200000
+      }
+    ]
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416040.4246836,
+    "data": {
+      "id": "pMMmcgG728",
+      "type": "welcome"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.2272499,
+    "data": {
+      "id": "2383445680",
+      "type": "ack"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8408117,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172446702,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172446702,
+        "makerUserId": "6514e9007637f900013ca679",
+        "side": "buy",
+        "size": 13,
+        "price": "61900.1",
+        "takerOrderId": "153523474755801088",
+        "takerUserId": "62a196e7b823800001efffbb",
+        "makerOrderId": "153523344497463299",
+        "tradeId": "1736172446702",
+        "ts": 1709416050762000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8411806,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172446703,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172446703,
+        "makerUserId": "6287c27413400f0001b653de",
+        "side": "buy",
+        "size": 54,
+        "price": "61900.1",
+        "takerOrderId": "153523474755801088",
+        "takerUserId": "62a196e7b823800001efffbb",
+        "makerOrderId": "153523421257404416",
+        "tradeId": "1736172446703",
+        "ts": 1709416050762000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416074.1302454,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172465624,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172465624,
+        "makerUserId": "650842229e0a9800018295c3",
+        "side": "sell",
+        "size": 4,
+        "price": "61900",
+        "takerOrderId": "153523510201831424",
+        "takerUserId": "626022890136ea00018a9e97",
+        "makerOrderId": "153523421270003713",
+        "tradeId": "1736172465624",
+        "ts": 1709416059179000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0194764,
+    "data": {
+      "id": "30",
+      "type": "pong"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.019929,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172495302,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172495302,
+        "makerUserId": "650842229e0a9800018295c3",
+        "side": "sell",
+        "size": 1,
+        "price": "61900",
+        "takerOrderId": "153523569387655168",
+        "takerUserId": "63d2317387ddea00010c98ea",
+        "makerOrderId": "153523421270003713",
+        "tradeId": "1736172495302",
+        "ts": 1709416073281000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6245956,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172515264,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172515264,
+        "makerUserId": "65085b887319db0001ecef14",
+        "side": "buy",
+        "size": 324,
+        "price": "61900.1",
+        "takerOrderId": "153523601197264898",
+        "takerUserId": "65085b887319db0001ecef14",
+        "makerOrderId": "153523422301794306",
+        "tradeId": "1736172515264",
+        "ts": 1709416080858000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6251688,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172516232,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172516232,
+        "makerUserId": "65521ff0bea9f0000101c286",
+        "side": "buy",
+        "size": 1,
+        "price": "61900.1",
+        "takerOrderId": "153523602472304640",
+        "takerUserId": "65521feea1e76c0001d89fc5",
+        "makerOrderId": "153523423211986944",
+        "tradeId": "1736172516232",
+        "ts": 1709416081163000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6257715,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172516233,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172516233,
+        "makerUserId": "64ed37f04e4add00016d9e65",
+        "side": "buy",
+        "size": 29,
+        "price": "61900.1",
+        "takerOrderId": "153523602472304640",
+        "takerUserId": "65521feea1e76c0001d89fc5",
+        "makerOrderId": "153523599439880193",
+        "tradeId": "1736172516233",
+        "ts": 1709416081163000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6265924,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172516234,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172516234,
+        "makerUserId": "65a3088d1fd4770001be6897",
+        "side": "buy",
+        "size": 1,
+        "price": "61900.2",
+        "takerOrderId": "153523602472304640",
+        "takerUserId": "65521feea1e76c0001d89fc5",
+        "makerOrderId": "153523444921671680",
+        "tradeId": "1736172516234",
+        "ts": 1709416081163000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.62735,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172516235,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172516235,
+        "makerUserId": "5d1dd688134ab71d4fe7e766",
+        "side": "buy",
+        "size": 12,
+        "price": "61902.9",
+        "takerOrderId": "153523602472304640",
+        "takerUserId": "65521feea1e76c0001d89fc5",
+        "makerOrderId": "153523601771896832",
+        "tradeId": "1736172516235",
+        "ts": 1709416081163000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6280663,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172520294,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172520294,
+        "makerUserId": "65085b887319db0001ecef14",
+        "side": "buy",
+        "size": 324,
+        "price": "61903.2",
+        "takerOrderId": "153523609929789440",
+        "takerUserId": "65085b887319db0001ecef14",
+        "makerOrderId": "153523602661117952",
+        "tradeId": "1736172520294",
+        "ts": 1709416082941000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6291149,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172521506,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172521506,
+        "makerUserId": "65085b887319db0001ecef14",
+        "side": "buy",
+        "size": 324,
+        "price": "61903.2",
+        "takerOrderId": "153523612077281280",
+        "takerUserId": "65085b887319db0001ecef14",
+        "makerOrderId": "153523602661117952",
+        "tradeId": "1736172521506",
+        "ts": 1709416083453000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.629955,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172526015,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172526015,
+        "makerUserId": "platform-user",
+        "side": "buy",
+        "size": 9,
+        "price": "61907.3",
+        "takerOrderId": "153523620780470272",
+        "takerUserId": "5d1dd688134ab71d4fe7e766",
+        "makerOrderId": "153523616493932545",
+        "tradeId": "1736172526015",
+        "ts": 1709416085528000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6308763,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172526016,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172526016,
+        "makerUserId": "64ed36b13730a90001bb3bb6",
+        "side": "buy",
+        "size": 3,
+        "price": "61907.3",
+        "takerOrderId": "153523620780470272",
+        "takerUserId": "5d1dd688134ab71d4fe7e766",
+        "makerOrderId": "153523618133876739",
+        "tradeId": "1736172526016",
+        "ts": 1709416085528000000
+      }
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6318235,
+    "data": {
+      "topic": "/contractMarket/execution:XBTUSDTM",
+      "type": "message",
+      "subject": "match",
+      "sn": 1736172530194,
+      "data": {
+        "symbol": "XBTUSDTM",
+        "sequence": 1736172530194,
+        "makerUserId": "65521ff0bea9f0000101c286",
+        "side": "sell",
+        "size": 9,
+        "price": "61918.1",
+        "takerOrderId": "153523630284754944",
+        "takerUserId": "646980ffca69b200015aa4a7",
+        "makerOrderId": "153523622416261121",
+        "tradeId": "1736172530194",
+        "ts": 1709416087809000000
+      }
+    }
+  }
+]

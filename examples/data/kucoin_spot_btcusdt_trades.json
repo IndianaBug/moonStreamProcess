@@ -1,0 +1,738 @@
+[
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416040.424887,
+    "data": {
+      "id": "pMMmciTk0m",
+      "type": "welcome"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.2634416,
+    "data": {
+      "id": "7439870374",
+      "type": "ack"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6956773,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421612236881921",
+        "side": "buy",
+        "size": "0.0001",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e6a001ac30007fdfd8e",
+        "time": "1709416042666000000",
+        "tradeId": "7421612236881921",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9864163,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421612752519169",
+        "side": "buy",
+        "size": "0.00111768",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e6c001ac30007fe06c8",
+        "time": "1709416044300000000",
+        "tradeId": "7421612752519169",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.986861,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421612903251969",
+        "side": "buy",
+        "size": "0.0001",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e6c15edbb0007c66814",
+        "time": "1709416044895000000",
+        "tradeId": "7421612903251969",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9873183,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421613279166465",
+        "side": "buy",
+        "size": "0.01617024",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e6d28de690007f8816f",
+        "time": "1709416046034000000",
+        "tradeId": "7421613279166465",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9878433,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421613867941889",
+        "side": "sell",
+        "size": "0.00161891",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e6f24fe090007f70f66",
+        "time": "1709416047746000000",
+        "tradeId": "7421613867941889",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.4785974,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421613979877377",
+        "side": "buy",
+        "size": "0.00017469",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7008399a00073e5938",
+        "time": "1709416048132000000",
+        "tradeId": "7421613979877377",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.4791381,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421614035451905",
+        "side": "buy",
+        "size": "0.00002077",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e70689ca30007e64262",
+        "time": "1709416048355000000",
+        "tradeId": "7421614035451905",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.4797063,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421614244511745",
+        "side": "sell",
+        "size": "0.00503444",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e71a5b47300079600d6",
+        "time": "1709416049535000000",
+        "tradeId": "7421614244511745",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.4802997,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421615004205057",
+        "side": "buy",
+        "size": "0.00004535",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e743f0b8b00071fb9ab",
+        "time": "1709416052302000000",
+        "tradeId": "7421615004205057",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.48092,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421615038939137",
+        "side": "buy",
+        "size": "0.0006442",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e74e665c100073d26ca",
+        "time": "1709416052381000000",
+        "tradeId": "7421615038939137",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.961566,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421615538716673",
+        "side": "buy",
+        "size": "0.00003231",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7628de690007f89b7b",
+        "time": "1709416054289000000",
+        "tradeId": "7421615538716673",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9622512,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421615617097729",
+        "side": "buy",
+        "size": "0.00080851",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e76ad44ff0007fb50b4",
+        "time": "1709416054566000000",
+        "tradeId": "7421615617097729",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9630463,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421616025124865",
+        "side": "sell",
+        "size": "0.05780317",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e786fe6c9000751835c",
+        "time": "1709416056445000000",
+        "tradeId": "7421616025124865",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9638524,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421616883777537",
+        "side": "buy",
+        "size": "0.00007786",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7b15edbb0007c6b4fb",
+        "time": "1709416059694000000",
+        "tradeId": "7421616883777537",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.964815,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421616884170753",
+        "side": "buy",
+        "size": "0.00109118",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7b08399a00073e932e",
+        "time": "1709416059696000000",
+        "tradeId": "7421616884170753",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.965699,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421617075666945",
+        "side": "sell",
+        "size": "0.01266875",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7c47927d0007f75450",
+        "time": "1709416060256000000",
+        "tradeId": "7421617075666945",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9666429,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421617333485569",
+        "side": "buy",
+        "size": "0.00068691",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7d24fe090007f7524f",
+        "time": "1709416061760000000",
+        "tradeId": "7421617333485569",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416073.9675927,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421617388142593",
+        "side": "buy",
+        "size": "0.000246",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7d684f18000765cbc8",
+        "time": "1709416061942000000",
+        "tradeId": "7421617388142593",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8803735,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421617603100673",
+        "side": "buy",
+        "size": "0.00001373",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e7e1edb290007ff9207",
+        "time": "1709416062867000000",
+        "tradeId": "7421617603100673",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8814065,
+    "data": {
+      "id": "30",
+      "type": "pong"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8825126,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421618241814529",
+        "side": "buy",
+        "size": "0.00040163",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e8115edbb0007c6cb9f",
+        "time": "1709416065419000000",
+        "tradeId": "7421618241814529",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8836074,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421618435276801",
+        "side": "sell",
+        "size": "0.00017357",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e823f0b8b00071ff7e1",
+        "time": "1709416066392000000",
+        "tradeId": "7421618435276801",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8847022,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421618435538945",
+        "side": "sell",
+        "size": "0.00017493",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e820a3fed0007c93be9",
+        "time": "1709416066392000000",
+        "tradeId": "7421618435538945",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.886055,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421618436980737",
+        "side": "buy",
+        "size": "0.00240622",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e82f7ab94000743de85",
+        "time": "1709416066404000000",
+        "tradeId": "7421618436980737",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.8872857,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421618634637313",
+        "side": "sell",
+        "size": "0.00006468",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e833b166d00075c44c4",
+        "time": "1709416067364000000",
+        "tradeId": "7421618634637313",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416086.888692,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421619042402305",
+        "side": "sell",
+        "size": "0.00605536",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e8507ef810007d0a895",
+        "time": "1709416069525000000",
+        "tradeId": "7421619042402305",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.738755,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421619939852289",
+        "side": "sell",
+        "size": "0.00090748",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e8a1edb290007ffbc26",
+        "time": "1709416074243000000",
+        "tradeId": "7421619939852289",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.7407804,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e6515edbb0007c6431b",
+        "price": "61841.9",
+        "sequence": "7421620055326721",
+        "side": "sell",
+        "size": "0.00299785",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e8a46ba6500078500fa",
+        "time": "1709416074882000000",
+        "tradeId": "7421620055326721",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "instrument": "btcusdt",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416092.742325,
+    "data": {
+      "topic": "/market/match:BTC-USDT",
+      "type": "message",
+      "data": {
+        "makerOrderId": "65e39e52b12d4200071ce41f",
+        "price": "61842",
+        "sequence": "7421620292829185",
+        "side": "buy",
+        "size": "0.0003308",
+        "symbol": "BTC-USDT",
+        "takerOrderId": "65e39e8b001ac30007fe93ff",
+        "time": "1709416075764000000",
+        "tradeId": "7421620292829185",
+        "type": "match"
+      },
+      "subject": "trade.l3match"
+    }
+  }
+]

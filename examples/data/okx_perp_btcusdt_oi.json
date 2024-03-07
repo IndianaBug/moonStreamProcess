@@ -1,0 +1,1409 @@
+[
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43385.75,
+    "timestamp": 1706607141.2764843,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507996",
+          "oiCcy": "25079.96",
+          "ts": "1706607138454"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43390.79,
+    "timestamp": 1706607144.242982,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508005",
+          "oiCcy": "25080.05",
+          "ts": "1706607142354"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43390.79,
+    "timestamp": 1706607146.4272394,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508006",
+          "oiCcy": "25080.06",
+          "ts": "1706607146317"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43390.79,
+    "timestamp": 1706607150.741229,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508003",
+          "oiCcy": "25080.03",
+          "ts": "1706607150604"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607156.642281,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508025",
+          "oiCcy": "25080.25",
+          "ts": "1706607156496"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607160.4616625,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508095",
+          "oiCcy": "25080.95",
+          "ts": "1706607160298"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607162.479544,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508092",
+          "oiCcy": "25080.92",
+          "ts": "1706607162373"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607166.4619236,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508088",
+          "oiCcy": "25080.88",
+          "ts": "1706607166349"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607172.6503031,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507421",
+          "oiCcy": "25074.21",
+          "ts": "1706607170436"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.33,
+    "timestamp": 1706607179.7270098,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507594",
+          "oiCcy": "25075.94",
+          "ts": "1706607174458"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607185.0464213,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507777",
+          "oiCcy": "25077.77",
+          "ts": "1706607178348"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43393.32,
+    "timestamp": 1706607191.3284464,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507298",
+          "oiCcy": "25072.98",
+          "ts": "1706607184345"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43395.35,
+    "timestamp": 1706607193.3634462,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507289",
+          "oiCcy": "25072.89",
+          "ts": "1706607186513"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43395.35,
+    "timestamp": 1706607193.3644564,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507248",
+          "oiCcy": "25072.48",
+          "ts": "1706607190321"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43397.27,
+    "timestamp": 1706607199.1435266,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507289",
+          "oiCcy": "25072.89",
+          "ts": "1706607194314"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43400.0,
+    "timestamp": 1706607204.559887,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507266",
+          "oiCcy": "25072.66",
+          "ts": "1706607198407"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43400.0,
+    "timestamp": 1706607204.5607026,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507266",
+          "oiCcy": "25072.66",
+          "ts": "1706607202324"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43404.18,
+    "timestamp": 1706607209.754863,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507266",
+          "oiCcy": "25072.66",
+          "ts": "1706607206340"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43407.75,
+    "timestamp": 1706607215.3653293,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507299",
+          "oiCcy": "25072.99",
+          "ts": "1706607208365"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43415.16,
+    "timestamp": 1706607221.8302622,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507297",
+          "oiCcy": "25072.97",
+          "ts": "1706607214361"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43415.16,
+    "timestamp": 1706607221.8312213,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507500",
+          "oiCcy": "25075",
+          "ts": "1706607218359"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43421.4,
+    "timestamp": 1706607227.753876,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507553",
+          "oiCcy": "25075.53",
+          "ts": "1706607222398"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.6,
+    "timestamp": 1706607235.0033667,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2507681",
+          "oiCcy": "25076.81",
+          "ts": "1706607226410"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.6,
+    "timestamp": 1706607235.004411,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508010",
+          "oiCcy": "25080.1",
+          "ts": "1706607230475"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43424.26,
+    "timestamp": 1706607242.2251565,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508374",
+          "oiCcy": "25083.74",
+          "ts": "1706607232398"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43424.26,
+    "timestamp": 1706607242.2262993,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509752",
+          "oiCcy": "25097.52",
+          "ts": "1706607236344"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43417.68,
+    "timestamp": 1706607252.9388828,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509621",
+          "oiCcy": "25096.21",
+          "ts": "1706607240727"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43417.68,
+    "timestamp": 1706607252.9400697,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509524",
+          "oiCcy": "25095.24",
+          "ts": "1706607246441"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.66,
+    "timestamp": 1706607260.5697205,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509289",
+          "oiCcy": "25092.89",
+          "ts": "1706607250461"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.66,
+    "timestamp": 1706607260.5708778,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509289",
+          "oiCcy": "25092.89",
+          "ts": "1706607254367"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5445533,
+    "data": {}
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.545928,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509276",
+          "oiCcy": "25092.76",
+          "ts": "1706607260480"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.66,
+    "timestamp": 1706607269.5471637,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509275",
+          "oiCcy": "25092.75",
+          "ts": "1706607264446"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.81,
+    "timestamp": 1706607280.1613724,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509285",
+          "oiCcy": "25092.85",
+          "ts": "1706607268359"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43420.81,
+    "timestamp": 1706607280.1634045,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509257",
+          "oiCcy": "25092.57",
+          "ts": "1706607274344"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43422.88,
+    "timestamp": 1706607290.060849,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509257",
+          "oiCcy": "25092.57",
+          "ts": "1706607278298"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43422.88,
+    "timestamp": 1706607290.0623796,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509218",
+          "oiCcy": "25092.18",
+          "ts": "1706607282396"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.3475087,
+    "data": {}
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.3491433,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509341",
+          "oiCcy": "25093.41",
+          "ts": "1706607288322"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43422.87,
+    "timestamp": 1706607298.3506637,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509348",
+          "oiCcy": "25093.48",
+          "ts": "1706607294395"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.7957373,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509322",
+          "oiCcy": "25093.22",
+          "ts": "1706607298346"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.0,
+    "timestamp": 1706607310.7973585,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509245",
+          "oiCcy": "25092.45",
+          "ts": "1706607304321"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.754222,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508885",
+          "oiCcy": "25088.85",
+          "ts": "1706607308359"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.755817,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2508896",
+          "oiCcy": "25088.96",
+          "ts": "1706607312458"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.01,
+    "timestamp": 1706607323.7575135,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509287",
+          "oiCcy": "25092.87",
+          "ts": "1706607316318"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5922928,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509602",
+          "oiCcy": "25096.02",
+          "ts": "1706607318425"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5943744,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509604",
+          "oiCcy": "25096.04",
+          "ts": "1706607322397"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43427.0,
+    "timestamp": 1706607337.5966413,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2509606",
+          "oiCcy": "25096.06",
+          "ts": "1706607326341"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43381.91,
+    "timestamp": 1706607590.7892458,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512819",
+          "oiCcy": "25128.19",
+          "ts": "1706607588421"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.27,
+    "timestamp": 1706607612.5241957,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512819",
+          "oiCcy": "25128.19",
+          "ts": "1706607592424"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.27,
+    "timestamp": 1706607612.5265672,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512841",
+          "oiCcy": "25128.41",
+          "ts": "1706607596370"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607631.2029269,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512841",
+          "oiCcy": "25128.41",
+          "ts": "1706607600852"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607631.2059267,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512808",
+          "oiCcy": "25128.08",
+          "ts": "1706607606467"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607631.2088926,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512977",
+          "oiCcy": "25129.77",
+          "ts": "1706607610346"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607645.0894487,
+    "data": {}
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607645.0925376,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512971",
+          "oiCcy": "25129.71",
+          "ts": "1706607616331"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607645.0958145,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512798",
+          "oiCcy": "25127.98",
+          "ts": "1706607620483"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607645.099226,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512777",
+          "oiCcy": "25127.77",
+          "ts": "1706607624406"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43380.28,
+    "timestamp": 1706607645.102285,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2512635",
+          "oiCcy": "25126.35",
+          "ts": "1706607628431"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43411.6,
+    "timestamp": 1706608372.5088708,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2514287",
+          "oiCcy": "25142.87",
+          "ts": "1706608370443"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43421.1,
+    "timestamp": 1706608386.843394,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2514296",
+          "oiCcy": "25142.96",
+          "ts": "1706608374434"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43421.1,
+    "timestamp": 1706608399.5417485,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2514308",
+          "oiCcy": "25143.08",
+          "ts": "1706608378384"
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "okx",
+    "instrument": "btcusdt",
+    "insType": "perpetual",
+    "obj": "OI",
+    "btc_price": 43421.1,
+    "timestamp": 1706608399.5437036,
+    "data": {
+      "arg": {
+        "channel": "open-interest",
+        "instId": "BTC-USDT-SWAP"
+      },
+      "data": [
+        {
+          "instId": "BTC-USDT-SWAP",
+          "instType": "SWAP",
+          "oi": "2514361",
+          "oiCcy": "25143.61",
+          "ts": "1706608384300"
+        }
+      ]
+    }
+  }
+]

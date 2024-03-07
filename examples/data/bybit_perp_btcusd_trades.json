@@ -1,0 +1,1377 @@
+[
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684496.3800564,
+    "data": {
+      "success": true,
+      "ret_msg": "",
+      "conn_id": "3f1fb840-f9ba-46bb-bef0-a377bc3fb8de",
+      "req_id": "",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3709557,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500013,
+      "data": [
+        {
+          "T": 1709684500012,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.079",
+          "p": "64068.10",
+          "L": "PlusTick",
+          "i": "05330a56-0ead-520c-bdd9-535f05c16691",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3767145,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500014,
+      "data": [
+        {
+          "T": 1709684500012,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "64068.00",
+          "L": "MinusTick",
+          "i": "b7116c70-be65-506a-b8e7-b4cf01c8f426",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3827546,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500017,
+      "data": [
+        {
+          "T": 1709684500016,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "64067.20",
+          "L": "MinusTick",
+          "i": "e4f28272-9425-592a-a4f3-63d8cd0a232b",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3887548,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500018,
+      "data": [
+        {
+          "T": 1709684500016,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.021",
+          "p": "64066.30",
+          "L": "MinusTick",
+          "i": "178e32e2-465c-50f6-b0c2-2dfe0d7ada24",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3937848,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500019,
+      "data": [
+        {
+          "T": 1709684500018,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.020",
+          "p": "64066.10",
+          "L": "MinusTick",
+          "i": "520617e5-02eb-51c8-8f02-1629fdf59676",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.3997855,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500022,
+      "data": [
+        {
+          "T": 1709684500021,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.012",
+          "p": "64065.90",
+          "L": "MinusTick",
+          "i": "e4ac31de-8b43-595c-a923-52cf89613992",
+          "BT": false
+        },
+        {
+          "T": 1709684500021,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "64065.90",
+          "L": "ZeroMinusTick",
+          "i": "e4a84358-b82b-51a6-814f-de1f577b140d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.4067786,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500027,
+      "data": [
+        {
+          "T": 1709684500025,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.037",
+          "p": "64064.10",
+          "L": "MinusTick",
+          "i": "293ef9d6-8435-558f-aa6c-d08eb15fa588",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.4294834,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500073,
+      "data": [
+        {
+          "T": 1709684500072,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.078",
+          "p": "64062.70",
+          "L": "MinusTick",
+          "i": "6aac40ba-197f-5298-9f48-ec99f92afde8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.4346464,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500073,
+      "data": [
+        {
+          "T": 1709684500072,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.037",
+          "p": "64060.10",
+          "L": "MinusTick",
+          "i": "447b03f6-2303-52f7-a198-bcbffa4035e8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.4411252,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500077,
+      "data": [
+        {
+          "T": 1709684500076,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.034",
+          "p": "64058.90",
+          "L": "MinusTick",
+          "i": "0fe52a2f-98ef-5c78-bbb1-a3c26c8cd1f8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.5544124,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500078,
+      "data": [
+        {
+          "T": 1709684500077,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "64056.10",
+          "L": "MinusTick",
+          "i": "72619684-3d27-5748-a2c8-22d0b35ef8e7",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.5624125,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500082,
+      "data": [
+        {
+          "T": 1709684500081,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "64060.10",
+          "L": "PlusTick",
+          "i": "1313b8b4-d489-5d37-bcd1-dff4fc4a5847",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.5714092,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500082,
+      "data": [
+        {
+          "T": 1709684500081,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.021",
+          "p": "64060.10",
+          "L": "ZeroPlusTick",
+          "i": "21b46761-372d-5a9f-ac59-965db019e843",
+          "BT": false
+        },
+        {
+          "T": 1709684500081,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "64056.00",
+          "L": "MinusTick",
+          "i": "165da9b2-5920-5ccb-a53f-0bc7ca6f3a38",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.578409,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500082,
+      "data": [
+        {
+          "T": 1709684500081,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.021",
+          "p": "64056.00",
+          "L": "ZeroMinusTick",
+          "i": "f0ca669e-35e2-5e3e-9ca3-5f8c2df41506",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.5875118,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500083,
+      "data": [
+        {
+          "T": 1709684500082,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.028",
+          "p": "64062.10",
+          "L": "PlusTick",
+          "i": "03471007-bbcf-51bf-90e3-8a8e751ec50a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.5945103,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500084,
+      "data": [
+        {
+          "T": 1709684500083,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "64062.10",
+          "L": "ZeroPlusTick",
+          "i": "1042d3ad-693e-5f12-b9ae-d85d923dd399",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.6046612,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500085,
+      "data": [
+        {
+          "T": 1709684500083,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "64062.10",
+          "L": "ZeroPlusTick",
+          "i": "c127179e-ffc3-56f7-9863-0d1d4f12d084",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.6116595,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500093,
+      "data": [
+        {
+          "T": 1709684500092,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.034",
+          "p": "64060.10",
+          "L": "MinusTick",
+          "i": "2c466dd5-2939-5336-85cc-a2368ce1c9f0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.620392,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500094,
+      "data": [
+        {
+          "T": 1709684500093,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "64060.10",
+          "L": "ZeroMinusTick",
+          "i": "f12b45d9-b699-537c-af6e-9d122a1dc288",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.629421,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500102,
+      "data": [
+        {
+          "T": 1709684500100,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "64060.10",
+          "L": "ZeroMinusTick",
+          "i": "20cef94c-2507-559c-9519-16b7325fbde8",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.6384838,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500102,
+      "data": [
+        {
+          "T": 1709684500101,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.021",
+          "p": "64060.10",
+          "L": "ZeroMinusTick",
+          "i": "d83c02c0-e141-597e-9f44-cb763544603a",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.6444826,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500106,
+      "data": [
+        {
+          "T": 1709684500105,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "64049.20",
+          "L": "MinusTick",
+          "i": "692bd100-aab4-5879-82e2-5fb298b7ad56",
+          "BT": false
+        },
+        {
+          "T": 1709684500105,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.021",
+          "p": "64048.00",
+          "L": "MinusTick",
+          "i": "fb3e230f-7110-5936-a204-4fd43625da0c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.6525643,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500107,
+      "data": [
+        {
+          "T": 1709684500105,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "64048.00",
+          "L": "ZeroMinusTick",
+          "i": "2fd95a75-5cf5-53f3-8853-2045716f0c62",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.7006764,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500336,
+      "data": [
+        {
+          "T": 1709684500335,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.016",
+          "p": "64076.60",
+          "L": "PlusTick",
+          "i": "988c3fdb-22fb-5550-a9d4-cd68fdcc23b3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.7087464,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500340,
+      "data": [
+        {
+          "T": 1709684500338,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.001",
+          "p": "64076.60",
+          "L": "ZeroPlusTick",
+          "i": "861dedbb-1171-57b3-9541-908e757a6889",
+          "BT": false
+        },
+        {
+          "T": 1709684500338,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "64076.50",
+          "L": "MinusTick",
+          "i": "a20ccbd7-cf05-5826-9a24-c992c9b6f3ae",
+          "BT": false
+        },
+        {
+          "T": 1709684500338,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "64076.40",
+          "L": "MinusTick",
+          "i": "408ac0f3-503c-5041-831a-cd73d3f17eb6",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.7167416,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500341,
+      "data": [
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.003",
+          "p": "64076.40",
+          "L": "ZeroMinusTick",
+          "i": "cb50f73c-599c-591f-8933-e472ef286377",
+          "BT": false
+        },
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.008",
+          "p": "64076.40",
+          "L": "ZeroMinusTick",
+          "i": "257669aa-9825-539c-ac00-fc507a9149c0",
+          "BT": false
+        },
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.010",
+          "p": "64076.30",
+          "L": "MinusTick",
+          "i": "c765ac4c-2cff-529e-9cd0-a4af3654148c",
+          "BT": false
+        },
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "64076.20",
+          "L": "MinusTick",
+          "i": "f2b7aa45-f041-552f-8e78-2ee09385447b",
+          "BT": false
+        },
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.009",
+          "p": "64076.20",
+          "L": "ZeroMinusTick",
+          "i": "a5bd1cde-d94c-5f23-8f30-87f9bdbc8ddd",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684500.7248023,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684500341,
+      "data": [
+        {
+          "T": 1709684500340,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "64076.20",
+          "L": "ZeroMinusTick",
+          "i": "2a90c3d8-dbee-5b38-a3cf-ad1d46fc70be",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684501.8061843,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684501444,
+      "data": [
+        {
+          "T": 1709684501443,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.019",
+          "p": "64047.10",
+          "L": "MinusTick",
+          "i": "254c88f0-8eac-551b-8747-0b0436a6e227",
+          "BT": false
+        },
+        {
+          "T": 1709684501443,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.024",
+          "p": "64047.30",
+          "L": "PlusTick",
+          "i": "f3ec6c91-6233-53fa-933b-15c971b0aec4",
+          "BT": false
+        },
+        {
+          "T": 1709684501443,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "64047.50",
+          "L": "PlusTick",
+          "i": "2f048fdc-4ade-53e7-ab25-9385d46eafd9",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684501.813182,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684501444,
+      "data": [
+        {
+          "T": 1709684501443,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.001",
+          "p": "64047.50",
+          "L": "ZeroPlusTick",
+          "i": "0e60781e-5c2d-5979-93ef-3768a3fe174d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684501.8213205,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684501450,
+      "data": [
+        {
+          "T": 1709684501449,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.065",
+          "p": "64058.80",
+          "L": "PlusTick",
+          "i": "429e1abc-42b6-505f-99c8-3de33e1ff321",
+          "BT": false
+        },
+        {
+          "T": 1709684501449,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "64058.80",
+          "L": "ZeroPlusTick",
+          "i": "619e4f41-f6c8-5a14-a72f-366761febe6d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684501.8303273,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684501464,
+      "data": [
+        {
+          "T": 1709684501462,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.017",
+          "p": "64064.30",
+          "L": "PlusTick",
+          "i": "429feb48-d395-57f9-a3d7-86537eb4fa29",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684501.8303273,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684501466,
+      "data": [
+        {
+          "T": 1709684501465,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.048",
+          "p": "64064.30",
+          "L": "ZeroPlusTick",
+          "i": "b6819547-c89b-5956-99a6-c6fe7f551eaf",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684505.289224,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684504935,
+      "data": [
+        {
+          "T": 1709684504934,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.026",
+          "p": "64095.80",
+          "L": "PlusTick",
+          "i": "eb163e19-95cb-5c26-80aa-e7ed55759315",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684505.2973516,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684504937,
+      "data": [
+        {
+          "T": 1709684504935,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.016",
+          "p": "64096.00",
+          "L": "PlusTick",
+          "i": "a5e2278c-ddc3-55a1-8320-68fb99956fff",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684505.3061743,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684504942,
+      "data": [
+        {
+          "T": 1709684504941,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.007",
+          "p": "64096.00",
+          "L": "ZeroPlusTick",
+          "i": "3972281f-48a0-5945-a768-269fa4239886",
+          "BT": false
+        },
+        {
+          "T": 1709684504941,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.013",
+          "p": "64096.20",
+          "L": "PlusTick",
+          "i": "f71d78ff-6447-5608-9c72-af728e5d4a27",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684505.4722936,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684505114,
+      "data": [
+        {
+          "T": 1709684505112,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.030",
+          "p": "64102.00",
+          "L": "PlusTick",
+          "i": "fd430e6f-beea-58e7-a914-1c6826f3130c",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684506.9302366,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684506580,
+      "data": [
+        {
+          "T": 1709684506579,
+          "s": "BTCPERP",
+          "S": "Sell",
+          "v": "0.007",
+          "p": "64132.40",
+          "L": "PlusTick",
+          "i": "21df641f-e391-5e92-8bba-6df29a61d3b3",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684506.946831,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684506592,
+      "data": [
+        {
+          "T": 1709684506590,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "64122.80",
+          "L": "MinusTick",
+          "i": "ba97a19d-33c0-567c-9e97-cbbb720765a8",
+          "BT": false
+        },
+        {
+          "T": 1709684506590,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.014",
+          "p": "64123.00",
+          "L": "PlusTick",
+          "i": "4d980f78-32a1-564c-9a3f-1f1fee62eae9",
+          "BT": false
+        },
+        {
+          "T": 1709684506590,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.019",
+          "p": "64123.20",
+          "L": "PlusTick",
+          "i": "e0907e3b-c4e7-5fff-815a-28fde412e6ae",
+          "BT": false
+        },
+        {
+          "T": 1709684506590,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.065",
+          "p": "64128.80",
+          "L": "PlusTick",
+          "i": "daa15669-bb61-5739-a4cb-f2b96781497c",
+          "BT": false
+        },
+        {
+          "T": 1709684506590,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.014",
+          "p": "64132.00",
+          "L": "PlusTick",
+          "i": "794887dc-ce05-5a88-8a5e-6606424e916f",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684512.1299005,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684511779,
+      "data": [
+        {
+          "T": 1709684511778,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.011",
+          "p": "64096.60",
+          "L": "MinusTick",
+          "i": "f5b56df3-f887-5a3e-aedd-8647cc922a2a",
+          "BT": false
+        },
+        {
+          "T": 1709684511778,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.013",
+          "p": "64096.60",
+          "L": "ZeroMinusTick",
+          "i": "1d6792cf-4112-5808-a7f1-1704024941c0",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684512.1466074,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684511782,
+      "data": [
+        {
+          "T": 1709684511780,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.010",
+          "p": "64096.80",
+          "L": "PlusTick",
+          "i": "0933f962-29bc-5838-8cba-aefdbdfcb3bc",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684512.1506627,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684511782,
+      "data": [
+        {
+          "T": 1709684511781,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.015",
+          "p": "64097.00",
+          "L": "PlusTick",
+          "i": "cf7a5389-041f-5741-bbf7-4c29c632b5cf",
+          "BT": false
+        },
+        {
+          "T": 1709684511781,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.009",
+          "p": "64097.00",
+          "L": "ZeroPlusTick",
+          "i": "da2b243a-4967-5ed4-97b4-a942751645fd",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684514.4484844,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684514091,
+      "data": [
+        {
+          "T": 1709684514090,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.015",
+          "p": "64134.90",
+          "L": "PlusTick",
+          "i": "405314ca-4b2e-536a-bb3b-c0fc1321bec9",
+          "BT": false
+        },
+        {
+          "T": 1709684514090,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.012",
+          "p": "64135.10",
+          "L": "PlusTick",
+          "i": "d34246b0-29dc-5e21-b073-5f1be54212ec",
+          "BT": false
+        },
+        {
+          "T": 1709684514090,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.016",
+          "p": "64135.30",
+          "L": "PlusTick",
+          "i": "0a706114-6c2f-5eb6-892b-54f1b91e2a8d",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684516.3863468,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684516033,
+      "data": [
+        {
+          "T": 1709684516032,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.065",
+          "p": "64129.10",
+          "L": "MinusTick",
+          "i": "c06bd3da-5ca4-5f0f-a3df-35812a3d46bf",
+          "BT": false
+        },
+        {
+          "T": 1709684516032,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.020",
+          "p": "64129.90",
+          "L": "PlusTick",
+          "i": "56153c70-0fb8-57ba-a5e3-e3ea1a4fe70e",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684516.3970451,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684516040,
+      "data": [
+        {
+          "T": 1709684516038,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.065",
+          "p": "64131.40",
+          "L": "PlusTick",
+          "i": "20591512-2f77-5e44-92a9-d556c3857f87",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684516.4132283,
+    "data": {
+      "topic": "publicTrade.BTCPERP",
+      "type": "snapshot",
+      "ts": 1709684516046,
+      "data": [
+        {
+          "T": 1709684516044,
+          "s": "BTCPERP",
+          "S": "Buy",
+          "v": "0.037",
+          "p": "64132.50",
+          "L": "PlusTick",
+          "i": "2eec6bdd-366b-56d0-91f2-ddac58b34122",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusd",
+    "insType": "perpetual",
+    "obj": "trades",
+    "btc_price": 63941.68,
+    "timestamp": 1709684516.429907,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "3f1fb840-f9ba-46bb-bef0-a377bc3fb8de",
+      "req_id": "",
+      "op": "ping"
+    }
+  }
+]

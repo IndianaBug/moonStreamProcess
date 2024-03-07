@@ -1,0 +1,873 @@
+[
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416040.2105765,
+    "data": {
+      "success": true,
+      "ret_msg": "subscribe",
+      "conn_id": "6f99dd9d-4700-4eba-b55e-59f8a9e29b6f",
+      "op": "subscribe"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416043.3510528,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416039538,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757355",
+          "T": 1709416039536,
+          "p": "61904.78",
+          "v": "0.000916",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.692329,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416041742,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757363",
+          "T": 1709416041740,
+          "p": "61904.65",
+          "v": "0.085501",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.6926901,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416041841,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757370",
+          "T": 1709416041839,
+          "p": "61902.04",
+          "v": "0.00052",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.693085,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416042585,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757380",
+          "T": 1709416042583,
+          "p": "61902.04",
+          "v": "0.00052",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416047.693512,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416043091,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757381",
+          "T": 1709416043090,
+          "p": "61902.04",
+          "v": "0.00496",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416053.9884684,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416044551,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757398",
+          "T": 1709416044549,
+          "p": "61910.03",
+          "v": "0.006396",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416062.8362195,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416049549,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757458",
+          "T": 1709416049548,
+          "p": "61900.27",
+          "v": "0.005036",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416074.0811353,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416056453,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757521",
+          "T": 1709416056451,
+          "p": "61914.28",
+          "v": "0.001377",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757522",
+          "T": 1709416056451,
+          "p": "61914.32",
+          "v": "0.010454",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416074.081717,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416056480,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757534",
+          "T": 1709416056478,
+          "p": "61915.23",
+          "v": "0.010454",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0123148,
+    "data": {
+      "success": true,
+      "ret_msg": "pong",
+      "conn_id": "6f99dd9d-4700-4eba-b55e-59f8a9e29b6f",
+      "op": "ping"
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416087.0129604,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416073906,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757597",
+          "T": 1709416073904,
+          "p": "61903.45",
+          "v": "0.001761",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5679662,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416080062,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757657",
+          "T": 1709416080060,
+          "p": "61913.28",
+          "v": "0.00033",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757658",
+          "T": 1709416080060,
+          "p": "61913.28",
+          "v": "0.000359",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757659",
+          "T": 1709416080060,
+          "p": "61913.29",
+          "v": "0.005969",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5687037,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416080064,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757660",
+          "T": 1709416080062,
+          "p": "61913.29",
+          "v": "0.004179",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5694675,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416081080,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757683",
+          "T": 1709416081078,
+          "p": "61908.19",
+          "v": "0.000243",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5702484,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416081393,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757684",
+          "T": 1709416081391,
+          "p": "61908.48",
+          "v": "0.000243",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5712981,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416081466,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757685",
+          "T": 1709416081464,
+          "p": "61908.54",
+          "v": "0.000243",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5722146,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416081647,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757687",
+          "T": 1709416081645,
+          "p": "61908.68",
+          "v": "0.000243",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.573173,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416083859,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757701",
+          "T": 1709416083857,
+          "p": "61921.49",
+          "v": "0.074487",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757702",
+          "T": 1709416083857,
+          "p": "61921.5",
+          "v": "0.113",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5747669,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416083867,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757708",
+          "T": 1709416083865,
+          "p": "61922.09",
+          "v": "0.00061",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5821245,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416083867,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757709",
+          "T": 1709416083865,
+          "p": "61922.09",
+          "v": "0.000007",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757710",
+          "T": 1709416083865,
+          "p": "61923.27",
+          "v": "0.010515",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5840845,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085361,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757719",
+          "T": 1709416085359,
+          "p": "61925",
+          "v": "0.0002",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5860152,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085516,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757725",
+          "T": 1709416085514,
+          "p": "61926.97",
+          "v": "0.001377",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757726",
+          "T": 1709416085514,
+          "p": "61927.65",
+          "v": "0.0826",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757727",
+          "T": 1709416085514,
+          "p": "61927.66",
+          "v": "0.035127",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757728",
+          "T": 1709416085514,
+          "p": "61927.75",
+          "v": "0.102539",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757729",
+          "T": 1709416085514,
+          "p": "61928.25",
+          "v": "0.010461",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5881155,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085519,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757730",
+          "T": 1709416085517,
+          "p": "61929.11",
+          "v": "0.0678",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757731",
+          "T": 1709416085517,
+          "p": "61929.12",
+          "v": "0.029065",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5902116,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085521,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757733",
+          "T": 1709416085519,
+          "p": "61929.12",
+          "v": "0.016135",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5926075,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085522,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757734",
+          "T": 1709416085520,
+          "p": "61929.12",
+          "v": "0.017358",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5949998,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085525,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757736",
+          "T": 1709416085522,
+          "p": "61929.12",
+          "v": "0.031312",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5972936,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085525,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757737",
+          "T": 1709416085523,
+          "p": "61929.12",
+          "v": "0.01913",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.5987914,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085543,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757739",
+          "T": 1709416085541,
+          "p": "61932.21",
+          "v": "0.03221",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6002395,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085560,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757740",
+          "T": 1709416085558,
+          "p": "61932.21",
+          "v": "0.000007",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6017463,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085677,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757741",
+          "T": 1709416085675,
+          "p": "61920.15",
+          "v": "0.001823",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6033092,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416085903,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757751",
+          "T": 1709416085901,
+          "p": "61923.86",
+          "v": "0.000667",
+          "S": "Sell",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  },
+  {
+    "exchange": "bybit",
+    "instrument": "btcusdc",
+    "insType": "spot",
+    "obj": "trades",
+    "btc_price": 61842.56,
+    "timestamp": 1709416093.6048472,
+    "data": {
+      "topic": "publicTrade.BTCUSDC",
+      "ts": 1709416087285,
+      "type": "snapshot",
+      "data": [
+        {
+          "i": "2240000000238757758",
+          "T": 1709416087283,
+          "p": "61935.95",
+          "v": "0.0002",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        },
+        {
+          "i": "2240000000238757759",
+          "T": 1709416087283,
+          "p": "61936.47",
+          "v": "0.001",
+          "S": "Buy",
+          "s": "BTCUSDC",
+          "BT": false
+        }
+      ]
+    }
+  }
+]
