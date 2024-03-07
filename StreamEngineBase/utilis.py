@@ -190,3 +190,6 @@ def last_non_zero(arr):
         if arr[i] != 0:
             return arr[i]
     return None  # Return None if the array is all zeros
+
+def is_valid_dataframe(df):
+    return df is not None and isinstance(df, pd.DataFrame)

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import time
-from utilis import merge_suffixes, oiflow_merge_columns, synthesis_Trades_mergeDict, last_non_zero
+from utilis import merge_suffixes, oiflow_merge_columns, synthesis_Trades_mergeDict, last_non_zero, is_valid_dataframe
 
 class booksmerger():
 
@@ -38,6 +38,7 @@ class booksmerger():
     def merge_snapshots(self):
         
         snapshots = [self.axis[ex].snapshot for ex in self.axis.keys()]
+        snapshots = [df for df in snapshots if is_valid_dataframe(df)]
         
         for index, df in enumerate(snapshots):
             if index == 0:
@@ -110,6 +111,10 @@ class tradesmerger():
         snapshots_buys = [self.axis[ex].snapshot_buys for ex in self.axis.keys()]
         snapshots_sells = [self.axis[ex].snapshot_sells for ex in self.axis.keys()]
         snapshots_total = [self.axis[ex].snapshot_total for ex in self.axis.keys()]
+
+        snapshots_buys = [df for df in snapshots_buys if is_valid_dataframe(df)]
+        snapshots_sells = [df for df in snapshots_sells if is_valid_dataframe(df)]
+        snapshots_total = [df for df in snapshots_total if is_valid_dataframe(df)]
 
         self.merge_snapshots_helper(snapshots_buys, "buys")
         self.merge_snapshots_helper(snapshots_sells, "sells")
@@ -214,8 +219,9 @@ class oiomnifier():
 
     def merge_snapshots(self):
         snapshots = [self.axis[ex].snapshot for ex in self.axis.keys()]
+        snapshots = [df for df in snapshots if is_valid_dataframe(df)]
         self.merge_snapshots_helper(snapshots)
-        oi_instruments = {ex : self.axis[ex].snapshot.iloc[-1].loc["oi"] for ex in self.axis.keys()}
+        oi_instruments = {ex : self.axis[ex].snapshot.iloc[-1].loc["oi"] for ex in self.axis.keys() if is_valid_dataframe(self.axis[ex].snapshot)}
         self.snapshot["OIs_per_instrument"] = oi_instruments
 
     def merge_snapshots_helper(self, snapshots):
@@ -318,6 +324,9 @@ class lomnifier():
 
         longs = [self.axis[ex].longs for ex in self.axis.keys()]
         shorts = [self.axis[ex].shorts for ex in self.axis.keys()]
+
+        longs = [df for df in longs if is_valid_dataframe(df)]
+        shorts = [df for df in shorts if is_valid_dataframe(df)]
         
         self.merge_snapshots_helper(longs, "long")
         self.merge_snapshots_helper(shorts, "short")
@@ -368,16 +377,18 @@ class booksadjustments():
     """
         Gathers statistical information on canceled limit and reinforced limit orders order books in the form of a heatmap variance over 60 second history
     """
-    def __init__ (self, instrument : str, insType : str, axis : dict):
+    def __init__ (self, instrument : str, insType : str, instance_books : booksmerger, instance_trades : tradesmerger):
         """
-            axis : A dictionary that encapsulates aggregated books and trades
             snapshot_voids : A dataset with canceled books over time
             snapshot_reinforce : A dataset with reinforced books over time
             data : dictionary of the last data 
         """
         self.instrument = instrument
         self.insType = insType
-        self.axis = axis
+        self.axis = {
+            "books" : instance_books,
+            "trades" : instance_trades,
+        }
         self.snapshot_voids = pd.DataFrame()
         self.snapshot_reinforce = pd.DataFrame()
         self.data = dict()
@@ -540,6 +551,7 @@ class indomnifier():
         self.axis = axis
         self.data = dict()
         self.open_interest = dict()
+        self.ratios = dict()
 
     def retrive_data(self, key=None):
         """
@@ -551,47 +563,35 @@ class indomnifier():
         else:
             return self.data
 
-    def inputOI(self, data):
+    def input_oi(self, exchange, instrument, data):
         """
             Inputs open interest by instrument 
         """
-        self.open_interest = data
+        self.open_interest["_".join([exchange, instrument])] = data
+
+    def input_ratio(self, exchange, instrument, data):
+        """
+            Inputs ratios by instrument 
+        """
+        self.ratios["_".join([exchange, instrument])] = data
 
 
-    def inputgta(self):
+    def merge(self):
         """
             merges gta, gtp, tta, ttp's
-            make sure the self.open_interest keys have the same order as axis's keys
             since okx provides global btc long shorts ration, the code has some slight changes
         """
-        ratios = [self.axis[x].data.get("ratio") for x in self.axis.keys()] # has 4 ratios
-        ois = self.open_interest.items() # has 5 ois since oks provides btc global ratio, be careful with order of ois
-        formated_ois = []
-        okxoi = 0
-        for instrument, oi in ois:
-            if instrument in ["okx_btcusdt", "okx_btcusd"]:
-                okxoi += oi
-            else:
-                formated_ois.append(oi)
-        formated_ois.insert(-1, okxoi)
-        weighted_ratio = np.average(ratios, weights=formated_ois)
+        r = []
+        o = []
+        for key in set(self.open_interest.keys()).union(self.ratios.keys()):
+            ratio = self.ratios.get(key, 0)
+            oi = self.open_interest.get(key, 0)
+            r.append(ratio)
+            o.append(oi)
+
+        o.append(self.open_interest.get("okx_btcusdt", 0) + self.open_interest.get("okx_btcusd", 0))
+        r.append(self.open_interest.get("okx_btc", 0))
+        weighted_ratio = np.average(r, weights=o)
         self.data["ratio"] = weighted_ratio
-        self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
-
-        #       axis_perpetual_oifunding = {
-        #     "binance_btcusdt" : binance1o,
-        #     "binance_btcusd" : binance2o,
-        #     "okx_btcusdt" : okx1o,
-        #     "okx_btcusd" : okx2o,
-        #     "bybit_btcusdt" : bybitOF,
-        # }
-
-        # axisgta = {
-        #     "binance_usdt" : binance_gta,
-        #     "binance_usd" : binance2_gta,
-        #     "okx_btc_all" : okx_gta, 
-        #     "bybit_usdt" : bybit_gta,
-        # }
-
-
+        self.data["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     

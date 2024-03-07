@@ -102,6 +102,21 @@
     "obj": "liquidations",
     "btc_price": 66517.13,
     "timestamp": 1709576051.5031664,
-    "data": []
+    "data": [  {
+      "time": 1548654951,
+      "contract": "BTC_USDT",
+      "size": 600,
+      "order_price": "3405",
+      "fill_price": "3424",
+      "left": 0
+    }]
+  },
+  {
+    "time": 1548654951,
+    "contract": "BTC_USDT",
+    "size": 600,
+    "order_price": "3405",
+    "fill_price": "3424",
+    "left": 0
   }
 ]

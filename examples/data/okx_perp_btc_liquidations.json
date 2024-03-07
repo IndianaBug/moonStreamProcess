@@ -324,10 +324,10 @@
               "ts": "1706608385092"
             }
           ],
-          "instFamily": "SOL-USDT",
-          "instId": "SOL-USDT-SWAP",
+          "instFamily": "BTC-USDT",
+          "instId": "BTC-USDT-SWAP",
           "instType": "SWAP",
-          "uly": "SOL-USDT"
+          "uly": "BTC-USDT"
         }
       ]
     }
