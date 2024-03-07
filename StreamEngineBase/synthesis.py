@@ -541,14 +541,15 @@ class indomnifier():
         Merges the same indicator from different exchanges weighted by total open interest
     """
 
-    def __init__ (self, instrument, insType, indType, axis):
+    def __init__ (self, instrument : str, insType : str, indType : str, axis_ratio : dict, axis_oi : oiomnifier):
         """
-            axis : the dictionary of classes indicatorsflow
+            axis_ratio : the dictionary of classes indicatorsflow
         """
         self.instrument = instrument
         self.insType = insType
         self.indType = indType
-        self.axis = axis
+        self.axis_ratio = axis_ratio
+        self.axis_oi = axis_oi.axis
         self.data = dict()
         self.open_interest = dict()
         self.ratios = dict()
@@ -562,6 +563,14 @@ class indomnifier():
             return self.data.get(key)
         else:
             return self.data
+        
+    def merge_ratios(self):
+        for instrument in self.axis_ratio:
+            self.input_ratio(self.axis_ratio[instrument].exchange, instrument, self.axis_ratio[instrument].retrive_data("ratio"))
+        for instrument in self.axis_oi:
+            self.input_oi(self.axis_oi[instrument].exchange, instrument, self.axis_oi[instrument].current_oi)
+        self.merge()
+        
 
     def input_oi(self, exchange, instrument, data):
         """
@@ -588,10 +597,10 @@ class indomnifier():
             oi = self.open_interest.get(key, 0)
             r.append(ratio)
             o.append(oi)
-
-        o.append(self.open_interest.get("okx_btcusdt", 0) + self.open_interest.get("okx_btcusd", 0))
-        r.append(self.open_interest.get("okx_btc", 0))
-        weighted_ratio = np.average(r, weights=o)
-        self.data["ratio"] = weighted_ratio
-        self.data["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+        if self.instrument == "btc":
+            o.append(self.open_interest.get("okx_btc_usdt", 0) + self.open_interest.get("okx_btc_usd", 0))
+            r.append(self.open_interest.get("okx_btc", 0))
+            weighted_ratio = np.average(r, weights=o)
+            self.data["ratio"] = weighted_ratio
+            self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     

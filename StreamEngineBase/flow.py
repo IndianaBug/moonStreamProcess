@@ -276,6 +276,7 @@ class oiFundingflow():
         self.current_second = 0
         self.previous_oi = None
         self.fundingRate = 0
+        self.current_oi = 0
 
     
     def input_oi_funding(self, oifundingdata):
@@ -309,6 +310,7 @@ class oiFundingflow():
             self.previous_oi = oi
 
         amount = oi - self.previous_oi
+        self.current_oi = oi
 
         if self.previous_second > self.current_second:
             self.snapshot = self.raw_data.copy()

@@ -184,7 +184,7 @@ class okx_flow(tester):
                 "btc" : flow.liquidationsflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_liquidations_lookup),
             },
             "indicators" : {
-                "GTA" : flow.indicatorflow('okx', 'btc_usdt', 'perpetual', "TTA", lookups.okx_GTA_lookup),
+                "GTA" : flow.indicatorflow('okx', 'btc', 'perpetual', "TTA", lookups.okx_GTA_lookup),
             }
         }
 
