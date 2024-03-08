@@ -27,8 +27,12 @@ class btc(frametest.testerOption):
         for exchange in self.axis.keys():
             if exchange not in self.exchanges:
                 del self.axis[exchange]
-
         self.aggregator = synthesis.OOImerger("btcusdt", "options", self.expiry_windows, self.pranges, self.axis)
+        self.data = {}
+
+    def merge(self):
+        self.aggregator.mergeoi()
+        self.data = self.aggregator.data
 
     def add_deribit(self, data):
         self.aggregator.axis["deribit"].input_oi(data)

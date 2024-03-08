@@ -241,7 +241,8 @@ class oiomnifier():
         last_price = merged_df[common_columns_dic['price'][0]].iloc[-1]
         last_ois = merged_df[common_columns_dic["oi"]].iloc[-1].values
         last_fundings = merged_df[common_columns_dic["fundingRate"]].iloc[-1].values
-        weighted_funding = np.average(last_fundings, weights=last_ois)
+        mask = ~pd.isna(last_fundings)
+        weighted_funding = np.average(last_fundings[mask].astype(float), weights=last_ois[mask])
         total_oi = np.sum(last_ois)
 
         self.snapshot["price"] = last_price
@@ -596,10 +597,18 @@ class indomnifier():
         intersection = {key: (self.open_interest[key], self.ratios[key]) for key in self.open_interest.keys() & self.ratios.keys()}
         okx_ratio_keys = {key: value for key, value in self.ratios.items() if 'okx' in key}
         okx_oi_keys = {key: value for key, value in self.open_interest.items() if 'okx' in key}
-        intersection[list(okx_ratio_keys.keys())[0]] = (sum(list(okx_oi_keys.values())), list(okx_ratio_keys.values())[0])
-        ois = [x[0] for x in list(intersection.values())]
-        ratios = [x[1] for x in list(intersection.values())]
-        weighted_ratio = np.average(ratios, weights=ois)
-        self.data["ratio"] = weighted_ratio
-        self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        try:
+            intersection[list(okx_ratio_keys.keys())[0]] = (sum(list(okx_oi_keys.values())), list(okx_ratio_keys.values())[0])
+            ois = [x[0] for x in list(intersection.values())]
+            ratios = [x[1] for x in list(intersection.values())]
+            weighted_ratio = np.average(ratios, weights=ois)
+            self.data["ratio"] = weighted_ratio
+            self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        except:
+            ois = [x[0] for x in list(intersection.values())]
+            ratios = [x[1] for x in list(intersection.values())]
+            weighted_ratio = np.average(ratios, weights=ois)
+            self.data["ratio"] = weighted_ratio
+            self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")      
+
     
