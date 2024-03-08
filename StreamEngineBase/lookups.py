@@ -10,6 +10,19 @@ from utilis import calculate_option_time_to_expire_deribit, calculate_option_tim
 
 toNativeBtcDictionary = {
     "binance_perp_btcusd" : lambda value, btc_price: value * 100 / btc_price,  # https://www.binance.com/en/support/faq/binance-coin-margined-futures-contract-specifications-a4470430e3164c13932be8967961aede
+    "binance_perp_btcusdt" : "",
+    "bitget_perp_btcusdt" : "",
+    "bingx_perp_btcusdt" : "",
+    "bybit_perp_btcusdt" : "",
+    "bybit_perp_btcusd" : "",
+    "deribit_perp_btcusd" : "",
+    "kucoin_perp_btcusdt" : "",
+    "gateio_perp_btcusdt" : "",
+    "htx_perp_btcusdt" : "",
+    "kucoin_perp_btcusdt" : "",
+    "okx_perp_btcusdt" : "",
+    "okx_perp_btcusd" : "",
+    "mexc_perp_btcusdt" : "",
 }
 
 
