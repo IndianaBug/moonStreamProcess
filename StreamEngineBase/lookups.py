@@ -9,12 +9,11 @@ from utilis import calculate_option_time_to_expire_deribit, calculate_option_tim
 
 
 toNativeBtcDictionary = {
-    "binance_per_btcusd" : lambda value, btc_price: value * 100 / btc_price,
-    "binance_per_btcusd" : lambda value, btc_price: value * 100 / btc_price,
+    "binance_perp_btcusd" : lambda value, btc_price: value * 100 / btc_price,  # https://www.binance.com/en/support/faq/binance-coin-margined-futures-contract-specifications-a4470430e3164c13932be8967961aede
 }
 
 
-class lookups():
+class binance():
 
     def __init__(self, toNativeBtcDictionary : dict):
 
@@ -46,7 +45,7 @@ class lookups():
             timestamp = response.get("data").get("o").get("T")
             timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
             if instrument == "btcusd":
-                amount = self.toNativeBtcDictionary(amount, price)
+                amount = self.toNativeBtcDictionary.get("binance_perp_btcusd")(amount, price)
             l.append([side, price, amount, timestamp])
             return l
         except:
@@ -54,40 +53,40 @@ class lookups():
             return None
 
 
-def binance_funding_lookup(response : json) -> Tuple[float, float, str]:
-    """
-        funding, price, timestamp
-    """
-    response = json.loads(response)
-    price = float(response.get("btc_price"))
-    try:
-        funding = float(response.get("data")[0].get("fundingRate"))
-        timestamp = response.get("data")[0].get("fundingTime")
-        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        return funding, price, timestamp
-    except:
-        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return None
+    def binance_funding_lookup(response : json) -> Tuple[float, float, str]:
+        """
+            funding, price, timestamp
+        """
+        response = json.loads(response)
+        price = float(response.get("btc_price"))
+        try:
+            funding = float(response.get("data")[0].get("fundingRate"))
+            timestamp = response.get("data")[0].get("fundingTime")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            return funding, price, timestamp
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
 
 
 
-def binance_OI_lookup(response : json) -> Tuple[float, float, str]:
-    """
-        oi, price, timestamp
-    """
-    response = json.loads(response)
-    instrument = response["instrument"]
-    price = response.get("btc_price")
-    try:
-        openInterest = float(response.get("data").get("openInterest"))
-        timestamp = response.get("data").get("time")
-        timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
-        if instrument == "btcusd":
-            openInterest = (openInterest * 100) / price
-        return openInterest, price, timestamp
-    except:
-        timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
-        return None
+    def binance_OI_lookup(response : json) -> Tuple[float, float, str]:
+        """
+            oi, price, timestamp
+        """
+        response = json.loads(response)
+        instrument = response["instrument"]
+        price = response.get("btc_price")
+        try:
+            openInterest = float(response.get("data").get("openInterest"))
+            timestamp = response.get("data").get("time")
+            timestamp = datetime.datetime.fromtimestamp(timestamp/ 10**3).strftime('%Y-%m-%d %H:%M:%S')
+            if instrument == "btcusd":
+                openInterest = self.toNativeBtcDictionary.get("binance_perp_btcusd")(amount, price)
+            return openInterest, price, timestamp
+        except:
+            timestamp = datetime.datetime.fromtimestamp(response["timestamp"]).strftime('%Y-%m-%d %H:%M:%S')
+            return None
 
 
 
