@@ -566,23 +566,25 @@ class indomnifier():
         
     def merge_ratios(self):
         for instrument in self.axis_ratio:
-            self.input_ratio(self.axis_ratio[instrument].exchange, instrument, self.axis_ratio[instrument].retrive_data("ratio"))
+            self.input_ratio( instrument, self.axis_ratio[instrument].retrive_data("ratio"))
         for instrument in self.axis_oi:
-            self.input_oi(self.axis_oi[instrument].exchange, instrument, self.axis_oi[instrument].current_oi)
+            self.input_oi(instrument, self.axis_oi[instrument].current_oi)
+        keys_to_remove = ['_GTA', '_TTA', '_TTP']
+        self.ratios = {key.replace(term, ''): value for key, value in self.ratios.items() for term in keys_to_remove if term in key}
         self.merge()
         
 
-    def input_oi(self, exchange, instrument, data):
+    def input_oi(self, instrument, data):
         """
             Inputs open interest by instrument 
         """
-        self.open_interest["_".join([exchange, instrument])] = data
+        self.open_interest[instrument] = data
 
-    def input_ratio(self, exchange, instrument, data):
+    def input_ratio(self, instrument, data):
         """
             Inputs ratios by instrument 
         """
-        self.ratios["_".join([exchange, instrument])] = data
+        self.ratios[instrument] = data
 
 
     def merge(self):
@@ -590,17 +592,14 @@ class indomnifier():
             merges gta, gtp, tta, ttp's
             since okx provides global btc long shorts ration, the code has some slight changes
         """
-        r = []
-        o = []
-        for key in set(self.open_interest.keys()).union(self.ratios.keys()):
-            ratio = self.ratios.get(key, 0)
-            oi = self.open_interest.get(key, 0)
-            r.append(ratio)
-            o.append(oi)
-        if self.instrument == "btc":
-            o.append(self.open_interest.get("okx_btc_usdt", 0) + self.open_interest.get("okx_btc_usd", 0))
-            r.append(self.open_interest.get("okx_btc", 0))
-            weighted_ratio = np.average(r, weights=o)
-            self.data["ratio"] = weighted_ratio
-            self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+        intersection = {key: (self.open_interest[key], self.ratios[key]) for key in self.open_interest.keys() & self.ratios.keys()}
+        okx_ratio_keys = {key: value for key, value in self.ratios.items() if 'okx' in key}
+        okx_oi_keys = {key: value for key, value in self.open_interest.items() if 'okx' in key}
+        intersection[list(okx_ratio_keys.keys())[0]] = (sum(list(okx_oi_keys.values())), list(okx_ratio_keys.values())[0])
+        ois = [x[0] for x in list(intersection.values())]
+        ratios = [x[1] for x in list(intersection.values())]
+        weighted_ratio = np.average(ratios, weights=ois)
+        self.data["ratio"] = weighted_ratio
+        self.data["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     

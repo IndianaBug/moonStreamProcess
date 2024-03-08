@@ -8,18 +8,17 @@ current_dir = abspath(dirname(__file__))
 project_path = abspath(dirname(dirname(current_dir)))
 sys.path.append(project_path + "/TradeStreamEngine/StreamEngineBase")
 
-import lookups
-import flow
+import flow, lookups
 from frametest import tester
 
 class binance_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup),
-                "btcfdusd" : flow.booksflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups.binance_depth_lookup),
+                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
+                "btcfdusd" : flow.booksflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_trades_lookup),
@@ -28,8 +27,8 @@ class binance_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup),
-                "btcusd" : flow.booksflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_depth_lookup),
+                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_trades_lookup),
@@ -117,8 +116,8 @@ class binance_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -157,11 +156,11 @@ class binance_flow(tester):
 
 class okx_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'spot', level_size, lookups.okx_depth_lookup),
+                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'spot', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'spot', level_size, lookups.okx_trades_lookup),
@@ -169,8 +168,8 @@ class okx_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_depth_lookup),
-                "btcusd" : flow.booksflow('okx', 'btc_usd', 'perpetual', level_size, lookups.okx_depth_lookup),
+                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('okx', 'btc_usd', 'perpetual', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_trades_lookup),
@@ -184,7 +183,7 @@ class okx_flow(tester):
                 "btc" : flow.liquidationsflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_liquidations_lookup),
             },
             "indicators" : {
-                "GTA" : flow.indicatorflow('okx', 'btc', 'perpetual', "TTA", lookups.okx_GTA_lookup),
+                "btc_GTA" : flow.indicatorflow('okx', 'btc', 'perpetual', "TTA", lookups.okx_GTA_lookup),
             }
         }
 
@@ -222,14 +221,14 @@ class okx_flow(tester):
         self.perpetual_axis["liquidations"]["btc"].input_liquidations(data)
 
     def add_gta(self, data):
-        self.perpetual_axis["indicators"]["GTA"].input_okx_gta(data)
+        self.perpetual_axis["indicators"]["btc_GTA"].input_okx_gta(data)
 
 
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -265,12 +264,12 @@ class okx_flow(tester):
 
 class bybit_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup),
-                "btcusdc" : flow.booksflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups.bybit_depth_lookup),
+                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
+                "btcusdc" : flow.booksflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_trades_lookup),
@@ -279,8 +278,8 @@ class bybit_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup),
-                "btcusd" : flow.booksflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_depth_lookup),
+                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_trades_lookup),
@@ -345,8 +344,8 @@ class bybit_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -380,14 +379,13 @@ class bybit_flow(tester):
                 v[key]["lookup"](d)
 
 
-
 class bingx_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_trades_lookup),
@@ -395,7 +393,7 @@ class bingx_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_trades_lookup),
@@ -426,8 +424,8 @@ class bingx_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -463,11 +461,11 @@ class bingx_flow(tester):
 
 class coinbase_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusd" : flow.booksflow('coinbase', 'btc_usd', 'spot', level_size, lookups.coinbase_depth_lookup),
+                "btcusd" : flow.booksflow('coinbase', 'btc_usd', 'spot', level_size, lookups.coinbase_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusd" : flow.tradesflow('coinbase', 'btc_usd', 'spot', level_size, lookups.coinbase_trades_lookup),
@@ -484,8 +482,8 @@ class coinbase_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -517,12 +515,12 @@ class coinbase_flow(tester):
 
 class deribit_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {"books" : {}}
         self.perpetual_axis= {
             "books" : {
-                "btcusd" : flow.booksflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_depth_lookup),
+                "btcusd" : flow.booksflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusd" : flow.tradesflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_trades_lookup),
@@ -546,8 +544,8 @@ class deribit_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -581,11 +579,11 @@ class deribit_flow(tester):
 
 class gateio_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'spot', level_size, lookups.gateio_depth_lookup),
+                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'spot', level_size, lookups.gateio_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'spot', level_size, lookups.gateio_trades_lookup),
@@ -593,7 +591,7 @@ class gateio_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_depth_lookup),
+                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_trades_lookup),
@@ -630,8 +628,8 @@ class gateio_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -669,11 +667,11 @@ class gateio_flow(tester):
 
 class bitget_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_trades_lookup),
@@ -681,7 +679,7 @@ class bitget_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_trades_lookup),
@@ -709,8 +707,8 @@ class bitget_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -747,11 +745,11 @@ class bitget_flow(tester):
 
 class kucoin_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_trades_lookup),
@@ -759,7 +757,7 @@ class kucoin_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_trades_lookup),
@@ -787,8 +785,8 @@ class kucoin_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -824,11 +822,11 @@ class kucoin_flow(tester):
 
 class mexc_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_trades_lookup),
@@ -836,7 +834,7 @@ class mexc_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_trades_lookup),
@@ -864,8 +862,8 @@ class mexc_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
@@ -900,11 +898,11 @@ class mexc_flow(tester):
 
 class htx_flow(tester):
     
-    def __init__ (self, level_size):
+    def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_trades_lookup),
@@ -912,7 +910,7 @@ class htx_flow(tester):
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
                 "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_trades_lookup),
@@ -943,8 +941,8 @@ class htx_flow(tester):
     # Testing
     
     @classmethod
-    def create_class(cls, level_size=20):
-        return cls(level_size)
+    def create_class(cls, level_size=20, book_ceil_thresh=5):
+        return cls(level_size, book_ceil_thresh)
 
     def input_from_json(self):
         """
