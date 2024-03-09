@@ -8,47 +8,52 @@ current_dir = abspath(dirname(__file__))
 project_path = abspath(dirname(dirname(current_dir)))
 sys.path.append(project_path + "/TradeStreamEngine/StreamEngineBase")
 
-import flow, lookups
+import flow
+from lookups import btc as btc_lookups_btc
+from lookups import unit_conversion_btc
 from frametest import tester
 
+lookups_btc = btc_lookups_btc(unit_conversion_btc)
+
 class binance_flow(tester):
+
     
     def __init__ (self, level_size, book_ceil_thresh):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
-                "btcfdusd" : flow.booksflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh),
+                "btcfdusd" : flow.booksflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_trades_lookup),
-                "btcfdusd" : flow.tradesflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups.binance_trades_lookup),
+                "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_trades_lookup),
+                "btcfdusd" : flow.tradesflow('binance', 'btc_fdusd', 'perpetual', level_size, lookups_btc.binance_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
-                "btcusd" : flow.booksflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('binance', 'btc_usd', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_trades_lookup),
-                "btcusd" : flow.tradesflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_trades_lookup),
+                "btcusdt" : flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_trades_lookup),
+                "btcusd" : flow.tradesflow('binance', 'btc_usd', 'perpetual', level_size, lookups_btc.binance_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_OI_lookup, lookups.binance_funding_lookup),
-                "btcusd" : flow.oiFundingflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_OI_lookup, lookups.binance_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_OI_lookup, lookups_btc.binance_funding_lookup),
+                "btcusd" : flow.oiFundingflow('binance', 'btc_usd', 'perpetual', level_size, lookups_btc.binance_OI_lookup, lookups_btc.binance_funding_lookup),
             },
             "liquidations" : {
-                "btcusdt" : flow.liquidationsflow('binance', 'btc_usdt', 'perpetual', level_size, lookups.binance_liquidations_lookup),
-                "btcusd" : flow.liquidationsflow('binance', 'btc_usd', 'perpetual', level_size, lookups.binance_liquidations_lookup),
+                "btcusdt" : flow.liquidationsflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_liquidations_lookup),
+                "btcusd" : flow.liquidationsflow('binance', 'btc_usd', 'perpetual', level_size, lookups_btc.binance_liquidations_lookup),
             },
             "indicators" : {
-                "btcusdt_TTA" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "TTA", lookups.binance_GTA_TTA_TTP_lookup),
-                "btcusdt_TTP" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "TTP", lookups.binance_GTA_TTA_TTP_lookup),
-                "btcusdt_GTA" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "GTA", lookups.binance_GTA_TTA_TTP_lookup),
-                "btcusd_TTA" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "TTA", lookups.binance_GTA_TTA_TTP_lookup),
-                "btcusd_TTP" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "TTP", lookups.binance_GTA_TTA_TTP_lookup),
-                "btcusd_GTA" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "GTA", lookups.binance_GTA_TTA_TTP_lookup),
+                "btcusdt_TTA" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "TTA", lookups_btc.binance_GTA_TTA_TTP_lookup),
+                "btcusdt_TTP" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "TTP", lookups_btc.binance_GTA_TTA_TTP_lookup),
+                "btcusdt_GTA" : flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "GTA", lookups_btc.binance_GTA_TTA_TTP_lookup),
+                "btcusd_TTA" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "TTA", lookups_btc.binance_GTA_TTA_TTP_lookup),
+                "btcusd_TTP" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "TTP", lookups_btc.binance_GTA_TTA_TTP_lookup),
+                "btcusd_GTA" : flow.indicatorflow('binance', 'btc_usd', 'perpetual', "GTA", lookups_btc.binance_GTA_TTA_TTP_lookup),
             }
         }
 
@@ -160,30 +165,30 @@ class okx_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'spot', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'spot', level_size, lookups_btc.okx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'spot', level_size, lookups.okx_trades_lookup),
+                "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'spot', level_size, lookups_btc.okx_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
-                "btcusd" : flow.booksflow('okx', 'btc_usd', 'perpetual', level_size, lookups.okx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('okx', 'btc_usdt', 'perpetual', level_size, lookups_btc.okx_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('okx', 'btc_usd', 'perpetual', level_size, lookups_btc.okx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_trades_lookup),
-                "btcusd" : flow.tradesflow('okx', 'btc_usd', 'perpetual', level_size, lookups.okx_trades_lookup),
+                "btcusdt" : flow.tradesflow('okx', 'btc_usdt', 'perpetual', level_size, lookups_btc.okx_trades_lookup),
+                "btcusd" : flow.tradesflow('okx', 'btc_usd', 'perpetual', level_size, lookups_btc.okx_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_OI_lookup, lookups.okx_funding_lookup),
-                "btcusd" : flow.oiFundingflow('okx', 'btc_usd', 'perpetual', level_size, lookups.okx_OI_lookup, lookups.okx_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('okx', 'btc_usdt', 'perpetual', level_size, lookups_btc.okx_OI_lookup, lookups_btc.okx_funding_lookup),
+                "btcusd" : flow.oiFundingflow('okx', 'btc_usd', 'perpetual', level_size, lookups_btc.okx_OI_lookup, lookups_btc.okx_funding_lookup),
             },
             "liquidations" : {
-                "btc" : flow.liquidationsflow('okx', 'btc_usdt', 'perpetual', level_size, lookups.okx_liquidations_lookup),
+                "btc" : flow.liquidationsflow('okx', 'btc_usdt', 'perpetual', level_size, lookups_btc.okx_liquidations_lookup),
             },
             "indicators" : {
-                "btc_GTA" : flow.indicatorflow('okx', 'btc', 'perpetual', "TTA", lookups.okx_GTA_lookup),
+                "btc_GTA" : flow.indicatorflow('okx', 'btc', 'perpetual', "TTA", lookups_btc.okx_GTA_lookup),
             }
         }
 
@@ -268,34 +273,34 @@ class bybit_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
-                "btcusdc" : flow.booksflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_depth_lookup, book_ceil_thresh),
+                "btcusdc" : flow.booksflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups_btc.bybit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_trades_lookup),
-                "btcusdc" : flow.tradesflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups.bybit_trades_lookup),
+                "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_trades_lookup),
+                "btcusdc" : flow.tradesflow('bybit', 'btc_usdc', 'perpetual', level_size, lookups_btc.bybit_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
-                "btcusd" : flow.booksflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('bybit', 'btc_usd', 'perpetual', level_size, lookups_btc.bybit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_trades_lookup),
-                "btcusd" : flow.tradesflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_trades_lookup),
+                "btcusdt" : flow.tradesflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_trades_lookup),
+                "btcusd" : flow.tradesflow('bybit', 'btc_usd', 'perpetual', level_size, lookups_btc.bybit_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_OI_funding_lookup),
-                "btcusd" : flow.oiFundingflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_OI_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_OI_funding_lookup),
+                "btcusd" : flow.oiFundingflow('bybit', 'btc_usd', 'perpetual', level_size, lookups_btc.bybit_OI_funding_lookup),
             },
             "liquidations" : {
-                "btcusdt" : flow.liquidationsflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups.bybit_liquidations_lookup),
-                "btcusd" : flow.liquidationsflow('bybit', 'btc_usd', 'perpetual', level_size, lookups.bybit_liquidations_lookup),
+                "btcusdt" : flow.liquidationsflow('bybit', 'btc_usdt', 'perpetual', level_size, lookups_btc.bybit_liquidations_lookup),
+                "btcusd" : flow.liquidationsflow('bybit', 'btc_usd', 'perpetual', level_size, lookups_btc.bybit_liquidations_lookup),
             },
             "indicators" : {
-                "btcusdt_GTA" : flow.indicatorflow('bybit', 'btc_usdt', 'perpetual', "GTA", lookups.bybit_GTA_lookup),
-                "btcusd_GTA" : flow.indicatorflow('bybit', 'btc_usd', 'perpetual', "GTA", lookups.bybit_GTA_lookup)
+                "btcusdt_GTA" : flow.indicatorflow('bybit', 'btc_usdt', 'perpetual', "GTA", lookups_btc.bybit_GTA_lookup),
+                "btcusd_GTA" : flow.indicatorflow('bybit', 'btc_usd', 'perpetual', "GTA", lookups_btc.bybit_GTA_lookup)
             }
         }
 
@@ -385,21 +390,21 @@ class bingx_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.bingx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_trades_lookup),
+                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.bingx_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.bingx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_trades_lookup),
+                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.bingx_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.bingx_OI_lookup, lookups.bingx_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.bingx_OI_lookup, lookups_btc.bingx_funding_lookup),
             },
         }
 
@@ -465,10 +470,10 @@ class coinbase_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusd" : flow.booksflow('coinbase', 'btc_usd', 'spot', level_size, lookups.coinbase_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('coinbase', 'btc_usd', 'spot', level_size, lookups_btc.coinbase_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusd" : flow.tradesflow('coinbase', 'btc_usd', 'spot', level_size, lookups.coinbase_trades_lookup),
+                "btcusd" : flow.tradesflow('coinbase', 'btc_usd', 'spot', level_size, lookups_btc.coinbase_trades_lookup),
             },
         }
         self.perpetual_axis = {"books" : {}}
@@ -520,13 +525,13 @@ class deribit_flow(tester):
         self.spot_axis = {"books" : {}}
         self.perpetual_axis= {
             "books" : {
-                "btcusd" : flow.booksflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_depth_lookup, book_ceil_thresh),
+                "btcusd" : flow.booksflow('deribit', 'btc_usd', 'perpetual', level_size, lookups_btc.deribit_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusd" : flow.tradesflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_trades_lookup),
+                "btcusd" : flow.tradesflow('deribit', 'btc_usd', 'perpetual', level_size, lookups_btc.deribit_trades_lookup),
             },
             "oifunding" : {
-                "btcusd" : flow.oiFundingflow('deribit', 'btc_usd', 'perpetual', level_size, lookups.deribit_OI_funding_lookup),
+                "btcusd" : flow.oiFundingflow('deribit', 'btc_usd', 'perpetual', level_size, lookups_btc.deribit_OI_funding_lookup),
             },
         }
 
@@ -583,24 +588,24 @@ class gateio_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'spot', level_size, lookups.gateio_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'spot', level_size, lookups_btc.gateio_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'spot', level_size, lookups.gateio_trades_lookup),
+                "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'spot', level_size, lookups_btc.gateio_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups_btc.gateio_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_trades_lookup),
+                "btcusdt" : flow.tradesflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups_btc.gateio_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_OI_lookup, lookups.gateio_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups_btc.gateio_OI_lookup, lookups_btc.gateio_funding_lookup),
             },
             "liquidations" : {
-                "btcusdt" : flow.liquidationsflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups.gateio_liquidations_lookup),
+                "btcusdt" : flow.liquidationsflow('gateio', 'btc_usdt', 'perpetual', level_size, lookups_btc.gateio_liquidations_lookup),
             },
         }
 
@@ -671,21 +676,21 @@ class bitget_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.bitget_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.bitget_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.bitget_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.bitget_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.bitget_OI_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.bitget_OI_funding_lookup),
             },
         }
 
@@ -749,21 +754,21 @@ class kucoin_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.kucoin_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.kucoin_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.kucoin_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.kucoin_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.kucoin_OI_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.kucoin_OI_funding_lookup),
             },
         }
 
@@ -826,21 +831,21 @@ class mexc_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.mexc_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.mexc_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.mexc_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_trades_lookup),
+                "btcusdt" : flow.tradesflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.mexc_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups.mexc_OI_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bitget', 'btc_usdt', 'perpetual', level_size, lookups_btc.mexc_OI_funding_lookup),
             },
         }
 
@@ -902,21 +907,21 @@ class htx_flow(tester):
         self.level_size = level_size
         self.spot_axis = {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.htx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_trades_lookup),
+                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.htx_trades_lookup),
             },
         }
         self.perpetual_axis= {
             "books" : {
-                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_depth_lookup, book_ceil_thresh),
+                "btcusdt" : flow.booksflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.htx_depth_lookup, book_ceil_thresh),
             },
             "trades": {
-                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_trades_lookup),
+                "btcusdt" : flow.tradesflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.htx_trades_lookup),
             },
             "oifunding" : {
-                "btcusdt" : flow.oiFundingflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups.htx_OI_lookup, lookups.htx_funding_lookup),
+                "btcusdt" : flow.oiFundingflow('bingx', 'btc_usdt', 'perpetual', level_size, lookups_btc.htx_OI_lookup, lookups_btc.htx_funding_lookup),
             },
         }
 

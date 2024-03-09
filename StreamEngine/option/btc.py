@@ -8,7 +8,11 @@ current_dir = abspath(dirname(__file__))
 project_path = abspath(dirname(dirname(current_dir)))
 sys.path.append(project_path + "/TradeStreamEngine/StreamEngineBase")
 
-import lookups, flow, synthesis, frametest
+import flow, synthesis, frametest
+from lookups import btc as btc_lookups
+from lookups import unit_conversion_btc
+
+lookups_btc = btc_lookups(unit_conversion_btc)
 
 class btc(frametest.testerOption):
     """
@@ -20,9 +24,9 @@ class btc(frametest.testerOption):
         self.exchanges = exchanges
         self.expiry_windows = expiry_windows
         self.axis = {
-            "deribit" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups.deribit_option_oi_lookup),
-            "bybit" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups.bybit_option_oi_lookup),
-            "okx" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups.okx_option_oi_lookup),
+            "deribit" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups_btc.deribit_option_oi_lookup),
+            "bybit" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups_btc.bybit_option_oi_lookup),
+            "okx" : flow.oiflowOption("deribit", "btc", "options", self.pranges,  self.expiry_windows, lookups_btc.okx_option_oi_lookup),
                     }
         for exchange in self.axis.keys():
             if exchange not in self.exchanges:

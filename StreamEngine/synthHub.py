@@ -1,12 +1,3 @@
-import sys
-import time
-import json
-from os.path import abspath, dirname
-
-current_dir = abspath(dirname(__file__))
-project_path = abspath(dirname(dirname(current_dir)))
-sys.path.append(project_path + "/TradeStreamEngine/StreamEngineBase")
-
 import synthesis
 import StreamEngine.coins.btcflow as btcflow
 
