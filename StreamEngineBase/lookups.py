@@ -1233,13 +1233,13 @@ class btc():
                 except:
                     try:
                         if side == "asks":
-                            books = response.get("data").get("response").get("data").get("asks")
+                            books = response.get("data").get("data").get("asks")
                             books = [[x[0], self.unit_conversion_dict.get("kucoin_perp_btcusdt")(x[1])] for x in books]
                         if side == "bids":
-                            books = response.get("data").get("response").get("data").get("bids")
+                            books = response.get("data").get("data").get("bids")
                             books = [[x[0], self.unit_conversion_dict.get("kucoin_perp_btcusdt")(x[1])] for x in books]
-                            timestamp = response.get("data").get("response").get("data").get("ts")
-                            timestamp =  datetime.datetime.fromtimestamp(timestamp / 10 ** 9).strftime('%Y-%m-%d %H:%M:%S')
+                        timestamp = response.get("data").get("data").get("ts")
+                        timestamp =  datetime.datetime.fromtimestamp(timestamp / 10 ** 9).strftime('%Y-%m-%d %H:%M:%S')
                         return books, timestamp
                     except:
                         return None
@@ -1259,7 +1259,7 @@ class btc():
                 trade = response.get("data").get("data")
                 side = trade.get("side")
                 price = float(trade.get("price"))
-                quantity = trade.get("size")
+                quantity = float(trade.get("size"))
                 quantity = self.unit_conversion_dict.get("kucoin_perp_btcusdt")(quantity)
                 timestamp = response.get("timestamp")
                 timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
@@ -1274,7 +1274,7 @@ class btc():
                 trade = response.get("data").get("data")
                 side = trade.get("side")
                 price = float(trade.get("price"))
-                quantity = trade.get("size")
+                quantity = float(trade.get("size"))
                 timestamp = response.get("timestamp")
                 timestamp = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
                 l.append([side, price, quantity, timestamp])

@@ -1809,7 +1809,7 @@
           "best_bid_price": 66535.0,
           "best_ask_price": 66579.5,
           "interest_value": 0.19197164465183436,
-          "open_interest": 7480827740,
+          "open_interest": 7480827740, 
           "max_price": 68637.0,
           "min_price": 64638.0,
           "last_price": 66536.0,

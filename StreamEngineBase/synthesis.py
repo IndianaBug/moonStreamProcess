@@ -222,7 +222,9 @@ class oiomnifier():
         snapshots = [df for df in snapshots if is_valid_dataframe(df)]
         self.merge_snapshots_helper(snapshots)
         oi_instruments = {ex : self.axis[ex].snapshot.iloc[-1].loc["oi"] for ex in self.axis.keys() if is_valid_dataframe(self.axis[ex].snapshot)}
+        fundings = {ex : self.axis[ex].snapshot.iloc[-1].loc["fundingRate"] for ex in self.axis.keys() if is_valid_dataframe(self.axis[ex].snapshot)}
         self.snapshot["OIs_per_instrument"] = oi_instruments
+        self.snapshot["fundings_per_instrument"] = fundings
 
     def merge_snapshots_helper(self, snapshots):
 
