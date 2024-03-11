@@ -57,6 +57,7 @@ Additionally, for option instruments, TradeStreamEngine supports:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
+- [Interpretation](#interpretation)
 - [Making Streams](#modules)
   - [Flow Modules](#flow-modules)
   - [Lookups Modules](#lookups-modules)
@@ -128,14 +129,15 @@ In Short:
 These settings organize complex Bitcoin market data into simpler buckets, making it easier to understand price trends, option behavior based on strike price and expiration time, and ultimately gain valuable insights into the market.
 
 # Data
-The data generated is the next:
-Example of accessing
+This btcSynth contains dynamically generated data that serves various purposes within the project. It can be accessed with following methods:
 
 ``` Python
 btcDataProcessor.data.get("spot_books") # to get spot books data
 btcDataProcessor.data                   # to access full data
 ```
-Spot Data:
+The data can be categorized into the Spot, Perpetual and Option.
+
+### Spot Data:
 - spot_books: the dictionary of absolute amount of books by aggregated level.
 - timestamp: Timestamp of the data.
 - spot_buyVol: the total amount of market buys at the current timestamp.
@@ -161,85 +163,66 @@ Spot Data:
 - spot_reinforcesDuration: the dictionary of duration of reinforced books by aggregated level in seconds.
 - spot_reinforcesDurationVola: the dictionary of volatility of spot_reinforcesDuration.
 
-Perpetual Data:
-perp_books: Information about perpetual market books.
-perp_buyVol: Buy volume in the perpetual market.
-perp_sellVol: Sell volume in the perpetual market.
-perp_open: Opening price in the perpetual market.
-perp_close: Closing price in the perpetual market.
-perp_low: Lowest price in the perpetual market.
-perp_high: Highest price in the perpetual market.
-perp_Vola: Volatility in the perpetual market.
-perp_VolProfile: Volume profile in the perpetual market.
-perp_buyVolProfile: Buy volume profile in the perpetual market.
-perp_sellVolProfile: Sell volume profile in the perpetual market.
-perp_numberBuyTrades: Number of buy trades in the perpetual market.
-perp_numberSellTrades: Number of sell trades in the perpetual market.
-perp_orderedBuyTrades: Ordered buy trades in the perpetual market.
-perp_orderedSellTrades: Ordered sell trades in the perpetual market.
-perp_voids: Perpetual market voids.
-perp_reinforces: Perpetual market reinforces.
-perp_totalVoids: Total voids in the perpetual market.
-perp_totalReinforces: Total reinforces in the perpetual market.
-perp_totalVoidsVola: Total voids volatility in the perpetual market.
-perp_voidsDuration: Duration of voids in the perpetual market.
-perp_voidsDurationVola: Volatility during voids in the perpetual market.
-perp_reinforcesDuration: Duration of reinforces in the perpetual market.
-perp_reinforcesDurationVola: Volatility during reinforces in the perpetual market.
-perp_weighted_funding: Weighted funding rate in the perpetual market.
-perp_total_oi: Total open interest in the perpetual market.
-perp_oi_increases: Open interest increases in the perpetual market.
-perp_oi_increases_Vola: Volatility during open interest increases in the perpetual market.
-perp_oi_decreases: Open interest decreases in the perpetual market.
-perp_oi_decreases_Vola: Volatility during open interest decreases in the perpetual market.
-perp_oi_turnover: Open interest turnover in the perpetual market.
-perp_oi_turnover_Vola: Volatility during open interest turnover in the perpetual market.
-perp_oi_total: Total open interest in the perpetual market.
-perp_oi_total_Vola: Volatility in total open interest in the perpetual market.
-perp_oi_change: Change in open interest in the perpetual market.
-perp_oi_Vola: Volatility in open interest in the perpetual market.
-perp_orderedOIChanges: Ordered open interest changes in the perpetual market.
-perp_OIs_per_instrument: Open interests per instrument in the perpetual market.
-perp_fundings_per_instrument: Fundings per instrument in the perpetual market.
-liquidations_perp_longsTotal: Total liquidations of long positions in the perpetual market.
-liquidations_perp_longs: Liquidations of long positions in the perpetual market.
-liquidations_perp_shortsTotal: Total liquidations of short positions in the perpetual market.
-liquidations_perp_shorts: Liquidations of short positions in the perpetual market.
-TTA_perp_ratio: Ratio of Take-Trader-Action in the perpetual market.
-TTP_perp_ratio: Ratio of Take-Trader-Profit in the perpetual market.
-GTA_perp_ratio: Ratio of Give-Trader-Action in the perpetual market.
-perp_liquidations_longsTotal: Total liquidations of long positions in the perpetual market.
-perp_liquidations_longs: Liquidations of long positions in the perpetual market.
-perp_liquidations_shortsTotal: Total liquidations of short positions in the perpetual market.
-perp_liquidations_shorts: Liquidations of short positions in the perpetual market.
-perp_TTA_ratio: Ratio of Take-Trader-Action in the perpetual market.
-perp_TTP_ratio: Ratio of Take-Trader-Profit in the perpetual market.
-perp_GTA_ratio: Ratio of Give-Trader-Action in the perpetual market.
-
-Option Data:
-oi_option_puts_0: Open interest of put options at a strike price of 0 in the perpetual market.
-oi_option_puts_10: Open interest of put options at a strike price of 10 in the perpetual market.
-oi_option_calls_0: Open interest of call options at a strike price of 0 in the perpetual market.
-oi_option_calls_10: Open interest of call options at a strike price of 10 in the perpetual market.
+### Perpetual Data:
+- perp_books: the dictionary of absolute amount of books by aggregated level.
+- perp_buyVol: the total amount of market buys at the current timestamp.
+- perp_sellVol: the total amount of market sells at the current timestamp.
+- perp_open: the price at the beginning of the 1-minute interval.
+- perp_close: the price at the end of the 1-minute interval.
+- perp_low: the lowest price within a 1-minute interval.
+- perp_high: the highest price within a 1-minute interval.
+- perp_Vola: the volatility of the price within a 1-minute interval, calculated using standard deviation.
+- perp_VolProfile: the dictionary of market trades (sell + buy) by aggregated level.
+- perp_buyVolProfile: the dictionary of market buys by aggregated level.
+- perp_sellVolProfile: the dictionary of market sells by aggregated level.
+- perp_numberBuyTrades: number of buy trades at the current timestamp.
+- perp_numberSellTrades: number of sell trades at the current timestamp.
+- perp_orderedBuyTrades: the list of ordered buy trades. (may be usefull for entropy)
+- perp_orderedSellTrades: the list of ordered sell trades.
+- perp_voids: the dictionary of canceled books by aggregated level. (sums all canceled amounts)
+- perp_reinforces: the dictionary of reinforced books by aggregated level. (sums all reinforced amounts)
+- perp_totalVoids: the total amount of canceled orders at the current timestamp.
+- perp_totalReinforces: the total amount of reinforced orders at the current timestamp.
+- perp_voidsDuration: the dictionary of duration of canceled books by aggregated level in seconds. If someone is engaging in spoofing, you can determine the duration for which they place an order before canceling it by measuring the time interval between order placement and cancellation.
+- perp_voidsDurationVola: the dictionary of volatility of spot_voidsDuration.
+- perp_reinforcesDuration: the dictionary of duration of reinforced books by aggregated level in seconds.
+- perp_reinforcesDurationVola: the dictionary of volatility of spot_reinforcesDuration.
+- perp_weighted_funding: weighted funding rate at the current timestamp. 
+- perp_total_oi: the total open interest at the current timestamp.
+- perp_oi_increases: the dictionary of increases of open interest by aggregated level.
+- perp_oi_increases_Vola: the dictionary of volatilities of increases of open interest by aggregated level.
+- perp_oi_decreases: the dictionary of decreases of open interest by aggregated level.
+- perp_oi_decreases_Vola: the dictionary of volatilities of decreases of open interest by aggregated level.
+- perp_oi_turnover: 
+- perp_oi_turnover_Vola: 
+- perp_oi_total: the dictionary of oi changes (buys-sells) by aggregated level.
+- perp_oi_total_Vola: the dictionary of volatilities of perp_oi_total.
+- perp_oi_change: the change of open inerest at the current timestamp.
+- perp_oi_Vola: the volatility of open interest at the current timestamp.
+- perp_orderedOIChanges: the list of ordered OI changes. 
+- perp_OIs_per_instrument: the dictionary of open interest per instrument at the current timestamp.
+- perp_fundings_per_instrument: the dictionary of funding rates per instrument at the current timestamp.
+- perp_liquidations_longsTotal: the total amount of long liquidations at the current timestamp.
+- perp_liquidations_longs: the dictionary of liquidations by aggregated level, longs.
+- perp_liquidations_shortsTotal: the total amount of short liquidations at the current timestamp.
+- perp_liquidations_shorts: the dictionary of liquidations by aggregated level, shorts.
+- perp_TTA_ratio: weighted Long/Short ration of Top Traders Accounts
+- perp_TTP_ratio: weighted Long/Short ration of Top Traders Positions
+- perp_GTA_ratio: weighted Long/Short ration of Global Traders Positions
 
 
+### Option Data (Keys depend on the pranges and expiration_windows):
+- oi_option_puts_0: the dictionary of open interests of put options that expire today
+- oi_option_puts_0_5: the dictionary of open interests of put options that expire in 5 days
+- oi_option_puts_5_10: the dictionary of open interests of put options that expire between 5 to 10 days
+- oi_option_calls_0: the dictionary of open interests of call options that expire today
+- oi_option_calls_0_5: the dictionary of open interests of call options that expire in 5 days
+- oi_option_calls_5_10: the dictionary of open interests of call options that expire between 5 to 10 days
 
 
+# Interpretation
 
-
-
-
-# Key Features:
-
-* Order Book Analysis: Gain a deep understanding of market liquidity, price levels, and order book dynamics.
-* Trade Analysis: Extract and analyze market orders (trades) to identify patterns and trends.
-* Feature Extraction: Create powerful features from order book data to enhance trading and investment strategies.
-* Quantitative Insights: Utilize quantitative metrics and statistical analysis for informed decision-making.
-
-
-This library works only with seconds, minutes, hours and days
-
-## Formulas
+Methematical interpretation of the highlighted features:
 
 ### Books - absolute quantity of order books for certain price levels at certain timestamp.
 - $P_i$: The price level at index $i$.
