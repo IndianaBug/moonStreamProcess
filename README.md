@@ -13,7 +13,7 @@ TradeStreamEngine excels at real-time financial data processing. Here's how it b
 
 ## Supported Instruments
 
-TradeStreamEngine currently supports only Bitcoin. However, creating support for ETH or any other altcoin shouldn't take much time. The crucial steps are only to change lookups for the data based on the websocket or API you are using and remove unneeded instruments. To get started, follow the instructions provided in the section on making your own streams.
+TradeStreamEngine currently supports only Bitcoin. However, creating processors for ETH or any other altcoin shouldn't take much time. The crucial steps are only to change lookups for the data based on the websocket or API you are using and remove unneeded instruments. To get started, follow the instructions provided in the section on making your own streams.
 
 ## Supported Exchanges
 
