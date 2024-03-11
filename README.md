@@ -64,8 +64,9 @@ Additionally, for option instruments, TradeStreamEngine supports:
   - [Synthesis Modules](#synthesis-modules)
   - [Assembler Modules](#assembler-modules)
 - [Examples](#examples)
+- [Contacts](#contacts)
 - [Contributing](#contributing)
-- [License](#license)
+- [Licence and Contributing](#licennce-and-contributing)
 - [Support Development](#support-Development)
 
 # Installation
@@ -108,11 +109,11 @@ data = ""
 btcDataProcessor.add_okx_perp_btcusd_oi(data) # Will input okx oi. Check for all methods
 ```
 
-Level Size :
+**Level Size** 
 
 Imagine you're sorting coins. Instead of having a giant pile, this setting groups similar prices together. The "level size" determines the size of these groups. If it's set to 20, then order book and trade, ois and liquidations data will be grouped into buckets that represent price ranges of $20 each.
 
-Price Ranges for Options (pranges):
+**Price Ranges for Options (pranges)**
 
 This setting focuses on option contracts, which give you the right to buy or sell Bitcoin at a specific price by a certain date (expiration). pranges helps categorize options based on their strike price, which is the price at which you can exercise the option to buy or sell.
 
@@ -121,7 +122,7 @@ The example np.array([0.0, 1.0, 2.0, 5.0, 10.0]) creates buckets for options rel
 10.0: This bucket holds options with a strike price that matches the strikes 10% above the current Bitcoin price (or below if the value is negative). For example if the current price is $10,000, the bucket will encomapass options with strikes above $11,000
 0.0:1.0, 1.0:2.0, and so on: These buckets hold options with strike prices that fall within the specified range relative to the current price. For example, if the current price is $10,000, a 1.0:2.0 bucket might encompass options with strike prices between $10,200 and $10,400. It's important to note that negative values, such as -5 and -10, represent options with strike prices below the current price.
 
-Expiration Time Ranges (expiration_ranges):
+**Expiration Time Ranges (expiration_ranges)**
 
 Similar to price ranges, this setting groups options based on how much time is left until they expire. This helps analyze how option prices change as the expiration date approaches. (Doesn't contain negative ranges)
 
@@ -138,7 +139,7 @@ btcDataProcessor.data                   # to access full data
 ```
 The data can be categorized into the Spot, Perpetual and Option.
 
-### Spot Data:
+### Spot Data
 | key | clarification |
 | -------- | -------- |
 | <span style="color:green">spot_books</span> | the dictionary of absolute amount of books by aggregated level. |
@@ -165,9 +166,8 @@ The data can be categorized into the Spot, Perpetual and Option.
 | spot_voidsDurationVola | the dictionary of volatility of spot_voidsDuration. |
 | spot_reinforcesDuration | the dictionary of duration of reinforced books by aggregated level in seconds.|
 | spot_reinforcesDurationVola | the dictionary of volatility of spot_reinforcesDuration. |
-| -------- | -------- |
 
-### Perpetual Data:
+### Perpetual Data
 | key | clarification |
 | -------- | -------- |
 | perp_books | the dictionary of absolute amount of books by aggregated level |
@@ -213,10 +213,9 @@ The data can be categorized into the Spot, Perpetual and Option.
 | perp_TTA_ratio | weighted Long/Short ration of Top Traders Accounts |
 | perp_TTP_ratio | weighted Long/Short ration of Top Traders Positions |
 | perp_GTA_ratio | weighted Long/Short ration of Global Traders Positions |
-| -------- | -------- |
 
 
-### Option Data (Keys depend on the pranges and expiration_windows):
+### Option Data (Keys depend on the pranges and expiration_windows)
 | key | clarification |
 | -------- | -------- |
 | oi_option_puts_0 | the dictionary of open interests of put options that expire today |
@@ -225,28 +224,29 @@ The data can be categorized into the Spot, Perpetual and Option.
 | oi_option_calls_0 | the dictionary of open interests of call options that expire today |
 | oi_option_calls_0_5 | the dictionary of open interests of call options that expire in 5 days |
 | oi_option_calls_5_10 | the dictionary of open interests of call options that expire between 5 to 10 days |
-| -------- | -------- |
 
 
 # Interpretation
 
 Methematical interpretation of the highlighted features:
 
-### Books - absolute quantity of order books for certain price levels at certain timestamp.
+#### Books - absolute quantity of order books for certain price levels at certain timestamp.
 - $P_i$: The price level at index $i$.
 - $Q_i(t)$: The absolute quantity of limit orders at price level \( P_i \) at timestamp \( t \).
 - $B_t$ = ${(P_1, Q_1(t)), (P_2, Q_2(t)), ... , (P_n, Q_n(t))}$ : Books at different levels
-### Trades - absolute quantity of market trades for certain price levels at certain timestamp.
+#### Trades - absolute quantity of market trades for certain price levels at certain timestamp.
 - $P_i$: The price level at index $i$.
 - $Q_i(t)$: The absolute quantity of market orders at price level \( P_i \) at timestamp \( t \).
 - $T_t$ = ${(P_1, Q_1(t)), (P_2, Q_2(t)), ... , (P_n, Q_n(t))}$ : Books at different levels
-### Canceled limit orders - estimated quantity of canceled limit orders for certain price levels at certain timestamp.
+#### Canceled limit orders - estimated quantity of canceled limit orders for certain price levels at certain timestamp.
 - $D_t$ = ${ (B_t1 + T_t1 ) - ( B_t0 + T_t0 ) }$   -Difference of total placed prders between 2 consegutive timestamps
 - $CB_t$ = ${CB_t | CB_t = (D_t - D_t-1) ⋅ [D_t - D_t-1 > 0], ∀_i, 0 ≤ i < n}$ - Total closed orders over a single timestamp 
-### Reforced limit orders - estimated quantity of reforced limit orders for certain price levels at certain timestamp.
+#### Reforced limit orders - estimated quantity of reforced limit orders for certain price levels at certain timestamp.
 - $D_t$ = ${ (B_t + T_t ) - ( B_t-1 + T_t-1 ) }$   -Difference of total placed prders between 2 consegutive timestamps
 - $CB_t$ = ${CB_t | CB_t = (D_t - D_t-1) ⋅ [D_t - D_t-1 < 0], ∀_i, 0 ≤ i < n}$ - Total closed orders over a single timestamp 
 
+The same logic applies to open interest and liquidations.
+All volatility metrics were calculated using standard deviation.
 
 # Making Streams
 
@@ -329,8 +329,16 @@ Follow this logic:
 * Create the option object if needed.
 * Create a new class in the Synth Hub, or create a new module.
 
-# Example
+# Examples
 Some examples can be found in the "examples" folder. Please make sure to examine the charts and look for any discrepancies. If you find outliers in the data, then you may have made a mistake with the lookups.
+
+
+# Contacts
+Feel free to reach out if you have any questions, feedback, or just want to say hello! We value your input and are here to help.
+
+Email : pvtoa@iscte-iul.pt
+GitHub : (https://github.com/badcoder-cloud/TradeStreamEngine/issues
+Telegram : 
 
 # Licence and Contributing
 
