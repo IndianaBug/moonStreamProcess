@@ -66,7 +66,7 @@ Additionally, for option instruments, TradeStreamEngine supports:
 - [Examples](#examples)
 - [Contacts](#contacts)
 - [Contributing](#contributing)
-- [Licence and Contributing](#licennce-and-contributing)
+- [Licence and Contributing](#licennce-And-Contributing)
 - [Support Development](#support-Development)
 
 # Installation
@@ -336,9 +336,14 @@ Some examples can be found in the "examples" folder. Please make sure to examine
 # Contacts
 Feel free to reach out if you have any questions, feedback, or just want to say hello! We value your input and are here to help.
 
-Email : pvtoa@iscte-iul.pt
-GitHub : (https://github.com/badcoder-cloud/TradeStreamEngine/issues
-Telegram : 
+- **Email:**
+  - Address: pvtoa@iscte-iul.pt
+
+- **GitHub Issues:**
+  - Address: https://github.com/badcoder-cloud/TradeStreamEngine/issues
+
+- **Telegram:**
+  - Address: 
 
 # Licence and Contributing
 
