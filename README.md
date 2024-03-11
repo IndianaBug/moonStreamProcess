@@ -95,10 +95,11 @@ btcDataProcessor = btcSynth(level_size, prage, expiration_ranges, exchanges_spot
 btcDataProcessor.input_from_json(abs_path)
 btcDataProcessor.merge()
 btcDataProcessor.display_full_data()
+```
 
 Level Size:
 
-Imagine you're sorting coins. Instead of having a giant pile, this setting groups similar prices together. The "level size" determines the size of these groups. If it's set to 20, then order book and trade data will be grouped into buckets that represent price ranges of $20 each.
+Imagine you're sorting coins. Instead of having a giant pile, this setting groups similar prices together. The "level size" determines the size of these groups. If it's set to 20, then order book and trade, ois and liquidations data will be grouped into buckets that represent price ranges of $20 each.
 
 Price Ranges for Options (pranges):
 
