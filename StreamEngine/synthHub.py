@@ -921,9 +921,11 @@ class btcSynth():
             "_spot_totalReinforcesVola", 
             "_spot_price", "_perp_price",
             "_perp_voidsVola", "_perp_reinforcesVola",  "_perp_totalVoidsVola.",
-            "_perp_totalReinforcesVola", "liquidations_perp_price",
+            "_perp_totalReinforcesVola", "liquidations_perp_price", 
             ]
 
+        keys_to_remove_2 = ['liquidations_perp_longsTotal', 
+                  'liquidations_perp_longs', 'liquidations_perp_shortsTotal', 'liquidations_perp_shorts', 'TTA_perp_ratio', 'TTP_perp_ratio', 'GTA_perp_ratio', ]
 
         flattened_dict = rename_keys(flattened_dict, key_mapping)
         flattened_dict = {key_mapping_2[k] if k in key_mapping_2 else k: v for k, v in flattened_dict.items()}
@@ -941,6 +943,8 @@ class btcSynth():
                 flattened_dict[key] = clean_dict(value)
             if isinstance(value, list):
                 flattened_dict[key] = clean_list(value)
+        
+        flattened_dict = {k : i for k, i in flattened_dict.items() if k not in keys_to_remove_2 }
 
         
         return flattened_dict
