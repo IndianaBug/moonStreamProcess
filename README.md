@@ -65,7 +65,7 @@ Additionally, for option instruments, TradeStreamEngine supports:
   - [Assembler Modules](#assembler-modules)
 - [Examples](#examples)
 - [Contacts](#contacts)
-- [Licence and Contributing](#licennce-and-contributing)
+- [Licence and Contributing](#license-and-contributing)
 - [Support Development](#support-development)
 
 # Installation
