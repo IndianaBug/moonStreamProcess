@@ -66,6 +66,7 @@ Additionally, for option instruments, TradeStreamEngine supports:
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
+- [Support Development](#support-Development)
 
 # Installation
 
@@ -138,8 +139,10 @@ btcDataProcessor.data                   # to access full data
 The data can be categorized into the Spot, Perpetual and Option.
 
 ### Spot Data:
-- spot_books: the dictionary of absolute amount of books by aggregated level.
-- timestamp: Timestamp of the data.
+| key |  | clarification |
+| -------- | -------- | -------- |
+| spot_books | the dictionary of absolute amount of books by aggregated level.
+| timestamp | Timestamp of the data.
 - spot_buyVol: the total amount of market buys at the current timestamp.
 - spot_sellVol: the total amount of market sells at the current timestamp.
 - spot_open: the price at the beginning of the 1-minute interval.
@@ -328,7 +331,7 @@ Some examples can be found in the "examples" folder. Please make sure to examine
 
 This project is open-source and free to fork. Feel free to use, modify, and distribute the code as you see fit. If you found it helpful, consider including my GitHub username (badcoder-cloud) in the forking process. I am extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
 
-# Donate
+# Support Development
 
 If you find this project helpful and would like to support its development, consider making a donation. Your contribution is greatly appreciated!
 
