@@ -240,9 +240,107 @@ Methematical interpretation of the highlighted features:
 - $CB_t$ = ${CB_t | CB_t = (D_t - D_t-1) ⋅ [D_t - D_t-1 < 0], ∀_i, 0 ≤ i < n}$ - Total closed orders over a single timestamp 
 
 
-# Create level-stratified heatmaps with length $x$.
+# Making Streams
 
-![Screenshot 2024-01-23 9 58 27 AM](https://github.com/badcoder-cloud/TradeFeatureEngine/assets/136728020/1ac74fa2-7aff-4fef-a100-7d67ce9894a5)
+StreamEngineBase has a set of modules to cater to your streaming needs, making the process straightforward. 
 
+## Lookups Modules
 
-![Screenshot 2024-01-23 10 01 53 AM](https://github.com/badcoder-cloud/TradeFeatureEngine/assets/136728020/a73545ef-0c58-40aa-924d-64e76bd8e2b8)
+The lookups module is crafted to convert various data into the required format and units. Depending on the API or websocket you're utilizing, you'll have to adjust the lookup according to your specific use case. Exercise caution, as different instruments use varying units of measure. For instance, while Binance measures order books in Bitcoin, Deribit uses dollars. In the provided lookups, note that the 'bingx btcusdt perp books' is intended for API calls, serving the same purpose as 'gateio btcusdt perp' for both books and trades. This is due to technical issues with the API. Also, look closely for the formats to input into flow objects.
+``` Python
+from lookups import btc as btc_lookups_btc
+from lookups import unit_conversion_btc
+lookups_btc = btc_lookups_btc(unit_conversion_btc)
+
+# or
+
+unit_conversion_btc = {
+    "binance_perp_btcusd" : lambda value, btc_price: value * 100 / btc_price,  
+    "bybit_perp_btcusd" :   lambda value, btc_price: value  / btc_price,      
+    "bybit_perp_btcusdt" :   lambda value, btc_price: value  / btc_price,
+    "bingx_perp_btcusdt_depth" : lambda size: size / 10000,  
+    "bingx_perp_btcusdt_OI" : lambda openInterest, price : openInterest / price,    
+    "deribit_perp_btcusd" : lambda size, price : size / price,
+    # ...
+}
+```
+Most of the lookups will be compatible with what you need. Be cautious with altcoins USD-C margined contracts, as these have different units for BTC and altcoins.
+
+## Flow Modules
+
+Flow modules are designed to handle books, trades, open interest, liquidations and positions of spot/perpetual instruments and open interest of option instruments.
+
+An example of using flow module:
+```Python
+books = flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh)
+trades = flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_trades_lookup, book_ceil_thresh)
+oi = flow.oiFundingflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_OI_lookup, book_ceil_thresh)
+liquidations = flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh)
+positions = flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_liquidations_lookup, book_ceil_thresh)
+oi_option = flow.indicatorflow('binance', 'btc_usdt', 'perpetual', "TTA", lookups_btc.binance_GTA_TTA_TTP_lookup)
+
+data = "some data"
+books.update_books(data)
+trades.input_trades(data)
+oi.input_oi(data)
+oi.input_funding(data)
+liquidations.input_liquidations(data)
+oi_option.input_binance_gta_tta_ttp(data) # this is different depending on exchange
+oi_option.input_oi(data)
+```
+
+## Synthesis Modules
+
+Synthesis module play a crucial role in the aggregation of data from various exchanges. These modules facilitate the consolidation of information, allowing for a unified and comprehensive view of data sourced from diverse trading platforms. By combining data from multiple exchanges, synthesis module contribute to a more holistic understanding of market trends, pricing, and other relevant factors. Not only it aggregates the data of liquidations, books, trades, open interest and positions, but it creates 2 new features, voided books and reinforced books.
+An example of using synthesis module:
+``` Python
+axis_spot = {
+    "binanceusdt" : bbt, # these are flow objects
+    "binancefdusd" : bbf,
+    "okxusdt" : obt,
+    "bybitusdt" : bybt,
+    "coinbaseusd" : cu,
+}
+
+spotAggDepth = booksmerger("btcusd", "spot", axis_spot)
+spotAggDepth.merge_snapshots()
+
+adjustments = synthesis.booksadjustments("btc", "spot", spotAggDepth, spotAggTrades)
+
+# spotAggTrades not specified but follows the same logic
+# Inspect the module for more details
+```
+
+## Assembler Modules
+
+Kindly examine the logic within the TradeStreamEngine carefully and follow the flow. You won't need to fork the code entirely; instead, kindly replicate it and omit any unnecessary components. Should you encounter any bugs or difficulties, please feel free to reach out to me on Telegram. I would be more than happy to assist you in resolving them and guide you in creating your own streams.
+
+Follow this logic:
+
+* Create the spot-perp coin object with your needed exchanges.
+* Create the option object if needed.
+* Create a new class in the Synth Hub, or create a new module.
+
+# Example
+Some examples can be found in the "examples" folder. Please make sure to examine the charts and look for any discrepancies. If you find outliers in the data, then you may have made a mistake with the lookups.
+
+# Licence and Contributing
+
+This project is open-source and free to fork. Feel free to use, modify, and distribute the code as you see fit. If you found it helpful, consider including my GitHub username (badcoder-cloud) in the forking process. I am extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
+
+# Donate
+
+If you find this project helpful and would like to support its development, consider making a donation. Your contribution is greatly appreciated!
+
+- **Bitcoin (BTC):**
+  - Address: [Your Bitcoin Address]
+
+- **Tether (USDT):**
+  - Address: [Your USDT Address]
+
+- **Ethereum (ETH):**
+  - Address: [Your Ethereum Address]
+
+*Exciting Updates Ahead!*
+
+Stay tuned for streaming wrappers, machine learning clustering pipelines and trading bots backed by reinforcement learning are on the horizon, bringing new possibilities and advancements to the project.
