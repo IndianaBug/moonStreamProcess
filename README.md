@@ -139,88 +139,93 @@ btcDataProcessor.data                   # to access full data
 The data can be categorized into the Spot, Perpetual and Option.
 
 ### Spot Data:
-| key |  | clarification |
-| -------- | -------- | -------- |
-| spot_books | the dictionary of absolute amount of books by aggregated level.
-| timestamp | Timestamp of the data.
-- spot_buyVol: the total amount of market buys at the current timestamp.
-- spot_sellVol: the total amount of market sells at the current timestamp.
-- spot_open: the price at the beginning of the 1-minute interval.
-- spot_close: the price at the end of the 1-minute interval.
-- spot_low: the lowest price within a 1-minute interval.
-- spot_high: the highest price within a 1-minute interval.
-- spot_Vola: the volatility of the price within a 1-minute interval, calculated using standard deviation.
-- spot_VolProfile: the dictionary of market trades (sell + buy) by aggregated level.
-- spot_buyVolProfile: the dictionary of market buys by aggregated level.
-- spot_sellVolProfile: the dictionary of market sells by aggregated level.
-- spot_numberBuyTrades: number of buy trades at the current timestamp.
-- spot_numberSellTrades: number of sell trades at the current timestamp.
-- spot_orderedBuyTrades: the list of ordered buy trades. (may be usefull for entropy)
-- spot_orderedSellTrades: the list of ordered sell trades.
-- spot_voids: the dictionary of canceled books by aggregated level. (sums all canceled amounts)
-- spot_reinforces: the dictionary of reinforced books by aggregated level. (sums all reinforced amounts)
-- spot_totalVoids: the total amount of canceled orders at the current timestamp.
-- spot_totalReinforces: the total amount of reinforced orders at the current timestamp.
-- spot_voidsDuration: the dictionary of duration of canceled books by aggregated level in seconds. If someone is engaging in spoofing, you can determine the duration for which they place an order before canceling it by measuring the time interval between order placement and cancellation.
-- spot_voidsDurationVola: the dictionary of volatility of spot_voidsDuration. 
-- spot_reinforcesDuration: the dictionary of duration of reinforced books by aggregated level in seconds.
-- spot_reinforcesDurationVola: the dictionary of volatility of spot_reinforcesDuration.
+| key | clarification |
+| -------- | -------- |
+| <span style="color:green">spot_books</span> | the dictionary of absolute amount of books by aggregated level. |
+| <span style="color:blue">timestamp</span> | Timestamp of the data. |
+| spot_buyVol | the total amount of market buys at the current timestamp. |
+| spot_sellVol | the total amount of market sells at the current timestamp. |
+| spot_open | the price at the beginning of the 1-minute interval. |
+| spot_close | the price at the end of the 1-minute interval. |
+| spot_low | the lowest price within a 1-minute interval. |
+| spot_high | the highest price within a 1-minute interval. |
+| spot_Vola | the volatility of the price within a 1-minute interval, calculated using standard deviation. |
+| spot_VolProfile | the dictionary of market trades (sell + buy) by aggregated level. |
+| spot_buyVolProfile | the dictionary of market buys by aggregated level. |
+| spot_sellVolProfile | the dictionary of market sells by aggregated level. |
+| spot_numberBuyTrades | number of buy trades at the current timestamp. |
+| spot_numberSellTrades | number of sell trades at the current timestamp. |
+| <span style="color:yellow">spot_orderedBuyTrades</span> | the list of ordered buy trades. (may be usefull for entropy) |
+| spot_orderedSellTrades | the list of ordered sell trades. |
+| spot_voids | the dictionary of canceled books by aggregated level. (sums all canceled amounts) |
+| spot_reinforces | the dictionary of reinforced books by aggregated level. (sums all reinforced amounts) |
+| spot_totalVoids | the total amount of canceled orders at the current timestamp. |
+| spot_totalReinforces | the total amount of reinforced orders at the current timestamp. |
+| spot_voidsDuration | the dictionary of duration of canceled books by aggregated level in seconds. If someone is engaging in spoofing, you can determine the duration for which they place an order before canceling it by measuring the time interval between order placement and cancellation. |
+| spot_voidsDurationVola | the dictionary of volatility of spot_voidsDuration. |
+| spot_reinforcesDuration | the dictionary of duration of reinforced books by aggregated level in seconds.|
+| spot_reinforcesDurationVola | the dictionary of volatility of spot_reinforcesDuration. |
+| -------- | -------- |
 
 ### Perpetual Data:
-- perp_books: the dictionary of absolute amount of books by aggregated level.
-- perp_buyVol: the total amount of market buys at the current timestamp.
-- perp_sellVol: the total amount of market sells at the current timestamp.
-- perp_open: the price at the beginning of the 1-minute interval.
-- perp_close: the price at the end of the 1-minute interval.
-- perp_low: the lowest price within a 1-minute interval.
-- perp_high: the highest price within a 1-minute interval.
-- perp_Vola: the volatility of the price within a 1-minute interval, calculated using standard deviation.
-- perp_VolProfile: the dictionary of market trades (sell + buy) by aggregated level.
-- perp_buyVolProfile: the dictionary of market buys by aggregated level.
-- perp_sellVolProfile: the dictionary of market sells by aggregated level.
-- perp_numberBuyTrades: number of buy trades at the current timestamp.
-- perp_numberSellTrades: number of sell trades at the current timestamp.
-- perp_orderedBuyTrades: the list of ordered buy trades. (may be usefull for entropy)
-- perp_orderedSellTrades: the list of ordered sell trades.
-- perp_voids: the dictionary of canceled books by aggregated level. (sums all canceled amounts)
-- perp_reinforces: the dictionary of reinforced books by aggregated level. (sums all reinforced amounts)
-- perp_totalVoids: the total amount of canceled orders at the current timestamp.
-- perp_totalReinforces: the total amount of reinforced orders at the current timestamp.
-- perp_voidsDuration: the dictionary of duration of canceled books by aggregated level in seconds. If someone is engaging in spoofing, you can determine the duration for which they place an order before canceling it by measuring the time interval between order placement and cancellation.
-- perp_voidsDurationVola: the dictionary of volatility of spot_voidsDuration.
-- perp_reinforcesDuration: the dictionary of duration of reinforced books by aggregated level in seconds.
-- perp_reinforcesDurationVola: the dictionary of volatility of spot_reinforcesDuration.
-- perp_weighted_funding: weighted funding rate at the current timestamp. 
-- perp_total_oi: the total open interest at the current timestamp.
-- perp_oi_increases: the dictionary of increases of open interest by aggregated level.
-- perp_oi_increases_Vola: the dictionary of volatilities of increases of open interest by aggregated level.
-- perp_oi_decreases: the dictionary of decreases of open interest by aggregated level.
-- perp_oi_decreases_Vola: the dictionary of volatilities of decreases of open interest by aggregated level.
-- perp_oi_turnover: 
-- perp_oi_turnover_Vola: 
-- perp_oi_total: the dictionary of oi changes (buys-sells) by aggregated level.
-- perp_oi_total_Vola: the dictionary of volatilities of perp_oi_total.
-- perp_oi_change: the change of open inerest at the current timestamp.
-- perp_oi_Vola: the volatility of open interest at the current timestamp.
-- perp_orderedOIChanges: the list of ordered OI changes. 
-- perp_OIs_per_instrument: the dictionary of open interest per instrument at the current timestamp.
-- perp_fundings_per_instrument: the dictionary of funding rates per instrument at the current timestamp.
-- perp_liquidations_longsTotal: the total amount of long liquidations at the current timestamp.
-- perp_liquidations_longs: the dictionary of liquidations by aggregated level, longs.
-- perp_liquidations_shortsTotal: the total amount of short liquidations at the current timestamp.
-- perp_liquidations_shorts: the dictionary of liquidations by aggregated level, shorts.
-- perp_TTA_ratio: weighted Long/Short ration of Top Traders Accounts
-- perp_TTP_ratio: weighted Long/Short ration of Top Traders Positions
-- perp_GTA_ratio: weighted Long/Short ration of Global Traders Positions
+| key | clarification |
+| -------- | -------- |
+| perp_books | the dictionary of absolute amount of books by aggregated level |
+| perp_buyVol | the total amount of market buys at the current timestamp |
+| perp_sellVol | the total amount of market sells at the current timestamp |
+| perp_open | the price at the beginning of the 1-minute interval |
+| perp_close | the price at the end of the 1-minute interval |
+| perp_low | the lowest price within a 1-minute interval |
+| perp_high | the highest price within a 1-minute interval |
+| perp_Vola | the volatility of the price within a 1-minute interval, calculated using standard deviation |
+| perp_VolProfile | the dictionary of market trades (sell + buy) by aggregated level |
+| perp_buyVolProfile | the dictionary of market buys by aggregated level |
+| perp_sellVolProfile | the dictionary of market sells by aggregated level |
+| perp_numberBuyTrades | number of buy trades at the current timestamp |
+| perp_numberSellTrades | number of sell trades at the current timestamp |
+| perp_orderedBuyTrades | the list of ordered buy trades. (may be usefull for entropy) |
+| perp_orderedSellTrades | the list of ordered sell trades |
+| perp_voids | the dictionary of canceled books by aggregated level. (sums all canceled amounts) |
+| perp_reinforces | the dictionary of reinforced books by aggregated level. (sums all reinforced amounts) |
+| perp_totalVoids | the total amount of canceled orders at the current timestamp |
+| perp_totalReinforces | the total amount of reinforced orders at the current timestamp. |
+| perp_voidsDuration | the dictionary of duration of canceled books by aggregated level in seconds. If someone is engaging in spoofing, you can determine the duration for which they place an order before canceling it by measuring the time interval between order placement and cancellation. |
+| perp_voidsDurationVola | the dictionary of volatility of spot_voidsDuration. |
+| perp_reinforcesDuration | the dictionary of duration of reinforced books by aggregated level in seconds. |
+| perp_reinforcesDurationVola | the dictionary of volatility of spot_reinforcesDuration. |
+| perp_weighted_funding | weighted funding rate at the current timestamp. |
+| perp_total_oi | the total open interest at the current timestamp. |
+| perp_oi_increases | the dictionary of increases of open interest by aggregated level. |
+| perp_oi_increases_Vola | the dictionary of volatilities of increases of open interest by aggregated level. |
+| perp_oi_decreases | the dictionary of decreases of open interest by aggregated level.  |
+| perp_oi_decreases_Vola | the dictionary of volatilities of decreases of open interest by aggregated level. |
+| perp_oi_total | the dictionary of oi changes (buys-sells) by aggregated level. |
+| perp_oi_total_Vola | the dictionary of volatilities of perp_oi_total. | 
+| perp_oi_change | the change of open inerest at the current timestamp. |
+| perp_oi_Vola | the volatility of open interest at the current timestamp. |
+| perp_orderedOIChanges | the list of ordered OI changes. |
+| perp_OIs_per_instrument | the dictionary of open interest per instrument at the current timestamp. |
+| perp_fundings_per_instrument | the dictionary of funding rates per instrument at the current timestamp. |
+| perp_liquidations_longsTotal | the total amount of long liquidations at the current timestamp. |
+| perp_liquidations_longs | the dictionary of liquidations by aggregated level, longs. |
+| perp_liquidations_shortsTotal | the total amount of short liquidations at the current timestamp. |
+| perp_liquidations_shorts | the dictionary of liquidations by aggregated level, shorts. |
+| perp_TTA_ratio | weighted Long/Short ration of Top Traders Accounts |
+| perp_TTP_ratio | weighted Long/Short ration of Top Traders Positions |
+| perp_GTA_ratio | weighted Long/Short ration of Global Traders Positions |
+| -------- | -------- |
 
 
 ### Option Data (Keys depend on the pranges and expiration_windows):
-- oi_option_puts_0: the dictionary of open interests of put options that expire today
-- oi_option_puts_0_5: the dictionary of open interests of put options that expire in 5 days
-- oi_option_puts_5_10: the dictionary of open interests of put options that expire between 5 to 10 days
-- oi_option_calls_0: the dictionary of open interests of call options that expire today
-- oi_option_calls_0_5: the dictionary of open interests of call options that expire in 5 days
-- oi_option_calls_5_10: the dictionary of open interests of call options that expire between 5 to 10 days
+| key | clarification |
+| -------- | -------- |
+| oi_option_puts_0 | the dictionary of open interests of put options that expire today |
+| oi_option_puts_0_5 | the dictionary of open interests of put options that expire in 5 days |
+| oi_option_puts_5_10 | the dictionary of open interests of put options that expire between 5 to 10 days |
+| oi_option_calls_0 | the dictionary of open interests of call options that expire today |
+| oi_option_calls_0_5 | the dictionary of open interests of call options that expire in 5 days |
+| oi_option_calls_5_10 | the dictionary of open interests of call options that expire between 5 to 10 days |
+| -------- | -------- |
 
 
 # Interpretation
