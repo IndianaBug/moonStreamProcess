@@ -89,7 +89,7 @@ For Python code:
 
 ```python
 import numpy as np
-from StreamEngine.synthHub import btcSynth
+from TradeStreamEngine.StreamEngine.synthHub import btcSynth
 
 level_size = 20
 prage = np.array([0.0, 1.0, 2.0, 5.0, 10.0])
@@ -125,7 +125,7 @@ The example np.array([0.0, 1.0, 2.0, 5.0, 10.0]) creates buckets for options rel
 
 Similar to price ranges, this setting groups options based on how much time is left until they expire. This helps analyze how option prices change as the expiration date approaches. (Doesn't contain negative ranges)
 
-In Short:
+**In Short**
 
 These settings organize complex Bitcoin market data into simpler buckets, making it easier to understand price trends, option behavior based on strike price and expiration time, and ultimately gain valuable insights into the market.
 
