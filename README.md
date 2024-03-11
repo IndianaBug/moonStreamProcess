@@ -279,6 +279,8 @@ Flow modules are designed to handle books, trades, open interest, liquidations a
 
 An example of using flow module:
 ```Python
+from TradeStreamBase import flow
+
 books = flow.booksflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_depth_lookup, book_ceil_thresh)
 trades = flow.tradesflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_trades_lookup, book_ceil_thresh)
 oi = flow.oiFundingflow('binance', 'btc_usdt', 'perpetual', level_size, lookups_btc.binance_OI_lookup, book_ceil_thresh)
@@ -342,7 +344,7 @@ Feel free to reach out if you have any questions, feedback, or just want to say 
   - Address: https://github.com/badcoder-cloud/TradeStreamEngine/issues
 
 - **Telegram:**
-  - Address: 
+  - Address: https://t.me/+OeAAF_1FpU01Mjg8
 
 # Licence and Contributing
 
@@ -353,13 +355,13 @@ This project is open-source and free to fork. Feel free to use, modify, and dist
 If you find this project helpful and would like to support its development, consider making a donation. Your contribution is greatly appreciated!
 
 - **Bitcoin (BTC):**
-  - Address: [Your Bitcoin Address]
+  - Address (Bitcoin Network): 31tRbakC3ebHsqWsgbEi3VHj9M98Eesmm1
 
 - **Tether (USDT):**
-  - Address: [Your USDT Address]
+  - Address (Polygon Network): 0xc2a77f3f3b0015f5f785b220451853c39a886894 
 
-- **Ethereum (ETH):**
-  - Address: [Your Ethereum Address]
+- **Ethereum (ETH):** 
+  - Address (Etherium Network): 0xb15d751c19ceacccfb8d6e6c9a06217e0b692856
 
 *Exciting Updates Ahead!*
 
