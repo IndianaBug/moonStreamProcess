@@ -1,23 +1,23 @@
-# TradeStreamEngine Library
+# moonStreamProcess Library
 
 ## Overview
-The TradeStreamEngine Library is a powerhouse designed to seamlessly process and synthesize real-time financial data streams. It ingests critical market data like order books, trades, liquidations, open interest, and positions, transforming them into actionable insights and a unified view of the market.
+The moonStreamProcess Library is a powerhouse designed to seamlessly process and synthesize real-time financial data streams. It ingests critical market data like order books, trades, liquidations, open interest, and positions, transforming them into actionable insights and a unified view of the market.
 
 ## Purpouse
-While TradeStreamEngine does not directly generate financial dashboards, its core functionality revolves around aggregating data from various exchanges and providing meticulous one-minute summaries in the form of heatmaps. These heatmaps offer a detailed visualization of market dynamics. TradeStreamEngine's role is pivotal in efficiently aggregating and synthesizing this heatmap data, making it an indispensable tool for traders and analysts seeking real-time insights into market trends. Additionally, it proves invaluable for storing data in non-relational databases, supporting the development of machine learning algorithms, and facilitating the execution of complex analyses
+While moonStreamProcess does not directly generate financial dashboards, its core functionality revolves around aggregating data from various exchanges and providing meticulous one-minute summaries in the form of heatmaps. These heatmaps offer a detailed visualization of market dynamics. moonStreamProcess's role is pivotal in efficiently aggregating and synthesizing this heatmap data, making it an indispensable tool for traders and analysts seeking real-time insights into market trends. Additionally, it proves invaluable for storing data in non-relational databases, supporting the development of machine learning algorithms, and facilitating the execution of complex analyses
 
 ## Core Functionality: Stream Processing Redefined
-TradeStreamEngine excels at real-time financial data processing. Here's how it breaks down:
+moonStreamProcess excels at real-time financial data processing. Here's how it breaks down:
 * Modular Design: The library utilizes specialized flow modules as building blocks. Each module meticulously handles a specific data type within the financial stream.
 * Stream Aggregation & Synthesis: After the flow modules refine the data, synthesis modules take over. These modules not only consolidate the processed information but also synthesize it into actionable insights, providing a comprehensive market picture.
 
 ## Supported Instruments
 
-TradeStreamEngine currently supports only Bitcoin. However, creating processors for ETH or any other altcoin shouldn't take much time. The crucial steps are only to change lookups for the data based on the websocket or API you are using and remove unneeded instruments. To get started, follow the instructions provided in the section on making your own streams.
+moonStreamProcess currently supports only Bitcoin. However, creating processors for ETH or any other altcoin shouldn't take much time. The crucial steps are only to change lookups for the data based on the websocket or API you are using and remove unneeded instruments. To get started, follow the instructions provided in the section on making your own streams.
 
 ## Supported Exchanges
 
-TradeStreamEngine currently supports the following exchanges for spot/perpetual instruments:
+moonStreamProcess currently supports the following exchanges for spot/perpetual instruments:
 
 - Binance
 - OKX
@@ -31,7 +31,7 @@ TradeStreamEngine currently supports the following exchanges for spot/perpetual 
 - Coinbase
 - HTX
 
-Additionally, for option instruments, TradeStreamEngine supports:
+Additionally, for option instruments, moonStreamProcess supports:
 
 - Bybit
 - Deribit
@@ -70,14 +70,14 @@ Additionally, for option instruments, TradeStreamEngine supports:
 
 # Installation
 
-To use the TradeStreamEngine and its modules, follow these installation steps:
+To use the moonStreamProcess and its modules, follow these installation steps:
 
 1. Clone the repository to your virtual environment library directory:
    ```bash
-   git clone https://github.com/badcoder-cloud/TradeStreamEngine
+   git clone https://github.com/badcoder-cloud/moonStreamProcess
 2. Navigate to the project directory:
    ```bash
-   cd .../TradeStreamEngine
+   cd .../moonStreamProcess
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
@@ -89,7 +89,7 @@ For Python code:
 
 ```python
 import numpy as np
-from TradeStreamEngine.StreamEngine.synthHub import btcSynth
+from moonStreamProcess.StreamEngine.synthHub import btcSynth
 
 level_size = 20
 prage = np.array([0.0, 1.0, 2.0, 5.0, 10.0])
@@ -322,7 +322,7 @@ adjustments = synthesis.booksadjustments("btc", "spot", spotAggDepth, spotAggTra
 
 ## Assembler Modules
 
-Kindly examine the logic within the TradeStreamEngine carefully and follow the flow. You won't need to fork the code entirely; instead, kindly replicate it and omit any unnecessary components. Should you encounter any bugs or difficulties, please feel free to reach out to me on Telegram. I would be more than happy to assist you in resolving them and guide you in creating your own streams.
+Kindly examine the logic within the moonStreamProcess carefully and follow the flow. You won't need to fork the code entirely; instead, kindly replicate it and omit any unnecessary components. Should you encounter any bugs or difficulties, please feel free to reach out to me on Telegram. I would be more than happy to assist you in resolving them and guide you in creating your own streams.
 
 Follow this logic:
 
@@ -341,7 +341,7 @@ Feel free to reach out if you have any questions, feedback, or just want to say 
   - Address: pvtoa@iscte-iul.pt
 
 - **GitHub Issues:**
-  - Address: https://github.com/badcoder-cloud/TradeStreamEngine/issues
+  - Address: https://github.com/badcoder-cloud/moonStreamProcess/issues
 
 - **Telegram:**
   - Address: https://t.me/+OeAAF_1FpU01Mjg8
