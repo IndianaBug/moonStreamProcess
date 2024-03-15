@@ -1,7 +1,7 @@
 # moonStreamProcess Library
 
 ## Overview
-The moonStreamProcess Library is a powerhouse designed to seamlessly process and synthesize real-time financial data streams. It ingests critical market data like order books, trades, liquidations, open interest, and positions, transforming them into actionable insights and a unified view of the market.
+The moonStreamProcess Library is a powerhouse designed to seamlessly process and aggregate real-time financial data streams. It ingests critical market data like order books, trades, liquidations, open interest, and positions, transforming them into actionable insights and a unified view of the market.
 
 ## Purpouse
 While moonStreamProcess does not directly generate financial dashboards, its core functionality revolves around aggregating data from various exchanges and providing meticulous one-minute summaries in the form of heatmaps. These heatmaps offer a detailed visualization of market dynamics. moonStreamProcess's role is pivotal in efficiently aggregating and synthesizing this heatmap data, making it an indispensable tool for traders and analysts seeking real-time insights into market trends. Additionally, it proves invaluable for storing data in non-relational databases, supporting the development of machine learning algorithms, and facilitating the execution of complex analyses
